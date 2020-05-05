@@ -1,0 +1,26 @@
+# jemdoc: menu{MENU}{citation.html}
+# jemdoc: addcss{jemdoc.css}
+# jemdoc: addcss{bibover.css}
+= Citation
+
+If you use +svdfr3+ in your research or teaching, please cite our paper and Chebfun:
+\n
+~~~
+{}{}
+@article{,
+   author  = {},
+   title   = {},
+   journal = {},
+   month   = {},
+   volume  = {},
+   pages   = {},
+   year    = {}
+}
+
+@book{driscoll2014chebfun,
+  title={Chebfun guide},
+  author={Driscoll, Tobin A and Hale, Nicholas and Trefethen, Lloyd N},
+  year={2014},
+  publisher={Pafnuty Publications, Oxford}
+}
+~~~

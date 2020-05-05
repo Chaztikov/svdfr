@@ -1,0 +1,91 @@
+# jemdoc: menu{MENU}{beam.html},addpackage{amsmath},addpackage{amssymb}
+# jemdoc: addcss{jemdoc.css}
+# jemdoc: addcss{bibover.css}
+#include{masterFile_2.jeminc}
+#include{mj-complete-bib_3.jeminc}
+= Simply supported Euler-Bernoulli beam
+
+~~~
+{}{img_left}{pics/hi.png}{}{}{}{}
+~~~
+
+The vertical displacement, $w(x,t)$, of an Euler-Bernoulli beam that is hinged at both ends is given by,
+
+\(
+\mu\,\frac{\partial^2w}{\partial t^2} \;= \; -\frac{\partial^2}{\partial x^2} \left( E_I \,\frac{\partial^2 w}{\partial x^2} \right)  \,+\,  F(x,t) ,
+\)
+\n
+for $x \in [0,1]$, where
+~~~
+{}{table}{}
+$w(x,t)$ | --- | vertical displacement of the beam ||
+$\mu$ | --- | mass per unit length of the beam ||
+$E_I$ | --- | flexural rigidity ||
+| | ||
+~~~
+\n
+The hinged boundary conditions apply,
+\(
+\begin{array}{ccccc}
+w(x= 0,t) &=& \left . \partial_{xx}w(x,t)\right|_{x = 0} &=& 0,\\
+w(x= 1,t) &=& \left . \partial_{xx}w(x,t)\right|_{x = 1} &=& 0.\\
+\end{array}
+\)
+\n
+The energy in the beam is given by,
+\(
+E  \;=\;  \int_{0}^{1}\left(  \frac{\partial^2 w}{\partial x^2} \right)^2  \,+\, \left(  \frac{\partial w}{\partial t} \right)^2\;\mathrm dx.
+\)
+We can now take a temporal Fourier transform to obtain the system in the
+frequency domain. The output $\xi$ will be defined such that the L2$[0,1]$ inner product, $\left<\xi,\xi\right>$
+will determine the energy $E$ of the beam.
+\(
+\begin{array}{rcl}
+ \left( -\mu\,\omega^2  \,+\, E_I\, \mathrm D^{4} \right)w(x) &=& F(x),\\
+ \xi(x) &=&  \left[ \begin{array}{c}
+ \mathrm D^{2}\\
+ \omega
+ \end{array} \right]w(x),
+\end{array}
+\)
+where $\mathrm D = \mathrm d / \mathrm dy$.
+
+The Matlab code to define these operators using the Chebfun syntax is,
+~~~
+{}{matlab}
+A = chebop([0 1]);
+B = chebop([0,1]);
+C = chebop([0,1]);
+
+A.op = @(x,w)(-mu*omega^2*w + EI*diff(w,4));
+B.op = @(x,F)(F);
+C.op = @(x,w)[diff(w,2);omega*w];
+~~~
+The hinged boundary conditions after a Fourier transform are given by,
+\(
+\begin{array}{ccccc}
+w(0) \!\!&=&\!\! \left . w''(x)\right|_{x = 0} \!\!&=&\!\! 0,\\
+w(1) \!\!&=&\!\! \left . w''(x)\right|_{x = 1} \!\!&=&\!\! 0.\\
+\end{array}
+\)
+\n
+These are specified in the Chebfun syntax as,
+~~~
+{}{matlab}
+A.lbc = @(w) [w;diff(w,2)];
+A.rbc = @(w) [w;diff(w,2)];
+~~~
+\n
+For a set of parameters of $\mu = 0.0267116\,\mathrm{Kg}/\mathrm{m}$ and $E_I = 128.2\,\mathrm{N}\mathrm m^2$ corresponding to a {{<a href="https://www.hindawi.com/journals/sv/2015/726410/" target="_blank">concrete slab</a>}}, Figure 1 shows the
+largest singular value, $\sigma_0$, as a function of temporal frequency $\omega$.
+The plot provides information that the maximum energy in the beam can be
+attained using a body forcing whose frequency is about 686 Hertz.
+~~~
+{}{raw}
+<figure>
+  <img src="pics/Euler_bernouli.svg" alt="3dflow" style="width:60%">
+  <figcaption>Fig.1 The largest singular value, \(\sigma_0\) as a function of </br>
+temporal frequency, \(\omega\) for a concrete slab, \(1\,\mathrm m\) in length </br>
+with \(E_I = 128.2\,\mathrm{N}\mathrm m^2\) and \(\mu = 0.0267116\,\mathrm{Kg}/\mathrm{m}\).</figcaption>
+</figure>
+~~~

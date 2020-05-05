@@ -1,0 +1,19 @@
+Chebfun +SVDFR3+
+	Home            [index.html]
+	Download	[http://github.com/gokulhari/svdfr3/zipball/master/]
+    Feedback	[feedback.html]
+
+
+
+Examples on usage
+	Reaction-diffusion equation	 [reaction-diffusion.html]
+	Euler-Bernoulli beam [beam.html]
+	3D channel flow		 [3dchannelflow.html]
+	2D viscoelastic flow: +svdfr3i+ [2dviscoelastic.html]
+
+Developer reference
+	 Algorithm	[algo.html]
+	 Implementation	[implement.html]
+
+Cite us
+	Citation [citation.html]

@@ -1,0 +1,112 @@
+# jemdoc: menu{MENU}{reaction-diffusion.html},addpackage{amsmath},addpackage{amssymb}
+# jemdoc: addcss{jemdoc.css}
+# jemdoc: addcss{bibover.css}
+#include{masterFile_2.jeminc}
+#include{mj-complete-bib_3.jeminc}
+= Reaction-diffusion equation
+
+Consider the frequency responses of the reaction-diffusion equation with
+homogeneuous Neumann boundary conditions, with a
+spatially distributed, temporally harmonic body force, $d(y,t) = d(y)\,\mathrm{e}^{\mathrm i\,\omega\,t}$,
+
+\(
+\begin{align}
+\phi_{t}(y,t) \;&=\;  \phi_{yy}(y,t)  \,-\, \epsilon^2\,\phi (y,t) \, + \, d(y,t),\label{eq:0}  \\
+\end{align}
+\)
+\n
+with homogeneous Neumann boundary conditions,
+\(
+\begin{align}
+[\partial_y \phi (\cdot, t)](\pm 1) \;& =\; 0, \label{eq:0bc}
+\end{align}
+\)
+where $t$ is time, $y \in \left[ -1, 1 \right]$ is a spatial variable, and $ \epsilon \in \mathbb{R}$. 
+
+
+The temporal Fourier transform can be used to represent the frequency response operator associated with Eqs.~$\eqref{eq:0}$-$\eqref{eq:0bc}$ as a TPBVP,
+\(
+\begin{align}
+    \left[\mathcal A(\omega)\,\phi(\cdot)\right] (y) 
+    \;&=\; 
+    \left[\mathcal B(\omega)\, d(\cdot)\right](y),\notag\\
+    \xi (y)
+    \;&=\; 
+    \left[\mathcal C(\omega)\,\phi(\cdot)\right](y),\label{eq:mot1c}\\
+    [\mathcal{L}_a \, \phi(\cdot)](a)  \;&=\; [\mathcal{L}_b \, \phi(\cdot)](b) \;=\;  0,\notag
+  \end{align}  
+\)
+where,
+\(
+	\mathcal A (\omega)
+	\;=\;  
+	({\mathrm i} \omega \, +  \, \epsilon^2) I
+	\; - \;
+	\mathrm D^2,
+	\quad
+	\mathcal B 
+	\;=\; 
+	\mathcal C 
+	\;=\; 
+	I,
+	\quad
+	\mathcal {L}_{\pm 1} 
+	\; = \; 
+	\mathrm D,
+\)
+where $\mathrm D = \mathrm d /\mathrm dy$.
+
+We specify the operators $\mathcal A (\omega)$, $\mathcal B(\omega) $, and $\mathcal C(\omega) $ in Eq.~$\eqref{eq:mot1c}$, in Matlab using the Chebfun syntax as follows
+~~~
+{}{matlab}
+A = chebop([-1,1]);
+B = chebop([-1,1]);
+C = chebop([-1,1]);
+
+A.op = @(x,phi)( (1i*omega + eps^2)*phi - diff(phi,2) );
+B.op = @(x,d) d;
+C.op = @(x,phi) phi;
+~~~
+
+Boundary conditions Eq.~$\eqref{eq:0bc}$ need to be specified on $A$ using the Chebfun syntax,
+
+~~~
+{}{matlab}
+A.lbc = @(u) diff(u);
+A.rbc = @(u) diff(u);
+~~~
+
+To calculate the first 20 largest singular values, call +SVDFR3+
+~~~
+{}{matlab}
+svdfr3(A,B,C,20,'LR')
+~~~
+
+
+
+As $\epsilon \rightarrow 0$, the singular values become increasingly separated (inherently ill-conditioned) and hard
+to resolve using the cascaded system used in [/http://people.ece.umn.edu/users/mihailo/software/chebfun-svd/index.html SVDFR]. +SVDFR3+ uses a feedback interconnection
+to resolve such modes (see Theorem 1 in this [/javascript:cite('Boyd1989') article]). For instance, [http://people.ece.umn.edu/users/mihailo/software/chebfun-svd/index.html SVDFR] breaks down when $\epsilon = 0.0001$ in Eq.~$\eqref{eq:0}$. Whereas +SVDFR3+ is
+insensitive to such ill-conditioning. The results for this case, when $\epsilon = 0.0001$ are shown here. The analytical solution to singular values is given by,
+
+\(
+  \sigma_n = \left\{
+  \begin{array}{l}
+1/ \left( \epsilon^2 + n^2\,\pi^2 \right) \\
+  1/ \left( \epsilon^2 + (n+0.5)^2\,\pi^2 \right)  \\
+  \end{array}\right.
+  \)
+
+As seen in Figure 1, these match with values computed using SVDFR3.
+
+~~~
+{}{raw}
+<figure>
+  <img src="pics/rnd.svg" alt="3dflow" style="width:60%">
+  <figcaption>Fig.1 Singular values of the frequency response operator of the </br>
+reaction-diffusion equation Eq. \eqref{eq:0}, with \(\epsilon = 0.0001\). 
+The largest singular</br> value is not plotted here
+ as its analytical value is </br>
+very large (\(\sim 10^8\)) compared to other singular values.</figcaption>
+</figure>
+~~~

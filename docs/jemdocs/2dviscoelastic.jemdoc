@@ -1,0 +1,113 @@
+# jemdoc: menu{MENU}{2dviscoelastic.html},addpackage{amsmath},addpackage{amssymb}
+# jemdoc: addcss{jemdoc.css}
+# jemdoc: addcss{bibover.css}
+#include{masterFile_2.jeminc}
+#include{mj-complete-bib_3.jeminc}
+= Channel flow of a viscoelastic fluid
+~~~
+{}{raw}
+<figure>
+  <img src="pics/ChannelFlow.svg" alt="3dflow" style="width:50%">
+  <p>Fig.1 Geometry and coordinates for channel flow</p>
+</figure>
+~~~
+
+In the absence of inertia, the frequency response of the linearized Oldroyd-B constitutive equations that govern the dynamics of 2D flow fluctuations in the streamwise/wall-normal plane $(x,y)$ can be represented as
+	\(
+\begin{equation}
+\begin{aligned}
+    \left[\mathcal A(\omega) \,\phi(\cdot)\right] (y) 
+    \;&=\; 
+    \left[\mathcal B(\omega) \, {\mathbf d} (\cdot)\right](y),
+    \\[0.1cm]
+    \boldsymbol \xi (y)
+    \;&=\; 
+    \left[\mathcal C(\omega)\,\phi(\cdot)\right](y),
+    \\[0.1cm]
+    [\mathcal{L}_{\pm 1} \, \phi(\cdot)] (\pm 1)  
+    \;&=\; 
+    0,
+  \end{aligned}\label{eq:sysRep}
+\end{equation}	
+\)
+by eliminating pressure and stress fluctuations from the model. Here, ${\boldsymbol \xi} = [\, u\;\;v \,]^T$ is the velocity fluctuation vector, ${\mathbf d} = [\, d_u \;\; d_v \,]^T$ is the body force fluctuation vector, $\phi$ is the streamfunction (so that the streamwise and wall-normal velocity components are given by $u = {\mathrm D} \phi$ and $v = -{\mathrm i} k_x \phi$, $\mathrm D = \mathrm d / \mathrm d y$, $k_x$ is the streamwise wavenumber, and
+\(
+\begin{align}
+  \mathcal A(\omega) 
+  \;=\; 
+  \sum_{n \, = \, 0}^4 a_n(y,\omega) \mathrm D^n,  
+  \quad
+  \mathcal B 
+  \;=\; 
+  \left[ \begin{array}{cc}
+    \mathrm D & - {\mathrm i} k_x
+  \end{array} \right],
+  	\quad
+  \mathcal C 
+  \;=\;
+  \left[ \begin{array}{c}
+    \mathrm D
+    \\
+    -{\mathrm i} k_x
+   \end{array} \right],
+   \quad
+	\mathcal{L}_{\pm 1} 
+	\;=\; 
+	\left[
+	\begin{array}{c}
+	I 
+	\\
+	\mathrm D
+	\end{array}
+	\right]. 
+	\label{eq:Coef}
+\end{align}
+\)
+Expressions for coefficients $a_n(y,\omega)$ in Eq.~$\eqref{eq:Coef}$ are provided in Appendix~D of [/javascript:cite('liejovJCP13') Lieu and Jovanovic] and in the accompanying paper.
+
+This system can be expressed in the Chebfun syntax in Matlab as,
+~~~
+{}{matlab}
+% Operators:
+A = chebop([-1,1]);
+B = chebop([-1,1]);
+C = chebop([-1,1]);
+
+A.op = @(y,v) (diff(v,4) + a3*diff(v,3) + a2*diff(v,2) + a1*diff(v) + a0*v);
+B.op = @(y,dx,dy)(b0*diff(dx) + b1*dy);
+C.op = @(y,v)[diff(v);-1i*kx*v];
+
+% Boundary conditions:
+A.lbc = @(v) [v;diff(v)];
+A.rbc = @(v) [v;diff(v)];
+~~~
+
+The inverse of the largest singular value can be computed
+by calling +svdfr3i(A,B,C,2,'SM')+,
+\n
+~~~
+{}{matlab}
+invSigma_0 = svdfr3i(A,B,C,2,'SM');
+sigma_0 = 1./invSigma_0;
+~~~
+\n
+Usually for physical systems, one is interested only in the first few largest
+singular values. However, the sparse eigenvalue solver in Matlab, +eigs.m+ will
+not allow you to compute the largest eigenvalue for a generalized eigenvalue
+problem (this makes sense as eigenvalues from a generalized eigenvalue problem
+can be infinite).
+
+The inverse solver, +svdfr3i+ will compute the inverse of the
+singular values. Thus one can search for the eigenvalues of the smallest
+magnitude using the +'SM'+ option in Matlab. This adds well to
+the well-conditioned ultraspherical method, as one can keep increasing the number of basis
+functions without deteriorating the accuracy (as the problem is
+well-conditioned), and also employ a sparse eigenvalue solver.
+~~~
+{}{raw}
+<figure>
+  <img src="pics/velP.svg" alt="3dflow" style="width:50%">
+  <p>Fig.2 The principal singular value, \(\sigma_0\) as a function of fluid elasticity,  \(W\!e\)</br>
+with \(Re = 0\), \(\beta = 0.5\), \(k_x = 1\), and \(\omega = 0\).</a></p>
+</figure>
+~~~

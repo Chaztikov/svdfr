@@ -1,0 +1,128 @@
+# jemdoc: menu{MENU}{implement.html},addpackage{amsmath},addpackage{amssymb}
+# jemdoc: addcss{jemdoc.css}
+# jemdoc: addcss{bibover.css}
+#include{masterFile_2.jeminc}
+#include{mj-complete-bib_3.jeminc}
+= Implementation details
+
+As discussed in the section on [algo.html algorithm], the eigenvalue problem,
+\(
+  \begin{equation}\label{eq:1}
+\left[
+\begin{array}{cc}
+  0 &\mathcal{B}\mathcal{B}^{\,\dagger} \\
+   \mathcal{C}^{\,\dagger}\mathcal{C}&0
+\end{array} \right] \left[ \begin{array}{c}
+  \phi(y)\\
+  \psi(y)
+\end{array} \right]   \;=\; \lambda \,\left[\begin{array}{cc}
+  \mathcal{A} & 0\\
+  0 & \mathcal{A}^{\,\dagger}
+\end{array}\right]\left[ \begin{array}{c}
+  \phi(y)\\
+  \psi(y)
+\end{array} \right], 
+\end{equation}
+\)
+\n
+ needs to be solved. This requires several steps:
+  . Need to compute the adjoint operators.
+  . Need to compute the adjoint boundary conditions.
+  . Generate the new operator based on Eq.~$\eqref{eq:1}$
+  . Compute the eigenvalues
+
+Each step is addressed in the following manner:
+
+== Adjoint operators
+
+Chebfun has a function for the formal adjoint titled of a linear operator
+titled +adjointFormal()+ that can be found in +chebfun/adjoints.m+. Although
++adjointFormal()+ was intended for square linear operators, we found that their
+implementation was also suitable for non-square operators. Hence we use thier
+code as is without any change to compute the formal adjoint.
+
+== Adjoint boundary conditions
+
+The adjoint boundary conditions are determined analytically using a procedure
+similar to what is used in [http://people.ece.umn.edu/users/mihailo/software/chebfun-svd/index.html SVDFR].
+This algorithm is based on the method in [javascript:cite('renardy2006introduction') Renardy's book].
+The method there-in can be extended to periodic boundary conditions as well
+(we are working on it, although we currently support only boundary conditions
+at the endpoints).
+
+Note that Chebfun has a built-in tool for adjoint boundary conditions.
+We do not use it as their current implementation needs that the highest
+order of all variables for a system of differential equations be the same. This means that
+that it cannot be used for systems like the [3dchannelflow.html 3D channel flow example].
+The implementation in [http://people.ece.umn.edu/users/mihailo/software/chebfun-svd/index.html SVDFR] is more
+robust.
+
+Email [harih020@umn.edu Gokul] if you need more details/information on this.
+
+== The interconnected system
+This section deals with making a system as given in (1) using Chebfun.
+We firstly convert chebops, $A$, $B$ and $C$ into linops using the +linearize()+
+function in Chebfun. We then construct the adjoint operators using +adjointFormal()+, and the
+composite operators $\mathcal B\mathcal B^{\,\dagger}$ and $\mathcal C^{\dagger}\mathcal C$.
+
+~~~
+{}{}
+Aop = linearize(A,0*A.init);
+Bop = linearize(B,0*B.init);
+Cop = linearize(C,0*C.init);
+
+pref = chebfunpref();
+Astarop = adjointFormal(Aop,pref);
+Bstarop = adjointFormal(Bop,pref);
+Cstarop = adjointFormal(Cop,pref);
+
+BBstar = linop(Bop*Bstarop);
+CstarC = linop(Cstarop*Cop);
+~~~
+
+We then make the operator representing equation (1) as,
+
+~~~
+{}{}
+M = [Aop, Zlinop;
+    Zlinop, Astarop];
+L = [Zlinop,BBstar;CstarC,Zlinop];
+~~~
+As +L+ and +M+ are manually constructed linops, we need to fill the field linop.constraint
+before we can call linop/eigs.m. For this we construct a dummy chebop
+whose entries are simply the highest derivatives of the +Aop+ and +Astarop+, append boundary conditions
+, and linearize it to get a replica of the constraint. This follows from the
+fact that the equations for discretized boundary conditions only depend on the
+highest derivatives
+on the differential equation and not on the non-constant coefficients in
+spectral discretizations used in Chebfun.
+~~~
+{}{}
+dummy = chebop(Aop.domain);
+% -- define the dummy chebop -- %
+
+% Fix new boundary conditions on dummy
+dummy.lbc = lbcnew;
+dummy.rbc = rbcnew;
+linCheck = true;
+dummy = linearize(dummy, dummy.init, [], linCheck);
+
+% Attach dummy's constraints to L
+L.constraint = dummy.constraint;
+
+~~~
+
+== Computing eigenvalues
+
+The eigenvalues are computed using linop/eigs.m,
+~~~
+{}{}
+[V,lam] = eigs(L,M);
+~~~
+For the sake of transparency, although the singular value returned has to be
+real,
+we do not set the imaginary part to zero. If the solution for +lam+ has a
+non-zero imaginary part, it is possible that the solution is not sufficiently
+resolved, or that there is something wrong with our implementation. If you feel it
+is the latter, report it [https://github.com/gokulhari/svdfr3/issues here].
+

@@ -1,0 +1,46 @@
+# jemdoc: menu{MENU}{index.html},addpackage{amsmath},addpackage{amssymb}
+# jemdoc: addcss{jemdoc.css}
+# jemdoc: addcss{bibover.css}
+#include{masterFile_2.jeminc}
+#include{mj-complete-bib_3.jeminc}
+= Singular values and Frequency Responses of PDEs
+
+~~~
+
+ {{<a href="https://gokulhari.github.io/webpage/" target="_blank">Gokul Hariharan</a>}}, {{<a href="https://kumar.cems.umn.edu/people/satish-kumar" target="_blank">Satish Kumar</a>}}, and {{<a href="http://www-bcf.usc.edu/~mihailo/" target="_blank">Mihailo R. Jovanovic</a>}}
+
+
+Updated in May 5, 2020
+
+*Matlab Files*
+	\n
+	+[http://github.com/gokulhari/svdfr3/zipball/master/ Download all Matlab files]+
+~~~
+
+~~~
+{}{img_left}{pics/cheblogow_small.png}{}{}{}{http://www.chebfun.org/}
+*This software needs {{<a href="http://www.chebfun.org/" target="_blank">Chebfun</a>}} and  {{<a href="https://www.mathworks.com/products/matlab.html" target="_blank"> Matlab</a>}}.* \n
+*If you do not have a Matlab license, \n check out the C\+\+ version of this in {{<a href="https://github.com/gokulhari/SISCpp" target="_blank"> SISC++</a>}}*
+    ~~~
+
+== Purpose
+Most systems in day-to-day life are governed by partial differential equations.
+Simple examples of this include the {{<a href="https://en.wikipedia.org/wiki/Euler%E2%80%93Bernoulli_beam_theory" target="_blank">Euler-beam</a>}} hinged at its two ends which is a crude approximation to a bridge, and
+the {{<a href="https://en.wikipedia.org/wiki/Navier-Stokes_equations" target="_blank">Navier-Stokes</a>}} equations which exactly express the motion of a fluid like water. Frequency responses look at the responses of these physical systems to a persistent sinusoidal forcing. A good example of this is an opera singer trying to shatter a vine glass (I've taken the picture below from the movie {{<a href="https://www.imdb.com/title/tt0304141/" target="_blank">Harry Potter and the Prisoner of Azkaban</a>}}). 
+
+~~~
+{}{img_left}{pics/HPfatlady.gif}{}{540}{225}{}
+~~~
+
+Another good example where frequency responses could have played a major role is the {{<a href="https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge" target="_blank">Tacoma bridge</a> incident}}.
+The Tacoma bridge collapsed in 1940 after oscillating about 10-15 cycles a minute until it finally broke apart. The strong wind is said to have triggered the unstable (amplifying) oscillations that finally led to the collapse of the bridge.
+~~~
+{}{img_left}{pics/ScholarlyTotalBlacklab-small.gif}{}{327}{251}{}
+~~~
+
+[index.html +SVDFR3+] can solve for
+singular values of frequency responses of a subset of linear partial
+differential equations in time and one other spatial variable. The principal singular value computed in this manner is the largest possible amplification of the output for a unit input. The associated singular functions of the principal singular value give the shape of the input that can lead to the optimal output. We provide a few examples here that involve applications in physical
+systems.
+
+The mathematical framework of [index.html +SVDFR3+] follows [http://people.ece.umn.edu/users/mihailo/software/chebfun-svd/index.html SVDFR] closely, but with an improved and a more robust algorithm. Furthermore, unlike [http://people.ece.umn.edu/users/mihailo/software/chebfun-svd/index.html SVDFR], [index.html +SVDFR3+] works with the most recent Chebfun and is designed to work directly with the Chebfun syntax. Most users familiar with using Chebfun can start using [index.html +SVDFR3+] effortlessly.

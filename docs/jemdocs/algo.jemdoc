@@ -1,0 +1,64 @@
+# jemdoc: menu{MENU}{algo.html},addpackage{amsmath},addpackage{amssymb}
+# jemdoc: addcss{jemdoc.css}
+# jemdoc: addcss{bibover.css}
+#include{masterFile_2.jeminc}
+#include{mj-complete-bib_3.jeminc}
+= Algorithm
+
+Computations in
+[http://people.ece.umn.edu/users/mihailo/software/chebfun-svd/index.html SVDFR]
+are based on computing the eigenvalues of the cascaded system. The cascaded
+system has a drawback that it involves matrix inverses. For instance,
+[http://people.ece.umn.edu/users/mihailo/software/chebfun-svd/index.html SVDFR]
+fails to compute singular values for small values of $\epsilon$ in the [reaction-diffusion.html reaction-diffusion example].
+
+To overcome this defect, [index.html +SVDFR3+] is based on a feedback interconnected
+system (see Theorem 1 in this [javascript:cite('Boyd1989') article]). For a system of the form,
+\(
+\begin{array}{ccc}
+\mathcal A \,\phi (y) \!\!&=&\!\! \mathcal B \,d(y),\\
+\xi (y) \!\!&=&\!\! \mathcal C\, \phi(y),
+\end{array}
+\)
+whose adjiont system is given by,
+\(
+\begin{array}{ccc}
+\mathcal A^{\,\dagger} \,\psi (y) \!\!&=&\!\! \mathcal C^{\,\dagger} \,g(y),\\
+\zeta (y) \!\!&=&\!\! \mathcal B^{\,\dagger}\, \psi(y),
+\end{array}
+\)
+
+the following eigenvalue problem can be used to compute the singular values:
+\(
+\left[
+\begin{array}{cc}
+  0 &\mathcal{B}\mathcal{B}^{\,\dagger} \\
+   \mathcal{C}^{\,\dagger}\mathcal{C}&0
+\end{array} \right] \left[ \begin{array}{c}
+  \phi(y)\\
+  \psi(y)
+\end{array} \right]   \;=\; \lambda \,\left[\begin{array}{cc}
+  \mathcal{A} & 0\\
+  0 & \mathcal{A}^{\,\dagger}
+\end{array}\right]\left[ \begin{array}{c}
+  \phi(y)\\
+  \psi(y)
+\end{array} \right].
+\)
+The singular values can be recovered as $\lambda  = \pm \sigma$. The function
++svdfr3i+ works with the inverse problem to solve for $1/\lambda$, i.e.,
+\(
+  \left[\begin{array}{cc}
+  \mathcal{A} & 0\\
+  0 & \mathcal{A}^{\,\dagger}
+\end{array}\right]\left[ \begin{array}{c}
+  \phi(y)\\
+  \psi(y)
+\end{array} \right]  \;=\;\frac{1}{\lambda} \left[  \begin{array}{cc}
+  0 &\mathcal{B}\mathcal{B}^{\,\dagger} \\
+   \mathcal{C}^{\,\dagger}\mathcal{C}&0
+\end{array} \right] \left[ \begin{array}{c}
+  \phi(y)\\
+  \psi(y)
+\end{array} \right] .
+\)

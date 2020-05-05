@@ -1,0 +1,227 @@
+# jemdoc: menu{MENU}{3dchannelflow.html},addpackage{amsmath},addpackage{amssymb}
+# jemdoc: addcss{jemdoc.css}
+# jemdoc: addcss{bibover.css}
+#include{masterFile_2.jeminc}
+#include{mj-complete-bib_3.jeminc}
+= Channel flow of a Newtonian fluid
+~~~
+{}{raw}
+<figure>
+  <img src="pics/ChannelFlow.svg" alt="3dflow" style="width:50%">
+  <p>Fig. 1 Channel flow geometry with base velocity profiles.</p>
+</figure>
+~~~
+
+The evolution of infinitesimal velocity $[\,u\;\;v\;\;w\,]^T$ and pressure $p$ fluctuations around a base flow $[\,U(y) \;\; 0 \;\; 0\,]^T$ is governed by the linearized Navier-Stokes (NS) equations,
+\(
+\begin{array}{rcl}
+Re\,\left( \,\partial_t \boldsymbol{v}  \,+\, \boldsymbol{V} \!\cdot\! \boldsymbol{\nabla}\boldsymbol{v}  \,+\, \boldsymbol v \!\cdot\! \boldsymbol{\nabla}\boldsymbol{V}\, \right) \!\!&=&\!\! - \boldsymbol{\nabla}p  \,+\,  \nabla^2 \boldsymbol{v} \,+\, \boldsymbol{d}(y,t),\\
+ \boldsymbol{\nabla} \!\cdot\! \boldsymbol{v}  \!\!&=&\!\! 0,\\
+ \boldsymbol{v}(y=\pm 1,t )  \!\!&=&\!\!  0,
+ \end{array}
+\)
+Here, ${\mathbf d} = [\,d_u\,\;d_v\,\;d_w\,]^T$ is the body force fluctuation vector, $u$, $v$, and $w$ are velocity fluctuations in the streamwise, $x$, wall-normal, $y$, and spanwise, $z$, directions, and $Re$ is the Reynolds number.
+
+This system can be recast as a boundary value problem in $y$ by taking Fourier
+transforms in the spatially invariant directions, $x$ and $z$ (a differential
+equation is spatially invariant in the variable $x$, if replacing $x$ by $x$ + constant does not change the
+differential equation), and converting it to an evolution form by eliminating pressure
+(see Chapter 3 of [/javascript:cite('schmid2012stability') Stability and transition in shear flows] for details about this transformation)
+
+\(
+	\begin{equation}\label{eq:EvolForm}
+\begin{array}{rccllcccc}
+\partial_t\,\Delta v \!\!&=&\!\! (-i\,k_x\,U\,\Delta + i\,k_x\,U'' + \frac{1}{Re}\,\Delta^2)v\!\!&-&\!\! (\,i\,k_x\,d_x'(y) \!\!&+&\!\! k^2\,d_y(y)\!\!&+&\!\!i\,k_z\,d_z'(y)\,)\,\mathrm e^{\mathrm i\,\omega\,t}  \\
+ \partial_t\eta \!\!&=&\!\!  \left( -i\,k_z\, U'  \right) v \!\!&+&\!\! (-i\,k_x\, U + \frac{1}{Re}\,\Delta)\eta \!\!&+&\!\! (\,i\,k_z\,d_x(y) \!\!&-&\!\! i\,k_x\,d_z(y)\,)\mathrm e^{\mathrm i\,\omega\,t}  \\
+\end{array}
+\end{equation}
+\)
+\n
+where, $U = 1-y^2$ for Poiseuille flow and $U = y$ for Couette flow, $\Delta = \partial_{yy} - k^2$,
+where $k^2 = k_x^2 + k_z^2$, where $k_x$ and $k_z$ are the Fourier modes corresponding
+to the $x$- and $z$-directions.
+
+Taking temporal Fourier transform and recasting this in the input-output representation
+we have,
+\(
+\begin{array}{rcl}
+ \underbrace{\left[
+\begin{array}{cc}
+  i\,\omega\,\Delta  \,+\,i\,k_x\,U\,\Delta  \,-\,  i\,k_x\,U''  \,-\,  \frac{1}{Re}\,\Delta^2 & 0\\
+i\,k_z\, U'   & i\,k_x\, U -\frac{1}{Re}\,\Delta
+\end{array} \right]}_{\mathcal A (\omega)}
+\left[ \begin{array}{c}
+v\\
+\eta
+\end{array} \right]
+	 \!\!&=&\!\! \underbrace{\left[ \begin{array}{ccc}
+	 -\,i\,k_x\, \mathrm D &  k^2 & i\,k_z\, \mathrm D\\
+	 i\,k_z & 0 & -i\,k_x
+	 \end{array} \right]}_{\mathcal B (\omega)}  \left[ \begin{array}{c}
+	 d_x\\
+	 d_y\\
+	 d_z
+	 \end{array} \right],\\
+	 \left[ \begin{array}{c}
+	 u\\
+	 v\\
+	 w
+	 \end{array} \right] \!\!&=&\!\!
+	 \frac{1}{k^2} \underbrace{\left[\begin{array}{cc}
+	 i\,k_x\,\mathrm D & -i\,k_x\\
+	 	k^2& 0 \\
+		i\,k_z\,\mathrm D & i\,k_x
+		\end{array}\right]}_{\mathcal C (\omega)} \left[ \begin{array}{c}
+		v\\
+		\eta
+		\end{array}
+		 \right],
+ \end{array}
+\)
+where $\mathrm D = \mathrm d / \mathrm dy$.
+
+The operators $\mathcal A (\omega)$, $\mathcal B(\omega)$, and $\mathcal C(\omega)$ corresponding to the input-output representation can be expressed in Matlab using the
+Chebfun syntax as,
+~~~
+{}{matlab}
+y = chebfun('y',[-1,1]);
+U = 1 - y*y;
+Uy = diff(U);
+Uyy = diff(Uy);
+
+A = chebop([-1,1]);
+B = chebop([-1,1]);
+C = chebop([-1,1]);
+
+A.op = @(x,v,eta)([1i*omega*(diff(v,2) - k2*v) - (diff(v,4)-2*k2*diff(v,2) 
+        + k4*v)/Re - 1i*kx*Uyy*v  + 1i*kx*U*(diff(v,2) - k2*v);
+        1i*omega*eta + 1i*kz*Uy*v + 1i*kx*U*eta - (diff(eta,2) - k2*eta)/Re]);
+
+B.op = @(x,dx,dy,dz) ([-1i*kx*diff(dx) - k2*dy - 1i*kz*diff(dz);
+                        1i*kz*dx - 1i*kx*dz]);
+C.op = @(x,v,eta)([1i*kx*diff(v)/k2 - 1i*kz*eta/k2;
+                v ; 
+                1i*kz*diff(v)/k2 + 1i*kx*eta/k2]);
+~~~
+\n
+The boundary conditions are given by no-slip and no-penetration,
+\(
+v(\pm 1)  \;=\;  v'(\pm 1)  \;=\;  \eta(\pm 1)  \;=\;  0
+\)
+\n
+
+These can again be input in the Chebfun syntax,
+~~~
+{}{}
+A.lbc = @(v,eta)[v;diff(v);eta];
+A.rbc = @(v,eta)[v;diff(v);eta];
+~~~
+
+
+~~~
+{}{raw}
+<figure>
+  <img src="pics/schmidSols.svg" alt="3dflow" style="width:50%">
+  <p>Fig.2 Principal singular values as a function of temporal frequency</br> generated using <a href="../schmidSols.m">svdfr3/schmidSols.m</a>. A reference for this
+  is Figure 4.10</br> in <a href="javascript:cite('schmid2012stability')">Stability and transition in shear flows</a></p>
+</figure>
+~~~
+
+=== Computing the $\mathcal{H}_\infty$ norm
+
+The $\mathcal{H}_\infty$ norm is the peak value of all singular values over all temporal frequencies $\omega\in \mathbb R$, and can be computed using the fast algorithm by [javascript:cite('BRUINSMA1990287') Bruinsma and Steinbuch]. This, and its relation to the feedback interconnected system is discussed toward the end of Section~IIIA in the accompanying paper. 
+
+We provide a function that will compute the $\mathcal{H}_\infty $ norm given $\mathcal{E}$, $\mathcal{F}$, $\mathcal{B}$, and $\mathcal{C}$, in the system representation, where,
+\(
+\begin{alignat}{3}
+  \partial_{t} [\mathcal{E} \, \boldsymbol \phi( \cdot , t)](y) \;&=\; [\mathcal{F}\, \boldsymbol \phi(\cdot , t)](y) \,+\, [\mathcal{B}\,\boldsymbol{d}(\cdot,t)](y),&&\notag \\
+    \boldsymbol \xi(y,t) \;&=\; [\mathcal{C}\,\boldsymbol \phi(\cdot,t)](y),&\label{eq:mot1Eb}\\
+   [\mathcal{L}_a \, \boldsymbol \phi(\cdot,t)](a)  \;&=\; [\mathcal {L}_b \, \boldsymbol \phi(\cdot,t)](b) \;=\;  0,&\notag
+\end{alignat}	
+\)
+
+Note that system Eq.~$\eqref{eq:EvolForm}$ is in this system representation, with 
+\(
+	\begin{align*}\label{eq:EvolForm2}
+\partial_t\,\underbrace{\left[\begin{array}{cc}
+	\Delta & 0\\
+	0 & I
+\end{array}\right]}_{\mathcal E}\left[\begin{array}{c}
+	v\\
+	\eta
+\end{array} \right] \;&=\; \underbrace{\left[\begin{array}{cc}
+	-i\,k_x\,U\,\Delta + i\,k_x\,U'' + \frac{1}{Re}\,\Delta^2 & 0 \\
+	-i\,k_z\, U' & -i\,k_x\, U + \frac{1}{Re}\,\Delta
+\end{array}\right]}_{\mathcal F }\left[\begin{array}{c}
+	v\\
+	\eta
+\end{array} \right] \,+\,  \underbrace{\left[\begin{array}{ccc}
+	i\,k_x\,\partial_y & k_2 & i\,k_z\,\partial_y\\
+	i\,k_z & 0 & -i\,k_x 
+\end{array}\right]}_{\mathcal B} \left[\begin{array}{c}
+	d_x\\
+	d_y\\
+	d_z
+\end{array}\right],  \\
+\left[ \begin{array}{c}
+	 u\\
+	 v\\
+	 w
+	 \end{array} \right] \;&=\;
+	 \frac{1}{k^2} \underbrace{\left[\begin{array}{cc}
+	 i\,k_x\,\partial_y & -i\,k_x\\
+	 	k^2& 0 \\
+		i\,k_z\,\partial_y & i\,k_x
+		\end{array}\right]}_{\mathcal C} \left[ \begin{array}{c}
+		v\\
+		\eta
+		\end{array}
+		 \right].
+\end{align*}
+\)
+We compute the $\mathcal{H}_\infty $ norm for $Re = 2000$, and $k_x = k_z = 1$. The code outputs the optimal frequency $\omega = -0.385$ and $\mathcal{H}_\infty $ norm for this set of parameters as $395.6$.
+
+~~~
+{Specify parameters}{matlab}
+ii = sqrt(-1);
+Re = 2000;
+kx = 1;
+kz = 1;
+k2 = kx*kx + kz*kz;
+k4 = k2*k2;
+~~~
+~~~
+{Define operators}{matlab}
+E = chebop([-1,1]);
+F = chebop([-1,1]);
+B = chebop([-1,1]);
+C = chebop([-1,1]);
+y = chebfun('y',[-1,1]);
+
+U = 1 - y*y;
+Uy = diff(U);
+Uyy = diff(Uy);
+omega = -0.4;
+
+
+E.op = @(x,v,eta)([(diff(v,2) - k2*v);...
+                    eta]);
+F.op = @(x,v,eta)([ (diff(v,4)-2*k2*diff(v,2) ...
+        + k4*v)/Re + ii*kx*Uyy*v  - ii*kx*U*(diff(v,2) - k2*v);...
+        - ii*kz*Uy*v - ii*kx*U*eta + (diff(eta,2) - k2*eta)/Re]);
+
+F.lbc = @(v,eta)[diff(v);v;eta];
+F.rbc = @(v,eta)[diff(v);v;eta];
+
+B.op = @(x,dx,dy,dz) ([-ii*kx*diff(dx) - k2*dy - ii*kz*diff(dz);...
+                        ii*kz*dx - ii*kx*dz]);
+C.op = @(x,v,eta)([ii*kx*diff(v)/k2 - ii*kz*eta/k2;...
+                v ; ...
+                ii*kz*diff(v)/k2 + ii*kx*eta/k2]);
+~~~
+~~~
+{Compute the H-infinity norm}{matlab}
+cheboppref.setDefaults('minDimension',32);
+cheboppref.setDefaults('maxDimension',1000);
+[omega_opt,gamma_opt] = HinfNorm(E,F,B,C);
+~~~

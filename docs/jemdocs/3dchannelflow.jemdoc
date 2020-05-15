@@ -44,11 +44,12 @@ to the $x$- and $z$-directions.
 Taking temporal Fourier transform and recasting this in the input-output representation
 we have,
 \(
+  \begin{equation}\label{eq:final}
 \begin{array}{rcl}
  \underbrace{\left[
 \begin{array}{cc}
-  i\,\omega\,\Delta  \,+\,i\,k_x\,U\,\Delta  \,-\,  i\,k_x\,U''  \,-\,  \frac{1}{Re}\,\Delta^2 & 0\\
-i\,k_z\, U'   & i\,k_x\, U -\frac{1}{Re}\,\Delta
+  i\,\omega\,\hat{\Delta}  \,+\,i\,k_x\,U\,\hat{\Delta}  \,-\,  i\,k_x\,U''  \,-\,  \frac{1}{Re}\,\hat{\Delta}^2 & 0\\
+i\,k_z\, U'   & i\,k_x\, U -\frac{1}{Re}\,\hat{\Delta}
 \end{array} \right]}_{\mathcal A (\omega)}
 \left[ \begin{array}{c}
 v\\
@@ -77,29 +78,34 @@ v\\
 		\end{array}
 		 \right],
  \end{array}
+\end{equation}
 \)
-where $\mathrm D = \mathrm d / \mathrm dy$.
+where $\mathrm D = \mathrm d / \mathrm dy$ and $\hat{\Delta} = \mathrm D^2 - k^2$.
+== Frequency response analysis
 
-The operators $\mathcal A (\omega)$, $\mathcal B(\omega)$, and $\mathcal C(\omega)$ corresponding to the input-output representation can be expressed in Matlab using the
-Chebfun syntax as,
+=== Problem
+Reproduce Figure 4.10 in [/javascript:cite('schmid2012stability') Stability and transition in shear flows], i.e., compute the principal singular values of the frequency response operator associated with the linearized NS equations in Poiseuille flow with $Re = \{500,1000,2000,4000\}$ and $k_x = k_z = 1$. Next, determine the $H_\infty$ norm, i.e., the peak value of $\sigma_{\max} (\omega)$ over temporal frequencies with $Re = 2000$.
+
+=== Solution
+The operators $\mathcal A (\omega)$, $\mathcal B(\omega)$, and $\mathcal C(\omega)$ in~$\eqref{eq:final}$ can be expressed in Matlab using the Chebfun syntax as,
 ~~~
-{}{matlab}
+{Operators in TPBVP}{matlab}
 y = chebfun('y',[-1,1]);
-U = 1 - y*y;
+U = 1 - y*y;              % For Poiseuille flow, or U = y for Couette flow
 Uy = diff(U);
 Uyy = diff(Uy);
 
-A = chebop([-1,1]);
-B = chebop([-1,1]);
-C = chebop([-1,1]);
+A = chebop([-1,1]);       % Operator A
+B = chebop([-1,1]);       % Operator B
+C = chebop([-1,1]);       % Operator C
 
-A.op = @(x,v,eta)([1i*omega*(diff(v,2) - k2*v) - (diff(v,4)-2*k2*diff(v,2) 
+A.op = @(y,v,eta)([1i*omega*(diff(v,2) - k2*v) - (diff(v,4)-2*k2*diff(v,2) 
         + k4*v)/Re - 1i*kx*Uyy*v  + 1i*kx*U*(diff(v,2) - k2*v);
         1i*omega*eta + 1i*kz*Uy*v + 1i*kx*U*eta - (diff(eta,2) - k2*eta)/Re]);
 
-B.op = @(x,dx,dy,dz) ([-1i*kx*diff(dx) - k2*dy - 1i*kz*diff(dz);
+B.op = @(y,dx,dy,dz) ([-1i*kx*diff(dx) - k2*dy - 1i*kz*diff(dz);
                         1i*kz*dx - 1i*kx*dz]);
-C.op = @(x,v,eta)([1i*kx*diff(v)/k2 - 1i*kz*eta/k2;
+C.op = @(y,v,eta)([1i*kx*diff(v)/k2 - 1i*kz*eta/k2;
                 v ; 
                 1i*kz*diff(v)/k2 + 1i*kx*eta/k2]);
 ~~~
@@ -112,11 +118,16 @@ v(\pm 1)  \;=\;  v'(\pm 1)  \;=\;  \eta(\pm 1)  \;=\;  0
 
 These can again be input in the Chebfun syntax,
 ~~~
-{}{}
+{Boundary conditions}{matlab}
 A.lbc = @(v,eta)[v;diff(v);eta];
 A.rbc = @(v,eta)[v;diff(v);eta];
 ~~~
+~~~
+{Compute singular values}{matlab}
+sval = svdfr(A,B,C);
+~~~
 
+The full solution involves singular value calculations over linearly sampled frequencies, and can be found in [../schmidSols.m schmidSols.m].
 
 ~~~
 {}{raw}
@@ -127,11 +138,10 @@ A.rbc = @(v,eta)[v;diff(v);eta];
 </figure>
 ~~~
 
-=== Computing the $\mathcal{H}_\infty$ norm
+=== The $H_\infty$ norm
+The ${H}_\infty$ norm is the peak value of all singular values over all temporal frequencies $\omega\in \mathbb R$, and can be computed using the fast algorithm by [javascript:cite('BRUINSMA1990287') Bruinsma and Steinbuch]. This, and its relation to the feedback interconnected system is discussed toward the end of Section~IIIA in the accompanying paper. 
 
-The $\mathcal{H}_\infty$ norm is the peak value of all singular values over all temporal frequencies $\omega\in \mathbb R$, and can be computed using the fast algorithm by [javascript:cite('BRUINSMA1990287') Bruinsma and Steinbuch]. This, and its relation to the feedback interconnected system is discussed toward the end of Section~IIIA in the accompanying paper. 
-
-We provide a function that will compute the $\mathcal{H}_\infty $ norm given $\mathcal{E}$, $\mathcal{F}$, $\mathcal{B}$, and $\mathcal{C}$, in the system representation, where,
+We provide a function that will compute the ${H}_\infty$ norm given $\mathcal{E}$, $\mathcal{F}$, $\mathcal{B}$, and $\mathcal{C}$, in the system representation, where,
 \(
 \begin{alignat}{3}
   \partial_{t} [\mathcal{E} \, \boldsymbol \phi( \cdot , t)](y) \;&=\; [\mathcal{F}\, \boldsymbol \phi(\cdot , t)](y) \,+\, [\mathcal{B}\,\boldsymbol{d}(\cdot,t)](y),&&\notag \\
@@ -179,29 +189,27 @@ Note that system Eq.~$\eqref{eq:EvolForm}$ is in this system representation, wit
 		 \right].
 \end{align*}
 \)
-We compute the $\mathcal{H}_\infty $ norm for $Re = 2000$, and $k_x = k_z = 1$. The code outputs the optimal frequency $\omega = -0.385$ and $\mathcal{H}_\infty $ norm for this set of parameters as $395.6$.
+We compute the ${H}_\infty $ norm for $Re = 2000$, and $k_x = k_z = 1$. The code outputs the optimal frequency $\omega = -0.385$ and ${H}_\infty $ norm for this set of parameters as $395.6$.
 
 ~~~
-{Specify parameters}{matlab}
-ii = sqrt(-1);
-Re = 2000;
-kx = 1;
-kz = 1;
+{Problem data}{matlab}
+ii = sqrt(-1);      % Imaginary unit
+Re = 2000;          % Reynolds number
+kx = 1; kz = 1;     % Spatial wavenumbers
 k2 = kx*kx + kz*kz;
 k4 = k2*k2;
 ~~~
 ~~~
-{Define operators}{matlab}
-E = chebop([-1,1]);
-F = chebop([-1,1]);
-B = chebop([-1,1]);
-C = chebop([-1,1]);
-y = chebfun('y',[-1,1]);
+{Operators in TPBVP}{matlab}
+E = chebop([-1,1]);      % Operator E
+F = chebop([-1,1]);      % Operator F
+B = chebop([-1,1]);      % Operator B
+C = chebop([-1,1]);      % Operator C
+y = chebfun('y');
 
-U = 1 - y*y;
+U = 1 - y*y;             % For Poiseuille flow, or U = y for Couette flow
 Uy = diff(U);
 Uyy = diff(Uy);
-omega = -0.4;
 
 
 E.op = @(x,v,eta)([(diff(v,2) - k2*v);...
@@ -221,7 +229,183 @@ C.op = @(x,v,eta)([ii*kx*diff(v)/k2 - ii*kz*eta/k2;...
 ~~~
 ~~~
 {Compute the H-infinity norm}{matlab}
-cheboppref.setDefaults('minDimension',32);
-cheboppref.setDefaults('maxDimension',1000);
+cheboppref.setDefaults('maxDimension',1000); % Restrict dimension to 1000 Chebyshev polynomials for speed
 [omega_opt,gamma_opt] = HinfNorm(E,F,B,C);
+~~~
+
+=== Problem 
+Plot most amplified structures of streamwise velocity fluctuations (3D isosurface plots) and the corresponding spanwise body force for $Re = 2000$, $k_x = 1$, and $\omega = -0.385$. 
+
+=== Solution
+~~~
+{}{matlab}
+clear;
+close all;
+
+N = 200; 
+% Set parameters and base velocity
+Re = 2000;                  % Reynolds number
+
+y = chebfun('y');  
+
+
+U = 1 - y^2;                % base flow (Poiseuille; U = y for Couette)
+Uy = diff(U);               % derivative of U
+Uyy = diff(U,2);            % second derivative of U
+
+kxval = [1 1 -1 -1];        % streamwise wavenumber
+kzval = [1 -1 1 -1];        % spanwise wavenumber
+omval  = 0.385*[-1 -1 1 1]; % temporal frequency
+
+% Looping over kx, kz, and om
+uvec = zeros(N,length(kxval)); 
+dzvec = zeros(N,length(kxval));
+
+for n = 1:length(kxval)
+
+    kx = kxval(n); kz = kzval(n); omega = omval(n);
+    kx2 = kx*kx; kz2 = kz*kz;
+    k2 = kx2 + kz2;
+
+    A = chebop([-1,1]);     % Operator A
+    B = chebop([-1,1]);     % Operator B
+    C = chebop([-1,1]);     % Operator C
+
+    A.op = @(x,v,eta)([1i*omega*(diff(v,2) - k2*v) - (diff(v,4)-2*k2*diff(v,2) ...
+            + k4*v)/Re - 1i*kx*Uyy*v  + 1i*kx*U*(diff(v,2) - k2*v);...
+            1i*omega*eta + 1i*kz*Uy*v + 1i*kx*U*eta - (diff(eta,2) - k2*eta)/Re]);
+
+    A.lbc = @(v,eta)[diff(v);v;eta];
+    A.rbc = @(v,eta)[diff(v);v;eta];
+
+    B.op = @(x,dx,dy,dz) ([-1i*kx*diff(dx) - k2*dy - 1i*kz*diff(dz);...
+                            1i*kz*dx - 1i*kx*dz]);
+    C.op = @(x,v,eta)([1i*kx*diff(v)/k2 - 1i*kz*eta/k2;...
+                    v ; ...
+                    1i*kz*diff(v)/k2 + 1i*kx*eta/k2]);
+
+    % Compute the singular function
+    [sfun,sval] = svdfr3(A,B,C,1,'LR');
+
+    % velocities
+    uvw = C(sfun(1:2,:));
+    ui = uvw.blocks{1}; % streamwise velocity
+    vi = uvw.blocks{2}; % wall-normal velocity
+    wi = uvw.blocks{3}; % spanwise velocity
+    
+    % Body forces:
+    Bad = adjointNS(B); 
+    dxdydz = Bad(sfun(3:4,:));
+    dx = dxdydz.blocks{1};
+    dy = dxdydz.blocks{2};
+    dz = dxdydz.blocks{3};
+    
+    uvec(:,n) = ui(chebpts(N)); 
+    dzvec(:,n) = dz(chebpts(N));
+    
+end
+
+kx = abs(kxval(1)); kz = abs(kzval(1));
+zval = linspace(-7.8, 7.8, 100);    % spanwise coordinate
+xval = linspace(0, 12.7, 100);      % streamwise coordinate
+
+Up = zeros(length(zval),length(xval),N);    % physical value of u
+Dp = zeros(length(zval),length(xval),N);    % physical value of dz
+
+for indx = 1:length(xval)
+    x = xval(indx);
+    for indz = 1:length(zval)
+        z = zval(indz);
+        for n = 1:4
+
+            kx = kxval(n); kz = kzval(n);
+
+            Up(indz,indx,:) =  squeeze(Up(indz,indx,:)) + ...
+                uvec(:,n)*exp(1i*kx*x + 1i*kz*z);
+
+            Dp(indz,indx,:) =  squeeze(Dp(indz,indx,:)) + ...
+                dzvec(:,n)*exp(1i*kx*x + 1i*kz*z);
+        end
+    end
+end
+Up = real(Up); Dp = real(Dp); % only real part exist
+~~~
+Now, we plot isosurfaces of the optimal flow structures.
+~~~
+{}{matlab}
+%% Plot isosurfaces of optimal flow structures
+clf
+Upmax = max(max(max(Up)));
+val = 0.2*Upmax;
+ypt = chebpts(N);
+
+[X,Z,Y] = meshgrid(xval,zval,ypt);
+p = patch(isosurface(X,Z,Y,Up,val));
+hh = isonormals(xval,zval,ypt,Up,p);
+p.FaceColor = 'red';
+p.EdgeColor = 'none';
+daspect('auto')
+view(3);
+ax = gca;
+xlabel('$x$');
+ylabel('$z$');ax.YTick = -10:5:10;
+zlabel('$y$');ax.ZTick = -1:0.5:1;
+camlight
+
+hold on
+p = patch(isosurface(X,Z,Y,Up,-val));
+isonormals(xval,zval,ypt,Up,p);
+p.FaceColor = 'green';
+p.EdgeColor = 'none';
+print('-painters','-djpeg','docs/pics/Code4_2');
+disp('done');
+hold off
+~~~
+
+~~~
+{}{raw}
+<figure>
+  <img src="pics/Code4_2.jpg" alt="3dflow" style="width:50%">
+  <p>Fig.3 Isosurfaces of the optimal flow structure for </br> the frequency
+  responses of Poiseuille flow with</br> \(Re = 2000\), \(k_x = k_z = 1\), and \(\omega = 0\) </a></p>
+</figure>
+~~~
+
+We next plot the corresponding spanwise body force. 
+~~~
+{}{matlab}
+%% Plot isosurfaces of the corresponding body force
+clf
+
+dpmax = max(max(max(Dp)));
+val = 0.2*dpmax;
+ypt = chebpts(N);
+
+[X,Z,Y] = meshgrid(xval,zval,ypt);
+p = patch(isosurface(X,Z,Y,Dp,val));
+hh = isonormals(xval,zval,ypt,Dp,p);
+p.FaceColor = 'blue';
+p.EdgeColor = 'none';
+daspect('auto')
+view(3);
+ax = gca;
+xlabel('$x$');
+ylabel('$z$');ax.YTick = -10:5:10;
+zlabel('$y$');ax.ZTick = -1:0.5:1;
+camlight
+
+hold on
+p = patch(isosurface(X,Z,Y,Dp,-val));
+isonormals(xval,zval,ypt,Dp,p);
+p.FaceColor = 'yellow';
+p.EdgeColor = 'none';
+print('-painters','-djpeg','docs/pics/Code4_3');
+~~~
+
+~~~
+{}{raw}
+<figure>
+  <img src="pics/Code4_3.jpg" alt="3dflow" style="width:50%">
+  <p>Fig.4 Isosurfaces of the spanwise body force that result </br>in the optimal flow structure in Fig. 3 for the frequency </br>responses of Poiseuille flow with</br> \(Re = 2000\), \(k_x = k_z = 1\), and \(\omega = 0\)</a></p>
+</figure>
 ~~~

@@ -1,0 +1,77 @@
+# jemdoc: menu{MENU}{download.html}
+= Download
+
+=== Main program: Chebfun SVD
+~~~
+    {}{table}{}
+    [matlab-files/svdfr.m +svdfr.m+] | --- | Compute singular value decomposition of the frequency response operator ||
+    [matlab-files/chebfun-svd.zip +all Matlab files+] | --- | Zip file containing all Matlab files ||
+| | ||
+~~~
+
+=== Examples
+~~~
+{}{table}{}
+[matlab-files/FR_RD.m +FR_RD.m+] | --- | Reaction-diffusion equation with Neumann boundary conditions ||
+[matlab-files/FR_OS_kz0.m +FR_OS_kz0.m+]  | --- | Orr-Sommerfeld equation ||
+[matlab-files/FR_LNS_kx0.m +FR_LNS_kx0.m+] | --- | Streamwise-constant linearized Navier-Stokes equations ||
+[matlab-files/FR_SOB_kz0.m +FR_SOB_kz0.m+] | --- | 2D Stokes flow of Oldroyd-B viscoelastic fluids ||
+[matlab-files/FR_beam.m +FR_beam.m+] | --- | Euler-Bernoulli beam with boundary actuation ||
+| | ||
+~~~
+
+=== Additional programs: integral formulation of differential equations
+~~~
+{}{table}{}
+[matlab-files/intbvp.m +intbvp.m+] | --- | Solve a scalar differential equation using integral formulation ||
+[matlab-files/intbvp_system.m +intbvp_system.m+] | --- | Solve a system of differential equations using integral formulation ||
+| | ||
+~~~
+
+~~~ 
+{}{img_left}{download/cheblogow_small.png}{}{}{}{http://www.maths.ox.ac.uk/chebfun/} 
+This work utilizes Chebfun V4.2.2889, released in April 2013. \n Chebfun 
+is available at [http://www.maths.ox.ac.uk/chebfun/] 
+    ~~~ 
+
+=== Citation
+
+If you are using this software in your research or teaching, please include 
+explicit mention of [paper.html our paper] and [http://www.maths.ox.ac.uk/chebfun/ 
+Chebfun]. 
+
+~~~ 
+{}{} 
+@article{liejovJCP13, 
+   author  = {B. K. Lieu and M. R. Jovanovi{\'c}},
+   title   = {Computation of frequency responses for linear time-invariant {PDE}s on a compact interval},
+   journal = {J. Comput. Phys.},
+   month   = {October},
+   volume  = {250},
+   pages   = {246-269},
+   year    = {2013}
+}
+
+@misc{chebfunv4,
+   author       = {Lloyd. N. Trefethen and Nicholas Hale and Rodrigo B. Platte and Tobin. A. Driscoll and Ricardo Pach{\'o}n},
+   title        = {Chebfun Version 4},
+   year         = {2013},
+   note         = {http://www.maths.ox.ac.uk/chebfun/},
+   howpublished = {University of Oxford}
+}
+~~~
+
+If you are using +intbvp.m+ please also cite
+
+~~~
+{}{}
+@article{dri10,
+   author  = {T. A. Driscoll},
+   title   = {Automatic spectral collocation for integral, integro-differential, and integrally reformulated differential equations},
+   journal = {J. Comput. Phys.},
+   volume  = {229},
+   pages   = {5980-5998},
+   year    = {2010}
+}
+
+~~~

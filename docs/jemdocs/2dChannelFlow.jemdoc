@@ -1,0 +1,328 @@
+# jemdoc: menu{MENU}{2dChannelFlow.html},addpackage{amsmath},addpackage{amssymb}
+# jemdoc: addcss{jemdoc.css}
+# jemdoc: addcss{bibover.css}
+#include{masterFile_2.jeminc}
+#include{mj-complete-bib_3.jeminc}
+= $2$D channel flow (Orr-Sommerfeld operator)
+
+~~~
+{}{img_left}{pics/channel_2dsection.jpg}{}{}{}{}
+Two-dimensional channel flow geometry.
+~~~
+
+The Orr-Sommerfeld equation (see [/javascript:cite('schmid2012stability') Schmid and Henningson]) governs the dynamics of 2D velocity 
+fluctuations around the laminar channel flow,
+\(
+    \begin{equation}\label{eq:0}
+\begin{array}{rcl}
+\Delta \phi_{t} (k_x, y, t)
+& \!\! = \!\! &
+\left(
+{\displaystyle \frac{1}{Re}} \Delta^{2} \, - \, \mathrm{i} \, k_x \, U(y) \, \Delta \, + \, \mathrm{i} \, k_x \, U''(y)
+\right)
+\phi(k_x, y, t)
+\\[0.3cm]
+& &
++ \, \mathrm D \, d_{1}(k_x, y, t) \, - \, \mathrm{i} \, k_x \, d_{2}(k_x, y, t), 
+\end{array}
+\end{equation}
+\)
+\n
+where $y \in \left[ -1, 1 \right]$ is a spatial variable, $\mathrm D = \mathrm d / \mathrm dy$, and
+~~~
+{}{table}{}
+$\phi$ | --- | streamfunction ||
+$d_1$, $d_2$  | --- | streamwise and wall-normal forcing ||
+$Re$ | --- | Reynolds number ||
+$k_x$ | --- | streamwise wavenumber ||
+$U(y) = y$ | --- | for Couette flow ||
+$U(y) = 1 - y^2$ | --- | for Poiseuille flow ||
+$\Delta = \mathrm D^2 - k_x^2$ | --- | Laplacian ||
+$\Delta^2 = \mathrm D^4 - 2 \, k_x^2 \, \mathrm D^{2} + k_x^4$.||
+| | ||
+~~~
+\n
+\n
+The boundary conditions are given by
+\(
+\phi(k_x, \pm 1, t) \; = \; \mathrm D [\phi(k_x, \cdot , t)](\pm 1) \; = \; 0.
+\)
+\n
+The desired outputs are the streamwise and wall-normal velocity fluctuations,
+\(
+\begin{array}{rcl}
+u(k_x, y, t) & \!\! = \!\! & \mathrm D \, \phi(k_x, y, t) \\[0.15cm]
+v(k_x, y, t) & \!\! = \!\! & -\mathrm{i} \, k_x \, \phi(k_x, y, t).
+\end{array}
+\)
+\n
+The input-output differential equation representing the frequency response operator is given by
+\(
+\left(
+{\displaystyle \frac{1}{Re}} D^{(4)} \, + \, a_{2}(y) \, D^{(2)} \, + \, a_{0}(y)
+\right)
+\phi(y)
+\; = \;
+-D^{(1)} \, d_{1}(y) \, + \, \mathrm{i} \, k_x \, d_{2}(y)
+\)
+\n
+where
+\(
+\begin{array}{rcl}
+a_{2}(y) & \!\! = \!\! & {\displaystyle -\left( \frac{2 \, k_x^2}{Re} \, + \, \mathrm{i}\, k_x \, U(y) \, + \, \mathrm{i} \, \omega \right)}
+\\[0.4cm]
+a_{0}(y) & \!\! = \!\! & {\displaystyle \frac{k_x^{4}}{Re}} \, + \, \mathrm{i} \, k_x^3 \, U(y) \, + \, \mathrm{i} \, k_x \, U''(y) \, + \, \mathrm{i} \, \omega \, k_x^2.
+\end{array}
+\)
+\n
+
+=== Problem
+
+Find the largest singular value of the frequency response operator for the Orr-Sommerfeld equation 
+in a Poiseuille flow as a function of $k_x$ at $\omega = -0.3$ and $Re = 2000$.
+
+=== Solution
+~~~
+{}{matlab}
+% Define independent variable
+y = chebfun('y');
+
+% Define the parameters of the problem:
+omega = -0.3; % frequency
+Re = 2000; % Reynolds number
+kxval = linspace(0.1,5,100); % streamwise wave-number
+kxgrd = length(kxval);
+
+% Define functions for Poiseuille flow:
+U = 1 - y^2;
+Uy = diff(U);
+Uyy = diff(U,2);
+
+% Looping over different values of kx
+svals = zeros(kxgrd,1);
+
+for indx = 1:kxgrd
+
+    kx = kxval(indx); kx2 = kx*kx; kx4 = kx2*kx2;
+
+    % Define operator A
+    A = chebop([-1 1]);
+    a2 =  -( 2*kx^2/Re  +  1i*kx*U + 1i*omega );
+    a0 =  kx^4/Re  +  1i*kx^3*U +  1i*kx*Uyy + 1i*omega*kx^2;
+    A.op = @(y,phi) (diff(phi,4)/Re + a2*diff(phi,2) + a0*phi);
+
+    % Specify boundary conditions
+    A.lbc = @(phi) [phi;diff(phi)];
+    A.rbc = @(phi) [phi;diff(phi)];
+
+    % B operator
+    B = chebop([-1 1]);
+    B.op = @(y,d1,d2) (-diff(d1)  +  1i*kx*d2);
+
+    % C operator
+    C = chebop([-1 1]);
+    C.op = @(y,phi) [diff(phi);-1i*kx*phi];
+    
+    cheboppref.setDefaults('minDimension',100);
+    cheboppref.setDefaults('maxDimension',1000);
+    % Solving for the principal singular value
+    svals(indx) = svdfr(A,B,C,1,'LR');
+    disp(indx);
+end
+
+%% Plot
+semilogx(kxval,abs(real(svals)),'-k');
+xlabel('$k_x$');
+ylabel('$\sigma_0$');
+print('-painters','-dsvg','Code2_1');
+~~~
+
+~~~
+{}{raw}
+<figure>
+  <img src="pics/Code2_1.svg" alt="2dflow" style="width:50%">
+  <figcaption>Fig.1 Singular values of the frequency response operator of the </br>
+Orr-Sommerfeld equation Eq. \eqref{eq:0}, with \(\omega = -0.3\) and \(Re = 2000\).</figcaption>
+</figure>
+~~~
+
+=== Problem
+Find the largest singular value of the frequency response operator for the Orr-Sommerfeld equation 
+in a pressure-driven channel flow as a function of $\omega$ at $k_x = 1$.
+
+=== Solution
+~~~
+{}{matlab}
+% the OS-equation as a function of omega at kx = 1.
+% System parameters:
+kx = 1; % streamwise wave-number
+kx2 = kx*kx; kx4 = kx2*kx2;
+
+omval = linspace(-0.5,0,100); % temporal frequency
+omgrd = length(omval);
+
+% Looping over different values of om
+svals = zeros(omgrd,1);
+
+for indom = 1:omgrd
+    
+    omega = omval(indom);
+
+    % Define operator A
+    A = chebop([-1 1]);
+    a2 =  -( 2*kx^2/Re  +  1i*kx*U + 1i*omega );
+    a0 =  kx^4/Re  +  1i*kx^3*U +  1i*kx*Uyy + 1i*omega*kx^2;
+    A.op = @(y,phi) (diff(phi,4)/Re + a2*diff(phi,2) + a0*phi);
+
+    % Specify boundary conditions
+    A.lbc = @(phi) [phi;diff(phi)];
+    A.rbc = @(phi) [phi;diff(phi)];
+
+    % B operator
+    B = chebop([-1 1]);
+    B.op = @(y,d1,d2) (-diff(d1)  +  1i*kx*d2);
+
+    % C operator
+    C = chebop([-1 1]);
+    C.op = @(y,phi) [diff(phi);-1i*kx*phi];
+    
+    cheboppref.setDefaults('minDimension',100);
+    cheboppref.setDefaults('maxDimension',1000);
+    % Solving for the principal singular value
+    svals(indom) = svdfr(A,B,C,1,'LR');
+    disp(indom);
+end
+
+%% Plotting the largest singular value as a function of om at a fixed kx
+plot(omval,svals,'-k');
+xlabel('$\omega$');
+ylabel('$\sigma_0$');
+print('-painters','-dsvg','docs/pics/Code2_2');
+~~~
+
+~~~
+{}{raw}
+<figure>
+  <img src="pics/Code2_2.svg" alt="2dflow" style="width:50%">
+  <figcaption>Fig.1 Singular values of the frequency response operator of the </br>
+Orr-Sommerfeld equation Eq. \eqref{eq:0}, with \(k_x = 1\) and \(Re = 2000\).</figcaption>
+</figure>
+~~~
+
+=== Problem
+Find the most amplified flow structures for the Orr-Sommerfeld equation in a pressure-driven channel flow  
+at $k_x = 1$ and $\omega = -0.313$.
+
+=== Solution
+~~~
+{}{matlab}
+% System parameters:
+kxval = [1 -1];   % streamwise wave-number
+omval  = 0.313*[-1 1]; % temporal frequency
+
+N = 100;    % number of collocation points for plotting
+yd = chebpts(N);
+
+
+for n = 1:2
+
+    omega = omval(n);
+    kx = kxval(n); kx2 = kx*kx; kx4 = kx2*kx2;
+
+    % Define operator A
+    A = chebop([-1 1]);
+    a2 =  -( 2*kx^2/Re  +  1i*kx*U + 1i*omega );
+    a0 =  kx^4/Re  +  1i*kx^3*U +  1i*kx*Uyy + 1i*omega*kx^2;
+    A.op = @(y,phi) (diff(phi,4)/Re + a2*diff(phi,2) + a0*phi);
+
+    % Specify boundary conditions
+    A.lbc = @(phi) [phi;diff(phi)];
+    A.rbc = @(phi) [phi;diff(phi)];
+
+    % B operator
+    B = chebop([-1 1]);
+    B.op = @(y,d1,d2) (-diff(d1)  +  1i*kx*d2);
+
+    % C operator
+    C = chebop([-1 1]);
+    C.op = @(y,phi) [diff(phi);-1i*kx*phi];
+    
+    cheboppref.setDefaults('minDimension',100);
+    cheboppref.setDefaults('maxDimension',1000);
+    % Solving for the principal singular value
+    [sfun,sval] = svdfr(A,B,C,1,'LR');
+    uandv = C(sfun.blocks{1,1});
+    ui = uandv{1}; % streamwise velocity
+    vi = uandv{2}; % wall-normal velocity
+
+    % discretized values for plotting
+    uvec(:,n) = ui(yd,1); vvec(:,n) = vi(yd,1);
+
+end
+
+% Getting physical fields of u and v
+kx = abs(kxval(1));
+xval = linspace(0, 4*pi/kx, 100); % streamwise coordinate
+
+Up = zeros(N,length(xval));   % physical value of u
+Vp = zeros(N,length(xval));   % physical value of v
+
+for indx = 1:length(xval)
+
+    x = xval(indx);
+
+    for n = 1:2
+
+        kx = kxval(n);
+
+        Up(:,indx) =  Up(:,indx) + uvec(:,n)*exp(1i*kx*x);
+        Vp(:,indx) =  Vp(:,indx) + vvec(:,n)*exp(1i*kx*x);
+
+    end
+
+end
+
+Up = real(Up); Vp = real(Vp); % only real part exists
+
+%% Plotting the most amplified streamwise velocity structures
+pcolor(xval,yd,Up); shading interp;
+cb = colorbar('vert');
+xlabel('$x$');
+ylabel('$y$');
+ax = gca;
+ax.XTick = 0:3:12;
+cb.Ticks = -3:1:3;
+colormap jet;
+print('-painters','-djpeg','docs/pics/Code2_3');
+
+%% Plotting the most amplified wall-normal velocity structures
+pcolor(xval,yd,Vp); shading interp;
+cb = colorbar('vert');
+xlabel('$x$');
+ylabel('$y$');
+ax = gca;
+ax.XTick = 0:3:12;
+cb.Ticks = -1.5:0.5:1.5;
+colormap jet;
+print('-painters','-djpeg','docs/pics/Code2_4');
+~~~
+
+~~~
+{}{raw}
+<figure>
+  <img src="pics/Code2_3.jpg" alt="2dflow" style="width:50%">
+  <figcaption>Fig.1 Singular values of the frequency response operator of the </br>
+Orr-Sommerfeld equation Eq. \eqref{eq:0}, with \(k_x = 1\) and \(Re = 2000\).</figcaption>
+</figure>
+~~~
+
+~~~
+{}{raw}
+<figure>
+  <img src="pics/Code2_4.jpg" alt="2dflow" style="width:50%">
+  <figcaption>Fig.1 Singular values of the frequency response operator of the </br>
+Orr-Sommerfeld equation Eq. \eqref{eq:0}, with \(k_x = 1\) and \(Re = 2000\).</figcaption>
+</figure>
+~~~
+
+

@@ -1,45 +1,37 @@
-%   Example 4: frequency responses of a 2D Oldroyd-B fluid.
-%   By default, this works for Poiseuille flow. For Couette flow, you may need
-%   need to increase the maxDimension in cheboppref.
-%   This example uses svdfri to compute the inverse problem using Matlab's
-%   sparse solver, eigs.
-%   Written by Gokul Hariharan, harih020@umn.edu
+% Frequency response analysis for 2D inertialess channel flow of a viscoelastic fluid
 
+% Set problem data
+Weval = 1:20; % Weissenberg numbers
+beta = 0.5;   % Viscosity ratio
+omega = 0;    % temporal frequency
+kx = 1;       % streamwise wavenumber
+k2 = kx*kx;   % kx^2
 
+% Flow type 
+type = 'Couette'; % or 'Poiseuille';
 
-%% Set up data
-samp = 20;
-Wes = zeros(samp,1);
-for i = 1:samp
-    Wes(i) = i;
-end
-%type = 'Poiseuille';
-type = 'Couette';
-lambdas = zeros(samp,1);
-lambdasT = zeros(samp,1);
+% Singular values
+svals = zeros(20,1);
 
-parfor i = 1:samp
-    We = Wes(i);
+for ind = 1:length(svals)
+    We = Weval(ind);
     ii = sqrt(-1);
     Re = 0;
-    beta = 0.5;
-    kx = 1;
-    k2 = kx*kx
-    A = chebop([-1,1]);
-    B = chebop([-1,1]);
-    C = chebop([-1,1]);
+    
+    A = chebop([-1,1]);  % Operator A
+    B = chebop([-1,1]);  % Operator B
+    C = chebop([-1,1]);  % Operator C
 
-    y = chebfun('y',[-1,1]);
+    y = chebfun('y');
 
     if strcmp(type,'Poiseuille')
         U = 1 - y*y;
     else 
         U = y;
     end
-Uy = diff(U);
+    Uy = diff(U);
     Uyy = diff(Uy);
     
-    omega = 0;
     c = (ii * omega + 1.0 + (ii * kx * We * U));
     cy = ii * We * kx * Uy;
     cyy = ii * We * kx * Uyy;
@@ -62,29 +54,32 @@ Uy = diff(U);
            2*ii*cy*kx*Uy*We*(kx + 2*ii*Uyy*We) + 2*kx*Uy^2*We^2*(-cyy + k2 + (6*ii)*kx*Uyy*We)) + ...
         2*(-1 + beta)*c*(-2*cyy*kx*Uy^2*We^2 + cy*kx*(cy - 2*ii*kx*Uy*We)*(1 + 2*Uy^2*We^2) + ...
            ii*Uyy*We*(cy^2 + (6*ii)*cy*kx*Uy*We + 6*k2*Uy^2*We^2))))/c^4;
-       a3 = a3/a4;
-       a2 = a2/a4;
-       a1 = a1/a4;
-       a0 = a0/a4;
+    a3 = a3/a4;
+    a2 = a2/a4;
+    a1 = a1/a4;
+    a0 = a0/a4;
     b0 = 1/a4;
     b1 = -ii*kx/a4;
+    
+    
     A.op = @(x,v) (diff(v,4) + a3*diff(v,3) + a2*diff(v,2) + a1*diff(v) + a0*v);
-    A.lbc = @(v) [diff(v);v];
-    A.rbc = @(v) [diff(v);v];
     B.op = @(x,dx,dy)(b0*diff(dx) + b1*dy);
     C.op = @(x,v)[diff(v);-ii*kx*v];
+    
+    % Boundary conditions:
+    A.lbc = @(v) [diff(v);v];
+    A.rbc = @(v) [diff(v);v];
   
     cheboppref.setDefaults('maxDimension',2000);
-    cheboppref.setDefaults('discretization',@ultraS)
-    lam = svdfr3i(A,B,C,1,'SM');
-    lambdas(i) = 1./lam';
-    disp(i)
+    lam = svdfr(A,B,C,1,'inverse');
+    svals(ind) = 1./lam';
+    disp(ind)
 end
 
 %% Plot
-plot(Wes,abs(real(lambdas(:))),'-*k')
+plot(Weval,abs(real(svals(:))),'-*k')
 ylabel('$\sigma_0$');
 xlabel('$W\!e$');
 axis tight
 ax = gca;
-print('-painters','-dsvg','docs/pics/velP');
+print('-painters','-dsvg','docs/pics/Code5');

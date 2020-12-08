@@ -4,13 +4,12 @@
 y = chebfun('y');
 
 % Define the parameters of the problem:
-omega = -0.3; % frequency
-Re = 2000; % Reynolds number
+omega = -0.3;                % frequency
+Re = 2000;                   % Reynolds number
 kxval = linspace(0.1,5,100); % streamwise wave-number
 kxgrd = length(kxval);
 
-% Define functions for Poiseuille flow:
-U = 1 - y^2;
+U = 1 - y^2;                 % for Poiseuille flow, or U = y for Couette flow
 Uy = diff(U);
 Uyy = diff(U,2);
 
@@ -38,16 +37,14 @@ parfor indx = 1:kxgrd
     % C operator
     C = chebop([-1 1]);
     C.op = @(y,phi) [diff(phi);-1i*kx*phi];
-    
-    cheboppref.setDefaults('minDimension',100);
-    cheboppref.setDefaults('maxDimension',1000);
+
     % Solving for the principal singular value
-    svals(indx) = svdfr(A,B,C,1,'LR');
+    svals(indx) = svdfr(A,B,C,1);   % Compute only the largest singular value
     disp(indx);
 end
 
-%%
-semilogx(kxval,abs(real(svals)),'-k');
+%% Plot
+semilogx(kxval,svals,'-k');
 xlabel('$k_x$');
 ylabel('$\sigma_0$');
 print('-painters','-dsvg','docs/pics/Code2_1');
@@ -87,10 +84,9 @@ parfor indom = 1:omgrd
     C = chebop([-1 1]);
     C.op = @(y,phi) [diff(phi);-1i*kx*phi];
     
-    cheboppref.setDefaults('minDimension',100);
-    cheboppref.setDefaults('maxDimension',1000);
+
     % Solving for the principal singular value
-    svals(indom) = svdfr(A,B,C,1,'LR');
+    svals(indom) = svdfr(A,B,C,1);
     disp(indom);
 end
 
@@ -103,10 +99,10 @@ print('-painters','-dsvg','docs/pics/Code2_2');
 %%
 
 % System parameters:
-kxval = [1 -1];   % streamwise wave-number
+kxval = [1 -1];        % streamwise wave-number
 omval  = 0.313*[-1 1]; % temporal frequency
 
-N = 100;    % number of collocation points for plotting
+N = 100;               % number of Chebyshev points for plotting
 yd = chebpts(N);
 
 
@@ -133,16 +129,15 @@ for n = 1:2
     C = chebop([-1 1]);
     C.op = @(y,phi) [diff(phi);-1i*kx*phi];
     
-    cheboppref.setDefaults('minDimension',100);
-    cheboppref.setDefaults('maxDimension',1000);
     % Solving for the principal singular value
-    [sfun,sval] = svdfr(A,B,C,1,'LR');
-    uandv = C(sfun.blocks{1,1});
-    ui = uandv{1}; % streamwise velocity
-    vi = uandv{2}; % wall-normal velocity
+    [PhiAndPsi,sval] = svdfr(A,B,C,1);
+    uandv = C(PhiAndPsi.blocks{1,1});   % First variable is the regular variable, phi. 
+                                        % Note that C(Phi) gives the output, [u;v]
+    u = uandv{1};                       % streamwise velocity
+    v = uandv{2};                       % wall-normal velocity
 
     % discretized values for plotting
-    uvec(:,n) = ui(yd,1); vvec(:,n) = vi(yd,1);
+    uvec(:,n) = u(yd,1); vvec(:,n) = v(yd,1);
 
 end
 

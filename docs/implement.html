@@ -25,20 +25,20 @@ MathJax.Hub.Config({
 <table summary="Table for page layout." id="tlayout">
 <tr valign="top">
 <td id="layout-menu">
-<div class="menu-category">Chebfun <tt>SVDFR3</tt></div>
+<div class="menu-category">Chebfun <tt>SVDFR</tt></div>
 <div class="menu-item"><a href="index.html">Home</a></div>
-<div class="menu-item"><a href="http://github.com/gokulhari/svdfr3/zipball/master/">Download</a></div>
+<div class="menu-item"><a href="download.html">Download</a></div>
 <div class="menu-item"><a href="feedback.html">Feedback</a></div>
 <div class="menu-category">Examples on usage</div>
 <div class="menu-item"><a href="reaction-diffusion.html">Reaction-diffusion&nbsp;equation</a></div>
+<div class="menu-item"><a href="2dChannelFlow.html">\(2\)D&nbsp;Newtonian&nbsp;channel&nbsp;flow</a></div>
+<div class="menu-item"><a href="2d3cChannelFlow.html">\(2\)D\(3\)C&nbsp;Newtonian&nbsp;channel&nbsp;flow</a></div>
+<div class="menu-item"><a href="3dchannelflow.html">\(3\)D&nbsp;Newtonian&nbsp;channel&nbsp;flow</a></div>
+<div class="menu-item"><a href="2dviscoelastic.html">Viscoelastic&nbsp;channel&nbsp;flow</a></div>
 <div class="menu-item"><a href="beam.html">Euler-Bernoulli&nbsp;beam</a></div>
-<div class="menu-item"><a href="3dchannelflow.html">3D&nbsp;channel&nbsp;flow</a></div>
-<div class="menu-item"><a href="2dviscoelastic.html">2D&nbsp;viscoelastic&nbsp;flow:&nbsp;<tt>svdfr3i</tt></a></div>
 <div class="menu-category">Developer reference</div>
 <div class="menu-item"><a href="algo.html">Algorithm</a></div>
 <div class="menu-item"><a href="implement.html" class="current">Implementation</a></div>
-<div class="menu-category">Cite us</div>
-<div class="menu-item"><a href="citation.html">Citation</a></div>
 </td>
 <td id="layout-content">
 <div class="bibover noshow" id="bibover_agarwal2015transition" onmousedown="javascript:lockMouse(event,'agarwal2015transition')" onmouseup="javascript:unLockMouse(event,'agarwal2015transition')"
@@ -4822,6 +4822,27 @@ Adv. Drug Deliv. Rev., 2004, Vol. 56, pp. 145-172<br />
 }
 </pre></div>
 </div>
+<div class="bibover noshow" id="bibover_harkumjovJCP20" onmousedown="javascript:lockMouse(event,'harkumjovJCP20')" onmouseup="javascript:unLockMouse(event,'harkumjovJCP20')"
+style="z-index: 10000">
+<div class="cross" style="z-index: 10000"><a href="javascript:closeCite('harkumjovJCP20')">X</a></div>
+<p>
+<p><i>Well-conditioned ultraspherical and spectral integration methods for resolvent analysis of channel flows of Newtonian and viscoelastic fluids</i><br />
+Hariharan, G., Kumar, S. and Jovanović, M.R.<br />
+J. Comput. Phys., 2020<br />
+<a href="javascript:toggleBibtex('harkumjovJCP20')">[BibTeX]</a><a href="https://arxiv.org/abs/2005.04493" target=&ldquo;blank&rdquo;>[PDF]</a></p>
+</p>
+<div id="bib_harkumjovJCP20" class="bibtex noshow" onmousedown="event.stopPropagation()" onmouseup="event.stopPropagation()">
+<pre>
+@article{harkumjovJCP20,
+  author = {G. Hariharan and S. Kumar and M. R. Jovanovi&cacute;},
+  title = {Well-conditioned ultraspherical and spectral integration methods for resolvent analysis of channel flows of Newtonian and viscoelastic fluids},
+  journal = {J. Comput. Phys.},
+  year = {2020},
+  note = {submitted; also arXiv:2005.04493}
+  pdf = {https://arxiv.org/abs/2005.04493}
+}
+</pre></div>
+</div>
 <div class="bibover noshow" id="bibover_annseijovCDC16" onmousedown="javascript:lockMouse(event,'annseijovCDC16')" onmouseup="javascript:unLockMouse(event,'annseijovCDC16')"
 style="z-index: 10000">
 <div class="cross" style="z-index: 10000"><a href="javascript:closeCite('annseijovCDC16')">X</a></div>
@@ -9361,12 +9382,12 @@ needs to be solved. This requires several steps:</p>
 <p>Chebfun has a function for the formal adjoint titled of a linear operator
 titled <tt>adjointFormal()</tt> that can be found in <tt>chebfun/adjoints.m</tt>. Although
 <tt>adjointFormal()</tt> was intended for square linear operators, we found that their
-implementation was also suitable for non-square operators. Hence we use thier
+implementation was also suitable for non-square operators. Hence we use their
 code as is without any change to compute the formal adjoint.</p>
 <h2>Adjoint boundary conditions</h2>
 <p>The adjoint boundary conditions are determined analytically using a procedure
-similar to what is used in <a href="http://people.ece.umn.edu/users/mihailo/software/chebfun-svd/index.html" target=&ldquo;blank&rdquo;>SVDFR</a>.
-This algorithm is based on the method in <a href="javascript:cite('renardy2006introduction')" target=&ldquo;blank&rdquo;>Renardy's book</a>.
+similar to what is used by <a href="javascript:cite('liejovJCP13')">Lieu and Jovanovic</a>.
+This algorithm is based on the method in <a href="javascript:cite('renardy2006introduction')">Renardy's book</a>.
 The method there-in can be extended to periodic boundary conditions as well
 (we are working on it, although we currently support only boundary conditions
 at the endpoints).</p>
@@ -9374,7 +9395,7 @@ at the endpoints).</p>
 We do not use it as their current implementation needs that the highest
 order of all variables for a system of differential equations be the same. This means that
 that it cannot be used for systems like the <a href="3dchannelflow.html" target=&ldquo;blank&rdquo;>3D channel flow example</a>.
-The implementation in <a href="http://people.ece.umn.edu/users/mihailo/software/chebfun-svd/index.html" target=&ldquo;blank&rdquo;>SVDFR</a> is more
+The implementation in <a href="javascript:cite('liejovJCP13')">Lieu and Jovanovic</a> is more
 robust.</p>
 <p>Email <a href="mailto:harih020@umn.edu" target=&ldquo;blank&rdquo;>Gokul</a> if you need more details/information on this.</p>
 <h2>The interconnected system</h2>
@@ -9414,15 +9435,15 @@ spectral discretizations used in Chebfun.</p>
 <div class="codeblock">
 <div class="blockcontent"><pre>
 dummy = chebop(Aop.domain);
-% -- define the dummy chebop -- %
+<span class="comment">% -- define the dummy chebop -- %</span>
 
-% Fix new boundary conditions on dummy
+<span class="comment">% Fix new boundary conditions on dummy</span>
 dummy.lbc = lbcnew;
 dummy.rbc = rbcnew;
 linCheck = true;
 dummy = linearize(dummy, dummy.init, [], linCheck);
 
-% Attach dummy's constraints to L
+<span class="comment">% Attach dummy's constraints to L</span>
 L.constraint = dummy.constraint;
 
 </pre></div></div>
@@ -9440,7 +9461,7 @@ resolved, or that there is something wrong with our implementation. If you feel 
 is the latter, report it <a href="https://github.com/gokulhari/svdfr3/issues" target=&ldquo;blank&rdquo;>here</a>.</p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2020-05-05 11:50:37 CDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2020-05-28 14:59:50 CDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>

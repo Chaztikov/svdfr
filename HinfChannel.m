@@ -45,6 +45,6 @@ cheboppref.setDefaults('maxDimension',1000);
 % Choose one of Chebfun's discretization, ultraS works much better
 cheboppref.setDefaults('discretization',@ultraS)
 %cheboppref.setDefaults('discretization',@chebcolloc2)
-[omega_opt,gamma_opt] = HinfNorm(E,A,B,C);
+[omega_opt,gamma_opt] = hinfNorm(E,A,B,C);
 
 %[V,lam] = svdfr3(A,B,C,6,'LR');

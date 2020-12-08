@@ -3,78 +3,120 @@
 # jemdoc: addcss{bibover.css}
 #include{masterFile_2.jeminc}
 #include{mj-complete-bib_3.jeminc}
-= Streamwise-constant three-dimensional channel flow
+= $2$D$3$C Newtonian channel flow
 
 ~~~
 {}{raw}
 <figure>
-  <img src="pics/streamwiseconstant_plane.jpg" alt="3dflow" style="width:100%">
+  <img src="pics/streamwiseconstant_plane.jpg" alt="3dflow" style="width:60%">
   <p>Fig.1 Streamwise-constant three-dimensional channel flow.</a></p>
 </figure>
 ~~~
 
-We consider the dynamics of the streamwise-constant fluctuations in three-dimensional channel flows,
+The evolution of infinitesimal velocity $[\,u\;\;v\;\;w\,]^T$ and pressure $p$ fluctuations around a base flow $[\,U(y) \;\; 0 \;\; 0\,]^T$ is governed by the linearized Navier-Stokes (NS) equations,
 \(
-\begin{align}
-\partial_t\Delta \, \varphi
-\;&=\;
-\frac{1}{Re} \Delta^{2} \, \varphi \, + \, \mathrm{i} \, k_z \, d_{u} \, - \, \mathrm D \, d_{w} \\[0.4cm]
-\partial_t u
-\;&=\;
- \frac{1}{Re} \Delta \, u \, - \, \mathrm{i} \, k_z \, U'(y) \, \varphi \, + \, d_{x},
-\end{align}
+	\begin{equation}
+    \begin{array}{rclcrcrcr}
+    \partial_{t} u 
+    & = &
+    
+    (1/Re) \, \Delta 
+    \,
+    u
+    & - &
+    U' (y) \, v
+    &  & 
+     
+    & + &  
+    d_u,
+    \\[.15cm]
+    \partial_{t} {v} 
+    & = &
+    (1/Re) \, \Delta
+    \,
+    v
+    & & 
+    & - &
+    \partial_y \, p  
+    & + & 
+    d_v,
+    \\[.15cm]
+    \partial_{t} {w} 
+    & = &
+    (1/Re) \, \Delta 
+    \,
+    w
+    & &
+    & - &
+    {\mathrm i} k_z \, p 
+    & + &
+    d_w,
+    \\[.15cm]
+    0
+    & = & 
+    \partial_y \, v 
+    \; + \; 
+    {\mathrm i} k_z w.
+    & & & & & &
+    \end{array}
+    \label{eq:1}
+    \end{equation}
 \)
-\n
-where $\varphi = \partial_y w$ is the streamfunction, $\boldsymbol v = [u~\, v~\, w]^T$ is the velocity vector, $\boldsymbol d = [d_u~\, d_v~\, d_w]^T$ is the body force vector, $U(y) = 1-y^2$ for Poiseuille flow and $U(y) = y$ for Couette flow, $Re$ is the Reynolds number, $k_z$ is the spanwise wavenumber, and $\Delta = \partial_{yy} - k_z^2$.
-\n
-\n
-The boundary conditions are given by
+Here, $U' (y) = {\mathrm d} U (y)/ {\mathrm d} y$, ${\mathbf d} = [\,d_u\,\;d_v\,\;d_w\,]^T$ is the body forcing fluctuation vector, $u$, $v$, and $w$ are velocity fluctuations in the streamwise, $x$, wall-normal, $y$, and spanwise, $z$, directions, $k_z$ is spanwise wavenumber, $Re$ is the Reynolds number, $\Delta = \partial_{yy} - k_z^2 I$ is the Laplacian, and $\mathrm i$ is the imaginary unit. The base velocity is determined by $U(y) = 1 - y^2$ in pressure-driven (Poiseuille) and $U(y) = y$ in shear-driven (Couette) flow. Equivalently, Eq.~$\eqref{eq:1}$ along with the boundary conditions can be represented as the following using a transformation (see Chapter 3 of [/javascript:cite('schmid2012stability') Stability and transition in shear flows]),
 \(
-\begin{align*}
-\varphi(\pm 1, t) \;&=\;  [\partial_y \varphi(\cdot, t)](\pm 1) \; = \; 0,\\
-u(\pm 1, t) \;&=\; 0.
-\end{align*}
-\)
-\n
-The wall-normal ($v$), and spanwise ($w$) velocity fluctuations are represented as 
+	\begin{alignat}{3}
+  \partial_{t} [\mathcal{E} \, \boldsymbol \phi( \cdot , t)](y) \;&=\; [\mathcal{F}\, \boldsymbol \phi(\cdot , t)](y) \,+\, [\mathcal{B}\,{\mathbf d}(\cdot,t)](y),&&\notag
+  \\[0.1cm]
+    \boldsymbol \xi (y,t) \;&=\; [\mathcal {C}\,\boldsymbol\phi(\cdot,t)](y),&\label{eq:2}
+    \\[0.1cm]
+   [\mathcal {L}_{ \pm 1} \, \boldsymbol \phi(\cdot,t)]( \pm 1)  
+   \;&=\; 
+   0,&\notag
+\end{alignat}
+	\)	
+where $\boldsymbol{\phi} = [\,v \;\; \eta \,]^T$, $\boldsymbol{\xi} = [\,u \;\; v \;\; w\,]^T$, and 
 \(
-\begin{align}
-v\;&=\; \mathrm{i} \, k_z \, \varphi, \\
-w  \;&=\; -D \, \varphi.
-\end{align}
-\)
-\n
-The input-output differential equations representing the frequency response operator are given by
-\(
-\begin{array}{rcl}
-{\displaystyle
-\left( 
-\frac{1}{R} \, D^{(4)} 
-\, - \,
-\left( \frac{2 \, k_z^2}{R} \, + \, \mathrm{i} \, \omega \right) D^{(2)}
-\, + \,
-k_z^2 \left( \frac{k_z^2}{R}  \, + \, \mathrm{i} \, \omega \right) 
-\right) \, \phi_1 (y)
-}
-& \!\! = \!\! &
-- \mathrm{i} \, k_z \, d_{2}(y)
-\, + \, D^{(1)} \, d_{3}(y)
-\\[0.45cm]
-{\displaystyle
-\left(
-\frac{1}{R} \, D^{(2)}
-\, - \,
-\left( \frac{k_z^2}{R} + \mathrm{i} \, \omega \right)
-\right)
-\phi_2 (y)
-\, - \,
-\mathrm{i} \, k_z \, U'(y) \, \phi_1 (y)
-}
-& \!\! = \!\! &
-- d_1 (y).
-\end{array}
-\)
-\n
+	\begin{array}{rclrcl}
+	\mathcal{E} 
+	& \!\! = \!\! & 
+	\left[\begin{array}{cc}
+	\Delta & 0\\
+	0 & I
+	\end{array}
+	\right], 
+	& 
+	\mathcal{F}
+	& \!\! = \!\! & 
+	\left[\begin{array}{cccc}
+     \frac{1}{Re}\Delta^2 & 0\\
+     -\mathrm i \,k_z\, U' & \frac{1}{Re}\Delta
+	\end{array}
+	\right],
+	\\
+	\mathcal{B} 
+	& \!\! = \!\! &  
+	\left[\begin{array}{ccc}
+	0 & -k_z^2 & -\mathrm i k_z \partial_y \\
+	\mathrm i k_z & 0 & 0
+	\end{array}
+	\right], 
+	& 
+	\mathcal{C}
+	& \!\! = \!\! & 
+	\frac{1}{k_z^2}\left[\begin{array}{cc}
+    0 & -\mathrm i\, k_z\\
+    k_z^2 & 0\\
+    \mathrm i k_z \partial_y & 0
+	\end{array}
+	\right], \qquad \mathcal{L}_{\pm 1} 
+	\;=\;  
+	\left[\begin{array}{cc}
+		\partial_y & 0 \\
+		I & 0 \\
+		0 & I 
+	\end{array}\right].
+	\end{array}
+	\)
 
 === Problem
 
@@ -82,20 +124,79 @@ Determine the largest singular value of the frequency response operator for the 
 pressure-driven channel flow with $R = 2000$ and $\omega = 0$ as a function of $k_z$.
 
 === Solution
+The temporal Fourier transform can be used to represent the frequency response operator associated with the linearized NS equations as a TPBVP,
+\(
+\begin{align}
+    \left[\mathcal A(\omega)\,\boldsymbol \phi(\cdot)\right] (y) 
+    \;&=\; 
+    \left[\mathcal B(\omega)\, {\mathbf d} (\cdot)\right](y),\notag
+    \\
+    \boldsymbol \xi (y)
+    \;&=\; 
+    \left[\mathcal C(\omega)\, \boldsymbol \phi(\cdot)\right](y),\label{eq:mot1c}
+    \\
+    [\mathcal{L}_{\pm 1} \, \boldsymbol \phi(\cdot)](\pm 1)  
+    \;&=\; 0,
+    \notag
+  \end{align}  
+\)
+where $\mathcal{A} (\omega) = {\mathrm i} \omega \mathcal{E} -\mathcal{F}$,
+\(
+\mathcal A
+	\;=\;
+  \left[\begin{array}{cccc}
+     \mathrm i \,\omega \,\hat{\Delta} - \frac{1}{Re}\hat{\Delta}^2 & 0\\
+     \mathrm i \,k_z \, U' & \mathrm i \,\omega - \,\frac{1}{Re}\hat{\Delta}
+  \end{array}\right],	
+\)
+
+where $\hat{\Delta} = \mathrm D^2 - k_z^2$ with $\mathrm D = \mathrm d/\mathrm dy$, and $\mathcal{A}^{-1} (\omega)$ is the resolvent operator. 
+
+A feedback interconnection of the frequency response operator with its adjoint can be used to compute singular values (see the [/javascript:cite('harkumjovJCP20') accompanying paper] and [/javascript:cite('Boyd1989') Boyd]),
+\(
+  \begin{align}
+\left[
+\begin{array}{cc}
+  0 &\mathcal{B}\mathcal{B}^{\dagger} \\
+   \mathcal{C}^{\dagger}\mathcal{C}&0
+\end{array} \right] \left[ \begin{array}{c}
+   \boldsymbol \phi(y)
+   \\
+   \boldsymbol \psi(y)
+\end{array} \right]   
+	\;&=\; 
+\gamma 
+\left[\begin{array}{cc}
+  \mathcal{A} & 0\\
+  0 & \mathcal{A}^{\dagger}
+\end{array}\right]\left[ \begin{array}{c}
+   \boldsymbol \phi (y)\\
+   \boldsymbol \psi (y)
+\end{array} \right], \notag
+	\\
+	[ \mathcal{L}_{\pm 1} \, \boldsymbol \phi(\cdot) ] (\pm 1)
+	\;&=\; 
+	0, \label{eq:feedback}
+	\\
+	[ \mathcal{L}^{\dagger}_{\pm 1} \, \boldsymbol \psi (\cdot) ] (\pm 1)
+	\;&=\; 
+	0, \notag
+\end{align}
+\)
+where $(\cdot)^{\dagger}$ denotes adjoint of the operator $(\cdot)$ and $\boldsymbol \psi$ is the variable associated with the adjoint operator. The resulting eigenvalues determine the singular values in pairs of opposite signs, i.e., $\gamma = \pm \sigma$.
+
 
 ~~~
 {}{matlab}
 % System parameters:
-Re = 2000; % Reynolds number
-
+Re = 2000;                  % Reynolds number
 kzval = linspace(0.1,5,30); % spanwise wave-number
 kzgrd = length(kzval);
-
-omega = 0; % temporal frequency
+omega = 0;                  % temporal frequency
 
 y = chebfun('y');
 
-U = 1 - y^2;    % Poiseuille flow
+U = 1 - y^2;                % Poiseuille flow
 Uy = diff(U);
 Uyy = diff(U,2);
 
@@ -122,11 +223,11 @@ for indz = 1:kzgrd
                     v ; ...
                     1i*kz*diff(v)/k2]);
 
-    % solving for the principal singular value, use the inverse problem
-    sval = svdfr(A,B,C,1,'inverse');
+    % solving for the principal singular value
+    sval = svdfr(A,B,C,1); % Calculate only the largest singular value
 
     % saving the largest singular value for each value of kz
-    svals(indz) = 1/abs(real(sval));
+    svals(indz) = sval;
     disp(indz)
 
 end
@@ -143,8 +244,7 @@ print('-painters','-dsvg','docs/pics/Code3_1')
 {}{raw}
 <figure>
   <img src="pics/Code3_1.svg" alt="2dflow" style="width:50%">
-  <figcaption>Fig.1 Singular values of the frequency response operator of the </br>
-Orr-Sommerfeld equation Eq. \eqref{eq:0}, with \(k_x = 1\) and \(Re = 2000\).</figcaption>
+  <figcaption>Fig.1 The spanwise wavenumber \(k_z\) at which the largest singular </br> value peaks identifies the length scale \(2 \pi / k_z\) of the most amplified </br> velocity fluctuations.</br> This plot is generated using <a href="../channelFlow2D3C.m">svdfr/channelFlow2D3C.m</a></figcaption>
 </figure>
 ~~~
 
@@ -156,15 +256,25 @@ channel flow with $R = 2000$, $\omega = 0$, and $k_z = 1.62$.
 ~~~
 {}{matlab}
 % System parameters:
-N = 100;    % number of points for plotting
-yd = chebpts(N);
-clear uvec pvec
-kz = 1.62; k2 = kz*kz; k4 = k2*k2;
-om = 0;
+N = 100;                    % number of points for plotting
+Re = 2000;                  % Reynolds number
+kz = 1.62;                  % Spanwise wavenumber
+om = 0;                     % Temporal frequency
 
-A = chebop([-1 1]);
-B = chebop([-1 1]);
-C = chebop([-1 1]);
+y = chebfun('y');
+
+U = 1 - y^2;                % Poiseuille flow
+Uy = diff(U);
+Uyy = diff(U,2);
+
+yd = chebpts(N);
+
+k2 = kz*kz; k4 = k2*k2;
+
+
+A = chebop([-1 1]);        % Operator A
+B = chebop([-1 1]);        % Operator B
+C = chebop([-1 1]);        % Operator C
     
 A.op = @(x,v,eta)([1i*omega*(diff(v,2) - k2*v) - (diff(v,4)-2*k2*diff(v,2) ...
         + k4*v)/Re ;...
@@ -179,29 +289,53 @@ C.op = @(x,v,eta)([ - 1i*kz*eta/k2;...
                 v ; ...
                 1i*kz*diff(v)/k2]);
 
-% solving for the left principal singular pair
-[sfun,sval] = svdfr(A,B,C,1,'LR');
-
+% solving for the singular pair
+[PhiAndPsi,sval] = svdfr(A,B,C,1);
+~~~
++PhiAndPsi+ corresponds to the vector of both the right and left singular functions $[\,\boldsymbol \phi^T \;\; \boldsymbol \psi^T\,]^T$ in the feedback interconnected system, Eq.~$\eqref{eq:feedback}$. As $\boldsymbol \phi = [\,v\;\;\eta\,]^T$, the corresponding velocities can be obtained using the $\mathcal C$ operator in Eq.~$\eqref{eq:2}$. 
+~~~
+{Optimal velocity}{matlab}
 % velocities:
-uvw = C(sfun(1:2,1));
+uvw = C(PhiAndPsi(1:2,1)); % First two variables are the regular variables, 
+                           % v and eta, so that Phi = [v;eta]. 
+                           % Note C(Phi) gives the output, [u;v;w] 
 u = uvw.blocks{1};
 v = uvw.blocks{2};
 w = uvw.blocks{3};
-
+~~~
+The adjoint system is given by,
+\(
+\begin{align}
+    \left[\mathcal A^\dagger (\omega)\,\boldsymbol \psi(\cdot)\right] (y) 
+    \;&=\; 
+    \left[\mathcal C^{\dagger}(\omega)\, {\mathbf g} (\cdot)\right](y),\notag
+    \\
+    \boldsymbol \zeta (y)
+    \;&=\; 
+    \left[\mathcal B^{\dagger}(\omega)\, \boldsymbol \psi(\cdot)\right](y).
+  \end{align}  
+\)
+The body forcing is obtained from $\boldsymbol \zeta = \mathbf d = [\,d_x\;\; d_y \;\; d_z\,]^T$.
+~~~
+{Body forces}{matlab}
 % Body forces:
-Bad = adjointNS(B);
-dxdydz = Bad(sfun(3:4,1));
+Bad = adjointNS(B);             % The body forces are computed as Bad(Psi);
+dxdydz = Bad(PhiAndPsi(3:4,1)); % The second two arguments are Psi, the 
+                                % auxiliary variables for the adjoint system
 dx = dxdydz.blocks{1};
 dy = dxdydz.blocks{2};
 dz = dxdydz.blocks{3};
-
-
+~~~
+~~~
+{Streamfunction}{matlab}
 % Streamfunction:
 streamFun = (v)/(1i*kz);
+~~~
 
-
+~~~
+{Plot}{matlab}
 % discretized values for plotting
-pvec(:,1) = streamFun(yd); uvec(:,1) = ui(yd);
+pvec(:,1) = streamFun(yd); uvec(:,1) = u(yd);
 dzvec(:,1) = dz(yd);
 
 % Getting physical fields of u and psi
@@ -256,7 +390,6 @@ cb = colorbar('vert');
 {}{raw}
 <figure>
   <img src="pics/Code3_2.jpg" alt="2dflow" style="width:50%">
-  <figcaption>Fig.1 Singular values of the frequency response operator of the </br>
-Orr-Sommerfeld equation Eq. \eqref{eq:0}, with \(k_x = 1\) and \(Re = 2000\).</figcaption>
+  <figcaption> The most amplified sets of fluctuations are given by </br>high (hot colors) and low (cold colors) streamwise </br>velocities, with pairs of counter-rotating streamwise</br> vortices in between them (contour lines).</br> This plot is generated using <a href="../channelFlow2D3C.m">svdfr/channelFlow2D3C.m</a></figcaption>
 </figure>
 ~~~

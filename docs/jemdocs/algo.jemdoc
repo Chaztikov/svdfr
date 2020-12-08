@@ -5,29 +5,25 @@
 #include{mj-complete-bib_3.jeminc}
 = Algorithm
 
-Computations in
-[http://people.ece.umn.edu/users/mihailo/software/chebfun-svd/index.html SVDFR]
-are based on computing the eigenvalues of the cascaded system. The cascaded
-system has a drawback that it involves matrix inverses. For instance,
-[http://people.ece.umn.edu/users/mihailo/software/chebfun-svd/index.html SVDFR]
-fails to compute singular values for small values of $\epsilon$ in the [reaction-diffusion.html reaction-diffusion example].
+Computations with the previous version of [/javascript:cite('liejovJCP13') +SVDFR+]
+were based on computing the eigenvalues of the cascaded system.
+The current version of [index.html +SVDFR+] is based on a feedback interconnected
+system (see the [/javascript:cite('harkumjovPRF20') accompanying paper] and Theorem 1 in this [/javascript:cite('Boyd1989') article]). 
 
-To overcome this defect, [index.html +SVDFR3+] is based on a feedback interconnected
-system (see Theorem 1 in this [javascript:cite('Boyd1989') article]). For a system of the form,
+For a system of the form,
 \(
 \begin{array}{ccc}
 \mathcal A \,\phi (y) \!\!&=&\!\! \mathcal B \,d(y),\\
 \xi (y) \!\!&=&\!\! \mathcal C\, \phi(y),
 \end{array}
 \)
-whose adjiont system is given by,
+whose adjoint system is given by,
 \(
 \begin{array}{ccc}
 \mathcal A^{\,\dagger} \,\psi (y) \!\!&=&\!\! \mathcal C^{\,\dagger} \,g(y),\\
 \zeta (y) \!\!&=&\!\! \mathcal B^{\,\dagger}\, \psi(y),
 \end{array}
 \)
-
 the following eigenvalue problem can be used to compute the singular values:
 \(
 \left[
@@ -46,7 +42,7 @@ the following eigenvalue problem can be used to compute the singular values:
 \end{array} \right].
 \)
 The singular values can be recovered as $\lambda  = \pm \sigma$. The function
-+svdfr3i+ works with the inverse problem to solve for $1/\lambda$, i.e.,
++SVDFR+ with the 'inverse' flag works with the inverse problem to solve for $1/\lambda$, i.e.,
 \(
   \left[\begin{array}{cc}
   \mathcal{A} & 0\\

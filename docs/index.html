@@ -25,20 +25,20 @@ MathJax.Hub.Config({
 <table summary="Table for page layout." id="tlayout">
 <tr valign="top">
 <td id="layout-menu">
-<div class="menu-category">Chebfun <tt>SVDFR3</tt></div>
+<div class="menu-category">Chebfun <tt>SVDFR</tt></div>
 <div class="menu-item"><a href="index.html" class="current">Home</a></div>
-<div class="menu-item"><a href="http://github.com/gokulhari/svdfr3/zipball/master/">Download</a></div>
+<div class="menu-item"><a href="download.html">Download</a></div>
 <div class="menu-item"><a href="feedback.html">Feedback</a></div>
 <div class="menu-category">Examples on usage</div>
 <div class="menu-item"><a href="reaction-diffusion.html">Reaction-diffusion&nbsp;equation</a></div>
+<div class="menu-item"><a href="2dChannelFlow.html">\(2\)D&nbsp;Newtonian&nbsp;channel&nbsp;flow</a></div>
+<div class="menu-item"><a href="2d3cChannelFlow.html">\(2\)D\(3\)C&nbsp;Newtonian&nbsp;channel&nbsp;flow</a></div>
+<div class="menu-item"><a href="3dchannelflow.html">\(3\)D&nbsp;Newtonian&nbsp;channel&nbsp;flow</a></div>
+<div class="menu-item"><a href="2dviscoelastic.html">Viscoelastic&nbsp;channel&nbsp;flow</a></div>
 <div class="menu-item"><a href="beam.html">Euler-Bernoulli&nbsp;beam</a></div>
-<div class="menu-item"><a href="3dchannelflow.html">3D&nbsp;channel&nbsp;flow</a></div>
-<div class="menu-item"><a href="2dviscoelastic.html">2D&nbsp;viscoelastic&nbsp;flow:&nbsp;<tt>svdfr3i</tt></a></div>
 <div class="menu-category">Developer reference</div>
 <div class="menu-item"><a href="algo.html">Algorithm</a></div>
 <div class="menu-item"><a href="implement.html">Implementation</a></div>
-<div class="menu-category">Cite us</div>
-<div class="menu-item"><a href="citation.html">Citation</a></div>
 </td>
 <td id="layout-content">
 <div class="bibover noshow" id="bibover_agarwal2015transition" onmousedown="javascript:lockMouse(event,'agarwal2015transition')" onmouseup="javascript:unLockMouse(event,'agarwal2015transition')"
@@ -4822,6 +4822,27 @@ Adv. Drug Deliv. Rev., 2004, Vol. 56, pp. 145-172<br />
 }
 </pre></div>
 </div>
+<div class="bibover noshow" id="bibover_harkumjovJCP20" onmousedown="javascript:lockMouse(event,'harkumjovJCP20')" onmouseup="javascript:unLockMouse(event,'harkumjovJCP20')"
+style="z-index: 10000">
+<div class="cross" style="z-index: 10000"><a href="javascript:closeCite('harkumjovJCP20')">X</a></div>
+<p>
+<p><i>Well-conditioned ultraspherical and spectral integration methods for resolvent analysis of channel flows of Newtonian and viscoelastic fluids</i><br />
+Hariharan, G., Kumar, S. and Jovanović, M.R.<br />
+J. Comput. Phys., 2020<br />
+<a href="javascript:toggleBibtex('harkumjovJCP20')">[BibTeX]</a><a href="https://arxiv.org/abs/2005.04493" target=&ldquo;blank&rdquo;>[PDF]</a></p>
+</p>
+<div id="bib_harkumjovJCP20" class="bibtex noshow" onmousedown="event.stopPropagation()" onmouseup="event.stopPropagation()">
+<pre>
+@article{harkumjovJCP20,
+  author = {G. Hariharan and S. Kumar and M. R. Jovanovi&cacute;},
+  title = {Well-conditioned ultraspherical and spectral integration methods for resolvent analysis of channel flows of Newtonian and viscoelastic fluids},
+  journal = {J. Comput. Phys.},
+  year = {2020},
+  note = {submitted; also arXiv:2005.04493}
+  pdf = {https://arxiv.org/abs/2005.04493}
+}
+</pre></div>
+</div>
 <div class="bibover noshow" id="bibover_annseijovCDC16" onmousedown="javascript:lockMouse(event,'annseijovCDC16')" onmouseup="javascript:unLockMouse(event,'annseijovCDC16')"
 style="z-index: 10000">
 <div class="cross" style="z-index: 10000"><a href="javascript:closeCite('annseijovCDC16')">X</a></div>
@@ -9323,40 +9344,41 @@ In Proceedings of the 2014 American Control Conference, 2014, pp. 1261-1266<br /
 }
 </pre></div>
 </div>
-<h1>Singular values and Frequency Responses of PDEs</h1>
+<h1>Singular Values and Frequency Responses of PDEs</h1>
 <div class="infoblock">
 <div class="blockcontent">
-<p><a href="https://gokulhari.github.io/webpage/" target="<u>blank">Gokul Hariharan</a>, <a href="https://kumar.cems.umn.edu/people/satish-kumar" target="</u>blank">Satish Kumar</a>, and <a href="http://www-bcf.usc.edu/~mihailo/" target="_blank">Mihailo R. Jovanovic</a></p>
-<p>Updated in May 5, 2020</p>
+<p><b><a href="https://gokulhari.github.io/webpage/" target="<u>blank">Gokul Hariharan</a></b>, <b><a href="https://kumar.cems.umn.edu/people/satish-kumar" target="</u>blank">Satish Kumar</a></b>, and <b><a href="http://www-bcf.usc.edu/~mihailo/" target="_blank">Mihailo R. Jovanovic</a></b></p>
+<p><b>Note:</b> The previous version of <tt>SVDFR</tt> by <a href="javascript:cite('liejovJCP13')">Lieu and Jovanovic</a> can be accessed <a href="http://people.ece.umn.edu/users/mihailo/software/chebfun-svd/index.html" target=&ldquo;blank&rdquo;>here</a>.</p>
+<p>Updated in December 7, 2020</p>
 <p><b>Matlab Files</b>
 <br />
-<tt><a href="http://github.com/gokulhari/svdfr3/zipball/master/" target=&ldquo;blank&rdquo;>Download all Matlab files</a></tt></p>
+<tt><a href="svdfr.zip">Download all Matlab files</a></tt></p>
 </div></div>
 <table class="imgtable"><tr><td>
 <a href="http://www.chebfun.org/"><img src="pics/cheblogow_small.png" alt="" /></a>&nbsp;</td>
-<td align="left"><p><b>This software needs <a href="http://www.chebfun.org/" target="<u>blank">Chebfun</a> and  <a href="https://www.mathworks.com/products/matlab.html" target="</u>blank"> Matlab</a>.</b> <br />
-<b>If you do not have a Matlab license, <br /> check out the C++ version of this in <a href="https://github.com/gokulhari/SISCpp" target="_blank"> SISC++</a></b></p>
+<td align="left"><p><b>This software needs <a href="http://www.chebfun.org/" target="<u>blank">Chebfun</a> and  <a href="https://www.mathworks.com/products/matlab.html" target="</u>blank"> Matlab</a>.</b></p>
 </td></tr></table>
 <h2>Purpose</h2>
 <p>Most systems in day-to-day life are governed by partial differential equations.
 Simple examples of this include the <a href="https://en.wikipedia.org/wiki/Euler%E2%80%93Bernoulli<u>beam</u>theory" target="<u>blank">Euler-beam</a> hinged at its two ends which is a crude approximation to a bridge, and
-the <a href="https://en.wikipedia.org/wiki/Navier-Stokes</u>equations" target="<u>blank">Navier-Stokes</a> equations which exactly express the motion of a fluid like water. Frequency responses look at the responses of these physical systems to a persistent sinusoidal forcing. A good example of this is an opera singer trying to shatter a vine glass (I've taken the picture below from the movie <a href="https://www.imdb.com/title/tt0304141/" target="</u>blank">Harry Potter and the Prisoner of Azkaban</a>). </p>
+the <a href="https://en.wikipedia.org/wiki/Navier-Stokes</u>equations" target="<u>blank">Navier-Stokes</a> equations which exactly express the motion of a fluid like water. Frequency responses look at the responses of these physical systems to a persistent sinusoidal forcing. A good example of this is an opera singer trying to shatter a vine glass (I've taken the picture below from <a href="https://www.imdb.com/title/tt0304141/" target="</u>blank">Harry Potter and the Prisoner of Azkaban</a>). </p>
 <table class="imgtable"><tr><td>
 <img src="pics/HPfatlady.gif" alt="" width="540px" height="225px" />&nbsp;</td>
 <td align="left"></td></tr></table>
 <p>Another good example where frequency responses could have played a major role is the <a href="https://en.wikipedia.org/wiki/Tacoma<u>Narrows</u>Bridge" target="_blank">Tacoma bridge</a> incident.
-The Tacoma bridge collapsed in 1940 after oscillating about 10-15 cycles a minute until it finally broke apart. The strong wind is said to have triggered the unstable (amplifying) oscillations that finally led to the collapse of the bridge.</p>
+The Tacoma bridge collapsed in 1940 after oscillating about 10-15 cycles a minute until it finally broke apart. The strong wind is said to have triggered the amplifying oscillations that finally led to the collapse of the bridge.</p>
 <table class="imgtable"><tr><td>
 <img src="pics/ScholarlyTotalBlacklab-small.gif" alt="" width="327px" height="251px" />&nbsp;</td>
 <td align="left"></td></tr></table>
-<p><a href="index.html" target=&ldquo;blank&rdquo;><tt>SVDFR3</tt></a> can solve for
+<p><a href="index.html" target=&ldquo;blank&rdquo;><tt>SVDFR</tt></a> can solve for
 singular values of frequency responses of a subset of linear partial
-differential equations in time and one other spatial variable. The principal singular value computed in this manner is the largest possible amplification of the output for a unit input. The associated singular functions of the principal singular value give the shape of the input that can lead to the optimal output. We provide a few examples here that involve applications in physical
+differential equations in time and one other spatial variable. The principal singular value computed in this manner is the largest possible amplification of the output for a unit input. The associated functions of the principal singular value give the shape of the input that can lead to the optimal output. We provide a few examples here that involve applications in physical
 systems.</p>
-<p>The mathematical framework of <a href="index.html" target=&ldquo;blank&rdquo;><tt>SVDFR3</tt></a> follows <a href="http://people.ece.umn.edu/users/mihailo/software/chebfun-svd/index.html" target=&ldquo;blank&rdquo;>SVDFR</a> closely, but with an improved and a more robust algorithm. Furthermore, unlike <a href="http://people.ece.umn.edu/users/mihailo/software/chebfun-svd/index.html" target=&ldquo;blank&rdquo;>SVDFR</a>, <a href="index.html" target=&ldquo;blank&rdquo;><tt>SVDFR3</tt></a> works with the most recent Chebfun and is designed to work directly with the Chebfun syntax. Most users familiar with using Chebfun can start using <a href="index.html" target=&ldquo;blank&rdquo;><tt>SVDFR3</tt></a> effortlessly.</p>
+<p><a href="javascript:cite('liejovJCP13')">Lieu and Jovanovic</a> originally started out this endeavor in using <a href="http://www.chebfun.org/" target="<u>blank">Chebfun's</a> automatic collocation in frequency response calculations. They used an integral reformulation to derive a well-conditioned numerical scheme to compute frequency responses. Over the years, <a href="http://www.chebfun.org/" target="</u>blank">Chebfun</a> has evolved substantially, the original version of SVDFR is no more maintained or updated. In contrast, the version presented here uses <a href="http://www.chebfun.org/" target="<u>blank">Chebfun's</a> built-in well-conditioned <a href="javascript:cite('OlvTowSIAM2013')">ultraspherical method</a>, and a robust feedback interconnected system (see the <a href="javascript:cite('harkumjovJCP20')">accompanying paper</a> and <a href="javascript:cite('Boyd1989')">Boyd</a>). Furthermore, the current version is updated to comply with the most recent release of <a href="http://www.chebfun.org/" target="</u>blank">Chebfun</a> (v5.7.0) and is designed to work directly with the <a href="http://www.chebfun.org/" target="_blank">Chebfun</a> syntax: <i>The end result as you will see in the examples is short and intuitive codes to compute frequency responses of relatively complex systems</i>.  </p>
+<p>We also provide a routine to compute the \(H_\infty\) norm of a linear system (the largest energy amplification among inputs of all temporal frequencies). We believe that most users familiar with <a href="http://www.chebfun.org/" target="_blank">Chebfun</a> can start using <a href="index.html" target=&ldquo;blank&rdquo;><tt>SVDFR</tt></a> effortlessly.</p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2020-05-05 12:01:07 CDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2020-12-08 17:20:03 CST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>

@@ -14,80 +14,191 @@
 
 The evolution of infinitesimal velocity $[\,u\;\;v\;\;w\,]^T$ and pressure $p$ fluctuations around a base flow $[\,U(y) \;\; 0 \;\; 0\,]^T$ is governed by the linearized Navier-Stokes (NS) equations,
 \(
-\begin{array}{rcl}
-Re\,\left( \,\partial_t \boldsymbol{v}  \,+\, \boldsymbol{V} \!\cdot\! \boldsymbol{\nabla}\boldsymbol{v}  \,+\, \boldsymbol v \!\cdot\! \boldsymbol{\nabla}\boldsymbol{V}\, \right) \!\!&=&\!\! - \boldsymbol{\nabla}p  \,+\,  \nabla^2 \boldsymbol{v} \,+\, \boldsymbol{d}(y,t),\\
- \boldsymbol{\nabla} \!\cdot\! \boldsymbol{v}  \!\!&=&\!\! 0,\\
- \boldsymbol{v}(y=\pm 1,t )  \!\!&=&\!\!  0,
- \end{array}
+	\begin{equation}
+    \begin{array}{rclcrcrcr}
+    \partial_{t} u 
+    & = &
+    (
+    (1/Re) \, \Delta 
+    \, - \, 
+    {\mathrm i} k_x U (y)
+    )
+    \,
+    u
+    & - &
+    U' (y) \, v
+    & - & 
+    {\mathrm i} k_x \, p 
+    & + &  
+    d_u,
+    \\[.15cm]
+    \partial_{t} {v} 
+    & = &
+    (
+    (1/Re) \, \Delta 
+    \, - \, 
+    {\mathrm i} k_x U (y)
+    )
+    \,
+    v
+    & & 
+    & - &
+    {\partial_y} \, p  
+    & + & 
+    d_v,
+    \\[.15cm]
+    \partial_{t} {w} 
+    & = &
+    (
+    (1/Re) \, \Delta 
+    \, - \, 
+    {\mathrm i} k_x U (y)
+    )
+    \,
+    w
+    & &
+    & - &
+    {\mathrm i} k_z \, p 
+    & + &
+    d_w,
+    \\[.15cm]
+    0
+    & = &
+    {\mathrm i} k_x u 
+    \; + \; 
+    {\partial_y} \, v 
+    \; + \; 
+    {\mathrm i} k_z w.
+    & & & & & &
+    \end{array}
+    \label{eq:1}
+    \end{equation}
 \)
-Here, ${\mathbf d} = [\,d_u\,\;d_v\,\;d_w\,]^T$ is the body force fluctuation vector, $u$, $v$, and $w$ are velocity fluctuations in the streamwise, $x$, wall-normal, $y$, and spanwise, $z$, directions, and $Re$ is the Reynolds number.
-
-This system can be recast as a boundary value problem in $y$ by taking Fourier
-transforms in the spatially invariant directions, $x$ and $z$ (a differential
-equation is spatially invariant in the variable $x$, if replacing $x$ by $x$ + constant does not change the
-differential equation), and converting it to an evolution form by eliminating pressure
-(see Chapter 3 of [/javascript:cite('schmid2012stability') Stability and transition in shear flows] for details about this transformation)
-
+Here, $U' (y) = {\mathrm d} U (y)/ {\mathrm d} y$, ${\mathbf d} = [\,d_u\,\;d_v\,\;d_w\,]^T$ is the body forcing fluctuation vector, $u$, $v$, and $w$ are velocity fluctuations in the streamwise, $x$, wall-normal, $y$, and spanwise, $z$, directions, $k_x$ and $k_z$ are wall-parallel wavenumbers, $Re$ is the Reynolds number, $\Delta = \partial_{yy} - (k_x^2 + k_z^2) I$ is the Laplacian, and $\mathrm i$ is the imaginary unit. The base velocity is determined by $U(y) = 1 - y^2$ in pressure-driven (Poiseuille) and $U(y) = y$ in shear-driven (Couette) flow. Equivalently, Eq.~$\eqref{eq:1}$ along with the boundary conditions can be represented as (see Chapter 3 of [/javascript:cite('schmid2012stability') Stability and transition in shear flows]),
 \(
-	\begin{equation}\label{eq:EvolForm}
-\begin{array}{rccllcccc}
-\partial_t\,\Delta v \!\!&=&\!\! (-i\,k_x\,U\,\Delta + i\,k_x\,U'' + \frac{1}{Re}\,\Delta^2)v\!\!&-&\!\! (\,i\,k_x\,d_x'(y) \!\!&+&\!\! k^2\,d_y(y)\!\!&+&\!\!i\,k_z\,d_z'(y)\,)\,\mathrm e^{\mathrm i\,\omega\,t}  \\
- \partial_t\eta \!\!&=&\!\!  \left( -i\,k_z\, U'  \right) v \!\!&+&\!\! (-i\,k_x\, U + \frac{1}{Re}\,\Delta)\eta \!\!&+&\!\! (\,i\,k_z\,d_x(y) \!\!&-&\!\! i\,k_x\,d_z(y)\,)\mathrm e^{\mathrm i\,\omega\,t}  \\
-\end{array}
-\end{equation}
-\)
-\n
-where, $U = 1-y^2$ for Poiseuille flow and $U = y$ for Couette flow, $\Delta = \partial_{yy} - k^2$,
-where $k^2 = k_x^2 + k_z^2$, where $k_x$ and $k_z$ are the Fourier modes corresponding
-to the $x$- and $z$-directions.
-
-Taking temporal Fourier transform and recasting this in the input-output representation
-we have,
+	\begin{alignat}{3}
+  \partial_{t} [\mathcal{E} \, \boldsymbol \phi( \cdot , t)](y) \;&=\; [\mathcal{F}\, \boldsymbol \phi(\cdot , t)](y) \,+\, [\mathcal{B}\,{\mathbf d}(\cdot,t)](y),&&\notag
+  \\[0.1cm]
+    \boldsymbol \xi (y,t) \;&=\; [\mathcal {C}\,\boldsymbol\phi(\cdot,t)](y),&\label{eq:2}
+    \\[0.1cm]
+   [\mathcal {L}_{ \pm 1} \, \boldsymbol \phi(\cdot,t)]( \pm 1)  
+   \;&=\; 
+   0,&\notag
+\end{alignat}
+	\)	
+where $\boldsymbol{\phi} = [\,v \;\; \eta\,]^T$ where $\eta = \mathrm i\, k_z\, u - \mathrm i \, k_x\,w$ is the wall-normal vorticity, $\boldsymbol{\xi} = [\,u \;\; v \;\; w\,]^T$, and 
 \(
-  \begin{equation}\label{eq:final}
-\begin{array}{rcl}
- \underbrace{\left[
-\begin{array}{cc}
-  i\,\omega\,\hat{\Delta}  \,+\,i\,k_x\,U\,\hat{\Delta}  \,-\,  i\,k_x\,U''  \,-\,  \frac{1}{Re}\,\hat{\Delta}^2 & 0\\
-i\,k_z\, U'   & i\,k_x\, U -\frac{1}{Re}\,\hat{\Delta}
-\end{array} \right]}_{\mathcal A (\omega)}
-\left[ \begin{array}{c}
-v\\
-\eta
-\end{array} \right]
-	 \!\!&=&\!\! \underbrace{\left[ \begin{array}{ccc}
-	 -\,i\,k_x\, \mathrm D &  k^2 & i\,k_z\, \mathrm D\\
-	 i\,k_z & 0 & -i\,k_x
-	 \end{array} \right]}_{\mathcal B (\omega)}  \left[ \begin{array}{c}
-	 d_x\\
-	 d_y\\
-	 d_z
-	 \end{array} \right],\\
-	 \left[ \begin{array}{c}
-	 u\\
-	 v\\
-	 w
-	 \end{array} \right] \!\!&=&\!\!
-	 \frac{1}{k^2} \underbrace{\left[\begin{array}{cc}
-	 i\,k_x\,\mathrm D & -i\,k_x\\
-	 	k^2& 0 \\
-		i\,k_z\,\mathrm D & i\,k_x
-		\end{array}\right]}_{\mathcal C (\omega)} \left[ \begin{array}{c}
-		v\\
-		\eta
-		\end{array}
-		 \right],
- \end{array}
-\end{equation}
-\)
-where $\mathrm D = \mathrm d / \mathrm dy$ and $\hat{\Delta} = \mathrm D^2 - k^2$.
+	\begin{array}{rclrcl}
+	\mathcal{E} 
+	& \!\! = \!\! & 
+	\left[\begin{array}{cc}
+	\Delta & 0\\
+	0 & I
+	\end{array}
+	\right], 
+	& 
+	\mathcal{F}
+	& \!\! = \!\! & 
+	\left[\begin{array}{cccc}
+     -\mathrm i \, k_x \, U\Delta + \mathrm i \, k_x \, U'' + (1/Re)\Delta^2 & 0\\
+     -\mathrm i \,k_z\, U' & -\mathrm i\,k_x U + (1/Re)\Delta
+	\end{array}
+	\right],
+	\\
+	\mathcal{B} 
+	& \!\! = \!\! &  
+	\left[\begin{array}{ccc}
+	-\mathrm i\, k_x\, \partial_y & -k^2 & -\mathrm i\, k_z\, \partial_y \\
+	\mathrm i\, k_z & 0 & -\mathrm i\, k_x
+	\end{array}
+	\right], 
+	& 
+	\mathcal{C}
+	& \!\! = \!\! & 
+	\frac{1}{k^2}\left[\begin{array}{cc}
+    \mathrm i\,k_x \,\partial_y & -\mathrm i\, k_z\\
+    k^2 & 0\\
+    \mathrm i\, k_z \partial_y & \mathrm i \, k_x
+	\end{array}
+	\right], \qquad \mathcal{L}_{\pm 1} 
+	\;=\;  
+	\left[\begin{array}{cc}
+		\partial_y & 0 \\
+		I & 0 \\
+		0 & I 
+	\end{array}\right].
+	\end{array}
+	\)
+
 == Frequency response analysis
 
 === Problem
 Reproduce Figure 4.10 in [/javascript:cite('schmid2012stability') Stability and transition in shear flows], i.e., compute the principal singular values of the frequency response operator associated with the linearized NS equations in Poiseuille flow with $Re = \{500,1000,2000,4000\}$ and $k_x = k_z = 1$. Next, determine the $H_\infty$ norm, i.e., the peak value of $\sigma_{\max} (\omega)$ over temporal frequencies with $Re = 2000$.
 
 === Solution
-The operators $\mathcal A (\omega)$, $\mathcal B(\omega)$, and $\mathcal C(\omega)$ in~$\eqref{eq:final}$ can be expressed in Matlab using the Chebfun syntax as,
+The temporal Fourier transform can be used to represent the frequency response operator associated with the linearized NS equations as a TPBVP,
+\(
+\begin{align}
+    \left[\mathcal A(\omega)\,\boldsymbol \phi(\cdot)\right] (y) 
+    \;&=\; 
+    \left[\mathcal B(\omega)\, {\mathbf d} (\cdot)\right](y),\notag
+    \\
+    \boldsymbol \xi (y)
+    \;&=\; 
+    \left[\mathcal C(\omega)\, \boldsymbol \phi(\cdot)\right](y),\label{eq:mot1c}
+    \\
+    [\mathcal{L}_{\pm 1} \, \boldsymbol \phi(\cdot)](\pm 1)  
+    \;&=\; 0,
+    \notag
+  \end{align}  
+\)
+where $\mathcal{A} (\omega) = {\mathrm i} \omega \mathcal{E} -\mathcal{F}$,
+\(
+\mathcal A
+	\;=\;
+  \left[\begin{array}{cccc}
+     \mathrm i \, \omega \hat{\Delta} + \mathrm i \, k_x \, U\hat{\Delta} - \mathrm i \, k_x \, U'' - (1/Re)\hat{\Delta}^2 & 0\\
+     \mathrm i \,k_z\, U' & \mathrm i \,\omega +  \mathrm i\,k_x U - (1/Re)\hat{\Delta}
+	\end{array}
+	\right],	
+\)
+
+where $\hat{\Delta} = \mathrm D^2 - k_z^2$ with $\mathrm D = \mathrm d/\mathrm dy$, and $\mathcal{A}^{-1} (\omega)$ is the resolvent operator. 
+
+A feedback interconnection of the frequency response operator with its adjoint can be used to compute singular values (see the [/javascript:cite('harkumjovJCP20') accompanying paper] and [/javascript:cite('Boyd1989') Boyd]),
+\(
+  \begin{align}
+\left[
+\begin{array}{cc}
+  0 &\mathcal{B}\mathcal{B}^{\dagger} \\
+   \mathcal{C}^{\dagger}\mathcal{C}&0
+\end{array} \right] \left[ \begin{array}{c}
+   \boldsymbol \phi(y)
+   \\
+   \boldsymbol \psi(y)
+\end{array} \right]   
+	\;&=\; 
+\gamma 
+\left[\begin{array}{cc}
+  \mathcal{A} & 0\\
+  0 & \mathcal{A}^{\dagger}
+\end{array}\right]\left[ \begin{array}{c}
+   \boldsymbol \phi (y)\\
+   \boldsymbol \psi (y)
+\end{array} \right], \notag
+	\\
+	[ \mathcal{L}_{\pm 1} \, \boldsymbol \phi(\cdot) ] (\pm 1)
+	\;&=\; 
+	0, \label{eq:feedback}
+	\\
+	[ \mathcal{L}^{\dagger}_{\pm 1} \, \boldsymbol \psi (\cdot) ] (\pm 1)
+	\;&=\; 
+	0, \notag
+\end{align}
+\)
+where $(\cdot)^{\dagger}$ denotes adjoint of the operator $(\cdot)$ and $\boldsymbol \psi$ is the variable associated with the adjoint operator. The resulting eigenvalues determine the singular values in pairs of opposite signs, i.e., $\gamma = \pm \sigma$.
+
+The operators $\mathcal A (\omega)$, $\mathcal B(\omega)$, and $\mathcal C(\omega)$ in~$\eqref{eq:mot1c}$ can be expressed in Matlab using the Chebfun syntax as,
 ~~~
 {Operators in TPBVP}{matlab}
 y = chebfun('y',[-1,1]);
@@ -133,63 +244,16 @@ The full solution involves singular value calculations over linearly sampled fre
 {}{raw}
 <figure>
   <img src="pics/schmidSols.svg" alt="3dflow" style="width:50%">
-  <p>Fig.2 Principal singular values as a function of temporal frequency</br> generated using <a href="../schmidSols.m">svdfr3/schmidSols.m</a>. A reference for this
+  <p>Fig.2 Principal singular values as a function of temporal frequency</br> generated using <a href="../schmidSols.m">svdfr/schmidSols.m</a>. A reference for this
   is Figure 4.10</br> in <a href="javascript:cite('schmid2012stability')">Stability and transition in shear flows</a></p>
 </figure>
 ~~~
 
-=== The $H_\infty$ norm
-The ${H}_\infty$ norm is the peak value of all singular values over all temporal frequencies $\omega\in \mathbb R$, and can be computed using the fast algorithm by [javascript:cite('BRUINSMA1990287') Bruinsma and Steinbuch]. This, and its relation to the feedback interconnected system is discussed toward the end of Section~IIIA in the accompanying paper. 
+We next compute the ${H}_\infty$ norm: the peak value of all singular values over all temporal frequencies $\omega\in \mathbb R$ using the fast algorithm by [javascript:cite('BRUINSMA1990287') Bruinsma and Steinbuch]. This, and its relation to the feedback interconnected system is discussed toward the end of Section~IIIA in the [/javascript:cite('harkumjovJCP20') accompanying paper]. 
 
-We provide a function that will compute the ${H}_\infty$ norm given $\mathcal{E}$, $\mathcal{F}$, $\mathcal{B}$, and $\mathcal{C}$, in the system representation, where,
-\(
-\begin{alignat}{3}
-  \partial_{t} [\mathcal{E} \, \boldsymbol \phi( \cdot , t)](y) \;&=\; [\mathcal{F}\, \boldsymbol \phi(\cdot , t)](y) \,+\, [\mathcal{B}\,\boldsymbol{d}(\cdot,t)](y),&&\notag \\
-    \boldsymbol \xi(y,t) \;&=\; [\mathcal{C}\,\boldsymbol \phi(\cdot,t)](y),&\label{eq:mot1Eb}\\
-   [\mathcal{L}_a \, \boldsymbol \phi(\cdot,t)](a)  \;&=\; [\mathcal {L}_b \, \boldsymbol \phi(\cdot,t)](b) \;=\;  0,&\notag
-\end{alignat}	
-\)
+We provide the function +hinfNorm+ that computes the ${H}_\infty$ norm given $\mathcal{E}$, $\mathcal{F}$, $\mathcal{B}$, and $\mathcal{C}$, in the system representation, Eq.~$\eqref{eq:2}$.
 
-Note that system Eq.~$\eqref{eq:EvolForm}$ is in this system representation, with 
-\(
-	\begin{align*}\label{eq:EvolForm2}
-\partial_t\,\underbrace{\left[\begin{array}{cc}
-	\Delta & 0\\
-	0 & I
-\end{array}\right]}_{\mathcal E}\left[\begin{array}{c}
-	v\\
-	\eta
-\end{array} \right] \;&=\; \underbrace{\left[\begin{array}{cc}
-	-i\,k_x\,U\,\Delta + i\,k_x\,U'' + \frac{1}{Re}\,\Delta^2 & 0 \\
-	-i\,k_z\, U' & -i\,k_x\, U + \frac{1}{Re}\,\Delta
-\end{array}\right]}_{\mathcal F }\left[\begin{array}{c}
-	v\\
-	\eta
-\end{array} \right] \,+\,  \underbrace{\left[\begin{array}{ccc}
-	i\,k_x\,\partial_y & k_2 & i\,k_z\,\partial_y\\
-	i\,k_z & 0 & -i\,k_x 
-\end{array}\right]}_{\mathcal B} \left[\begin{array}{c}
-	d_x\\
-	d_y\\
-	d_z
-\end{array}\right],  \\
-\left[ \begin{array}{c}
-	 u\\
-	 v\\
-	 w
-	 \end{array} \right] \;&=\;
-	 \frac{1}{k^2} \underbrace{\left[\begin{array}{cc}
-	 i\,k_x\,\partial_y & -i\,k_x\\
-	 	k^2& 0 \\
-		i\,k_z\,\partial_y & i\,k_x
-		\end{array}\right]}_{\mathcal C} \left[ \begin{array}{c}
-		v\\
-		\eta
-		\end{array}
-		 \right].
-\end{align*}
-\)
-We compute the ${H}_\infty $ norm for $Re = 2000$, and $k_x = k_z = 1$. The code outputs the optimal frequency $\omega = -0.385$ and ${H}_\infty $ norm for this set of parameters as $395.6$.
+The following code computes the ${H}_\infty $ norm for Poiseuille flow with $Re = 2000$, and $k_x = k_z = 1$. The code generates outputs as the optimal frequency $\omega = -0.385$ and ${H}_\infty $ norm for this set of parameters as $395.6$.
 
 ~~~
 {Problem data}{matlab}
@@ -229,35 +293,31 @@ C.op = @(x,v,eta)([ii*kx*diff(v)/k2 - ii*kz*eta/k2;...
 ~~~
 ~~~
 {Compute the H-infinity norm}{matlab}
-cheboppref.setDefaults('maxDimension',1000); % Restrict dimension to 1000 Chebyshev polynomials for speed
-[omega_opt,gamma_opt] = HinfNorm(E,F,B,C);
+% Restrict dimension to 1000 Chebyshev polynomials for speed
+cheboppref.setDefaults('maxDimension',1000); 
+[omega_opt,gamma_opt] = hinfNorm(E,F,B,C);
 ~~~
 
 === Problem 
-Plot most amplified structures of streamwise velocity fluctuations (3D isosurface plots) and the corresponding spanwise body force for $Re = 2000$, $k_x = 1$, and $\omega = -0.385$. 
+Plot most amplified structures of streamwise velocity fluctuations ($3$D isosurface plots) and the corresponding spanwise body force for $Re = 2000$, $k_x = 1$, and $\omega = -0.385$. 
 
 === Solution
 ~~~
 {}{matlab}
-clear;
-close all;
-
-N = 200; 
 % Set parameters and base velocity
 Re = 2000;                  % Reynolds number
+kxval = [1 1 -1 -1];        % streamwise wavenumber
+kzval = [1 -1 1 -1];        % spanwise wavenumber
+omval  = 0.385*[-1 -1 1 1]; % temporal frequency
 
 y = chebfun('y');  
-
 
 U = 1 - y^2;                % base flow (Poiseuille; U = y for Couette)
 Uy = diff(U);               % derivative of U
 Uyy = diff(U,2);            % second derivative of U
 
-kxval = [1 1 -1 -1];        % streamwise wavenumber
-kzval = [1 -1 1 -1];        % spanwise wavenumber
-omval  = 0.385*[-1 -1 1 1]; % temporal frequency
-
 % Looping over kx, kz, and om
+N = 200;                    % Grid size for plotting in y-direction
 uvec = zeros(N,length(kxval)); 
 dzvec = zeros(N,length(kxval));
 
@@ -285,22 +345,25 @@ for n = 1:length(kxval)
                     1i*kz*diff(v)/k2 + 1i*kx*eta/k2]);
 
     % Compute the singular function
-    [sfun,sval] = svdfr3(A,B,C,1,'LR');
+    [PhiAndPsi,sval] = svdfr(A,B,C,1);
 
     % velocities
-    uvw = C(sfun(1:2,:));
-    ui = uvw.blocks{1}; % streamwise velocity
-    vi = uvw.blocks{2}; % wall-normal velocity
-    wi = uvw.blocks{3}; % spanwise velocity
+    uvw = C(PhiAndPsi(1:2,:));  % First two variables are the regular variables, 
+                                % v and eta, so that Phi = [v;eta]. 
+                                % Note C(Phi) gives the output, [u;v;w] 
+    u = uvw.blocks{1};          % streamwise velocity
+    v = uvw.blocks{2};          % wall-normal velocity
+    w = uvw.blocks{3};          % spanwise velocity
     
     % Body forces:
-    Bad = adjointNS(B); 
-    dxdydz = Bad(sfun(3:4,:));
+    Bad = adjointNS(B);             % The body forces are computed as Bad(Psi);
+    dxdydz = Bad(PhiAndPsi(3:4,:)); % The second two arguments are Psi, the 
+                                    % auxiliary variables for the adjoint system
     dx = dxdydz.blocks{1};
     dy = dxdydz.blocks{2};
     dz = dxdydz.blocks{3};
     
-    uvec(:,n) = ui(chebpts(N)); 
+    uvec(:,n) = u(chebpts(N)); 
     dzvec(:,n) = dz(chebpts(N));
     
 end
@@ -367,7 +430,7 @@ hold off
 <figure>
   <img src="pics/Code4_2.jpg" alt="3dflow" style="width:50%">
   <p>Fig.3 Isosurfaces of the optimal flow structure for </br> the frequency
-  responses of Poiseuille flow with</br> \(Re = 2000\), \(k_x = k_z = 1\), and \(\omega = 0\) </a></p>
+  responses of Poiseuille flow with</br> \(Re = 2000\), \(k_x = k_z = 1\), and \(\omega = 0\).</br> This plot is generated using <a href="../channelFlow3D.m">svdfr/channelFlow3D.m</a></p>
 </figure>
 ~~~
 
@@ -406,6 +469,6 @@ print('-painters','-djpeg','docs/pics/Code4_3');
 {}{raw}
 <figure>
   <img src="pics/Code4_3.jpg" alt="3dflow" style="width:50%">
-  <p>Fig.4 Isosurfaces of the spanwise body force that result </br>in the optimal flow structure in Fig. 3 for the frequency </br>responses of Poiseuille flow with</br> \(Re = 2000\), \(k_x = k_z = 1\), and \(\omega = 0\)</a></p>
+  <p>Fig.4 Isosurfaces of the spanwise body force that result </br>in the optimal flow structure in Fig. 3 for the frequency </br>responses of Poiseuille flow with</br> \(Re = 2000\), \(k_x = k_z = 1\), and \(\omega = 0\). </br> This plot is generated using <a href="../channelFlow3D.m">svdfr/channelFlow3D.m</a></p>
 </figure>
 ~~~

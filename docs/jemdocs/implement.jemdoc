@@ -38,14 +38,14 @@ Each step is addressed in the following manner:
 Chebfun has a function for the formal adjoint titled of a linear operator
 titled +adjointFormal()+ that can be found in +chebfun/adjoints.m+. Although
 +adjointFormal()+ was intended for square linear operators, we found that their
-implementation was also suitable for non-square operators. Hence we use thier
+implementation was also suitable for non-square operators. Hence we use their
 code as is without any change to compute the formal adjoint.
 
 == Adjoint boundary conditions
 
 The adjoint boundary conditions are determined analytically using a procedure
-similar to what is used in [http://people.ece.umn.edu/users/mihailo/software/chebfun-svd/index.html SVDFR].
-This algorithm is based on the method in [javascript:cite('renardy2006introduction') Renardy's book].
+similar to what is used by [/javascript:cite('liejovJCP13') Lieu and Jovanovic].
+This algorithm is based on the method in [/javascript:cite('renardy2006introduction') Renardy's book].
 The method there-in can be extended to periodic boundary conditions as well
 (we are working on it, although we currently support only boundary conditions
 at the endpoints).
@@ -54,7 +54,7 @@ Note that Chebfun has a built-in tool for adjoint boundary conditions.
 We do not use it as their current implementation needs that the highest
 order of all variables for a system of differential equations be the same. This means that
 that it cannot be used for systems like the [3dchannelflow.html 3D channel flow example].
-The implementation in [http://people.ece.umn.edu/users/mihailo/software/chebfun-svd/index.html SVDFR] is more
+The implementation in [/javascript:cite('liejovJCP13') Lieu and Jovanovic] is more
 robust.
 
 Email [harih020@umn.edu Gokul] if you need more details/information on this.
@@ -66,7 +66,7 @@ function in Chebfun. We then construct the adjoint operators using +adjointForma
 composite operators $\mathcal B\mathcal B^{\,\dagger}$ and $\mathcal C^{\dagger}\mathcal C$.
 
 ~~~
-{}{}
+{}{matlab}
 Aop = linearize(A,0*A.init);
 Bop = linearize(B,0*B.init);
 Cop = linearize(C,0*C.init);
@@ -83,7 +83,7 @@ CstarC = linop(Cstarop*Cop);
 We then make the operator representing equation (1) as,
 
 ~~~
-{}{}
+{}{matlab}
 M = [Aop, Zlinop;
     Zlinop, Astarop];
 L = [Zlinop,BBstar;CstarC,Zlinop];
@@ -97,7 +97,7 @@ highest derivatives
 on the differential equation and not on the non-constant coefficients in
 spectral discretizations used in Chebfun.
 ~~~
-{}{}
+{}{matlab}
 dummy = chebop(Aop.domain);
 % -- define the dummy chebop -- %
 
@@ -116,7 +116,7 @@ L.constraint = dummy.constraint;
 
 The eigenvalues are computed using linop/eigs.m,
 ~~~
-{}{}
+{}{matlab}
 [V,lam] = eigs(L,M);
 ~~~
 For the sake of transparency, although the singular value returned has to be

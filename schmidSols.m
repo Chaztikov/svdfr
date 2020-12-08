@@ -17,13 +17,13 @@ kz = 1;
 k2 = kx*kx + kz*kz;
 k4 = k2*k2;
 
-samp = 100;
+samp = 50;
 omegas = linspace(-2,0,samp);
 
 svals = zeros(samp,4);
 for j = 1:4
     Re = Res(j);
-parfor i = 1:samp
+for i = 1:samp
 
 omega = omegas(i);
 A = chebop([-1,1]);
@@ -55,7 +55,7 @@ cheboppref.setDefaults('maxDimension',1000);
 % Choose one of Chebfun's discretization, ultraS works much better
 cheboppref.setDefaults('discretization',@ultraS)
 %cheboppref.setDefaults('discretization',@chebcolloc2)
-lam = svdfr3(A,B,C,1,'LR');
+lam = svdfr(A,B,C,1,'LR');
 svals(i,j) = lam;
 disp(i)
 end

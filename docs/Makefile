@@ -1,4 +1,4 @@
-DOCS=index download feedback reaction-diffusion 2dChannelFlow 2d3cChannelFlow 3dchannelflow 2dviscoelastic beam  citation algo implement
+DOCS=index download feedback reaction-diffusion 2dChannelFlow 2d3cChannelFlow 3dchannelflow 2dviscoelastic beam algo implement
 DOCS1=$(addprefix jemdocs/, $(DOCS))
 HDOCS=$(addsuffix .html, $(DOCS))
 #PHDOCS=$(addprefix html/, $(HDOCS))

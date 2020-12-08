@@ -3,17 +3,15 @@
 # jemdoc: addcss{bibover.css}
 = Feedback
 
-We would love to hear from you if you have used +svdfr3+! Get in touch with [mihailo@umn.edu Mihailo Jovanovic] or
-[harih020@umn.edu Gokul Hariharan]
-with your comments and suggestions.
+If you have used +svdfr+, please provide us with your feedback. You can contact [gokul@umn.edu Gokul Hariharan] with your comments and suggestions.
 
-If you run into bugs with +svdfr3+, file a bug report [https://github.com/gokulhari/svdfr3/issues here] and we'll try to get back to you at the earliest. If possible, please include the following information:
+If you identify bugs in +svdfr+, please file a bug report [https://github.com/gokulhari/svdfr/issues here] and we'll to get back to you. If possible, please include the following information:
     . Error messages produced by Matlab
     . Chebfun and Matlab versions used
     . Platform (Linux\/Windows\/Mac)
     . Matlab code that can reproduce the problem
 
-If you have ideas to make +svdfr3+ better, report them [https://github.com/gokulhari/svdfr3/issues here].
-Your help is greatly appreciated.
+If you have ideas to make +svdfr+ better, report them [https://github.com/gokulhari/svdfr/issues here].
+Your help is greatly appreciated!
 
-If you would like to take these ideas further, the sections on [algo.html algorithm] and [implement.html implementation] will come in handy.
+#If you would like to take these ideas further, the sections on [algo.html algorithm] and [implement.html implementation] will come in handy.

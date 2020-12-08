@@ -25,20 +25,20 @@ MathJax.Hub.Config({
 <table summary="Table for page layout." id="tlayout">
 <tr valign="top">
 <td id="layout-menu">
-<div class="menu-category">Chebfun <tt>SVDFR3</tt></div>
+<div class="menu-category">Chebfun <tt>SVDFR</tt></div>
 <div class="menu-item"><a href="index.html">Home</a></div>
-<div class="menu-item"><a href="http://github.com/gokulhari/svdfr3/zipball/master/">Download</a></div>
+<div class="menu-item"><a href="download.html">Download</a></div>
 <div class="menu-item"><a href="feedback.html">Feedback</a></div>
 <div class="menu-category">Examples on usage</div>
 <div class="menu-item"><a href="reaction-diffusion.html">Reaction-diffusion&nbsp;equation</a></div>
+<div class="menu-item"><a href="2dChannelFlow.html">\(2\)D&nbsp;Newtonian&nbsp;channel&nbsp;flow</a></div>
+<div class="menu-item"><a href="2d3cChannelFlow.html">\(2\)D\(3\)C&nbsp;Newtonian&nbsp;channel&nbsp;flow</a></div>
+<div class="menu-item"><a href="3dchannelflow.html">\(3\)D&nbsp;Newtonian&nbsp;channel&nbsp;flow</a></div>
+<div class="menu-item"><a href="2dviscoelastic.html" class="current">Viscoelastic&nbsp;channel&nbsp;flow</a></div>
 <div class="menu-item"><a href="beam.html">Euler-Bernoulli&nbsp;beam</a></div>
-<div class="menu-item"><a href="3dchannelflow.html">3D&nbsp;channel&nbsp;flow</a></div>
-<div class="menu-item"><a href="2dviscoelastic.html" class="current">2D&nbsp;viscoelastic&nbsp;flow:&nbsp;<tt>svdfr3i</tt></a></div>
 <div class="menu-category">Developer reference</div>
 <div class="menu-item"><a href="algo.html">Algorithm</a></div>
 <div class="menu-item"><a href="implement.html">Implementation</a></div>
-<div class="menu-category">Cite us</div>
-<div class="menu-item"><a href="citation.html">Citation</a></div>
 </td>
 <td id="layout-content">
 <div class="bibover noshow" id="bibover_agarwal2015transition" onmousedown="javascript:lockMouse(event,'agarwal2015transition')" onmouseup="javascript:unLockMouse(event,'agarwal2015transition')"
@@ -4822,6 +4822,27 @@ Adv. Drug Deliv. Rev., 2004, Vol. 56, pp. 145-172<br />
 }
 </pre></div>
 </div>
+<div class="bibover noshow" id="bibover_harkumjovJCP20" onmousedown="javascript:lockMouse(event,'harkumjovJCP20')" onmouseup="javascript:unLockMouse(event,'harkumjovJCP20')"
+style="z-index: 10000">
+<div class="cross" style="z-index: 10000"><a href="javascript:closeCite('harkumjovJCP20')">X</a></div>
+<p>
+<p><i>Well-conditioned ultraspherical and spectral integration methods for resolvent analysis of channel flows of Newtonian and viscoelastic fluids</i><br />
+Hariharan, G., Kumar, S. and Jovanović, M.R.<br />
+J. Comput. Phys., 2020<br />
+<a href="javascript:toggleBibtex('harkumjovJCP20')">[BibTeX]</a><a href="https://arxiv.org/abs/2005.04493" target=&ldquo;blank&rdquo;>[PDF]</a></p>
+</p>
+<div id="bib_harkumjovJCP20" class="bibtex noshow" onmousedown="event.stopPropagation()" onmouseup="event.stopPropagation()">
+<pre>
+@article{harkumjovJCP20,
+  author = {G. Hariharan and S. Kumar and M. R. Jovanovi&cacute;},
+  title = {Well-conditioned ultraspherical and spectral integration methods for resolvent analysis of channel flows of Newtonian and viscoelastic fluids},
+  journal = {J. Comput. Phys.},
+  year = {2020},
+  note = {submitted; also arXiv:2005.04493}
+  pdf = {https://arxiv.org/abs/2005.04493}
+}
+</pre></div>
+</div>
 <div class="bibover noshow" id="bibover_annseijovCDC16" onmousedown="javascript:lockMouse(event,'annseijovCDC16')" onmouseup="javascript:unLockMouse(event,'annseijovCDC16')"
 style="z-index: 10000">
 <div class="cross" style="z-index: 10000"><a href="javascript:closeCite('annseijovCDC16')">X</a></div>
@@ -9382,50 +9403,75 @@ In Proceedings of the 2014 American Control Conference, 2014, pp. 1261-1266<br /
 \end{align}
 \]
 </p><p>Expressions for coefficients \(a_n(y,\omega)\) in Eq.&nbsp;\(\eqref{eq:Coef}\) are provided in Appendix&nbsp;D of <a href="javascript:cite('liejovJCP13')">Lieu and Jovanovic</a> and in the accompanying paper.</p>
-<p>This system can be expressed in the Chebfun syntax in Matlab as,</p>
+<h2>Frequency response analysis</h2>
+<h3>Problem </h3>
+<p>For Weissenberg numbers that range from \(1\) and \(20\), compute the principal singular value of the frequency response operator associated with 2D velocity fluctuations in inertialess channel flow of an Oldroyd-B fluid with \(\beta = 0.5\), \(k_x = 1\), and \(\omega = 0\).  </p>
+<h3>Solution</h3>
+<p>Frequency responses for this system can be computed using <tt>SVDFR</tt> in Matlab as shown below. Chebfun uses the regular eigenvalue solver <tt>eig</tt> for discretized matrices of sizes that are less than 2000, for sizes that exceed 2000, Chebfun calls the sparse eigenvalue solver, <tt>eigs</tt>. Discretized matrix size exceed 2000 when excessively large number of Chebyshev polynomials are used. </p>
+<p>Such a large number of Chebyshev polynomials are required for frequency response calculations in viscoelastic flows. However, as our algorithm solves a generalized eigenvalue problem (see <a href="algo.html" target=&ldquo;blank&rdquo;>Algorithm</a>), the sparse solver will either fail, or return infinity as the largest eigenvalue.</p>
+<p>Hence for systems that need a large number of Chebyshev polynomials for good resolution, we provide the &rsquo;<tt>inverse</tt>&rsquo; option. This option signals <tt>SVDFR</tt> to solve for the inverse of the singular value, wherein the Matlab's <tt>eigs</tt> function uses the &rsquo;<tt>SM</tt>&rsquo; (smallest magnitude) option (see <a href="algo.html" target=&ldquo;blank&rdquo;>Algorithm</a> for more details).</p>
 <div class="codeblock">
+<div class="blocktitle">SVD of the frequency response operator</div>
 <div class="blockcontent"><pre>
-<span class="comment">% Operators:</span>
-A = chebop([-1,1]);
-B = chebop([-1,1]);
-C = chebop([-1,1]);
+<span class="comment">% Frequency response analysis <span class="statement">for</span> 2D inertialess channel flow of a viscoelastic fluid</span>
 
-A.op = @(y,v) (diff(v,4) + a3*diff(v,3) + a2*diff(v,2) + a1*diff(v) + a0*v);
-B.op = @(y,dx,dy)(b0*diff(dx) + b1*dy);
-C.op = @(y,v)[diff(v);-1i*kx*v];
+<span class="comment">% Set problem data</span>
+Weval = 1:20; <span class="comment">% Weissenberg numbers</span>
+beta = 0.5;   <span class="comment">% Viscosity ratio</span>
+omega = 0;    <span class="comment">% temporal frequency</span>
+kx = 1;       <span class="comment">% streamwise wavenumber</span>
+k2 = kx*kx;   <span class="comment">% kx^2</span>
 
-<span class="comment">% Boundary conditions:</span>
-A.lbc = @(v) [v;diff(v)];
-A.rbc = @(v) [v;diff(v)];
+<span class="comment">% Flow type</span>
+type = <span class="string">'Couette'</span>; <span class="comment">% or <span class="string">'Poiseuille'</span>;</span>
+
+<span class="comment">% Singular values</span>
+svals = zeros(20,1);
+
+<span class="statement">for</span> ind = 1:length(svals)
+    We = Weval(ind);
+    ii = sqrt(-1);
+    Re = 0;
+
+    A = chebop([-1,1]);  <span class="comment">% Operator A</span>
+    B = chebop([-1,1]);  <span class="comment">% Operator B</span>
+    C = chebop([-1,1]);  <span class="comment">% Operator C</span>
+
+    y = chebfun(<span class="string">'y'</span>);
+
+    <span class="comment">%----------------------------------------------------------%</span>
+    <span class="comment">% ------- Specify the coefficients a0, a1, a2, a3, a4.-----%</span>
+    <span class="comment">%----------------------------------------------------------%</span>
+
+    A.op = @(x,v) (diff(v,4) + a3*diff(v,3) + a2*diff(v,2) + a1*diff(v) + a0*v);
+    B.op = @(x,dx,dy)(b0*diff(dx) + b1*dy);
+    C.op = @(x,v)[diff(v);-ii*kx*v];
+
+    <span class="comment">% Boundary conditions:</span>
+    A.lbc = @(v) [diff(v);v];
+    A.rbc = @(v) [diff(v);v];
+
+    cheboppref.setDefaults(<span class="string">'maxDimension'</span>,2000);
+    lam = svdfr(A,B,C,1,<span class="string">'inverse'</span>);
+    svals(ind) = 1./lam';
+    disp(ind)
+<span class="statement">end</span>
+
+<span class="comment">%% Plot</span>
+plot(Wes,abs(real(lambdas(:))),<span class="string">'-*k'</span>)
+ylabel(<span class="string">'$\sigma_0$'</span>);
+xlabel(<span class="string">'$W\!e$'</span>);
+axis tight
+ax = gca;
+print(<span class="string">'-painters'</span>,<span class="string">'-dsvg'</span>,<span class="string">'docs/pics/Code5'</span>);
 </pre></div></div>
-<p>The inverse of the largest singular value can be computed
-by calling <tt>svdfr3i(A,B,C,2,'SM&rsquo;)</tt>,
-<br /></p>
-<div class="codeblock">
-<div class="blockcontent"><pre>
-invSigma_0 = svdfr3i(A,B,C,2,<span class="string">'SM'</span>);
-sigma_0 = 1./invSigma_0;
-</pre></div></div>
-<p><br />
-Usually for physical systems, one is interested only in the first few largest
-singular values. However, the sparse eigenvalue solver in Matlab, <tt>eigs.m</tt> will
-not allow you to compute the largest eigenvalue for a generalized eigenvalue
-problem (this makes sense as eigenvalues from a generalized eigenvalue problem
-can be infinite).</p>
-<p>The inverse solver, <tt>svdfr3i</tt> will compute the inverse of the
-singular values. Thus one can search for the eigenvalues of the smallest
-magnitude using the <tt>'SM&rsquo;</tt> option in Matlab. This adds well to
-the well-conditioned ultraspherical method, as one can keep increasing the number of basis
-functions without deteriorating the accuracy (as the problem is
-well-conditioned), and also employ a sparse eigenvalue solver.</p>
 <figure>
-  <img src="pics/velP.svg" alt="3dflow" style="width:50%">
-  <p>Fig.2 The principal singular value, \(\sigma_0\) as a function of fluid elasticity,  \(W\!e\)</br>
-with \(Re = 0\), \(\beta = 0.5\), \(k_x = 1\), and \(\omega = 0\).</a></p>
+  <img src="pics/Code5.svg" alt="3dflow" style="width:50%">
+  <figcaption>Fig. 2 The principal singular values of the frequency response operator in 2D </br> inertialess channel flow of an Oldroyd-B fluid with \(\beta = 0.5\), \(k_x = 1\), and \(\omega = 0\). </br>See <a href="javascript:cite('liejovJCP13')">Figure 8 in Lieu and Jovanovic</a> for a comparison with spectral collocation.</br> This plot is generated using <a href="../visco2D.m">svdfr/visco2D.m</a></figcaption>
 </figure>
 <div id="footer">
 <div id="footer-text">
-Page generated 2020-05-05 11:48:10 CDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2020-05-28 14:59:49 CDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>

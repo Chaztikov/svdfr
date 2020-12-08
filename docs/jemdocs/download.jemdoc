@@ -1,77 +1,76 @@
-# jemdoc: menu{MENU}{download.html}
+# jemdoc: menu{MENU}{download.html},addpackage{amsmath},addpackage{amssymb}
+# jemdoc: addcss{jemdoc.css}
+# jemdoc: addcss{bibover.css}
+#include{masterFile_2.jeminc}
+#include{mj-complete-bib_3.jeminc}
+
 = Download
 
-=== Main program: Chebfun SVD
++SVDFR+ is distributed under the terms of the [http://www.gnu.org/licenses/gpl-3.0.html GNU General Public License 3.0].
+
+You can download +SVDFR+ from [https://github.com/gokulhari/svdfr Github] or as a zip-file from [/svdfr.zip here].
+
+=== Main functions:
+
 ~~~
     {}{table}{}
-    [matlab-files/svdfr.m +svdfr.m+] | --- | Compute singular value decomposition of the frequency response operator ||
-    [matlab-files/chebfun-svd.zip +all Matlab files+] | --- | Zip file containing all Matlab files ||
+    [../svdfr.m +svdfr.m+] | --- | Compute singular value decomposition of the frequency response operator ||
+    [../hinfNorm.m +hinfNorm.m+] | --- | Compute the $H_\infty$ norm of the frequency response operator ||
 | | ||
 ~~~
 
 === Examples
 ~~~
 {}{table}{}
-[matlab-files/FR_RD.m +FR_RD.m+] | --- | Reaction-diffusion equation with Neumann boundary conditions ||
-[matlab-files/FR_OS_kz0.m +FR_OS_kz0.m+]  | --- | Orr-Sommerfeld equation ||
-[matlab-files/FR_LNS_kx0.m +FR_LNS_kx0.m+] | --- | Streamwise-constant linearized Navier-Stokes equations ||
-[matlab-files/FR_SOB_kz0.m +FR_SOB_kz0.m+] | --- | 2D Stokes flow of Oldroyd-B viscoelastic fluids ||
-[matlab-files/FR_beam.m +FR_beam.m+] | --- | Euler-Bernoulli beam with boundary actuation ||
+[../reactionDiffusion.m +reactionDiffusion.m+] | --- | Reaction-diffusion equation with Neumann boundary conditions ||
+[../channelFlow2D.m +channelFlow2D.m+]  | --- | Orr-Sommerfeld equation ||
+[../channelFlow2D3C.m +channelFlow2D3C.m+] | --- | Streamwise-constant linearized Navier-Stokes equations ||
+[../channelFlow3D.m +channelFlow3D.m+] | --- | 3D linearized Navier-Stokes equations ||
+[../schmidSols.m +schmidSols.m+] | --- | Reproducing Figure 4.10 in [/javascript:cite('schmid2012stability') Stability and transition in shear flows]  ||
+[../visco2D.m +visco2D.m+] | --- | 2D Couette flow of an Oldroyd-B fluid ||
+[../EulerBernoulli.m +EulerBernoulli.m+] | --- | Euler-Bernoulli beam with boundary actuation ||
+[../HinfChannel.m +HinfChannel.m+] | --- | Computes the $H_\infty$ norm for channel flow of a Newtonian fluid ||
 | | ||
 ~~~
 
-=== Additional programs: integral formulation of differential equations
+=== Download all files
 ~~~
-{}{table}{}
-[matlab-files/intbvp.m +intbvp.m+] | --- | Solve a scalar differential equation using integral formulation ||
-[matlab-files/intbvp_system.m +intbvp_system.m+] | --- | Solve a system of differential equations using integral formulation ||
+    {}{table}{}
+    [/svdfr.zip +svdfr.zip+] | --- | Zip file containing all Matlab files ||
 | | ||
 ~~~
 
-~~~ 
-{}{img_left}{download/cheblogow_small.png}{}{}{}{http://www.maths.ox.ac.uk/chebfun/} 
-This work utilizes Chebfun V4.2.2889, released in April 2013. \n Chebfun 
-is available at [http://www.maths.ox.ac.uk/chebfun/] 
-    ~~~ 
+~~~
+This work utilizes the latest release of [https://www.chebfun.org Chebfun], V5.7.0, released in June 2017. Please notify [gokul@umn.edu Gokul Hariharan] if you face problems using +svdfr+ with a future release of Chebfun.
+~~~
 
 === Citation
 
-If you are using this software in your research or teaching, please include 
-explicit mention of [paper.html our paper] and [http://www.maths.ox.ac.uk/chebfun/ 
-Chebfun]. 
-
+If you are using this software in your research or teaching, please include explicit mention of [/javascript:cite('harkumjovJCP20') our paper]:
 ~~~ 
 {}{} 
-@article{liejovJCP13, 
-   author  = {B. K. Lieu and M. R. Jovanovi{\'c}},
-   title   = {Computation of frequency responses for linear time-invariant {PDE}s on a compact interval},
-   journal = {J. Comput. Phys.},
-   month   = {October},
-   volume  = {250},
-   pages   = {246-269},
-   year    = {2013}
-}
-
-@misc{chebfunv4,
-   author       = {Lloyd. N. Trefethen and Nicholas Hale and Rodrigo B. Platte and Tobin. A. Driscoll and Ricardo Pach{\'o}n},
-   title        = {Chebfun Version 4},
-   year         = {2013},
-   note         = {http://www.maths.ox.ac.uk/chebfun/},
-   howpublished = {University of Oxford}
+@article{harkumjovJCP20,
+author  = {G. Hariharan and S. Kumar and M. R. Jovanovi\'c},
+title   = {Well-conditioned ultraspherical and spectral integration methods for
+resolvent analysis of channel flows of {N}ewtonian and viscoelastic fluids},
+journal = {J. Comput. Phys},
+year    = {2020},
+note    = {submitted; also arXiv:2005.04493},
+pdf     = {https://arxiv.org/abs/2005.04493}
 }
 ~~~
-
-If you are using +intbvp.m+ please also cite
-
+and the paper of [/javascript:cite('liejovJCP13') Lieu and Jovanovic]:
 ~~~
 {}{}
-@article{dri10,
-   author  = {T. A. Driscoll},
-   title   = {Automatic spectral collocation for integral, integro-differential, and integrally reformulated differential equations},
-   journal = {J. Comput. Phys.},
-   volume  = {229},
-   pages   = {5980-5998},
-   year    = {2010}
+@ARTICLE{liejovJCP13,
+AUTHOR = {B. K. Lieu and M. R. Jovanovi\'c},
+JOURNAL = {J. Comput. Phys.},
+TITLE = {Computation of frequency responses for linear time-invariant {PDEs} on a compact interval},
+YEAR = {2013},
+MONTH = {October},
+VOLUME = {250},
+PAGES = {246-269},
+KEYWORDS = {Distributed systems theory, Computational tools for spatially distributed systems, Uncertainty quantification in PDEs},
+PDF = {https://viterbi-web.usc.edu/~mihailo/papers/liejovJCP13.pdf} 
 }
-
 ~~~

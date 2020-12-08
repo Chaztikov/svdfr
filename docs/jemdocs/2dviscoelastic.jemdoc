@@ -68,10 +68,15 @@ Expressions for coefficients $a_n(y,\omega)$ in Eq.~$\eqref{eq:Coef}$ are provid
 == Frequency response analysis
 
 === Problem 
-For Weissenberg numbers that range from $1$ and $20$, compute the principal singular value of the frequency response opeartor associated with 2D velocity fluctuations in inertialess channel flow of an Oldroyd-B fluid with $\beta = 0.5$, $k_x = 1$, and $\omega = 0$.  
+For Weissenberg numbers that range from $1$ and $20$, compute the principal singular value of the frequency response operator associated with 2D velocity fluctuations in inertialess channel flow of an Oldroyd-B fluid with $\beta = 0.5$, $k_x = 1$, and $\omega = 0$.  
 
 === Solution
-Frequency responses for this system can be computed using +svdfr+ in Matlab as shown below.
+Frequency responses for this system can be computed using +SVDFR+ in Matlab as shown below. Chebfun uses the regular eigenvalue solver +eig+ for discretized matrices of sizes that are less than 2000, for sizes that exceed 2000, Chebfun calls the sparse eigenvalue solver, +eigs+. Discretized matrix size exceed 2000 when excessively large number of Chebyshev polynomials are used. 
+
+Such a large number of Chebyshev polynomials are required for frequency response calculations in viscoelastic flows. However, as our algorithm solves a generalized eigenvalue problem (see [algo.html Algorithm]), the sparse solver will either fail, or return infinity as the largest eigenvalue.
+
+Hence for systems that need a large number of Chebyshev polynomials for good resolution, we provide the '+inverse+' option. This option signals +SVDFR+ to solve for the inverse of the singular value, wherein the Matlab's +eigs+ function uses the '+SM+' (smallest magnitude) option (see [algo.html Algorithm] for more details).
+
 ~~~
 {SVD of the frequency response operator}{matlab}
 % Frequency response analysis for 2D inertialess channel flow of a viscoelastic fluid
@@ -131,6 +136,6 @@ print('-painters','-dsvg','docs/pics/Code5');
 {}{raw}
 <figure>
   <img src="pics/Code5.svg" alt="3dflow" style="width:50%">
-  <figcaption>Fig. 2 The principal singular values of the frequency response operator in 2D </br> inertialess channel flow of an Oldroyd-B fluid with \(\beta = 0.5\), \(k_x = 1\), and \(\omega = 0\). </br>See <a href="javascript:cite('liejovJCP13')">Figure 8 in Lieu and Jovanovic</a> for a comparison with spectral collocation.</figcaption>
+  <figcaption>Fig. 2 The principal singular values of the frequency response operator in 2D </br> inertialess channel flow of an Oldroyd-B fluid with \(\beta = 0.5\), \(k_x = 1\), and \(\omega = 0\). </br>See <a href="javascript:cite('liejovJCP13')">Figure 8 in Lieu and Jovanovic</a> for a comparison with spectral collocation.</br> This plot is generated using <a href="../visco2D.m">svdfr/visco2D.m</a></figcaption>
 </figure>
 ~~~

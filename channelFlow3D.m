@@ -1,23 +1,21 @@
 clear;
 close all;
 
-N = 200; 
 % Set parameters and base velocity
-Re = 2000; % Reynolds number
-
-y = chebfun('y');
-
-
-U = 1 - y^2; % base flow (Poiseuille; U = y for Couette)
-Uy = diff(U);    % derivative of U (Poiseuille; Uy = 1 for Couette)
-Uyy = diff(U,2);
-
+Re = 2000;                  % Reynolds number
 kxval = [1 1 -1 -1];        % streamwise wavenumber
 kzval = [1 -1 1 -1];        % spanwise wavenumber
 omval  = 0.385*[-1 -1 1 1]; % temporal frequency
 
+y = chebfun('y');
+
+U = 1 - y^2;                % base flow (Poiseuille; U = y for Couette)
+Uy = diff(U);               % derivative of U
+Uyy = diff(U,2);            % second derivative of U
+
 % Looping over kx, kz, and om
-uvec = zeros(N,length(kxval)); 
+N = 200;                    % Grid size for plotting in y-direction
+uvec = zeros(N,length(kxval));
 dzvec = zeros(N,length(kxval));
 
 for n = 1:length(kxval)
@@ -26,9 +24,9 @@ for n = 1:length(kxval)
     kx2 = kx*kx; kz2 = kz*kz;
     k2 = kx2 + kz2;
 
-    A = chebop([-1,1]);
-    B = chebop([-1,1]);
-    C = chebop([-1,1]);
+    A = chebop([-1,1]);     % Operator A
+    B = chebop([-1,1]);     % Operator B
+    C = chebop([-1,1]);     % Operator C
 
     A.op = @(x,v,eta)([1i*omega*(diff(v,2) - k2*v) - (diff(v,4)-2*k2*diff(v,2) ...
             + k4*v)/Re - 1i*kx*Uyy*v  + 1i*kx*U*(diff(v,2) - k2*v);...
@@ -44,24 +42,27 @@ for n = 1:length(kxval)
                     1i*kz*diff(v)/k2 + 1i*kx*eta/k2]);
 
     % Compute the singular function
-	[sfun,sval] = svdfr3(A,B,C,1,'LR');
+    [PhiAndPsi,sval] = svdfr(A,B,C,1);
 
     % velocities
-    uvw = C(sfun(1:2,:));
-    ui = uvw.blocks{1}; % streamwise velocity
-    vi = uvw.blocks{2}; % wall-normal velocity
-    wi = uvw.blocks{3}; % spanwise velocity
-    
+    uvw = C(PhiAndPsi(1:2,:));  % First two variables are the regular variables,
+                                % v and eta, so that Phi = [v;eta].
+                                % Note C(Phi) gives the output, [u;v;w]
+    u = uvw.blocks{1};          % streamwise velocity
+    v = uvw.blocks{2};          % wall-normal velocity
+    w = uvw.blocks{3};          % spanwise velocity
+
     % Body forces:
-    Bad = adjointNS(B); 
-    dxdydz = Bad(sfun(3:4,:));
+    Bad = adjointNS(B);             % The body forces are computed as Bad(Psi);
+    dxdydz = Bad(PhiAndPsi(3:4,:)); % The second two arguments are Psi, the
+                                    % auxiliary variables for the adjoint system
     dx = dxdydz.blocks{1};
     dy = dxdydz.blocks{2};
     dz = dxdydz.blocks{3};
-    
-    uvec(:,n) = ui(chebpts(N)); 
+
+    uvec(:,n) = u(chebpts(N));
     dzvec(:,n) = dz(chebpts(N));
-    
+
 end
 
 kx = abs(kxval(1)); kz = abs(kzval(1));
@@ -87,9 +88,6 @@ for indx = 1:length(xval)
         end
     end
 end
-
-
-
 Up = real(Up); Dp = real(Dp); % only real part exist
 
 %% Plot isosurfaces of optimal flow structures

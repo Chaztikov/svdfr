@@ -6,95 +6,143 @@
 = $2$D channel flow (Orr-Sommerfeld operator)
 
 ~~~
-{}{img_left}{pics/channel_2dsection.jpg}{}{}{}{}
-Two-dimensional channel flow geometry.
+{}{raw}
+<figure>
+  <img src="pics/channel_2dsection.jpg" alt="2dflow" style="width:60%">
+  <figcaption>  Fig.\(1\) Two-dimensional channel flow geometry.</figcaption>
+</figure>
 ~~~
 
 The Orr-Sommerfeld equation (see [/javascript:cite('schmid2012stability') Schmid and Henningson]) governs the dynamics of 2D velocity 
 fluctuations around the laminar channel flow,
 \(
-    \begin{equation}\label{eq:0}
-\begin{array}{rcl}
-\Delta \phi_{t} (k_x, y, t)
-& \!\! = \!\! &
+    \begin{align}\label{eq:0}
+\partial_t\,\Delta \phi
+\;=&\;
 \left(
 {\displaystyle \frac{1}{Re}} \Delta^{2} \, - \, \mathrm{i} \, k_x \, U(y) \, \Delta \, + \, \mathrm{i} \, k_x \, U''(y)
 \right)
-\phi(k_x, y, t)
-\\[0.3cm]
-& &
-+ \, \mathrm D \, d_{1}(k_x, y, t) \, - \, \mathrm{i} \, k_x \, d_{2}(k_x, y, t), 
-\end{array}
-\end{equation}
+\phi \,+ \, \partial_y \, d_{1} \, - \, \mathrm{i} \, k_x \, d_{2}, 
+\end{align}
 \)
 \n
-where $y \in \left[ -1, 1 \right]$ is a spatial variable, $\mathrm D = \mathrm d / \mathrm dy$, and
-~~~
-{}{table}{}
-$\phi$ | --- | streamfunction ||
-$d_1$, $d_2$  | --- | streamwise and wall-normal forcing ||
-$Re$ | --- | Reynolds number ||
-$k_x$ | --- | streamwise wavenumber ||
-$U(y) = y$ | --- | for Couette flow ||
-$U(y) = 1 - y^2$ | --- | for Poiseuille flow ||
-$\Delta = \mathrm D^2 - k_x^2$ | --- | Laplacian ||
-$\Delta^2 = \mathrm D^4 - 2 \, k_x^2 \, \mathrm D^{2} + k_x^4$.||
-| | ||
-~~~
+where $y \in \left[ -1, 1 \right]$ is a spatial variable, $\phi$ is the streamfunction, $\mathbf d = [\,d_x\;\; d_y\,]^T$ is the body force vector, $Re$ is the Reynolds number, $k_x$ is the streamwise wavenumber, $U(y) = 1-y^2$ for Poiseuille flow and $U(y) = y$ for Couette flow, and $\Delta = \partial_{yy} - k_x^2$ is the Laplacian. 
 \n
 \n
 The boundary conditions are given by
 \(
-\phi(k_x, \pm 1, t) \; = \; \mathrm D [\phi(k_x, \cdot , t)](\pm 1) \; = \; 0.
+\phi(\pm 1, t) \; = \;  [\partial_y \phi(\cdot , t)](\pm 1) \; = \; 0.
 \)
 \n
 The desired outputs are the streamwise and wall-normal velocity fluctuations,
 \(
 \begin{array}{rcl}
-u(k_x, y, t) & \!\! = \!\! & \mathrm D \, \phi(k_x, y, t) \\[0.15cm]
-v(k_x, y, t) & \!\! = \!\! & -\mathrm{i} \, k_x \, \phi(k_x, y, t).
+u & \!\! = \!\! & \partial_y \, \phi, \\[0.15cm]
+v & \!\! = \!\! & -\mathrm{i} \, k_x \, \phi.
 \end{array}
 \)
 \n
-The input-output differential equation representing the frequency response operator is given by
+After a temporal Fourier transform on Eq.~$\eqref{eq:0}$, the input-output differential equation representing the frequency response operator is given by
 \(
-\left(
-{\displaystyle \frac{1}{Re}} D^{(4)} \, + \, a_{2}(y) \, D^{(2)} \, + \, a_{0}(y)
-\right)
-\phi(y)
-\; = \;
--D^{(1)} \, d_{1}(y) \, + \, \mathrm{i} \, k_x \, d_{2}(y)
+  \begin{align}
+    \begin{split}
+\underbrace{\left(
+{\displaystyle \frac{1}{Re}} \mathrm D^{4} \, + \, a_{2} (y) \, \mathrm D^{2} \, + \, a_{0}(y)
+\right)}_{\mathcal A (\omega)}
+\phi
+\; &= \;
+\underbrace{\left[\begin{array}{cc}
+  -\mathrm D & \mathrm{i} \, k_x
+\end{array}\right]}_{\mathcal B (\omega)}\left[\begin{array}{c}
+  d_x\\
+  d_y
+\end{array}\right],\\
+\left[\begin{array}{c}
+  u\\
+  v
+\end{array}\right]\;&=\; \underbrace{\left[\begin{array}{c}
+  \mathrm D\\
+  -\mathrm i\, k_x
+\end{array}\right]}_{\mathcal C (\omega)}\,\phi,
+\end{split}\label{eq:sys}
+\end{align}
 \)
-\n
-where
+where $\mathrm D = \mathrm d / \mathrm dy$, and 
 \(
 \begin{array}{rcl}
-a_{2}(y) & \!\! = \!\! & {\displaystyle -\left( \frac{2 \, k_x^2}{Re} \, + \, \mathrm{i}\, k_x \, U(y) \, + \, \mathrm{i} \, \omega \right)}
+a_{2} (y) & \!\! = \!\! & -\left(\, (2 \, k_x^2/Re) \, + \, \mathrm{i}\, k_x \, U \, + \, \mathrm{i} \, \omega \right),
 \\[0.4cm]
-a_{0}(y) & \!\! = \!\! & {\displaystyle \frac{k_x^{4}}{Re}} \, + \, \mathrm{i} \, k_x^3 \, U(y) \, + \, \mathrm{i} \, k_x \, U''(y) \, + \, \mathrm{i} \, \omega \, k_x^2.
+a_{0} (y) & \!\! = \!\! &  (k_x^{4}/Re) \, + \, \mathrm{i} \, k_x^3 \, U \, + \, \mathrm{i} \, k_x \, U'' \, + \, \mathrm{i} \, \omega \, k_x^2.
 \end{array}
 \)
 \n
-
+Thus we cast Eq.~$\eqref{eq:sys}$ to the system representation,
+\(
+\begin{align}
+    \left[\mathcal A(\omega)\, \phi(\cdot)\right] (y) 
+    \;&=\; 
+    \left[\mathcal B(\omega)\, {\mathbf d} (\cdot)\right](y),\notag
+    \\
+    \boldsymbol \xi (y)
+    \;&=\; 
+    \left[\mathcal C(\omega)\,  \phi(\cdot)\right](y),\label{eq:mot1c}
+    \\
+    [\mathcal{L}_{\pm 1} \,  \phi(\cdot)](\pm 1)  
+    \;&=\; 0,
+    \notag
+  \end{align}  
+\)
+where $\boldsymbol{\xi} = [\,u \;\; v \;\; w\,]^T$.
 === Problem
 
 Find the largest singular value of the frequency response operator for the Orr-Sommerfeld equation 
 in a Poiseuille flow as a function of $k_x$ at $\omega = -0.3$ and $Re = 2000$.
 
 === Solution
+A feedback interconnection of the frequency response operator with its adjoint can be used to compute singular values (see the [/javascript:cite('harkumjovJCP20') accompanying paper] and [/javascript:cite('Boyd1989') Boyd]),
+\(
+  \begin{align}
+\left[
+\begin{array}{cc}
+  0 &\mathcal{B}\mathcal{B}^{\dagger} \\
+   \mathcal{C}^{\dagger}\mathcal{C}&0
+\end{array} \right] \left[ \begin{array}{c}
+   \boldsymbol \phi(y)
+   \\
+   \boldsymbol \psi(y)
+\end{array} \right]   
+	\;&=\; 
+\gamma 
+\left[\begin{array}{cc}
+  \mathcal{A} & 0\\
+  0 & \mathcal{A}^{\dagger}
+\end{array}\right]\left[ \begin{array}{c}
+   \boldsymbol \phi (y)\\
+   \boldsymbol \psi (y)
+\end{array} \right], \notag
+	\\
+	[ \mathcal{L}_{\pm 1} \, \boldsymbol \phi(\cdot) ] (\pm 1)
+	\;&=\; 
+	0, \label{eq:feedback}
+	\\
+	[ \mathcal{L}^{\dagger}_{\pm 1} \, \boldsymbol \psi (\cdot) ] (\pm 1)
+	\;&=\; 
+	0, \notag
+\end{align}
+\)
+where $(\cdot)^{\dagger}$ denotes adjoint of the operator $(\cdot)$ and $\boldsymbol \psi$ is the variable associated with the adjoint operator. The resulting eigenvalues determine the singular values in pairs of opposite signs, i.e., $\gamma = \pm \sigma$.
 ~~~
 {}{matlab}
 % Define independent variable
 y = chebfun('y');
 
 % Define the parameters of the problem:
-omega = -0.3; % frequency
-Re = 2000; % Reynolds number
+omega = -0.3;                % frequency
+Re = 2000;                   % Reynolds number
 kxval = linspace(0.1,5,100); % streamwise wave-number
 kxgrd = length(kxval);
 
-% Define functions for Poiseuille flow:
-U = 1 - y^2;
+U = 1 - y^2;                 % for Poiseuille flow, or U = y for Couette flow
 Uy = diff(U);
 Uyy = diff(U,2);
 
@@ -122,27 +170,25 @@ for indx = 1:kxgrd
     % C operator
     C = chebop([-1 1]);
     C.op = @(y,phi) [diff(phi);-1i*kx*phi];
-    
-    cheboppref.setDefaults('minDimension',100);
-    cheboppref.setDefaults('maxDimension',1000);
+  
     % Solving for the principal singular value
-    svals(indx) = svdfr(A,B,C,1,'LR');
+    svals(indx) = svdfr(A,B,C,1);   % Compute only the largest singular value
     disp(indx);
 end
 
 %% Plot
-semilogx(kxval,abs(real(svals)),'-k');
+semilogx(kxval,svals,'-k');
 xlabel('$k_x$');
 ylabel('$\sigma_0$');
-print('-painters','-dsvg','Code2_1');
+print('-painters','-dsvg','docs/pics/Code2_1');
 ~~~
 
 ~~~
 {}{raw}
 <figure>
   <img src="pics/Code2_1.svg" alt="2dflow" style="width:50%">
-  <figcaption>Fig.1 Singular values of the frequency response operator of the </br>
-Orr-Sommerfeld equation Eq. \eqref{eq:0}, with \(\omega = -0.3\) and \(Re = 2000\).</figcaption>
+  <figcaption>Fig.\(2\) Singular values of the frequency response operator of the </br>
+Orr-Sommerfeld equation Eq. \eqref{eq:0}, with \(\omega = -0.3\) and \(Re = 2000\).</br> This plot is generated using <a href="../channelFlow2D.m">svdfr/channelFlow2D.m</a></figcaption>
 </figure>
 ~~~
 
@@ -185,11 +231,9 @@ for indom = 1:omgrd
     % C operator
     C = chebop([-1 1]);
     C.op = @(y,phi) [diff(phi);-1i*kx*phi];
-    
-    cheboppref.setDefaults('minDimension',100);
-    cheboppref.setDefaults('maxDimension',1000);
+  
     % Solving for the principal singular value
-    svals(indom) = svdfr(A,B,C,1,'LR');
+    svals(indom) = svdfr(A,B,C,1);
     disp(indom);
 end
 
@@ -204,23 +248,23 @@ print('-painters','-dsvg','docs/pics/Code2_2');
 {}{raw}
 <figure>
   <img src="pics/Code2_2.svg" alt="2dflow" style="width:50%">
-  <figcaption>Fig.1 Singular values of the frequency response operator of the </br>
-Orr-Sommerfeld equation Eq. \eqref{eq:0}, with \(k_x = 1\) and \(Re = 2000\).</figcaption>
+  <figcaption>Fig.\(3\) Singular values of the frequency response operator of the </br>
+Orr-Sommerfeld equation Eq. \eqref{eq:0}, with \(k_x = 1\) and \(Re = 2000\).</br> This plot is generated using <a href="../channelFlow2D.m">svdfr/channelFlow2D.m</a></figcaption>
 </figure>
 ~~~
 
 === Problem
-Find the most amplified flow structures for the Orr-Sommerfeld equation in a pressure-driven channel flow  
-at $k_x = 1$ and $\omega = -0.313$.
+Plot the most amplified flow structures for the Orr-Sommerfeld equation in Poiseuille flow with $Re = 2000$, $k_x = 1$ and $\omega = -0.313$.
 
 === Solution
 ~~~
 {}{matlab}
 % System parameters:
-kxval = [1 -1];   % streamwise wave-number
+Re = 2000;
+kxval = [1 -1];        % streamwise wave-number
 omval  = 0.313*[-1 1]; % temporal frequency
 
-N = 100;    % number of collocation points for plotting
+N = 100;               % number of Chebyshev points for plotting
 yd = chebpts(N);
 
 
@@ -246,17 +290,16 @@ for n = 1:2
     % C operator
     C = chebop([-1 1]);
     C.op = @(y,phi) [diff(phi);-1i*kx*phi];
-    
-    cheboppref.setDefaults('minDimension',100);
-    cheboppref.setDefaults('maxDimension',1000);
+  
     % Solving for the principal singular value
-    [sfun,sval] = svdfr(A,B,C,1,'LR');
-    uandv = C(sfun.blocks{1,1});
-    ui = uandv{1}; % streamwise velocity
-    vi = uandv{2}; % wall-normal velocity
+    [PhiAndPsi,sval] = svdfr(A,B,C,1);
+    uandv = C(PhiAndPsi.blocks{1,1});   % First variable is the regular variable, phi. 
+                                        % Note that C(Phi) gives the output, [u;v]
+    u = uandv{1};                       % streamwise velocity
+    v = uandv{2};                       % wall-normal velocity
 
     % discretized values for plotting
-    uvec(:,n) = ui(yd,1); vvec(:,n) = vi(yd,1);
+    uvec(:,n) = u(yd,1); vvec(:,n) = v(yd,1);
 
 end
 
@@ -311,8 +354,7 @@ print('-painters','-djpeg','docs/pics/Code2_4');
 {}{raw}
 <figure>
   <img src="pics/Code2_3.jpg" alt="2dflow" style="width:50%">
-  <figcaption>Fig.1 Singular values of the frequency response operator of the </br>
-Orr-Sommerfeld equation Eq. \eqref{eq:0}, with \(k_x = 1\) and \(Re = 2000\).</figcaption>
+  <figcaption>Fig.\(4\) Most amplified flow structures of the</br> streamwise velocity in 2D channel flow </br> with \(k_x = 1\) and \(Re = 2000\).</br> This plot is generated using <a href="../channelFlow2D.m">svdfr/channelFlow2D.m</a></figcaption>
 </figure>
 ~~~
 
@@ -320,8 +362,7 @@ Orr-Sommerfeld equation Eq. \eqref{eq:0}, with \(k_x = 1\) and \(Re = 2000\).</f
 {}{raw}
 <figure>
   <img src="pics/Code2_4.jpg" alt="2dflow" style="width:50%">
-  <figcaption>Fig.1 Singular values of the frequency response operator of the </br>
-Orr-Sommerfeld equation Eq. \eqref{eq:0}, with \(k_x = 1\) and \(Re = 2000\).</figcaption>
+  <figcaption> Fig.\(5\) Most amplified flow structures of the</br> wall-normal velocity in 2D channel flow </br> with \(k_x = 1\) and \(Re = 2000\).</br> This plot is generated using <a href="../channelFlow2D.m">svdfr/channelFlow2D.m</a></figcaption>
 </figure>
 ~~~
 

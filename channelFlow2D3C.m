@@ -1,21 +1,20 @@
 % System parameters:
-Re = 2000; % Reynolds number
-
+Re = 2000;                  % Reynolds number
 kzval = linspace(0.1,5,30); % spanwise wave-number
 kzgrd = length(kzval);
-
-omega = 0; % temporal frequency
+omega = 0;                  % temporal frequency
 
 y = chebfun('y');
 
-U = 1 - y^2;    % Poiseuille flow
+U = 1 - y^2;                % Poiseuille flow
 Uy = diff(U);
 Uyy = diff(U,2);
 
 % Looping over kz
 svals = zeros(kzgrd,1);
 
-for indz = 1:kzgrd
+
+parfor indz = 1:kzgrd
     A = chebop([-1 1]);
     B = chebop([-1 1]);
     C = chebop([-1 1]);
@@ -35,16 +34,16 @@ for indz = 1:kzgrd
                     v ; ...
                     1i*kz*diff(v)/k2]);
 
-    % solving for the principal singular value, use the inverse problem
-    sval = svdfr(A,B,C,1,'inverse');
+    % solving for the principal singular value
+    sval = svdfr(A,B,C,1);
 
     % saving the largest singular value for each value of kz
-    svals(indz) = 1/abs(real(sval));
+    svals(indz) = sval;
     disp(indz)
 
 end
 
-%% Plotting the largest singular value as a function of kz at a fixed om
+%% Plotting the largest singular value as a function of kz at a fixed omega
 plot(kzval,svals,'-k');
 xlabel('$k_z$');
 ylabel('$\sigma_0$');
@@ -52,16 +51,28 @@ axis tight;
 print('-painters','-dsvg','docs/pics/Code3_1')
 
 %%
-% System parameters:
-N = 100;    % number of points for plotting
-yd = chebpts(N);
-clear uvec pvec
-kz = 1.62; k2 = kz*kz; k4 = k2*k2;
-om = 0;
+clear;
+close all;
+clc;
 
-A = chebop([-1 1]);
-B = chebop([-1 1]);
-C = chebop([-1 1]);
+% System parameters:
+N = 100;                    % number of points for plotting
+Re = 2000;                  % Reynolds number
+kz = 1.62;                  % Spanwise wavenumber
+omega = 0;                     % Temporal frequency
+
+y = chebfun('y');
+
+U = 1 - y^2;                % Poiseuille flow
+Uy = diff(U);
+Uyy = diff(U,2);
+
+yd = chebpts(N);
+k2 = kz*kz; k4 = k2*k2;
+
+A = chebop([-1 1]);        % Operator A
+B = chebop([-1 1]);        % Operator B
+C = chebop([-1 1]);        % Operator C
     
 A.op = @(x,v,eta)([1i*omega*(diff(v,2) - k2*v) - (diff(v,4)-2*k2*diff(v,2) ...
         + k4*v)/Re ;...
@@ -77,17 +88,17 @@ C.op = @(x,v,eta)([ - 1i*kz*eta/k2;...
                 1i*kz*diff(v)/k2]);
 
 % solving for the left principal singular pair
-[sfun,sval] = svdfr(A,B,C,1,'LR');
+[PhiAndPsi,sval] = svdfr(A,B,C,1);
 
 % velocities:
-uvw = C(sfun(1:2,1));
+uvw = C(PhiAndPsi(1:2,1));
 u = uvw.blocks{1};
 v = uvw.blocks{2};
 w = uvw.blocks{3};
 
 % Body forces:
 Bad = adjointNS(B);
-dxdydz = Bad(sfun(3:4,1));
+dxdydz = Bad(PhiAndPsi(3:4,1));
 dx = dxdydz.blocks{1};
 dy = dxdydz.blocks{2};
 dz = dxdydz.blocks{3};
@@ -98,7 +109,7 @@ streamFun = (v)/(1i*kz);
 
 
 % discretized values for plotting
-pvec(:,1) = streamFun(yd); uvec(:,1) = ui(yd);
+pvec(:,1) = streamFun(yd); uvec(:,1) = u(yd);
 dzvec(:,1) = dz(yd);
 
 % Getting physical fields of u and psi

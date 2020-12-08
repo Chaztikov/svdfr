@@ -20,7 +20,7 @@ for $x \in [0,1]$, where
 {}{table}{}
 $w(x,t)$ | --- | vertical displacement of the beam ||
 $\mu$ | --- | mass per unit length of the beam ||
-$E_I$ | --- | flexural rigidity ||
+$E_I$ | --- | flexure rigidity ||
 | | ||
 ~~~
 \n
@@ -86,6 +86,6 @@ attained using a body forcing whose frequency is about 686 Hertz.
   <img src="pics/Euler_bernouli.svg" alt="3dflow" style="width:60%">
   <figcaption>Fig.1 The largest singular value, \(\sigma_0\) as a function of </br>
 temporal frequency, \(\omega\) for a concrete slab, \(1\,\mathrm m\) in length </br>
-with \(E_I = 128.2\,\mathrm{N}\mathrm m^2\) and \(\mu = 0.0267116\,\mathrm{Kg}/\mathrm{m}\).</figcaption>
+with \(E_I = 128.2\,\mathrm{N}\mathrm m^2\) and \(\mu = 0.0267116\,\mathrm{Kg}/\mathrm{m}\).</br> This plot is generated using <a href="../EulerBernoulli.m">svdfr/EulerBernoulli.m</a></figcaption>
 </figure>
 ~~~

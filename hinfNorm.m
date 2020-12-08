@@ -40,7 +40,7 @@ B = varargin{2};
 C = varargin{3};
 
 % estimate lower bound by calling svdfri and evaluate at zero frequency
-lam = svdfr3i(-A,B,C,1,'SM');
+lam = svdfr(-A,B,C,1,'inverse');
 
 gamma_lb = abs(1/lam);
 [lbc2,rbc2] = adjointBcEndpoints(A);
@@ -289,7 +289,7 @@ while (true)
       L.constraint = dummy.constraint;
       pref = cheboppref();
       pref.discretization = @ultraS;
-      evals = eigs(L,M,50,pref);
+      evals = eigs(L,M,100,pref);
       % find purely imaginary evals
       omegas = evals(abs(real(evals)) < 1e-11)/1i;
       if (isempty(omegas))
@@ -537,6 +537,8 @@ solutionL = null(blbc);
 solutionR = null(brbc);
 blbcad = (Amin*solutionL)';
 brbcad = (Aplus*solutionR)';
+blbcad = blbcad/norm(blbcad);
+brbcad = brbcad/norm(brbcad);
 
 % Remove linearly dependent bcs:
 [~,~,P] = qr(blbcad.');

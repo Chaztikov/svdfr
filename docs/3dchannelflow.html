@@ -25,20 +25,20 @@ MathJax.Hub.Config({
 <table summary="Table for page layout." id="tlayout">
 <tr valign="top">
 <td id="layout-menu">
-<div class="menu-category">Chebfun <tt>SVDFR3</tt></div>
+<div class="menu-category">Chebfun <tt>SVDFR</tt></div>
 <div class="menu-item"><a href="index.html">Home</a></div>
-<div class="menu-item"><a href="http://github.com/gokulhari/svdfr3/zipball/master/">Download</a></div>
+<div class="menu-item"><a href="download.html">Download</a></div>
 <div class="menu-item"><a href="feedback.html">Feedback</a></div>
 <div class="menu-category">Examples on usage</div>
 <div class="menu-item"><a href="reaction-diffusion.html">Reaction-diffusion&nbsp;equation</a></div>
+<div class="menu-item"><a href="2dChannelFlow.html">\(2\)D&nbsp;Newtonian&nbsp;channel&nbsp;flow</a></div>
+<div class="menu-item"><a href="2d3cChannelFlow.html">\(2\)D\(3\)C&nbsp;Newtonian&nbsp;channel&nbsp;flow</a></div>
+<div class="menu-item"><a href="3dchannelflow.html" class="current">\(3\)D&nbsp;Newtonian&nbsp;channel&nbsp;flow</a></div>
+<div class="menu-item"><a href="2dviscoelastic.html">Viscoelastic&nbsp;channel&nbsp;flow</a></div>
 <div class="menu-item"><a href="beam.html">Euler-Bernoulli&nbsp;beam</a></div>
-<div class="menu-item"><a href="3dchannelflow.html" class="current">3D&nbsp;channel&nbsp;flow</a></div>
-<div class="menu-item"><a href="2dviscoelastic.html">2D&nbsp;viscoelastic&nbsp;flow:&nbsp;<tt>svdfr3i</tt></a></div>
 <div class="menu-category">Developer reference</div>
 <div class="menu-item"><a href="algo.html">Algorithm</a></div>
 <div class="menu-item"><a href="implement.html">Implementation</a></div>
-<div class="menu-category">Cite us</div>
-<div class="menu-item"><a href="citation.html">Citation</a></div>
 </td>
 <td id="layout-content">
 <div class="bibover noshow" id="bibover_agarwal2015transition" onmousedown="javascript:lockMouse(event,'agarwal2015transition')" onmouseup="javascript:unLockMouse(event,'agarwal2015transition')"
@@ -4822,6 +4822,27 @@ Adv. Drug Deliv. Rev., 2004, Vol. 56, pp. 145-172<br />
 }
 </pre></div>
 </div>
+<div class="bibover noshow" id="bibover_harkumjovJCP20" onmousedown="javascript:lockMouse(event,'harkumjovJCP20')" onmouseup="javascript:unLockMouse(event,'harkumjovJCP20')"
+style="z-index: 10000">
+<div class="cross" style="z-index: 10000"><a href="javascript:closeCite('harkumjovJCP20')">X</a></div>
+<p>
+<p><i>Well-conditioned ultraspherical and spectral integration methods for resolvent analysis of channel flows of Newtonian and viscoelastic fluids</i><br />
+Hariharan, G., Kumar, S. and Jovanović, M.R.<br />
+J. Comput. Phys., 2020<br />
+<a href="javascript:toggleBibtex('harkumjovJCP20')">[BibTeX]</a><a href="https://arxiv.org/abs/2005.04493" target=&ldquo;blank&rdquo;>[PDF]</a></p>
+</p>
+<div id="bib_harkumjovJCP20" class="bibtex noshow" onmousedown="event.stopPropagation()" onmouseup="event.stopPropagation()">
+<pre>
+@article{harkumjovJCP20,
+  author = {G. Hariharan and S. Kumar and M. R. Jovanovi&cacute;},
+  title = {Well-conditioned ultraspherical and spectral integration methods for resolvent analysis of channel flows of Newtonian and viscoelastic fluids},
+  journal = {J. Comput. Phys.},
+  year = {2020},
+  note = {submitted; also arXiv:2005.04493}
+  pdf = {https://arxiv.org/abs/2005.04493}
+}
+</pre></div>
+</div>
 <div class="bibover noshow" id="bibover_annseijovCDC16" onmousedown="javascript:lockMouse(event,'annseijovCDC16')" onmouseup="javascript:unLockMouse(event,'annseijovCDC16')"
 style="z-index: 10000">
 <div class="cross" style="z-index: 10000"><a href="javascript:closeCite('annseijovCDC16')">X</a></div>
@@ -9331,90 +9352,209 @@ In Proceedings of the 2014 American Control Conference, 2014, pp. 1261-1266<br /
 <p>The evolution of infinitesimal velocity \([\,u\;\;v\;\;w\,]^T\) and pressure \(p\) fluctuations around a base flow \([\,U(y) \;\; 0 \;\; 0\,]^T\) is governed by the linearized Navier-Stokes (NS) equations,</p>
 <p style="text-align:center">
 \[
-\begin{array}{rcl}
-Re\,\left( \,\partial_t \boldsymbol{v}  \,+\, \boldsymbol{V} \!\cdot\! \boldsymbol{\nabla}\boldsymbol{v}  \,+\, \boldsymbol v \!\cdot\! \boldsymbol{\nabla}\boldsymbol{V}\, \right) \!\!&amp;=&amp;\!\! - \boldsymbol{\nabla}p  \,+\,  \nabla^2 \boldsymbol{v} \,+\, \boldsymbol{d}(y,t),\\
- \boldsymbol{\nabla} \!\cdot\! \boldsymbol{v}  \!\!&amp;=&amp;\!\! 0,\\
- \boldsymbol{v}(y=\pm 1,t )  \!\!&amp;=&amp;\!\!  0,
- \end{array}
+	\begin{equation}
+    \begin{array}{rclcrcrcr}
+    \partial_{t} u 
+    &amp; = &amp;
+    (
+    (1/Re) \, \Delta 
+    \, - \, 
+    {\mathrm i} k_x U (y)
+    )
+    \,
+    u
+    &amp; - &amp;
+    U&rsquo; (y) \, v
+    &amp; - &amp; 
+    {\mathrm i} k_x \, p 
+    &amp; + &amp;  
+    d_u,
+    \\[.15cm]
+    \partial_{t} {v} 
+    &amp; = &amp;
+    (
+    (1/Re) \, \Delta 
+    \, - \, 
+    {\mathrm i} k_x U (y)
+    )
+    \,
+    v
+    &amp; &amp; 
+    &amp; - &amp;
+    {\partial_y} \, p  
+    &amp; + &amp; 
+    d_v,
+    \\[.15cm]
+    \partial_{t} {w} 
+    &amp; = &amp;
+    (
+    (1/Re) \, \Delta 
+    \, - \, 
+    {\mathrm i} k_x U (y)
+    )
+    \,
+    w
+    &amp; &amp;
+    &amp; - &amp;
+    {\mathrm i} k_z \, p 
+    &amp; + &amp;
+    d_w,
+    \\[.15cm]
+    0
+    &amp; = &amp;
+    {\mathrm i} k_x u 
+    \; + \; 
+    {\partial_y} \, v 
+    \; + \; 
+    {\mathrm i} k_z w.
+    &amp; &amp; &amp; &amp; &amp; &amp;
+    \end{array}
+    \label{eq:1}
+    \end{equation}
 \]
-</p><p>Here, \({\mathbf d} = [\,d_u\,\;d_v\,\;d_w\,]^T\) is the body force fluctuation vector, \(u\), \(v\), and \(w\) are velocity fluctuations in the streamwise, \(x\), wall-normal, \(y\), and spanwise, \(z\), directions, and \(Re\) is the Reynolds number.</p>
-<p>This system can be recast as a boundary value problem in \(y\) by taking Fourier
-transforms in the spatially invariant directions, \(x\) and \(z\) (a differential
-equation is spatially invariant in the variable \(x\), if replacing \(x\) by \(x\) + constant does not change the
-differential equation), and converting it to an evolution form by eliminating pressure
-(see Chapter 3 of <a href="javascript:cite('schmid2012stability')">Stability and transition in shear flows</a> for details about this transformation)</p>
+</p><p>Here, \(U&rsquo; (y) = {\mathrm d} U (y)/ {\mathrm d} y\), \({\mathbf d} = [\,d_u\,\;d_v\,\;d_w\,]^T\) is the body forcing fluctuation vector, \(u\), \(v\), and \(w\) are velocity fluctuations in the streamwise, \(x\), wall-normal, \(y\), and spanwise, \(z\), directions, \(k_x\) and \(k_z\) are wall-parallel wavenumbers, \(Re\) is the Reynolds number, \(\Delta = \partial_{yy} - (k_x^2 + k_z^2) I\) is the Laplacian, and \(\mathrm i\) is the imaginary unit. The base velocity is determined by \(U(y) = 1 - y^2\) in pressure-driven (Poiseuille) and \(U(y) = y\) in shear-driven (Couette) flow. Equivalently, Eq.&nbsp;\(\eqref{eq:1}\) along with the boundary conditions can be represented as (see Chapter 3 of <a href="javascript:cite('schmid2012stability')">Stability and transition in shear flows</a>),</p>
 <p style="text-align:center">
 \[
-	\begin{equation}\label{eq:EvolForm}
-\begin{array}{rccllcccc}
-\partial_t\,\Delta v \!\!&amp;=&amp;\!\! (-i\,k_x\,U\,\Delta + i\,k_x\,U&rsquo;&rsquo; + \frac{1}{Re}\,\Delta^2)v\!\!&amp;-&amp;\!\! (\,i\,k_x\,d_x&rsquo;(y) \!\!&amp;+&amp;\!\! k^2\,d_y(y)\!\!&amp;+&amp;\!\!i\,k_z\,d_z&rsquo;(y)\,)\,\mathrm e^{\mathrm i\,\omega\,t}  \\
- \partial_t\eta \!\!&amp;=&amp;\!\!  \left( -i\,k_z\, U&rsquo;  \right) v \!\!&amp;+&amp;\!\! (-i\,k_x\, U + \frac{1}{Re}\,\Delta)\eta \!\!&amp;+&amp;\!\! (\,i\,k_z\,d_x(y) \!\!&amp;-&amp;\!\! i\,k_x\,d_z(y)\,)\mathrm e^{\mathrm i\,\omega\,t}  \\
-\end{array}
-\end{equation}
-\]
-</p><p><br />
-where, \(U = 1-y^2\) for Poiseuille flow and \(U = y\) for Couette flow, \(\Delta = \partial_{yy} - k^2\),
-where \(k^2 = k_x^2 + k_z^2\), where \(k_x\) and \(k_z\) are the Fourier modes corresponding
-to the \(x\)- and \(z\)-directions.</p>
-<p>Taking temporal Fourier transform and recasting this in the input-output representation
-we have,</p>
+	\begin{alignat}{3}
+  \partial_{t} [\mathcal{E} \, \boldsymbol \phi( \cdot , t)](y) \;&amp;=\; [\mathcal{F}\, \boldsymbol \phi(\cdot , t)](y) \,+\, [\mathcal{B}\,{\mathbf d}(\cdot,t)](y),&amp;&amp;\notag
+  \\[0.1cm]
+    \boldsymbol \xi (y,t) \;&amp;=\; [\mathcal {C}\,\boldsymbol\phi(\cdot,t)](y),&amp;\label{eq:2}
+    \\[0.1cm]
+   [\mathcal {L}_{ \pm 1} \, \boldsymbol \phi(\cdot,t)]( \pm 1)  
+   \;&amp;=\; 
+   0,&amp;\notag
+\end{alignat}
+	\]
+</p><p>where \(\boldsymbol{\phi} = [\,v \;\; \eta\,]^T\) where \(\eta = \mathrm i\, k_z\, u - \mathrm i \, k_x\,w\) is the wall-normal vorticity, \(\boldsymbol{\xi} = [\,u \;\; v \;\; w\,]^T\), and </p>
 <p style="text-align:center">
 \[
-\begin{array}{rcl}
- \underbrace{\left[
+	\begin{array}{rclrcl}
+	\mathcal{E} 
+	&amp; \!\! = \!\! &amp; 
+	\left[\begin{array}{cc}
+	\Delta &amp; 0\\
+	0 &amp; I
+	\end{array}
+	\right], 
+	&amp; 
+	\mathcal{F}
+	&amp; \!\! = \!\! &amp; 
+	\left[\begin{array}{cccc}
+     -\mathrm i \, k_x \, U\Delta + \mathrm i \, k_x \, U&rsquo;&rsquo; + (1/Re)\Delta^2 &amp; 0\\
+     -\mathrm i \,k_z\, U&rsquo; &amp; -\mathrm i\,k_x U + (1/Re)\Delta
+	\end{array}
+	\right],
+	\\
+	\mathcal{B} 
+	&amp; \!\! = \!\! &amp;  
+	\left[\begin{array}{ccc}
+	-\mathrm i\, k_x\, \partial_y &amp; -k^2 &amp; -\mathrm i\, k_z\, \partial_y \\
+	\mathrm i\, k_z &amp; 0 &amp; -\mathrm i\, k_x
+	\end{array}
+	\right], 
+	&amp; 
+	\mathcal{C}
+	&amp; \!\! = \!\! &amp; 
+	\frac{1}{k^2}\left[\begin{array}{cc}
+    \mathrm i\,k_x \,\partial_y &amp; -\mathrm i\, k_z\\
+    k^2 &amp; 0\\
+    \mathrm i\, k_z \partial_y &amp; \mathrm i \, k_x
+	\end{array}
+	\right], \qquad \mathcal{L}_{\pm 1} 
+	\;=\;  
+	\left[\begin{array}{cc}
+		\partial_y &amp; 0 \\
+		I &amp; 0 \\
+		0 &amp; I 
+	\end{array}\right].
+	\end{array}
+	\]
+</p><h2>Frequency response analysis</h2>
+<h3>Problem</h3>
+<p>Reproduce Figure 4.10 in <a href="javascript:cite('schmid2012stability')">Stability and transition in shear flows</a>, i.e., compute the principal singular values of the frequency response operator associated with the linearized NS equations in Poiseuille flow with \(Re = \{500,1000,2000,4000\}\) and \(k_x = k_z = 1\). Next, determine the \(H_\infty\) norm, i.e., the peak value of \(\sigma_{\max} (\omega)\) over temporal frequencies with \(Re = 2000\).</p>
+<h3>Solution</h3>
+<p>The temporal Fourier transform can be used to represent the frequency response operator associated with the linearized NS equations as a TPBVP,</p>
+<p style="text-align:center">
+\[
+\begin{align}
+    \left[\mathcal A(\omega)\,\boldsymbol \phi(\cdot)\right] (y) 
+    \;&amp;=\; 
+    \left[\mathcal B(\omega)\, {\mathbf d} (\cdot)\right](y),\notag
+    \\
+    \boldsymbol \xi (y)
+    \;&amp;=\; 
+    \left[\mathcal C(\omega)\, \boldsymbol \phi(\cdot)\right](y),\label{eq:mot1c}
+    \\
+    [\mathcal{L}_{\pm 1} \, \boldsymbol \phi(\cdot)](\pm 1)  
+    \;&amp;=\; 0,
+    \notag
+  \end{align}  
+\]
+</p><p>where \(\mathcal{A} (\omega) = {\mathrm i} \omega \mathcal{E} -\mathcal{F}\),</p>
+<p style="text-align:center">
+\[
+\mathcal A
+	\;=\;
+  \left[\begin{array}{cccc}
+     \mathrm i \, \omega \hat{\Delta} + \mathrm i \, k_x \, U\hat{\Delta} - \mathrm i \, k_x \, U&rsquo;&rsquo; - (1/Re)\hat{\Delta}^2 &amp; 0\\
+     \mathrm i \,k_z\, U&rsquo; &amp; \mathrm i \,\omega +  \mathrm i\,k_x U - (1/Re)\hat{\Delta}
+	\end{array}
+	\right],	
+\]
+</p><p>where \(\hat{\Delta} = \mathrm D^2 - k_z^2\) with \(\mathrm D = \mathrm d/\mathrm dy\), and \(\mathcal{A}^{-1} (\omega)\) is the resolvent operator. </p>
+<p>A feedback interconnection of the frequency response operator with its adjoint can be used to compute singular values (see the <a href="javascript:cite('harkumjovJCP20')">accompanying paper</a> and <a href="javascript:cite('Boyd1989')">Boyd</a>),</p>
+<p style="text-align:center">
+\[
+  \begin{align}
+\left[
 \begin{array}{cc}
-  i\,\omega\,\Delta  \,+\,i\,k_x\,U\,\Delta  \,-\,  i\,k_x\,U&rsquo;&rsquo;  \,-\,  \frac{1}{Re}\,\Delta^2 &amp; 0\\
-i\,k_z\, U&rsquo;   &amp; i\,k_x\, U -\frac{1}{Re}\,\Delta
-\end{array} \right]}_{\mathcal A (\omega)}
-\left[ \begin{array}{c}
-v\\
-\eta
-\end{array} \right]
-	 \!\!&amp;=&amp;\!\! \underbrace{\left[ \begin{array}{ccc}
-	 -\,i\,k_x\, \mathrm D &amp;  k^2 &amp; i\,k_z\, \mathrm D\\
-	 i\,k_z &amp; 0 &amp; -i\,k_x
-	 \end{array} \right]}_{\mathcal B (\omega)}  \left[ \begin{array}{c}
-	 d_x\\
-	 d_y\\
-	 d_z
-	 \end{array} \right],\\
-	 \left[ \begin{array}{c}
-	 u\\
-	 v\\
-	 w
-	 \end{array} \right] \!\!&amp;=&amp;\!\!
-	 \frac{1}{k^2} \underbrace{\left[\begin{array}{cc}
-	 i\,k_x\,\mathrm D &amp; -i\,k_x\\
-	 	k^2&amp; 0 \\
-		i\,k_z\,\mathrm D &amp; i\,k_x
-		\end{array}\right]}_{\mathcal C (\omega)} \left[ \begin{array}{c}
-		v\\
-		\eta
-		\end{array}
-		 \right],
- \end{array}
+  0 &amp;\mathcal{B}\mathcal{B}^{\dagger} \\
+   \mathcal{C}^{\dagger}\mathcal{C}&amp;0
+\end{array} \right] \left[ \begin{array}{c}
+   \boldsymbol \phi(y)
+   \\
+   \boldsymbol \psi(y)
+\end{array} \right]   
+	\;&amp;=\; 
+\gamma 
+\left[\begin{array}{cc}
+  \mathcal{A} &amp; 0\\
+  0 &amp; \mathcal{A}^{\dagger}
+\end{array}\right]\left[ \begin{array}{c}
+   \boldsymbol \phi (y)\\
+   \boldsymbol \psi (y)
+\end{array} \right], \notag
+	\\
+	[ \mathcal{L}_{\pm 1} \, \boldsymbol \phi(\cdot) ] (\pm 1)
+	\;&amp;=\; 
+	0, \label{eq:feedback}
+	\\
+	[ \mathcal{L}^{\dagger}_{\pm 1} \, \boldsymbol \psi (\cdot) ] (\pm 1)
+	\;&amp;=\; 
+	0, \notag
+\end{align}
 \]
-</p><p>where \(\mathrm D = \mathrm d / \mathrm dy\).</p>
-<p>The operators \(\mathcal A (\omega)\), \(\mathcal B(\omega)\), and \(\mathcal C(\omega)\) corresponding to the input-output representation can be expressed in Matlab using the
-Chebfun syntax as,</p>
+</p><p>where \((\cdot)^{\dagger}\) denotes adjoint of the operator \((\cdot)\) and \(\boldsymbol \psi\) is the variable associated with the adjoint operator. The resulting eigenvalues determine the singular values in pairs of opposite signs, i.e., \(\gamma = \pm \sigma\).</p>
+<p>The operators \(\mathcal A (\omega)\), \(\mathcal B(\omega)\), and \(\mathcal C(\omega)\) in&nbsp;\(\eqref{eq:mot1c}\) can be expressed in Matlab using the Chebfun syntax as,</p>
 <div class="codeblock">
+<div class="blocktitle">Operators in TPBVP</div>
 <div class="blockcontent"><pre>
 y = chebfun(<span class="string">'y'</span>,[-1,1]);
-U = 1 - y*y;
+U = 1 - y*y;              <span class="comment">% For Poiseuille flow, or U = y <span class="statement">for</span> Couette flow</span>
 Uy = diff(U);
 Uyy = diff(Uy);
 
-A = chebop([-1,1]);
-B = chebop([-1,1]);
-C = chebop([-1,1]);
+A = chebop([-1,1]);       <span class="comment">% Operator A</span>
+B = chebop([-1,1]);       <span class="comment">% Operator B</span>
+C = chebop([-1,1]);       <span class="comment">% Operator C</span>
 
-A.op = @(x,v,eta)([1i*omega*(diff(v,2) - k2*v) - (diff(v,4)-2*k2*diff(v,2)
+A.op = @(y,v,eta)([1i*omega*(diff(v,2) - k2*v) - (diff(v,4)-2*k2*diff(v,2)
         + k4*v)/Re - 1i*kx*Uyy*v  + 1i*kx*U*(diff(v,2) - k2*v);
         1i*omega*eta + 1i*kz*Uy*v + 1i*kx*U*eta - (diff(eta,2) - k2*eta)/Re]);
 
-B.op = @(x,dx,dy,dz) ([-1i*kx*diff(dx) - k2*dy - 1i*kz*diff(dz);
+B.op = @(y,dx,dy,dz) ([-1i*kx*diff(dx) - k2*dy - 1i*kz*diff(dz);
                         1i*kz*dx - 1i*kx*dz]);
-C.op = @(x,v,eta)([1i*kx*diff(v)/k2 - 1i*kz*eta/k2;
+C.op = @(y,v,eta)([1i*kx*diff(v)/k2 - 1i*kz*eta/k2;
                 v ;
                 1i*kz*diff(v)/k2 + 1i*kx*eta/k2]);
 </pre></div></div>
@@ -9427,90 +9567,46 @@ v(\pm 1)  \;=\;  v&rsquo;(\pm 1)  \;=\;  \eta(\pm 1)  \;=\;  0
 </p><p><br /></p>
 <p>These can again be input in the Chebfun syntax,</p>
 <div class="codeblock">
+<div class="blocktitle">Boundary conditions</div>
 <div class="blockcontent"><pre>
 A.lbc = @(v,eta)[v;diff(v);eta];
 A.rbc = @(v,eta)[v;diff(v);eta];
 </pre></div></div>
+<div class="codeblock">
+<div class="blocktitle">Compute singular values</div>
+<div class="blockcontent"><pre>
+sval = svdfr(A,B,C);
+</pre></div></div>
+<p>The full solution involves singular value calculations over linearly sampled frequencies, and can be found in <a href="../schmidSols.m" target=&ldquo;blank&rdquo;>schmidSols.m</a>.</p>
 <figure>
   <img src="pics/schmidSols.svg" alt="3dflow" style="width:50%">
-  <p>Fig.2 Principal singular values as a function of temporal frequency</br> generated using <a href="../schmidSols.m">svdfr3/schmidSols.m</a>. A reference for this
+  <p>Fig.2 Principal singular values as a function of temporal frequency</br> generated using <a href="../schmidSols.m">svdfr/schmidSols.m</a>. A reference for this
   is Figure 4.10</br> in <a href="javascript:cite('schmid2012stability')">Stability and transition in shear flows</a></p>
 </figure>
-<h3>Computing the \(\mathcal{H}_\infty\) norm</h3>
-<p>The \(\mathcal{H}_\infty\) norm is the peak value of all singular values over all temporal frequencies \(\omega\in \mathbb R\), and can be computed using the fast algorithm by <a href="javascript:cite('BRUINSMA1990287')" target=&ldquo;blank&rdquo;>Bruinsma and Steinbuch</a>. This, and its relation to the feedback interconnected system is discussed toward the end of Section&nbsp;IIIA in the accompanying paper. </p>
-<p>We provide a function that will compute the \(\mathcal{H}_\infty \) norm given \(\mathcal{E}\), \(\mathcal{F}\), \(\mathcal{B}\), and \(\mathcal{C}\), in the system representation, where,</p>
-<p style="text-align:center">
-\[
-\begin{alignat}{3}
-  \partial_{t} [\mathcal{E} \, \boldsymbol \phi( \cdot , t)](y) \;&amp;=\; [\mathcal{F}\, \boldsymbol \phi(\cdot , t)](y) \,+\, [\mathcal{B}\,\boldsymbol{d}(\cdot,t)](y),&amp;&amp;\notag \\
-    \boldsymbol \xi(y,t) \;&amp;=\; [\mathcal{C}\,\boldsymbol \phi(\cdot,t)](y),&amp;\label{eq:mot1Eb}\\
-   [\mathcal{L}_a \, \boldsymbol \phi(\cdot,t)](a)  \;&amp;=\; [\mathcal {L}_b \, \boldsymbol \phi(\cdot,t)](b) \;=\;  0,&amp;\notag
-\end{alignat}	
-\]
-</p><p>Note that system Eq.&nbsp;\(\eqref{eq:EvolForm}\) is in this system representation, with </p>
-<p style="text-align:center">
-\[
-	\begin{align*}\label{eq:EvolForm2}
-\partial_t\,\underbrace{\left[\begin{array}{cc}
-	\Delta &amp; 0\\
-	0 &amp; I
-\end{array}\right]}_{\mathcal E}\left[\begin{array}{c}
-	v\\
-	\eta
-\end{array} \right] \;&amp;=\; \underbrace{\left[\begin{array}{cc}
-	-i\,k_x\,U\,\Delta + i\,k_x\,U&rsquo;&rsquo; + \frac{1}{Re}\,\Delta^2 &amp; 0 \\
-	-i\,k_z\, U&rsquo; &amp; -i\,k_x\, U + \frac{1}{Re}\,\Delta
-\end{array}\right]}_{\mathcal F }\left[\begin{array}{c}
-	v\\
-	\eta
-\end{array} \right] \,+\,  \underbrace{\left[\begin{array}{ccc}
-	i\,k_x\,\partial_y &amp; k_2 &amp; i\,k_z\,\partial_y\\
-	i\,k_z &amp; 0 &amp; -i\,k_x 
-\end{array}\right]}_{\mathcal B} \left[\begin{array}{c}
-	d_x\\
-	d_y\\
-	d_z
-\end{array}\right],  \\
-\left[ \begin{array}{c}
-	 u\\
-	 v\\
-	 w
-	 \end{array} \right] \;&amp;=\;
-	 \frac{1}{k^2} \underbrace{\left[\begin{array}{cc}
-	 i\,k_x\,\partial_y &amp; -i\,k_x\\
-	 	k^2&amp; 0 \\
-		i\,k_z\,\partial_y &amp; i\,k_x
-		\end{array}\right]}_{\mathcal C} \left[ \begin{array}{c}
-		v\\
-		\eta
-		\end{array}
-		 \right].
-\end{align*}
-\]
-</p><p>We compute the \(\mathcal{H}_\infty \) norm for \(Re = 2000\), and \(k_x = k_z = 1\). The code outputs the optimal frequency \(\omega = -0.385\) and \(\mathcal{H}_\infty \) norm for this set of parameters as \(395.6\).</p>
+<p>We next compute the \({H}_\infty\) norm: the peak value of all singular values over all temporal frequencies \(\omega\in \mathbb R\) using the fast algorithm by <a href="javascript:cite('BRUINSMA1990287')" target=&ldquo;blank&rdquo;>Bruinsma and Steinbuch</a>. This, and its relation to the feedback interconnected system is discussed toward the end of Section&nbsp;IIIA in the <a href="javascript:cite('harkumjovJCP20')">accompanying paper</a>. </p>
+<p>We provide the function <tt>hinfNorm</tt> that computes the \({H}_\infty\) norm given \(\mathcal{E}\), \(\mathcal{F}\), \(\mathcal{B}\), and \(\mathcal{C}\), in the system representation, Eq.&nbsp;\(\eqref{eq:2}\).</p>
+<p>The following code computes the \({H}_\infty \) norm for Poiseuille flow with \(Re = 2000\), and \(k_x = k_z = 1\). The code generates outputs as the optimal frequency \(\omega = -0.385\) and \({H}_\infty \) norm for this set of parameters as \(395.6\).</p>
 <div class="codeblock">
-<div class="blocktitle">Specify parameters</div>
+<div class="blocktitle">Problem data</div>
 <div class="blockcontent"><pre>
-ii = sqrt(-1);
-Re = 2000;
-kx = 1;
-kz = 1;
+ii = sqrt(-1);      <span class="comment">% Imaginary unit</span>
+Re = 2000;          <span class="comment">% Reynolds number</span>
+kx = 1; kz = 1;     <span class="comment">% Spatial wavenumbers</span>
 k2 = kx*kx + kz*kz;
 k4 = k2*k2;
 </pre></div></div>
 <div class="codeblock">
-<div class="blocktitle">Define operators</div>
+<div class="blocktitle">Operators in TPBVP</div>
 <div class="blockcontent"><pre>
-E = chebop([-1,1]);
-F = chebop([-1,1]);
-B = chebop([-1,1]);
-C = chebop([-1,1]);
-y = chebfun(<span class="string">'y'</span>,[-1,1]);
+E = chebop([-1,1]);      <span class="comment">% Operator E</span>
+F = chebop([-1,1]);      <span class="comment">% Operator F</span>
+B = chebop([-1,1]);      <span class="comment">% Operator B</span>
+C = chebop([-1,1]);      <span class="comment">% Operator C</span>
+y = chebfun(<span class="string">'y'</span>);
 
-U = 1 - y*y;
+U = 1 - y*y;             <span class="comment">% For Poiseuille flow, or U = y <span class="statement">for</span> Couette flow</span>
 Uy = diff(U);
 Uyy = diff(Uy);
-omega = -0.4;
 
 
 E.op = @(x,v,eta)([(diff(v,2) - k2*v);<span class="operator">...</span>
@@ -9531,13 +9627,177 @@ C.op = @(x,v,eta)([ii*kx*diff(v)/k2 - ii*kz*eta/k2;<span class="operator">...</s
 <div class="codeblock">
 <div class="blocktitle">Compute the H-infinity norm</div>
 <div class="blockcontent"><pre>
-cheboppref.setDefaults(<span class="string">'minDimension'</span>,32);
+<span class="comment">% Restrict dimension to 1000 Chebyshev polynomials <span class="statement">for</span> speed</span>
 cheboppref.setDefaults(<span class="string">'maxDimension'</span>,1000);
-[omega_opt,gamma_opt] = HinfNorm(E,F,B,C);
+[omega_opt,gamma_opt] = hinfNorm(E,F,B,C);
 </pre></div></div>
+<h3>Problem </h3>
+<p>Plot most amplified structures of streamwise velocity fluctuations (\(3\)D isosurface plots) and the corresponding spanwise body force for \(Re = 2000\), \(k_x = 1\), and \(\omega = -0.385\). </p>
+<h3>Solution</h3>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+<span class="comment">% Set parameters and base velocity</span>
+Re = 2000;                  <span class="comment">% Reynolds number</span>
+kxval = [1 1 -1 -1];        <span class="comment">% streamwise wavenumber</span>
+kzval = [1 -1 1 -1];        <span class="comment">% spanwise wavenumber</span>
+omval  = 0.385*[-1 -1 1 1]; <span class="comment">% temporal frequency</span>
+
+y = chebfun(<span class="string">'y'</span>);
+
+U = 1 - y^2;                <span class="comment">% base flow (Poiseuille; U = y <span class="statement">for</span> Couette)</span>
+Uy = diff(U);               <span class="comment">% derivative of U</span>
+Uyy = diff(U,2);            <span class="comment">% second derivative of U</span>
+
+<span class="comment">% Looping over kx, kz, and om</span>
+N = 200;                    <span class="comment">% Grid size <span class="statement">for</span> plotting in y-direction</span>
+uvec = zeros(N,length(kxval));
+dzvec = zeros(N,length(kxval));
+
+<span class="statement">for</span> n = 1:length(kxval)
+
+    kx = kxval(n); kz = kzval(n); omega = omval(n);
+    kx2 = kx*kx; kz2 = kz*kz;
+    k2 = kx2 + kz2;
+
+    A = chebop([-1,1]);     <span class="comment">% Operator A</span>
+    B = chebop([-1,1]);     <span class="comment">% Operator B</span>
+    C = chebop([-1,1]);     <span class="comment">% Operator C</span>
+
+    A.op = @(x,v,eta)([1i*omega*(diff(v,2) - k2*v) - (diff(v,4)-2*k2*diff(v,2) <span class="operator">...</span>
+            + k4*v)/Re - 1i*kx*Uyy*v  + 1i*kx*U*(diff(v,2) - k2*v);<span class="operator">...</span>
+            1i*omega*eta + 1i*kz*Uy*v + 1i*kx*U*eta - (diff(eta,2) - k2*eta)/Re]);
+
+    A.lbc = @(v,eta)[diff(v);v;eta];
+    A.rbc = @(v,eta)[diff(v);v;eta];
+
+    B.op = @(x,dx,dy,dz) ([-1i*kx*diff(dx) - k2*dy - 1i*kz*diff(dz);<span class="operator">...</span>
+                            1i*kz*dx - 1i*kx*dz]);
+    C.op = @(x,v,eta)([1i*kx*diff(v)/k2 - 1i*kz*eta/k2;<span class="operator">...</span>
+                    v ; <span class="operator">...</span>
+                    1i*kz*diff(v)/k2 + 1i*kx*eta/k2]);
+
+    <span class="comment">% Compute the singular function</span>
+    [PhiAndPsi,sval] = svdfr(A,B,C,1);
+
+    <span class="comment">% velocities</span>
+    uvw = C(PhiAndPsi(1:2,:));  <span class="comment">% First two variables are the regular variables,</span>
+                                <span class="comment">% v and eta, so that Phi = [v;eta].</span>
+                                <span class="comment">% Note C(Phi) gives the output, [u;v;w]</span>
+    u = uvw.blocks{1};          <span class="comment">% streamwise velocity</span>
+    v = uvw.blocks{2};          <span class="comment">% wall-normal velocity</span>
+    w = uvw.blocks{3};          <span class="comment">% spanwise velocity</span>
+
+    <span class="comment">% Body forces:</span>
+    Bad = adjointNS(B);             <span class="comment">% The body forces are computed as Bad(Psi);</span>
+    dxdydz = Bad(PhiAndPsi(3:4,:)); <span class="comment">% The second two arguments are Psi, the</span>
+                                    <span class="comment">% auxiliary variables <span class="statement">for</span> the adjoint system</span>
+    dx = dxdydz.blocks{1};
+    dy = dxdydz.blocks{2};
+    dz = dxdydz.blocks{3};
+
+    uvec(:,n) = u(chebpts(N));
+    dzvec(:,n) = dz(chebpts(N));
+
+<span class="statement">end</span>
+
+kx = abs(kxval(1)); kz = abs(kzval(1));
+zval = linspace(-7.8, 7.8, 100);    <span class="comment">% spanwise coordinate</span>
+xval = linspace(0, 12.7, 100);      <span class="comment">% streamwise coordinate</span>
+
+Up = zeros(length(zval),length(xval),N);    <span class="comment">% physical value of u</span>
+Dp = zeros(length(zval),length(xval),N);    <span class="comment">% physical value of dz</span>
+
+<span class="statement">for</span> indx = 1:length(xval)
+    x = xval(indx);
+    <span class="statement">for</span> indz = 1:length(zval)
+        z = zval(indz);
+        <span class="statement">for</span> n = 1:4
+
+            kx = kxval(n); kz = kzval(n);
+
+            Up(indz,indx,:) =  squeeze(Up(indz,indx,:)) + <span class="operator">...</span>
+                uvec(:,n)*exp(1i*kx*x + 1i*kz*z);
+
+            Dp(indz,indx,:) =  squeeze(Dp(indz,indx,:)) + <span class="operator">...</span>
+                dzvec(:,n)*exp(1i*kx*x + 1i*kz*z);
+        <span class="statement">end</span>
+    <span class="statement">end</span>
+<span class="statement">end</span>
+Up = real(Up); Dp = real(Dp); <span class="comment">% only real part exist</span>
+</pre></div></div>
+<p>Now, we plot isosurfaces of the optimal flow structures.</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+<span class="comment">%% Plot isosurfaces of optimal flow structures</span>
+clf
+Upmax = <span class="statement">max</span>(<span class="statement">max</span>(<span class="statement">max</span>(Up)));
+val = 0.2*Upmax;
+ypt = chebpts(N);
+
+[X,Z,Y] = meshgrid(xval,zval,ypt);
+p = patch(isosurface(X,Z,Y,Up,val));
+hh = isonormals(xval,zval,ypt,Up,p);
+p.FaceColor = <span class="string">'red'</span>;
+p.EdgeColor = <span class="string">'none'</span>;
+daspect(<span class="string">'auto'</span>)
+view(3);
+ax = gca;
+xlabel(<span class="string">'$x$'</span>);
+ylabel(<span class="string">'$z$'</span>);ax.YTick = -10:5:10;
+zlabel(<span class="string">'$y$'</span>);ax.ZTick = -1:0.5:1;
+camlight
+
+hold on
+p = patch(isosurface(X,Z,Y,Up,-val));
+isonormals(xval,zval,ypt,Up,p);
+p.FaceColor = <span class="string">'green'</span>;
+p.EdgeColor = <span class="string">'none'</span>;
+print(<span class="string">'-painters'</span>,<span class="string">'-djpeg'</span>,<span class="string">'docs/pics/Code4_2'</span>);
+disp(<span class="string">'done'</span>);
+hold off
+</pre></div></div>
+<figure>
+  <img src="pics/Code4_2.jpg" alt="3dflow" style="width:50%">
+  <p>Fig.3 Isosurfaces of the optimal flow structure for </br> the frequency
+  responses of Poiseuille flow with</br> \(Re = 2000\), \(k_x = k_z = 1\), and \(\omega = 0\).</br> This plot is generated using <a href="../channelFlow3D.m">svdfr/channelFlow3D.m</a></p>
+</figure>
+<p>We next plot the corresponding spanwise body force. </p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+<span class="comment">%% Plot isosurfaces of the corresponding body force</span>
+clf
+
+dpmax = <span class="statement">max</span>(<span class="statement">max</span>(<span class="statement">max</span>(Dp)));
+val = 0.2*dpmax;
+ypt = chebpts(N);
+
+[X,Z,Y] = meshgrid(xval,zval,ypt);
+p = patch(isosurface(X,Z,Y,Dp,val));
+hh = isonormals(xval,zval,ypt,Dp,p);
+p.FaceColor = <span class="string">'blue'</span>;
+p.EdgeColor = <span class="string">'none'</span>;
+daspect(<span class="string">'auto'</span>)
+view(3);
+ax = gca;
+xlabel(<span class="string">'$x$'</span>);
+ylabel(<span class="string">'$z$'</span>);ax.YTick = -10:5:10;
+zlabel(<span class="string">'$y$'</span>);ax.ZTick = -1:0.5:1;
+camlight
+
+hold on
+p = patch(isosurface(X,Z,Y,Dp,-val));
+isonormals(xval,zval,ypt,Dp,p);
+p.FaceColor = <span class="string">'yellow'</span>;
+p.EdgeColor = <span class="string">'none'</span>;
+print(<span class="string">'-painters'</span>,<span class="string">'-djpeg'</span>,<span class="string">'docs/pics/Code4_3'</span>);
+</pre></div></div>
+<figure>
+  <img src="pics/Code4_3.jpg" alt="3dflow" style="width:50%">
+  <p>Fig.4 Isosurfaces of the spanwise body force that result </br>in the optimal flow structure in Fig. 3 for the frequency </br>responses of Poiseuille flow with</br> \(Re = 2000\), \(k_x = k_z = 1\), and \(\omega = 0\). </br> This plot is generated using <a href="../channelFlow3D.m">svdfr/channelFlow3D.m</a></p>
+</figure>
 <div id="footer">
 <div id="footer-text">
-Page generated 2020-05-05 11:48:10 CDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2020-12-08 17:01:20 CST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>

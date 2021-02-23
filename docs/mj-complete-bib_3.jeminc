@@ -1,3 +1,4 @@
+
 #item: harkumjovJCP20
 ~~~
 {}{raw}
@@ -7,10 +8,10 @@ style="z-index: 10000">
 <p>
 ~~~
 
-/Well-conditioned ultraspherical and spectral integration methods for resolvent analysis of channel flows of Newtonian and viscoelastic fluids/\n
+/Well-conditioned ultraspherical and spectral integration methods for \n resolvent analysis of channel flows of Newtonian and viscoelastic fluids/\n
 Hariharan, G., Kumar, S. and Jovanović, M.R.\n
 J. Comput. Phys., 2020\n
-[/javascript:toggleBibtex('harkumjovJCP20') \[BibTeX\]][https://arxiv.org/abs/2005.04493 \[PDF\]]
+[/javascript:toggleBibtex('harkumjovJCP20') \[BibTeX\]]
 ~~~
 {}{raw}
 </p>
@@ -18,11 +19,10 @@ J. Comput. Phys., 2020\n
 <pre>
 @article{harkumjovJCP20,
   author = {G. Hariharan and S. Kumar and M. R. Jovanovi&cacute;},
-  title = {Well-conditioned ultraspherical and spectral integration methods for resolvent analysis of channel flows of Newtonian and viscoelastic fluids},
+  title = {Well-conditioned ultraspherical and spectral integration methods for<br />  resolvent analysis of  channel flows of Newtonian and viscoelastic fluids},
   journal = {J. Comput. Phys.},
   year = {2020},
-  note = {accepted; also arXiv:2005.04493}
-  pdf = {https://arxiv.org/abs/2005.04493}
+  note = {accepted}
 }
 </pre></div>
 </div>

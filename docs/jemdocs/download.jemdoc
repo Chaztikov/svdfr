@@ -49,12 +49,12 @@ This work utilizes the latest release of [https://www.chebfun.org Chebfun], V5.7
 If you are using this software in your research or teaching, please include explicit mention of [/javascript:cite('harkumjovJCP20') our paper]:
 ~~~ 
 {}{} 
-@article{harkumjovJCP20,
+@article{harkumjovJCP21,
 author  = {G. Hariharan and S. Kumar and M. R. Jovanovi\'c},
 title   = {Well-conditioned ultraspherical and spectral integration methods for
 resolvent analysis of channel flows of {N}ewtonian and viscoelastic fluids},
 journal = {J. Comput. Phys},
-year    = {2020},
+year    = {2021},
 note    = {accepted; also arXiv:2005.04493},
 pdf     = {https://arxiv.org/abs/2005.04493}
 }

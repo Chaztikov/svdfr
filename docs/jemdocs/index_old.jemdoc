@@ -1,0 +1,49 @@
+# jemdoc: menu{MENU}{index.html},addpackage{amsmath},addpackage{amssymb}
+# jemdoc: addcss{jemdoc.css}
+# jemdoc: addcss{bibover.css}
+#include{masterFile_2.jeminc}
+#include{mj-complete-bib_3.jeminc}
+= Singular Values and Frequency Responses of PDEs
+
+~~~
+
+ *{{<a href="https://gokulhari.github.io/webpage/" target="_blank">Gokul Hariharan</a>}}*, *{{<a href="https://kumar.cems.umn.edu/people/satish-kumar" target="_blank">Satish Kumar</a>}}*, and *{{<a href="http://www-bcf.usc.edu/~mihailo/" target="_blank">Mihailo R. Jovanovic</a>}}*
+
+ *Note:* The previous version of +SVDFR+ by [/javascript:cite('liejovJCP13') Lieu and Jovanovic] can be accessed [http://people.ece.umn.edu/users/mihailo/software/chebfun-svd/index.html here].
+
+
+Updated in March 6, 2021
+
+*Matlab Files*
+	\n
+	+[/svdfr.zip Download all Matlab files]+
+~~~
+
+~~~
+{}{img_left}{pics/cheblogow_small.png}{}{}{}{http://www.chebfun.org/}
+*This software needs {{<a href="http://www.chebfun.org/" target="_blank">Chebfun</a>}} and  {{<a href="https://www.mathworks.com/products/matlab.html" target="_blank"> Matlab</a>}}.*
+    ~~~
+
+== Purpose
+Most systems in day-to-day life are governed by partial differential equations.
+Simple examples of this include the {{<a href="https://en.wikipedia.org/wiki/Euler%E2%80%93Bernoulli_beam_theory" target="_blank">Euler-beam</a>}} hinged at its two ends which is a crude approximation to a bridge, and
+the {{<a href="https://en.wikipedia.org/wiki/Navier-Stokes_equations" target="_blank">Navier-Stokes</a>}} equations which exactly express the motion of a fluid like water. Frequency responses look at the responses of these physical systems to a persistent sinusoidal forcing. A good example of this is an opera singer trying to shatter a vine glass (I've taken the picture below from {{<a href="https://www.imdb.com/title/tt0304141/" target="_blank">Harry Potter and the Prisoner of Azkaban</a>}}). 
+
+~~~
+{}{img_left}{pics/HPfatlady.gif}{}{540}{225}{}
+~~~
+
+Another good example where frequency responses could have played a major role is the {{<a href="https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge" target="_blank">Tacoma bridge</a> incident}}.
+The Tacoma bridge collapsed in 1940 after oscillating about 10-15 cycles a minute until it finally broke apart. The strong wind is said to have triggered the amplifying oscillations that finally led to the collapse of the bridge.
+~~~
+{}{img_left}{pics/ScholarlyTotalBlacklab-small.gif}{}{327}{251}{}
+~~~
+
+[index.html +SVDFR+] can solve for
+singular values of frequency responses of a subset of linear partial
+differential equations in time and one other spatial variable. The principal singular value computed in this manner is the largest possible amplification of the output for a unit input. The associated functions of the principal singular value give the shape of the input that can lead to the optimal output. We provide a few examples here that involve applications in physical
+systems.
+
+[/javascript:cite('liejovJCP13') Lieu and Jovanovic] originally started out this endeavor in using {{<a href="http://www.chebfun.org/" target="_blank">Chebfun's</a>}} automatic collocation in frequency response calculations. They used an integral reformulation to derive a well-conditioned numerical scheme to compute frequency responses. Over the years, {{<a href="http://www.chebfun.org/" target="_blank">Chebfun</a>}} has evolved substantially, the original version of SVDFR is no more maintained or updated. In contrast, the version presented here uses {{<a href="http://www.chebfun.org/" target="_blank">Chebfun's</a>}} built-in well-conditioned [/javascript:cite('OlvTowSIAM2013') ultraspherical method], and a robust feedback interconnected system (see the [/javascript:cite('harkumjovJCP21') accompanying paper] and [/javascript:cite('Boyd1989') Boyd]). Furthermore, the current version is updated to comply with the most recent release of {{<a href="http://www.chebfun.org/" target="_blank">Chebfun</a>}} (v5.7.0) and is designed to work directly with the {{<a href="http://www.chebfun.org/" target="_blank">Chebfun</a>}} syntax: /The end result as you will see in the examples is short and intuitive codes to compute frequency responses of relatively complex systems/.  
+
+We also provide a routine to compute the $H_\infty$ norm of a linear system (the largest energy amplification among inputs of all temporal frequencies). We believe that most users familiar with {{<a href="http://www.chebfun.org/" target="_blank">Chebfun</a>}} can start using [index.html +SVDFR+] effortlessly.

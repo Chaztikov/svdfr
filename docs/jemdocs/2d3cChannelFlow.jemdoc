@@ -152,7 +152,7 @@ where $\mathcal{A} (\omega) = {\mathrm i} \omega \mathcal{E} -\mathcal{F}$,
 
 where $\hat{\Delta} = \mathrm D^2 - k_z^2$ with $\mathrm D = \mathrm d/\mathrm dy$, and $\mathcal{A}^{-1} (\omega)$ is the resolvent operator. 
 
-A feedback interconnection of the frequency response operator with its adjoint can be used to compute singular values (see the [/javascript:cite('harkumjovJCP20') accompanying paper] and [/javascript:cite('Boyd1989') Boyd]),
+A feedback interconnection of the frequency response operator with its adjoint can be used to compute singular values (see the [/javascript:cite('harkumjovJCP21') accompanying paper] and [/javascript:cite('Boyd1989') Boyd]),
 \(
   \begin{align}
 \left[

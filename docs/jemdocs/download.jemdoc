@@ -6,9 +6,7 @@
 
 = Download
 
-+SVDFR+ is distributed under the terms of the [http://www.gnu.org/licenses/gpl-3.0.html GNU General Public License 3.0].
-
-You can download +SVDFR+ from [https://github.com/gokulhari/svdfr Github] or as a zip-file from [/svdfr.zip here].
+You can download +svdfr+ from [https://github.com/gokulhari/svdfr Github] or as a zip-file from [/svdfr.zip here]. It is distributed under the terms of the [http://www.gnu.org/licenses/gpl-3.0.html GNU General Public License 3.0].
 
 === Main functions:
 
@@ -46,31 +44,23 @@ This work utilizes the latest release of [https://www.chebfun.org Chebfun], V5.7
 
 === Citation
 
-If you are using this software in your research or teaching, please include explicit mention of [/javascript:cite('harkumjovJCP20') our paper]:
+If you are using +svdfr+ in your research or teaching, please include explicit mention of our papers:
 ~~~ 
 {}{} 
 @article{harkumjovJCP21,
 author  = {G. Hariharan and S. Kumar and M. R. Jovanovi\'c},
-title   = {Well-conditioned ultraspherical and spectral integration methods for
-resolvent analysis of channel flows of {N}ewtonian and viscoelastic fluids},
+title   = {Well-conditioned ultraspherical and spectral integration methods for resolvent analysis of channel flows of {N}ewtonian and viscoelastic fluids},
 journal = {J. Comput. Phys},
 year    = {2021},
-note    = {accepted; also arXiv:2005.04493},
-pdf     = {https://arxiv.org/abs/2005.04493}
+note    = {doi:10.1016/j.jcp.2021.110241; also arXiv:2005.04493}
 }
-~~~
-and the paper of [/javascript:cite('liejovJCP13') Lieu and Jovanovic]:
-~~~
-{}{}
-@ARTICLE{liejovJCP13,
-AUTHOR = {B. K. Lieu and M. R. Jovanovi\'c},
-JOURNAL = {J. Comput. Phys.},
-TITLE = {Computation of frequency responses for linear time-invariant {PDEs} on a compact interval},
-YEAR = {2013},
-MONTH = {October},
-VOLUME = {250},
-PAGES = {246-269},
-KEYWORDS = {Distributed systems theory, Computational tools for spatially distributed systems, Uncertainty quantification in PDEs},
-PDF = {https://viterbi-web.usc.edu/~mihailo/papers/liejovJCP13.pdf} 
+
+@article{liejovJCP13,
+author = {B. K. Lieu and M. R. Jovanovi\'c},
+journal = {J. Comput. Phys.},
+title = {Computation of frequency responses for linear time-invariant {PDEs} on a compact interval},
+volume = {250},
+pages = {246-269},
+year = {2013
 }
 ~~~

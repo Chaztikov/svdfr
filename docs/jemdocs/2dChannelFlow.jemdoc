@@ -99,7 +99,7 @@ Find the largest singular value of the frequency response operator for the Orr-S
 in a Poiseuille flow as a function of $k_x$ at $\omega = -0.3$ and $Re = 2000$.
 
 === Solution
-A feedback interconnection of the frequency response operator with its adjoint can be used to compute singular values (see the [/javascript:cite('harkumjovJCP20') accompanying paper] and [/javascript:cite('Boyd1989') Boyd]),
+A feedback interconnection of the frequency response operator with its adjoint can be used to compute singular values (see the [/javascript:cite('harkumjovJCP21') accompanying paper] and [/javascript:cite('Boyd1989') Boyd]),
 \(
   \begin{align}
 \left[

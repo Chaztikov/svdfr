@@ -63,7 +63,7 @@ by eliminating pressure and stress fluctuations from the model. Here, ${\boldsym
 	\label{eq:Coef}
 \end{align}
 \)
-Expressions for coefficients $a_n(y,\omega)$ in Eq.~$\eqref{eq:Coef}$ are provided in Appendix~D of [/javascript:cite('liejovJCP13') Lieu and Jovanovic] and in the accompanying paper.
+Expressions for coefficients $a_n(y,\omega)$ in Eq.~$\eqref{eq:Coef}$ are provided in Appendix~D of [/javascript:cite('liejovJCP13') Lieu and Jovanovic] and in the [/javascript:cite('harkumjovJCP21') accompanying paper].
 
 == Frequency response analysis
 

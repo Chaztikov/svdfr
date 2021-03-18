@@ -165,7 +165,7 @@ where $\mathcal{A} (\omega) = {\mathrm i} \omega \mathcal{E} -\mathcal{F}$,
 
 where $\hat{\Delta} = \mathrm D^2 - k_z^2$ with $\mathrm D = \mathrm d/\mathrm dy$, and $\mathcal{A}^{-1} (\omega)$ is the resolvent operator. 
 
-A feedback interconnection of the frequency response operator with its adjoint can be used to compute singular values (see the [/javascript:cite('harkumjovJCP20') accompanying paper] and [/javascript:cite('Boyd1989') Boyd]),
+A feedback interconnection of the frequency response operator with its adjoint can be used to compute singular values (see the [/javascript:cite('harkumjovJCP21') accompanying paper] and [/javascript:cite('Boyd1989') Boyd]),
 \(
   \begin{align}
 \left[
@@ -249,7 +249,7 @@ The full solution involves singular value calculations over linearly sampled fre
 </figure>
 ~~~
 
-We next compute the ${H}_\infty$ norm: the peak value of all singular values over all temporal frequencies $\omega\in \mathbb R$ using the fast algorithm by [javascript:cite('BRUINSMA1990287') Bruinsma and Steinbuch]. This, and its relation to the feedback interconnected system is discussed toward the end of Section~IIIA in the [/javascript:cite('harkumjovJCP20') accompanying paper]. 
+We next compute the ${H}_\infty$ norm: the peak value of all singular values over all temporal frequencies $\omega\in \mathbb R$ using the fast algorithm by [javascript:cite('BRUINSMA1990287') Bruinsma and Steinbuch]. This, and its relation to the feedback interconnected system is discussed toward the end of Section~IIIA in the [/javascript:cite('harkumjovJCP21') accompanying paper]. 
 
 We provide the function +hinfNorm+ that computes the ${H}_\infty$ norm given $\mathcal{E}$, $\mathcal{F}$, $\mathcal{B}$, and $\mathcal{C}$, in the system representation, Eq.~$\eqref{eq:2}$.
 

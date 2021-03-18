@@ -8,7 +8,7 @@
 Computations with the previous version of [/javascript:cite('liejovJCP13') +SVDFR+]
 were based on computing the eigenvalues of the cascaded system.
 The current version of [index.html +SVDFR+] is based on a feedback interconnected
-system (see the [/javascript:cite('harkumjovPRF20') accompanying paper] and Theorem 1 in this [/javascript:cite('Boyd1989') article]). 
+system (see the [/javascript:cite('harkumjovJCP21') accompanying paper] and Theorem 1 in this [/javascript:cite('Boyd1989') article]). 
 
 For a system of the form,
 \(

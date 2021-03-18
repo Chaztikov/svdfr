@@ -1,8 +1,4 @@
-# jemdoc: menu{MENU}{index.html},addpackage{amsmath},addpackage{amssymb}
-# jemdoc: addcss{jemdoc.css}
-# jemdoc: addcss{bibover.css}
-#include{masterFile_2.jeminc}
-#include{mj-complete-bib_3.jeminc}
+# jemdoc: menu{MENU}{index.html}
 = SVDFR: Singular Value Decomposition and \n Frequency Responses of PDEs in Chebfun
 
 ~~~
@@ -34,7 +30,7 @@
 ~~~
 
 	\n
-The original version of +svdfr+ was developed by {{<a href="https://www.linkedin.com/in/binh-lieu-70920211" target="_blank">Binh Lieu</a>}} in his [/javascript:cite('binh-phd14') PhD thesis]. In recent years, {{<a href="http://www.chebfun.org/" target="_blank">Chebfun</a>}} has significantly evolved and the original version is no longer maintained. The current version, developed by {{<a href="https://gokulhari.github.io/webpage/" target="_blank">Gokul Hariharan</a>}} in his [/javascript:cite('gokul-phd20') PhD thesis], utilizes {{<a href="http://www.chebfun.org/" target="_blank">Chebfun</a>}}'s built-in well-conditioned [/javascript:cite('OlvTowSIAM2013') ultraspherical scheme] in conjunction with a feedback interconnection of the frequency response operator with its adjoint (see our [/javascript:cite('harkumjovJCP21') 2021 JCP paper]) to compute singular values of the frequency response operator. This version has been updated to comply with the most recent release of {{<a href="http://www.chebfun.org/" target="_blank">Chebfun</a>}} (v5.7.0) and is designed to work directly with the {{<a href="http://www.chebfun.org/" target="_blank">Chebfun</a>}}'s syntax. 
+The original version of +svdfr+ was developed by {{<a href="https://www.linkedin.com/in/binh-lieu-70920211" target="_blank">Binh Lieu</a>}} in his PhD thesis. In recent years, {{<a href="http://www.chebfun.org/" target="_blank">Chebfun</a>}} has significantly evolved and the original version is no longer maintained. The current version, developed by {{<a href="https://gokulhari.github.io/webpage/" target="_blank">Gokul Hariharan</a>}} in his PhD thesis, utilizes {{<a href="http://www.chebfun.org/" target="_blank">Chebfun</a>}}'s built-in well-conditioned [/javascript:cite('OlvTowSIAM2013') ultraspherical scheme] in conjunction with a feedback interconnection of the frequency response operator with its adjoint (see our [https://arxiv.org/abs/2005.04493 2021 JCP paper]) to compute singular values of the frequency response operator. This version has been updated to comply with the most recent release of {{<a href="http://www.chebfun.org/" target="_blank">Chebfun</a>}} (v5.7.0) and is designed to work directly with the {{<a href="http://www.chebfun.org/" target="_blank">Chebfun</a>}}'s syntax. 
 	\n
 	\n
 In addition to the Matlab function 

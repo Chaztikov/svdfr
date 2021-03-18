@@ -2125,34 +2125,6 @@ Cambridge University Press, 2005\n
 </pre></div>
 </div>
 ~~~
-#item: gokul-phd20
-~~~
-{}{raw}
-<div class="bibover noshow" id="bibover_gokul-phd20" onmousedown="javascript:lockMouse(event,'gokul-phd20')" onmouseup="javascript:unLockMouse(event,'gokul-phd20')"
-style="z-index: 10000">
-<div class="cross" style="z-index: 10000"><a href="javascript:closeCite('gokul-phd20')">X</a></div>
-<p>
-~~~
-
-G. Hariharan,
-/Transition to elastic turbulence in channel flows/\n
-University of Minnesota, 2020\n
-[/javascript:toggleBibtex('gokul-phd20') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/theses/GokulHariharan-PhD.pdf \[PDF\]]
-~~~
-{}{raw}
-</p>
-<div id="bib_gokul-phd20" class="bibtex noshow" onmousedown="event.stopPropagation()" onmouseup="event.stopPropagation()">
-<pre>
-@phdthesis{gokul-phd20,
-  author = {G. Hariharan},
-  title = {Transition to elastic turbulence in channel flows},
-  school = {University of Minnesota},
-  year = {2020},
-  pdf = {/viterbi-web.usc.edu/~mihailo/theses/GokulHariharan-PhD.pdf}
-}
-</pre></div>
-</div>
-~~~
 #item: Goldstein1969
 ~~~
 {}{raw}

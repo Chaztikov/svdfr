@@ -8,7 +8,7 @@
 {}{raw}
 <figure>
   <img src="pics/ChannelFlow.svg" alt="3dflow" style="width:50%">
-  <p>Fig.1 Geometry and coordinates for channel flow</p>
+  <p>Fig. \(1\) Geometry and coordinates for channel flow</p>
 </figure>
 ~~~
 
@@ -136,6 +136,6 @@ print('-painters','-dsvg','docs/pics/Code5');
 {}{raw}
 <figure>
   <img src="pics/Code5.svg" alt="3dflow" style="width:50%">
-  <figcaption>Fig. 2 The principal singular values of the frequency response operator in 2D </br> inertialess channel flow of an Oldroyd-B fluid with \(\beta = 0.5\), \(k_x = 1\), and \(\omega = 0\). </br>See <a href="javascript:cite('liejovJCP13')">Figure 8 in Lieu and Jovanovic</a> for a comparison with spectral collocation.</br> This plot is generated using <a href="../visco2D.m">svdfr/visco2D.m</a></figcaption>
+  <figcaption>Fig. \(2\) The principal singular values of the frequency response operator in 2D inertialess channel flow of an Oldroyd-B fluid with \(\beta = 0.5\), \(k_x = 1\), and \(\omega = 0\). See <a href="javascript:cite('liejovJCP13')">Figure 8 in Lieu and Jovanovic</a> for a comparison with spectral collocation.</br> This plot is generated using <a href="../visco2D.m">svdfr/visco2D.m</a></figcaption>
 </figure>
 ~~~

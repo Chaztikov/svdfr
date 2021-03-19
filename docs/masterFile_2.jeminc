@@ -8,7 +8,7 @@ style="z-index: 10000">
 ~~~
 
 W. C. Reynolds and S. C. Kassinos,
-/One-point modelling of rapidly deformed homogeneous turbulence/\n
+/One-point modelling of rapidly deformed homogeneous turbulence/,
 Proc. R. Soc. Lond. A Math. Phys. Sci., 1995, Vol. 451, pp. 87-104\n
 [/javascript:toggleBibtex('2D3C') \[BibTeX\]] [https://doi.org/10.1098/rspa.1995.0118 \[DOI\]]
 ~~~
@@ -38,7 +38,7 @@ style="z-index: 10000">
 ~~~
 
 B. Bamieh and M. Dahleh,
-/Exact computation of traces and H2 norms for a class of infinite dimensional problems/\n
+/Exact computation of traces and H2 norms for a class of infinite dimensional problems/,
 In American Control Conference, 2000. Proceedings of the 2000, 2000, Vol. 4, pp. 2285-2289\n
 [/javascript:toggleBibtex('878587') \[BibTeX\]] [https://doi.org/10.1109/ACC.2000.878587 \[DOI\]]
 ~~~
@@ -68,7 +68,7 @@ style="z-index: 10000">
 ~~~
 
 A. Agarwal, L. Brandt and T. A. Zaki,
-/Linear and nonlinear evolution of a localized disturbance in polymeric channel flow/\n
+/Linear and nonlinear evolution of a localized disturbance in polymeric channel flow/,
 Cambridge University PressJ. Fluid Mech., 2014, Vol. 760, pp. 278-303\n
 [/javascript:toggleBibtex('agarwal2014linear') \[BibTeX\]]
 ~~~
@@ -98,7 +98,7 @@ style="z-index: 10000">
 ~~~
 
 A. Agarwal, L. Brandt and T. A. Zaki,
-/Transition to Turbulence in Viscoelastic Channel Flow/\n
+/Transition to Turbulence in Viscoelastic Channel Flow/,
 ElsevierProcedia IUTAM, 2015, Vol. 14, pp. 519-526\n
 [/javascript:toggleBibtex('agarwal2015transition') \[BibTeX\]]
 ~~~
@@ -128,7 +128,7 @@ style="z-index: 10000">
 ~~~
 
 F. Alavyoon, D. S. Henningson and P. H. Alfredsson,
-/Turbulent spots in plane \textscPoiseuille flow–flow visualization/\n
+/Turbulent spots in plane \textscPoiseuille flow–flow visualization/,
 AIP PublishingPhys. Fluids), 1986, Vol. 29, pp. 1328-1331\n
 [/javascript:toggleBibtex('alavyoon1986turbulent') \[BibTeX\]]
 ~~~
@@ -158,7 +158,7 @@ style="z-index: 10000">
 ~~~
 
 U. M. Ascher, S. J. Ruuth and B. T. R. Wetton,
-/Implicit-Explicit Methods for Time-Dependent Partial Differential Equations/\n
+/Implicit-Explicit Methods for Time-Dependent Partial Differential Equations/,
 SIAM J. Numer. Anal., 1995, Vol. 32, pp. 797-823\n
 [/javascript:toggleBibtex('AscRuuWetSIAM1995') \[BibTeX\]] [https://doi.org/10.1137/0732037 \[DOI\]]
 ~~~
@@ -188,7 +188,7 @@ style="z-index: 10000">
 ~~~
 
 J. L. Aurentz and L. N. Trefethen,
-/Block Operators and Spectral Discretizations/\n
+/Block Operators and Spectral Discretizations/,
 SIAM Rev., 2017, Vol. 59, pp. 423-446\n
 [/javascript:toggleBibtex('AurTreSIAM2017') \[BibTeX\]] [https://doi.org/10.1137/16M1065975 \[DOI\]]
 ~~~
@@ -218,7 +218,7 @@ style="z-index: 10000">
 ~~~
 
 B. Bamieh and M. Dahleh,
-/Energy amplification in channel flows with stochastic excitation/\n
+/Energy amplification in channel flows with stochastic excitation/,
 AIP PublishingPhys. Fluids, 2001, Vol. 13, pp. 3258-3269\n
 [/javascript:toggleBibtex('bamieh2001energy') \[BibTeX\]]
 ~~~
@@ -248,7 +248,7 @@ style="z-index: 10000">
 ~~~
 
 B. Bamieh, F. Paganini and M. A. Dahleh,
-/Distributed control of spatially invariant systems/\n
+/Distributed control of spatially invariant systems/,
 IEEEIEEE Trans. Autom. Control, 2002, Vol. 47, pp. 1091-1107\n
 [/javascript:toggleBibtex('bamieh2002distributed') \[BibTeX\]]
 ~~~
@@ -278,7 +278,7 @@ style="z-index: 10000">
 ~~~
 
 G. K. Batchelor and A. E. Gill,
-/Analysis of the stability of axisymmetric jets/\n
+/Analysis of the stability of axisymmetric jets/,
 Cambridge University PressJ. Fluid Mech., 1962, Vol. 14, pp. 529-551\n
 [/javascript:toggleBibtex('batchelor_gill_1962') \[BibTeX\]] [https://doi.org/10.1017/S0022112062001421 \[DOI\]]
 ~~~
@@ -309,7 +309,7 @@ style="z-index: 10000">
 ~~~
 
 K. H. Bech, N. Tillmark, P. H. Alfredsson and H. I. Andersson,
-/An investigation of turbulent plane Couette flow at low Reynolds numbers/\n
+/An investigation of turbulent plane Couette flow at low Reynolds numbers/,
 Cambridge University PressJ. Fluid Mech., 1995, Vol. 286, pp. 291-325\n
 [/javascript:toggleBibtex('bech_tillmark_alfredsson_andersson_1995') \[BibTeX\]] [https://doi.org/10.1017/S0022112095000747 \[DOI\]]
 ~~~
@@ -340,7 +340,7 @@ style="z-index: 10000">
 ~~~
 
 P. Benner, V. Sima and M. Voigt,
-/\mathcalL{_}{∞}{}-Norm Computation for Continuous-Time Descriptor Systems Using Structured Matrix Pencils/\n
+/\mathcalL{_}{∞}{}-Norm Computation for Continuous-Time Descriptor Systems Using Structured Matrix Pencils/,
 IEEE Trans. Autom. Control, 2012, Vol. 57, pp. 233-238\n
 [/javascript:toggleBibtex('BennerDescriptor2012') \[BibTeX\]] [https://doi.org/10.1109/TAC.2011.2161833 \[DOI\]]
 ~~~
@@ -370,7 +370,7 @@ style="z-index: 10000">
 ~~~
 
 J. L. Lumley,
-/Drag Reduction by Additives/\n
+/Drag Reduction by Additives/,
 Annu. Rev. Fluid Mech., 1969, Vol. 1, pp. 367-384\n
 [/javascript:toggleBibtex('Berman1969') \[BibTeX\]] [https://doi.org/10.1146/annurev.fl.01.010169.002055 \[DOI\]]
 ~~~
@@ -400,7 +400,7 @@ style="z-index: 10000">
 ~~~
 
 V. Bertola, B. Meulenbroek, C. Wagner, C. Storm, A. N. Morozov, W. van Saarloos and D. Bonn,
-/Experimental evidence for an intrinsic route to polymer melt fracture phenomena: A nonlinear instability of viscoelastic Poiseuille flow/\n
+/Experimental evidence for an intrinsic route to polymer melt fracture phenomena: A nonlinear instability of viscoelastic Poiseuille flow/,
 APSPhys. Rev. Lett., 2003, Vol. 90, pp. 114502\n
 [/javascript:toggleBibtex('bertola2003experimental') \[BibTeX\]]
 ~~~
@@ -430,7 +430,7 @@ style="z-index: 10000">
 ~~~
 
 L. Biancofiore, L. Brandt and T. A. Zaki,
-/Streak instability in viscoelastic Couette flow/\n
+/Streak instability in viscoelastic Couette flow/,
 American Physical SocietyPhys. Rev. Fluids, 2017, Vol. 2, pp. 043304\n
 [/javascript:toggleBibtex('biabrazakPRF2017') \[BibTeX\]] [https://doi.org/10.1103/PhysRevFluids.2.043304 \[DOI\]]
 ~~~
@@ -461,7 +461,7 @@ style="z-index: 10000">
 ~~~
 
 R. B. Bird, C. F. Curtiss, R. C. Armstrong and O. Hassager,
-/Dynamics of polymeric liquids, Vol. 2, kinetic theory/\n
+/Dynamics of polymeric liquids, Vol. 2, kinetic theory/,
 John Wiley and Sons, 1987\n
 [/javascript:toggleBibtex('bird1987dynamics') \[BibTeX\]]
 ~~~
@@ -488,7 +488,7 @@ style="z-index: 10000">
 ~~~
 
 R. B. Bird and J. M. Wiest,
-/Constitutive equations for polymeric liquids/\n
+/Constitutive equations for polymeric liquids/,
 Annual Reviews 4139 El Camino Way, PO Box 10139, Palo Alto, CA 94303-0139, USAAnnu. Rev. Fluid Mech., 1995, Vol. 27, pp. 169-193\n
 [/javascript:toggleBibtex('bird1995constitutive') \[BibTeX\]]
 ~~~
@@ -518,7 +518,7 @@ style="z-index: 10000">
 ~~~
 
 A. Boguslawski and S. Kubacki,
-/An influence matrix technique for multi-domain solution of the Navier-Stokes equations in a vorticity-streamfunction formulation/\n
+/An influence matrix technique for multi-domain solution of the Navier-Stokes equations in a vorticity-streamfunction formulation/,
 J. Theoret. App. Mech., 01, 2009, Vol. 47, pp. 17-40\n
 [/javascript:toggleBibtex('BoguslawskiJTAM2009') \[BibTeX\]]
 ~~~
@@ -547,7 +547,7 @@ style="z-index: 10000">
 ~~~
 
 D. Bonn, F. Ingremeau, Y. Amarouchene and H. Kellay,
-/Large velocity fluctuations in small-\textscReynolds{-}{n}{u}mber pipe flow of polymer solutions/\n
+/Large velocity fluctuations in small-\textscReynolds{-}{n}{u}mber pipe flow of polymer solutions/,
 American Physical SocietyPhys. Rev. E, 2011, Vol. 84, pp. 045301\n
 [/javascript:toggleBibtex('Bonn2011') \[BibTeX\]] [https://doi.org/10.1103/PhysRevE.84.045301 \[DOI\]]
 ~~~
@@ -578,7 +578,7 @@ style="z-index: 10000">
 ~~~
 
 A. Bottaro, P. Corbett and P. Luchini,
-/The effect of base flow variation on flow stability/\n
+/The effect of base flow variation on flow stability/,
 Cambridge University PressJ. Fluid Mech., 2003, Vol. 476, pp. 293-302\n
 [/javascript:toggleBibtex('bottaro2003effect') \[BibTeX\]]
 ~~~
@@ -608,7 +608,7 @@ style="z-index: 10000">
 ~~~
 
 D. Bourne,
-/Hydrodynamic stability, the Chebyshev tau method and spurious eigenvalues/\n
+/Hydrodynamic stability, the Chebyshev tau method and spurious eigenvalues/,
 SpringerCont. Mech. Therm., 2003, Vol. 15, pp. 571-579\n
 [/javascript:toggleBibtex('bourne2003hydrodynamic') \[BibTeX\]]
 ~~~
@@ -638,7 +638,7 @@ style="z-index: 10000">
 ~~~
 
 J. P. Boyd,
-/Chebyshev and Fourier spectral methods/\n
+/Chebyshev and Fourier spectral methods/,
 Courier Corporation, 2001\n
 [/javascript:toggleBibtex('boy2001') \[BibTeX\]]
 ~~~
@@ -665,7 +665,7 @@ style="z-index: 10000">
 ~~~
 
 S. Boyd, V. Balakrishnan and P. Kabamba,
-/A bisection method for computing the \mathcalH{_}{∞}{} norm of a transfer matrix and related problems/\n
+/A bisection method for computing the \mathcalH{_}{∞}{} norm of a transfer matrix and related problems/,
 Math. Control Signals Syst., 1989, Vol. 2, pp. 207-219\n
 [/javascript:toggleBibtex('Boyd1989') \[BibTeX\]] [https://doi.org/10.1007/BF02551385 \[DOI\]]
 ~~~
@@ -696,7 +696,7 @@ style="z-index: 10000">
 ~~~
 
 A. C. Brandi, M. T. Mendonca and L. F. Souza,
-/DNS and LST stability analysis of Oldroyd-B fluid in a flow between two parallel plates/\n
+/DNS and LST stability analysis of Oldroyd-B fluid in a flow between two parallel plates/,
 J. Non-Newtonian Fluid Mech., 2019, Vol. 267, pp. 14-27\n
 [/javascript:toggleBibtex('BRANDI201914') \[BibTeX\]] [https://doi.org/10.1016/j.jnnfm.2019.03.003 \[DOI\]]
 ~~~
@@ -726,7 +726,7 @@ style="z-index: 10000">
 ~~~
 
 L. Brandt, D. Sipp, J. O. Pralits and O. Marquet,
-/Effect of base-flow variation in noise amplifiers: The flat-plate boundary layer/\n
+/Effect of base-flow variation in noise amplifiers: The flat-plate boundary layer/,
 Cambridge University PressJ. Fluid Mech., 2011, Vol. 687, pp. 503-528\n
 [/javascript:toggleBibtex('brandt2011effect') \[BibTeX\]]
 ~~~
@@ -756,7 +756,7 @@ style="z-index: 10000">
 ~~~
 
 N. A. Bruinsma and M. Steinbuch,
-/A fast algorithm to compute the 𝓗_∞-norm of a transfer function matrix/\n
+/A fast algorithm to compute the 𝓗_∞-norm of a transfer function matrix/,
 Syst. Control Lett., 1990, Vol. 14, pp. 287-293\n
 [/javascript:toggleBibtex('BRUINSMA1990287') \[BibTeX\]] [https://doi.org/10.1016/0167-6911(90)90049-Z \[DOI\]]
 ~~~
@@ -787,7 +787,7 @@ style="z-index: 10000">
 ~~~
 
 D. M. Bushnell and J. N. Hefner,
-/Viscous drag reduction in boundary layers/\n
+/Viscous drag reduction in boundary layers/,
 American Institute of Aeronautics and Astronautics, 1990\n
 [/javascript:toggleBibtex('bushnell1990viscous') \[BibTeX\]]
 ~~~
@@ -814,7 +814,7 @@ style="z-index: 10000">
 ~~~
 
 K. M. Butler and B. F. Farrell,
-/Three-Dimensional Optimal Perturbations in Viscous Shear Flow/\n
+/Three-Dimensional Optimal Perturbations in Viscous Shear Flow/,
 Phys. Fluids A, 1992, Vol. 4, pp. 1637\n
 [/javascript:toggleBibtex('butfar92') \[BibTeX\]]
 ~~~
@@ -843,7 +843,7 @@ style="z-index: 10000">
 ~~~
 
 K. M. Butler and B. F. Farrell,
-/Three-dimensional optimal perturbations in viscous shear flow/\n
+/Three-dimensional optimal perturbations in viscous shear flow/,
 AIP PublishingPhys. Fluids A, 1992, Vol. 4, pp. 1637-1650\n
 [/javascript:toggleBibtex('butler1992three') \[BibTeX\]]
 ~~~
@@ -873,7 +873,7 @@ style="z-index: 10000">
 ~~~
 
 C. Canuto, M. Y. Hussaini, A. Quarteroni and T. A. Zang,
-/Spectral methods in fluid dynamics/\n
+/Spectral methods in fluid dynamics/,
 Springer Science and Business Media, 2012\n
 [/javascript:toggleBibtex('CanHusQuaTho2012') \[BibTeX\]]
 ~~~
@@ -900,7 +900,7 @@ style="z-index: 10000">
 ~~~
 
 D. R. Carlson, S. E. Widnall and M. F. Peeters,
-/A flow-visualization study of transition in plane \textscPoiseuille flow/\n
+/A flow-visualization study of transition in plane \textscPoiseuille flow/,
 Cambridge University PressJ. Fluid Mech., 1982, Vol. 121, pp. 487-505\n
 [/javascript:toggleBibtex('carlson1982flow') \[BibTeX\]]
 ~~~
@@ -930,7 +930,7 @@ style="z-index: 10000">
 ~~~
 
 J. F. Gibson,
-/Channelflow: A spectral Navier-Stokes simulator in C++/\n
+/Channelflow: A spectral Navier-Stokes simulator in C++/,
 J. F. GibsonUniversity of New Hampshire, 2014\n
 [/javascript:toggleBibtex('channelflow') \[BibTeX\]]
 ~~~
@@ -959,7 +959,7 @@ style="z-index: 10000">
 ~~~
 
 A. Gil, J. Segura and N. M. Temme,
-/Numerical methods for special functions/\n
+/Numerical methods for special functions/,
 Society for Industrial and Applied Mathematics, 2007\n
 [/javascript:toggleBibtex('chebExpan') \[BibTeX\]] [https://doi.org/10.1137/1.9780898717822 \[DOI\]]
 ~~~
@@ -988,7 +988,7 @@ style="z-index: 10000">
 ~~~
 
 A. Gil, J. Segura and N. M. Temme,
-/Chebyshev Expansions/\n
+/Chebyshev Expansions/,
 Society for Industrial and Applied MathematicsIn Numerical methods for special functions, 2007, pp. 51-86\n
 [/javascript:toggleBibtex('chebExpanExact') \[BibTeX\]] [https://doi.org/10.1137/1.9780898717822.ch3 \[DOI\]]
 ~~~
@@ -1019,7 +1019,7 @@ style="z-index: 10000">
 ~~~
 
 C.-T. Chen,
-/Linear system theory and design/\n
+/Linear system theory and design/,
 Oxford University Press, 1998\n
 [/javascript:toggleBibtex('chen1998linear') \[BibTeX\]]
 ~~~
@@ -1046,7 +1046,7 @@ style="z-index: 10000">
 ~~~
 
 M. D. Chilcott and J. M. Rallison,
-/Creeping flow of dilute polymer solutions past cylinders and spheres/\n
+/Creeping flow of dilute polymer solutions past cylinders and spheres/,
 ElsevierJ. Non-Newtonian Fluid Mech., 1988, Vol. 29, pp. 381-432\n
 [/javascript:toggleBibtex('chilcott1988creeping') \[BibTeX\]]
 ~~~
@@ -1076,7 +1076,7 @@ style="z-index: 10000">
 ~~~
 
 H. J. H. Clercx,
-/A Spectral Solver for the Navier-Stokes Equations in the Velocity-Vorticity Formulation for Flows with Two Nonperiodic Directions/\n
+/A Spectral Solver for the Navier-Stokes Equations in the Velocity-Vorticity Formulation for Flows with Two Nonperiodic Directions/,
 J. Comput. Phys., 1997, Vol. 137, pp. 186-211\n
 [/javascript:toggleBibtex('CLERCX1997186') \[BibTeX\]] [https://doi.org/10.1006/jcph.1997.5799 \[DOI\]]
 ~~~
@@ -1107,7 +1107,7 @@ style="z-index: 10000">
 ~~~
 
 D. Copeland, C. Ren, M. Su and P. Ligrani,
-/Elastic turbulence influences and convective heat transfer within a miniature viscous disk pump/\n
+/Elastic turbulence influences and convective heat transfer within a miniature viscous disk pump/,
 Int. J. Heat Mass Transfer, 2017, Vol. 108, pp. 1764-1774\n
 [/javascript:toggleBibtex('Copeland2017') \[BibTeX\]] [https://doi.org/10.1016/j.ijheatmasstransfer.2016.12.075 \[DOI\]]
 ~~~
@@ -1137,7 +1137,7 @@ style="z-index: 10000">
 ~~~
 
 M. C. Cross and P. C. Hohenberg,
-/Pattern formation outside of equilibrium/\n
+/Pattern formation outside of equilibrium/,
 APSRev. Mod. Phys., 1993, Vol. 65, pp. 851-1112\n
 [/javascript:toggleBibtex('cross1993pattern') \[BibTeX\]]
 ~~~
@@ -1167,7 +1167,7 @@ style="z-index: 10000">
 ~~~
 
 R. F. Curtain and H. Zwart,
-/An introduction to infinite-dimensional linear systems theory/\n
+/An introduction to infinite-dimensional linear systems theory/,
 Springer Science and Business Media, 2012\n
 [/javascript:toggleBibtex('curtain2012introduction') \[BibTeX\]]
 ~~~
@@ -1194,7 +1194,7 @@ style="z-index: 10000">
 ~~~
 
 P. T. Dawkins, S. R. Dunbar and R. W. Douglass,
-/The Origin and Nature of Spurious Eigenvalues in the Spectral Tau Method/\n
+/The Origin and Nature of Spurious Eigenvalues in the Spectral Tau Method/,
 J. Comput. Phys., 1998, Vol. 147, pp. 441-462\n
 [/javascript:toggleBibtex('DAWKINS1998441') \[BibTeX\]] [https://doi.org/10.1006/jcph.1998.6095 \[DOI\]]
 ~~~
@@ -1224,7 +1224,7 @@ style="z-index: 10000">
 ~~~
 
 W. M. Deen,
-/Analysis of transport phenomena/\n
+/Analysis of transport phenomena/,
 Oxford University Press, 1998\n
 [/javascript:toggleBibtex('deen1998analysis') \[BibTeX\]]
 ~~~
@@ -1251,7 +1251,7 @@ style="z-index: 10000">
 ~~~
 
 M. M. Denn,
-/Extrusion instabilities and wall slip/\n
+/Extrusion instabilities and wall slip/,
 Annual ReviewsAnnu. Rev. Fluid Mech., 2001, Vol. 33, pp. 265-287\n
 [/javascript:toggleBibtex('denn2001extrusion') \[BibTeX\]]
 ~~~
@@ -1281,7 +1281,7 @@ style="z-index: 10000">
 ~~~
 
 M. Deville, L. Kleiser and F. Montigny‐Rannou,
-/Pressure and time treatment for Chebyshev spectral solution of a Stokes problem/\n
+/Pressure and time treatment for Chebyshev spectral solution of a Stokes problem/,
 Int. J. Numer. Methods Fluids, 1984, Vol. 4, pp. 1149-1163\n
 [/javascript:toggleBibtex('Devile_Kleiser_1984') \[BibTeX\]] [https://doi.org/10.1002/fld.1650041205 \[DOI\]]
 ~~~
@@ -1311,7 +1311,7 @@ style="z-index: 10000">
 ~~~
 
 C. D. Dimitropoulos, R. Sureshkumar and A. N. Beris,
-/Direct numerical simulation of viscoelastic turbulent channel flow exhibiting drag reduction: Effect of the variation of rheological parameters/\n
+/Direct numerical simulation of viscoelastic turbulent channel flow exhibiting drag reduction: Effect of the variation of rheological parameters/,
 ElsevierJ. Non-Newtonian Fluid Mech., 1998, Vol. 79, pp. 433-468\n
 [/javascript:toggleBibtex('dimitropoulos1998direct') \[BibTeX\]]
 ~~~
@@ -1341,7 +1341,7 @@ style="z-index: 10000">
 ~~~
 
 S. G. Kandlikar,
-/High Flux Heat Removal with Microchannels - \textscA Roadmap of Challenges and Opportunities/\n
+/High Flux Heat Removal with Microchannels - \textscA Roadmap of Challenges and Opportunities/,
 Heat Trans. Eng., 2005, Vol. 26, pp. 5-14\n
 [/javascript:toggleBibtex('doi:10.1080/01457630591003655') \[BibTeX\]] [https://doi.org/10.1080/01457630591003655 \[DOI\]]
 ~~~
@@ -1371,7 +1371,7 @@ style="z-index: 10000">
 ~~~
 
 J. J. Dongarra, B. Straughan and D. W. Walker,
-/Chebyshev tau-QZ algorithm methods for calculating spectra of hydrodynamic stability problems/\n
+/Chebyshev tau-QZ algorithm methods for calculating spectra of hydrodynamic stability problems/,
 App. Numer. Math., 1996, Vol. 22, pp. 399-434\n
 [/javascript:toggleBibtex('DONGARRA1996399') \[BibTeX\]] [https://doi.org/10.1016/S0168-9274(96)00049-9 \[DOI\]]
 ~~~
@@ -1401,7 +1401,7 @@ style="z-index: 10000">
 ~~~
 
 A. A. Draad, G. D. C. Kuiken and F. T. M. Nieuwstadt,
-/Laminar-turbulent transition in pipe flow for Newtonian and non-Newtonian fluids/\n
+/Laminar-turbulent transition in pipe flow for Newtonian and non-Newtonian fluids/,
 Cambridge University PressJ. Fluid Mech., 1998, Vol. 377, pp. 267-312\n
 [/javascript:toggleBibtex('draad_kuiken_nieuwstadt_1998') \[BibTeX\]] [https://doi.org/10.1017/S0022112098003139 \[DOI\]]
 ~~~
@@ -1432,7 +1432,7 @@ style="z-index: 10000">
 ~~~
 
 P. Drazin and W. Reid,
-/An introduction to hydrodynamic stability theory/\n
+/An introduction to hydrodynamic stability theory/,
 Cambridge University Press, 1980\n
 [/javascript:toggleBibtex('drazin1980introduction') \[BibTeX\]]
 ~~~
@@ -1459,7 +1459,7 @@ style="z-index: 10000">
 ~~~
 
 P. G. Drazin and W. H. Reid,
-/Hydrodynamic stability/\n
+/Hydrodynamic stability/,
 Cambridge University Press, 2004\n
 [/javascript:toggleBibtex('drazin2004hydrodynamic') \[BibTeX\]]
 ~~~
@@ -1486,7 +1486,7 @@ style="z-index: 10000">
 ~~~
 
 T. A. Driscoll and N. Hale,
-/Rectangular spectral collocation/\n
+/Rectangular spectral collocation/,
 Oxford University PressIMA J. Numer. Anal., 2015, Vol. 36, pp. 108-132\n
 [/javascript:toggleBibtex('DriHalIMA2015') \[BibTeX\]]
 ~~~
@@ -1516,7 +1516,7 @@ style="z-index: 10000">
 ~~~
 
 T. A. Driscoll,
-/Automatic spectral collocation for integral, integro-differential, and integrally reformulated differential equations/\n
+/Automatic spectral collocation for integral, integro-differential, and integrally reformulated differential equations/,
 ElsevierJ. Comput. Phys., 2010, Vol. 229, pp. 5980-5998\n
 [/javascript:toggleBibtex('driscoll2010automatic') \[BibTeX\]]
 ~~~
@@ -1546,7 +1546,7 @@ style="z-index: 10000">
 ~~~
 
 T. A. Driscoll, N. Hale and L. N. Trefethen,
-/Chebfun guide/\n
+/Chebfun guide/,
 Pafnuty Publications, Oxford, 2014\n
 [/javascript:toggleBibtex('Driscoll2014a') \[BibTeX\]]
 ~~~
@@ -1573,7 +1573,7 @@ style="z-index: 10000">
 ~~~
 
 T. A. Driscoll, N. Hale and L. N. Trefethen,
-/Chebfun guide/\n
+/Chebfun guide/,
 Pafnuty Publications, 2014\n
 [/javascript:toggleBibtex('driscoll2014chebfun') \[BibTeX\]]
 ~~~
@@ -1600,7 +1600,7 @@ style="z-index: 10000">
 ~~~
 
 Y. Du and G. E. Karniadakis,
-/Suppressing wall turbulence by means of a transverse traveling wave/\n
+/Suppressing wall turbulence by means of a transverse traveling wave/,
 American Association for the Advancement of ScienceScience, 2000, Vol. 288, pp. 1230-1234\n
 [/javascript:toggleBibtex('du2000suppressing') \[BibTeX\]]
 ~~~
@@ -1630,7 +1630,7 @@ style="z-index: 10000">
 ~~~
 
 Y. Du, V. Symeonidis and G. E. Karniadakis,
-/Drag reduction in wall-bounded turbulence via a transverse travelling wave/\n
+/Drag reduction in wall-bounded turbulence via a transverse travelling wave/,
 Cambridge Univ PressJ. Fluid Mech., 2002, Vol. 457, pp. 1-34\n
 [/javascript:toggleBibtex('du2002drag') \[BibTeX\]]
 ~~~
@@ -1660,7 +1660,7 @@ style="z-index: 10000">
 ~~~
 
 F. Durst, J. Jovanović and J. Sender,
-/LDA measurements in the near-wall region of a turbulent pipe flow/\n
+/LDA measurements in the near-wall region of a turbulent pipe flow/,
 Cambridge University PressJ. Fluid Mech., 1995, Vol. 295, pp. 305-335\n
 [/javascript:toggleBibtex('durst_jovanović_sender_1995') \[BibTeX\]] [https://doi.org/10.1017/S0022112095001984 \[DOI\]]
 ~~~
@@ -1691,7 +1691,7 @@ style="z-index: 10000">
 ~~~
 
 K. Du,
-/On Well-Conditioned Spectral Collocation and Spectral Methods by the Integral Reformulation/\n
+/On Well-Conditioned Spectral Collocation and Spectral Methods by the Integral Reformulation/,
 SIAM J. Sci. Comp., 2016, Vol. 38, pp. A3247-A3263\n
 [/javascript:toggleBibtex('DuSIAM2016') \[BibTeX\]] [https://doi.org/10.1137/15M1046629 \[DOI\]]
 ~~~
@@ -1721,7 +1721,7 @@ style="z-index: 10000">
 ~~~
 
 G. Guennebaud, B. Jacob and others,
-/Eigen v3/\n
+/Eigen v3/,
 , http://eigen.tuxfamily.org, 2010\n
 [/javascript:toggleBibtex('eigenweb') \[BibTeX\]]
 ~~~
@@ -1747,7 +1747,7 @@ style="z-index: 10000">
 ~~~
 
 K. T. Elgindy and K. A. Smith-Miles,
-/Solving boundary value problems, integral, and integro-differential equations using Gegenbauer integration matrices/\n
+/Solving boundary value problems, integral, and integro-differential equations using Gegenbauer integration matrices/,
 ElsevierJ. Comp. App. Math., 2013, Vol. 237, pp. 307-325\n
 [/javascript:toggleBibtex('ElgSmiJCAM2013') \[BibTeX\]]
 ~~~
@@ -1777,7 +1777,7 @@ style="z-index: 10000">
 ~~~
 
 F. Waleffe,
-/Hydrodynamic Stability and Turbulence: Beyond Transients to a Self-Sustaining Process/\n
+/Hydrodynamic Stability and Turbulence: Beyond Transients to a Self-Sustaining Process/,
 Stud. Appl. Math., 1995, Vol. 95, pp. 319-343\n
 [/javascript:toggleBibtex('Fabian1995') \[BibTeX\]] [https://doi.org/10.1002/sapm1995953319 \[DOI\]]
 ~~~
@@ -1807,7 +1807,7 @@ style="z-index: 10000">
 ~~~
 
 B. F. Farrell and P. J. Ioannou,
-/Stochastic forcing of the linearized Navier-Stokes equations/\n
+/Stochastic forcing of the linearized Navier-Stokes equations/,
 AIPPhys. Fluids A, 1993, Vol. 5, pp. 2600-2609\n
 [/javascript:toggleBibtex('farrell1993stochastic') \[BibTeX\]]
 ~~~
@@ -1837,7 +1837,7 @@ style="z-index: 10000">
 ~~~
 
 J. Kestyn, E. Polizzi and P. T. Peter Tang,
-/FEAST eigensolver for non-Hermitian problems/\n
+/FEAST eigensolver for non-Hermitian problems/,
 SIAMSIAM J. Sci. Comp., 2016, Vol. 38, pp. S772-S799\n
 [/javascript:toggleBibtex('FEAST') \[BibTeX\]]
 ~~~
@@ -1867,7 +1867,7 @@ style="z-index: 10000">
 ~~~
 
 M. Frigo and S. G. Johnson,
-/The Design and Implementation of FFTW3/\n
+/The Design and Implementation of FFTW3/,
 Proceedings of the IEEE, 2005, Vol. 93, pp. 216-231\n
 [/javascript:toggleBibtex('FFTW05') \[BibTeX\]]
 ~~~
@@ -1896,7 +1896,7 @@ style="z-index: 10000">
 ~~~
 
 P. C. Forame, R. J. Hansen and R. C. Little,
-/Observations of early turbulence in the pipe flow of drag reducing polymer solutions/\n
+/Observations of early turbulence in the pipe flow of drag reducing polymer solutions/,
 AIChE J., 1972, Vol. 18, pp. 213-217\n
 [/javascript:toggleBibtex('ForameHansenLittle1972') \[BibTeX\]] [https://doi.org/10.1002/aic.690180139 \[DOI\]]
 ~~~
@@ -1926,7 +1926,7 @@ style="z-index: 10000">
 ~~~
 
 G. Strang,
-/The Fundamental Theorem of Linear Algebra/\n
+/The Fundamental Theorem of Linear Algebra/,
 Taylor & FrancisAmer. Math. Monthly, 1993, Vol. 100, pp. 848-855\n
 [/javascript:toggleBibtex('FourSubspaces') \[BibTeX\]] [https://doi.org/10.1080/00029890.1993.11990500 \[DOI\]]
 ~~~
@@ -1942,7 +1942,7 @@ Taylor & FrancisAmer. Math. Monthly, 1993, Vol. 100, pp. 848-855\n
   year = {1993},
   volume = {100},
   pages = {848-855},
-  url = {https://doi.org/10.1080/00029890.1993.11990500},
+  url = { <br>        https://doi.org/10.1080/00029890.1993.11990500<br>},
   doi = {https://doi.org/10.1080/00029890.1993.11990500}
 }
 </pre></div>
@@ -1958,7 +1958,7 @@ style="z-index: 10000">
 ~~~
 
 P. M. Gahinet, A. Nemirovskii, A. J. Laub and M. Chilali,
-/The LMI control toolbox/\n
+/The LMI control toolbox/,
 In IEEE Conference on Decision and Control, 1994, Vol. 2, pp. 2038-2038\n
 [/javascript:toggleBibtex('gahinet1994lmi') \[BibTeX\]]
 ~~~
@@ -1987,7 +1987,7 @@ style="z-index: 10000">
 ~~~
 
 P. Garg, I. Chaudhary, M. Khalid, V. Shankar and G. Subramanian,
-/Viscoelastic Pipe Flow is Linearly Unstable/\n
+/Viscoelastic Pipe Flow is Linearly Unstable/,
 American Physical SocietyPhys. Rev. Lett., 2018, Vol. 121, pp. 024502\n
 [/javascript:toggleBibtex('GarChaKhaShaSubPRL2018') \[BibTeX\]] [https://doi.org/10.1103/PhysRevLett.121.024502 \[DOI\]]
 ~~~
@@ -2018,7 +2018,7 @@ style="z-index: 10000">
 ~~~
 
 D. R. Gardner, S. A. Trogdon and R. W. Douglass,
-/A modified tau spectral method that eliminates spurious eigenvalues/\n
+/A modified tau spectral method that eliminates spurious eigenvalues/,
 J. Comput. Phys., 1989, Vol. 80, pp. 137-167\n
 [/javascript:toggleBibtex('GARDNER1989137') \[BibTeX\]] [https://doi.org/10.1016/0021-9991(89)90093-4 \[DOI\]]
 ~~~
@@ -2049,7 +2049,7 @@ style="z-index: 10000">
 ~~~
 
 D. R. Gardner, S. A. Trogdon and R. W. Douglass,
-/A modified-Tau spectral method that eliminates spurious eigenvalues/\n
+/A modified-Tau spectral method that eliminates spurious eigenvalues/,
 J. Comp. Phys., 1989, Vol. 80, pp. 137-167\n
 [/javascript:toggleBibtex('GarTroDouJCP1989') \[BibTeX\]] [https://doi.org/10.1016/0021-9991(89)90093-4 \[DOI\]]
 ~~~
@@ -2079,7 +2079,7 @@ style="z-index: 10000">
 ~~~
 
 J. F. Gibson, J. Halcrow and P. Cvitanovi{\'c},
-/Visualizing the geometry of state space in plane Couette flow/\n
+/Visualizing the geometry of state space in plane Couette flow/,
 J.\ {F}{l}{u}id Mech., 2008, Vol. 611, pp. 107-130\n
 [/javascript:toggleBibtex('gibhalcviJFM2008') \[BibTeX\]]
 ~~~
@@ -2108,7 +2108,7 @@ style="z-index: 10000">
 ~~~
 
 C. Godr{\`e}che, P. Manneville and B. Castaing,
-/Hydrodynamics and nonlinear instabilities/\n
+/Hydrodynamics and nonlinear instabilities/,
 Cambridge University Press, 2005\n
 [/javascript:toggleBibtex('godreche2005hydrodynamics') \[BibTeX\]]
 ~~~
@@ -2135,7 +2135,7 @@ style="z-index: 10000">
 ~~~
 
 R. J. Goldstein, R. J. Adrian and D. K. Kreid,
-/Turbulent and Transition Pipe Flow of Dilute Aqueous Polymer Solutions/\n
+/Turbulent and Transition Pipe Flow of Dilute Aqueous Polymer Solutions/,
 Ind. Eng. Chem. Fund., 1969, Vol. 8, pp. 498-502\n
 [/javascript:toggleBibtex('Goldstein1969') \[BibTeX\]] [https://doi.org/10.1021/i160031a021 \[DOI\]]
 ~~~
@@ -2165,7 +2165,7 @@ style="z-index: 10000">
 ~~~
 
 G. Golub and W. Kahan,
-/Calculating the Singular Values and Pseudo-Inverse of a Matrix/\n
+/Calculating the Singular Values and Pseudo-Inverse of a Matrix/,
 J. Soc. Ind. App. Math. B Numer. Anal., 1965, Vol. 2, pp. 205-224\n
 [/javascript:toggleBibtex('GolKahSIAM1965') \[BibTeX\]] [https://doi.org/10.1137/0702016 \[DOI\]]
 ~~~
@@ -2195,7 +2195,7 @@ style="z-index: 10000">
 ~~~
 
 G. H. Golub and C. F. Van Loan,
-/Matrix computations/\n
+/Matrix computations/,
 JHU Press, 2012\n
 [/javascript:toggleBibtex('golub2012matrix') \[BibTeX\]]
 ~~~
@@ -2222,7 +2222,7 @@ style="z-index: 10000">
 ~~~
 
 V. A. Gorodtsov and A. I. Leonov,
-/On a linear instability of a plane parallel Couette flow of viscoelastic fluid/\n
+/On a linear instability of a plane parallel Couette flow of viscoelastic fluid/,
 J. Appl. Math. Mech., 1967, Vol. 31, pp. 310-319\n
 [/javascript:toggleBibtex('gorleoJAMM1967') \[BibTeX\]] [https://doi.org/10.1016/0021-8928(67)90156-6 \[DOI\]]
 ~~~
@@ -2252,7 +2252,7 @@ style="z-index: 10000">
 ~~~
 
 D. Gottlieb and S. A. Orszag,
-/Numerical analysis of spectral methods: Theory and applications/\n
+/Numerical analysis of spectral methods: Theory and applications/,
 Society for Industrial and Applied Mathematics, 1977\n
 [/javascript:toggleBibtex('gotorsSIAM1997') \[BibTeX\]]
 ~~~
@@ -2279,7 +2279,7 @@ style="z-index: 10000">
 ~~~
 
 M. D. Graham and J. B. Rawlings,
-/Modeling and analysis principles for chemical and biological engineers/\n
+/Modeling and analysis principles for chemical and biological engineers/,
 Nob Hill Publishing, 2013\n
 [/javascript:toggleBibtex('graham2013modeling') \[BibTeX\]]
 ~~~
@@ -2306,7 +2306,7 @@ style="z-index: 10000">
 ~~~
 
 M. D. Graham,
-/Effect of axial flow on viscoelastic Taylor–Couette instability/\n
+/Effect of axial flow on viscoelastic Taylor–Couette instability/,
 Cambridge University PressJ. Fluid Mech., 1998, Vol. 360, pp. 341-374\n
 [/javascript:toggleBibtex('GraJFM1998') \[BibTeX\]]
 ~~~
@@ -2336,7 +2336,7 @@ style="z-index: 10000">
 ~~~
 
 L. Greengard,
-/Spectral Integration and Two-Point Boundary Value Problems/\n
+/Spectral Integration and Two-Point Boundary Value Problems/,
 SIAM J. Numer. Anal., 1991, Vol. 28, pp. 1071-1080\n
 [/javascript:toggleBibtex('GreSIAM91') \[BibTeX\]] [https://doi.org/10.1137/0728057 \[DOI\]]
 ~~~
@@ -2366,7 +2366,7 @@ style="z-index: 10000">
 ~~~
 
 A. Groisman and V. Steinberg,
-/Elastic turbulence in a polymer solution flow/\n
+/Elastic turbulence in a polymer solution flow/,
 Nature Publishing GroupNature, 2000, Vol. 405, pp. 53-55\n
 [/javascript:toggleBibtex('groisman2000elastic') \[BibTeX\]]
 ~~~
@@ -2396,7 +2396,7 @@ style="z-index: 10000">
 ~~~
 
 A. Groisman, M. Enzelberger and S. R. Quake,
-/Microfluidic memory and control devices/\n
+/Microfluidic memory and control devices/,
 American Association for the Advancement of ScienceScience, 2003, Vol. 300, pp. 955-958\n
 [/javascript:toggleBibtex('groisman2003microfluidic') \[BibTeX\]]
 ~~~
@@ -2426,7 +2426,7 @@ style="z-index: 10000">
 ~~~
 
 A. Groisman and V. Steinberg,
-/Elastic turbulence in curvilinear flows of polymer solutions/\n
+/Elastic turbulence in curvilinear flows of polymer solutions/,
 IOP PublishingNew J. Phys., 2004, Vol. 6, pp. 29\n
 [/javascript:toggleBibtex('groisman2004elastic') \[BibTeX\]]
 ~~~
@@ -2456,7 +2456,7 @@ style="z-index: 10000">
 ~~~
 
 A. Groisman and S. R. Quake,
-/A microfluidic rectifier: Anisotropic flow resistance at low \textscReynolds numbers/\n
+/A microfluidic rectifier: Anisotropic flow resistance at low \textscReynolds numbers/,
 APSPhys. Rev. Lett., 2004, Vol. 92, pp. 094501\n
 [/javascript:toggleBibtex('groisman2004microfluidic') \[BibTeX\]]
 ~~~
@@ -2486,7 +2486,7 @@ style="z-index: 10000">
 ~~~
 
 S. Grossmann,
-/The onset of shear flow turbulence/\n
+/The onset of shear flow turbulence/,
 American Physical SocietyRev. Mod. Phys., 2000, Vol. 72, pp. 603-618\n
 [/javascript:toggleBibtex('grossman2000') \[BibTeX\]] [https://doi.org/10.1103/RevModPhys.72.603 \[DOI\]]
 ~~~
@@ -2517,7 +2517,7 @@ style="z-index: 10000">
 ~~~
 
 M. G. Hall,
-/Vortex Breakdown/\n
+/Vortex Breakdown/,
 Annu. Rev. Fluid Mech., 1972, Vol. 4, pp. 195-218\n
 [/javascript:toggleBibtex('HallVortex') \[BibTeX\]] [https://doi.org/10.1146/annurev.fl.04.010172.001211 \[DOI\]]
 ~~~
@@ -2547,7 +2547,7 @@ style="z-index: 10000">
 ~~~
 
 J. M. Hamilton, J. Kim and F. Waleffe,
-/Regeneration mechanisms of near-wall turbulence structures/\n
+/Regeneration mechanisms of near-wall turbulence structures/,
 Cambridge University PressJ. Fluid Mech., 1995, Vol. 287, pp. 317-348\n
 [/javascript:toggleBibtex('hamilton_kim_waleffe_1995') \[BibTeX\]] [https://doi.org/10.1017/S0022112095000978 \[DOI\]]
 ~~~
@@ -2578,7 +2578,7 @@ style="z-index: 10000">
 ~~~
 
 R. J. Hansen and R. C. Little,
-/Early turbulence and drag reduction phenomena in larger pipes/\n
+/Early turbulence and drag reduction phenomena in larger pipes/,
 Nature, 1974, Vol. 252, pp. 690\n
 [/javascript:toggleBibtex('HANSEN1974') \[BibTeX\]] [https://doi.org/10.1038/252690a0 \[DOI\]]
 ~~~
@@ -2608,7 +2608,7 @@ style="z-index: 10000">
 ~~~
 
 G. Hariharan, M. R. Jovanovi\'c and S. Kumar,
-/Well-conditioned ultraspherical and spectral integration methods for resolvent analysis of channel flows of Newtonian and viscoelastic fluids/\n
+/Well-conditioned ultraspherical and spectral integration methods for resolvent analysis of channel flows of Newtonian and viscoelastic fluids/,
 \n
 [/javascript:toggleBibtex('HarJovKum2019') \[BibTeX\]]
 ~~~
@@ -2634,7 +2634,7 @@ style="z-index: 10000">
 ~~~
 
 D. S. Henningson, A. Lundbladh and A. V. Johansson,
-/A mechanism for bypass transition from localized disturbances in wall-bounded shear flows/\n
+/A mechanism for bypass transition from localized disturbances in wall-bounded shear flows/,
 Cambridge University PressJ. Fluid Mech., 1993, Vol. 250, pp. 169-207\n
 [/javascript:toggleBibtex('henningson_lundbladh_johansson_1993') \[BibTeX\]] [https://doi.org/10.1017/S0022112093001429 \[DOI\]]
 ~~~
@@ -2665,7 +2665,7 @@ style="z-index: 10000">
 ~~~
 
 D. S. Henningson, A. Lundbladh and A. V. Johansson,
-/A mechanism for bypass transition from localized disturbances in wall-bounded shear flows/\n
+/A mechanism for bypass transition from localized disturbances in wall-bounded shear flows/,
 Cambridge Univ PressJ. Fluid Mech., 1993, Vol. 250, pp. 169-207\n
 [/javascript:toggleBibtex('henningson1993mechanism') \[BibTeX\]]
 ~~~
@@ -2695,7 +2695,7 @@ style="z-index: 10000">
 ~~~
 
 J. P. Hespanha,
-/Linear systems theory/\n
+/Linear systems theory/,
 Princeton University Press, 2009\n
 [/javascript:toggleBibtex('hespanha2009linear') \[BibTeX\]]
 ~~~
@@ -2722,7 +2722,7 @@ style="z-index: 10000">
 ~~~
 
 N. J. Higham,
-/The scaling and squaring method for the matrix exponential revisited/\n
+/The scaling and squaring method for the matrix exponential revisited/,
 SIAMSIAM J. Matrix Anal. Appl., 2005, Vol. 26, pp. 1179-1193\n
 [/javascript:toggleBibtex('higham2005scaling') \[BibTeX\]]
 ~~~
@@ -2752,7 +2752,7 @@ style="z-index: 10000">
 ~~~
 
 E. J. Hinch,
-/Perturbation methods/\n
+/Perturbation methods/,
 Cambridge University Press, 1991\n
 [/javascript:toggleBibtex('hinch1991perturbation') \[BibTeX\]]
 ~~~
@@ -2779,7 +2779,7 @@ style="z-index: 10000">
 ~~~
 
 T. C. Ho and M. M. Denn,
-/Stability of plane Poiseuille flow of a highly elastic liquid/\n
+/Stability of plane Poiseuille flow of a highly elastic liquid/,
 J. Non-Newtonian Fluid Mech., 1977, Vol. 3, pp. 179-195\n
 [/javascript:toggleBibtex('HoDennJNNFM1977') \[BibTeX\]] [https://doi.org/10.1016/0377-0257(77)80048-7 \[DOI\]]
 ~~~
@@ -2809,7 +2809,7 @@ style="z-index: 10000">
 ~~~
 
 B. Hof, A. Juel and T. Mullin,
-/Scaling of the Turbulence Transition Threshold in a Pipe/\n
+/Scaling of the Turbulence Transition Threshold in a Pipe/,
 American Physical SocietyPhys. Rev. Lett., Dec, 2003, Vol. 91, pp. 244502\n
 [/javascript:toggleBibtex('HofJueMulPRL2003') \[BibTeX\]] [https://doi.org/10.1103/PhysRevLett.91.244502 \[DOI\]]
 ~~~
@@ -2840,7 +2840,7 @@ style="z-index: 10000">
 ~~~
 
 M. H. Holmes,
-/Introduction to perturbation methods/\n
+/Introduction to perturbation methods/,
 Springer Science and Business Media, 2012\n
 [/javascript:toggleBibtex('holmes2012introduction') \[BibTeX\]]
 ~~~
@@ -2867,7 +2867,7 @@ style="z-index: 10000">
 ~~~
 
 K. D. Housiadas and A. N. Beris,
-/An efficient fully implicit spectral scheme for DNS of turbulent viscoelastic channel flow/\n
+/An efficient fully implicit spectral scheme for DNS of turbulent viscoelastic channel flow/,
 J. Non-Newtonian Fluid Mech., 2004, Vol. 122, pp. 243-262\n
 [/javascript:toggleBibtex('HOUSIADAS2004243') \[BibTeX\]] [https://doi.org/10.1016/j.jnnfm.2004.07.001 \[DOI\]]
 ~~~
@@ -2897,7 +2897,7 @@ style="z-index: 10000">
 ~~~
 
 P. Huerre,
-/Open shear flow instabilities/\n
+/Open shear flow instabilities/,
 Cambridge University PressIn Perspectives in fluid dynamics, 2000, pp. 159-229\n
 [/javascript:toggleBibtex('huerre2000open') \[BibTeX\]]
 ~~~
@@ -2926,7 +2926,7 @@ style="z-index: 10000">
 ~~~
 
 P. K. Ptasinski, B. J. Boersma, F. T. M. Nieuwstadt, M. A. Hulsen, B. H. A. A. Van Den Brule and J. C. R. Hunt,
-/Turbulent channel flow near maximum drag reduction: Simulations, experiments and mechanisms/\n
+/Turbulent channel flow near maximum drag reduction: Simulations, experiments and mechanisms/,
 Cambridge University PressJ. Fluid Mech., 2003, Vol. 490, pp. 251-291\n
 [/javascript:toggleBibtex('huntJFM2003') \[BibTeX\]] [https://doi.org/10.1017/S0022112003005305 \[DOI\]]
 ~~~
@@ -2957,7 +2957,7 @@ style="z-index: 10000">
 ~~~
 
 N. Kasagi, Y. Suzuki and K. Fukagata,
-/Microelectromechanical systems-based feedback control of turbulence for skin friction reduction/\n
+/Microelectromechanical systems-based feedback control of turbulence for skin friction reduction/,
 Annual ReviewsAnnu. Rev. Fluid Mech., 2009, Vol. 41, pp. 231-251\n
 [/javascript:toggleBibtex('kasagi2009microelectromechanical') \[BibTeX\]]
 ~~~
@@ -2987,7 +2987,7 @@ style="z-index: 10000">
 ~~~
 
 H. K. Khalil,
-/Nonlinear Systems/\n
+/Nonlinear Systems/,
 Prentice Hall, 2001\n
 [/javascript:toggleBibtex('khalil1996nonlinear') \[BibTeX\]]
 ~~~
@@ -3014,7 +3014,7 @@ style="z-index: 10000">
 ~~~
 
 M. R. Khorrami, M. R. Malik and R. L. Ash,
-/Application of spectral collocation techniques to the stability of swirling flows/\n
+/Application of spectral collocation techniques to the stability of swirling flows/,
 J. Comput. Phys., 1989, Vol. 81, pp. 206-229\n
 [/javascript:toggleBibtex('KHORRAMI1989206') \[BibTeX\]] [https://doi.org/10.1016/0021-9991(89)90071-5 \[DOI\]]
 ~~~
@@ -3044,7 +3044,7 @@ style="z-index: 10000">
 ~~~
 
 M. R. Khorrami,
-/A Chebyshev spectral collocation method using a staggered grid for the stability of cylindrical flows/\n
+/A Chebyshev spectral collocation method using a staggered grid for the stability of cylindrical flows/,
 Wiley Online LibraryInt. J. Num. Meth. Fluids, 1991, Vol. 12, pp. 825-833\n
 [/javascript:toggleBibtex('khorrami1991chebyshev') \[BibTeX\]]
 ~~~
@@ -3074,7 +3074,7 @@ style="z-index: 10000">
 ~~~
 
 J. Kim, P. Moin and R. Moser,
-/Turbulence statistics in fully developed channel flow at low Reynolds number/\n
+/Turbulence statistics in fully developed channel flow at low Reynolds number/,
 Cambridge University PressJ. Fluid Mech., 1987, Vol. 177, pp. 133-166\n
 [/javascript:toggleBibtex('kim_moin_moser_1987') \[BibTeX\]] [https://doi.org/10.1017/S0022112087000892 \[DOI\]]
 ~~~
@@ -3105,7 +3105,7 @@ style="z-index: 10000">
 ~~~
 
 L. Kleiser,
-/Spectral simulations of laminar-turbulent transition in plane Poiseuille flow and comparison with experiments/\n
+/Spectral simulations of laminar-turbulent transition in plane Poiseuille flow and comparison with experiments/,
 In Eighth International Conference on Numerical Methods in Fluid Dynamics, 1982, pp. 280-285\n
 [/javascript:toggleBibtex('kleiser1982spectral') \[BibTeX\]]
 ~~~
@@ -3133,7 +3133,7 @@ style="z-index: 10000">
 ~~~
 
 L. Kleiser, C. Hartel and T. Wintergerste,
-/LETTER TO THE EDITOR: There Is No Error in the Kleiser and Schumann Influence Matrix Method/\n
+/LETTER TO THE EDITOR: There Is No Error in the Kleiser and Schumann Influence Matrix Method/,
 J. Comput. Phys., 1998, Vol. 141, pp. 85-87\n
 [/javascript:toggleBibtex('KLEISER199885') \[BibTeX\]] [https://doi.org/10.1006/jcph.1998.5924 \[DOI\]]
 ~~~
@@ -3164,7 +3164,7 @@ style="z-index: 10000">
 ~~~
 
 L. Kleiser and U. Schumann,
-/Treatment of incompressibility and boundary conditions in 3D numerical spectral simulations of plane channel flows/\n
+/Treatment of incompressibility and boundary conditions in 3D numerical spectral simulations of plane channel flows/,
 In Proceedings of the Third GAMM Conference on Numerical Methods in Fluid Mechanics, 1980, pp. 165-173\n
 [/javascript:toggleBibtex('KleSch1980') \[BibTeX\]]
 ~~~
@@ -3192,7 +3192,7 @@ style="z-index: 10000">
 ~~~
 
 L. Kleiser and U. Schumann,
-/Spectral simulations of the laminar-turbulent transition process in plane Poiseuille flow/\n
+/Spectral simulations of the laminar-turbulent transition process in plane Poiseuille flow/,
 SIAM Philadelphia, USASpectral Meth. Partial Diff. Equations, 1984, pp. 141-163\n
 [/javascript:toggleBibtex('kleschSIAM1984') \[BibTeX\]]
 ~~~
@@ -3221,7 +3221,7 @@ style="z-index: 10000">
 ~~~
 
 B. G. B. Klingmann,
-/On transition due to three-dimensional disturbances in plane \textscPoiseuille flow/\n
+/On transition due to three-dimensional disturbances in plane \textscPoiseuille flow/,
 Cambridge University PressJ. Fluid Mech., 1992, Vol. 240, pp. 167-195\n
 [/javascript:toggleBibtex('klingmann1992transition') \[BibTeX\]]
 ~~~
@@ -3251,7 +3251,7 @@ style="z-index: 10000">
 ~~~
 
 J. Komminaho, A. Lundbladh and A. V. Johansson,
-/Very large structures in plane turbulent Couette flow/\n
+/Very large structures in plane turbulent Couette flow/,
 Cambridge University PressJ. Fluid Mech., 1996, Vol. 320, pp. 259–285\n
 [/javascript:toggleBibtex('komminaho_lundbladh_johansson_1996') \[BibTeX\]] [https://doi.org/10.1017/S0022112096007537 \[DOI\]]
 ~~~
@@ -3282,7 +3282,7 @@ style="z-index: 10000">
 ~~~
 
 H.-P. Kreplin and H. Eckelmann,
-/Behavior of the three fluctuating velocity components in the wall region of a turbulent channel flow/\n
+/Behavior of the three fluctuating velocity components in the wall region of a turbulent channel flow/,
 Phys. Fluids, 1979, Vol. 22, pp. 1233-1239\n
 [/javascript:toggleBibtex('KreplinPOF1979') \[BibTeX\]] [https://doi.org/10.1063/1.862737 \[DOI\]]
 ~~~
@@ -3313,7 +3313,7 @@ style="z-index: 10000">
 ~~~
 
 C. Lanczos,
-/Linear differential operators/\n
+/Linear differential operators/,
 Society for Industrial and Applied Mathematics, 1996\n
 [/javascript:toggleBibtex('lanczos1997linear') \[BibTeX\]] [https://doi.org/10.1137/1.9781611971187 \[DOI\]]
 ~~~
@@ -3342,7 +3342,7 @@ style="z-index: 10000">
 ~~~
 
 C. Lanczos,
-/Trigonometric Interpolation of Empirical and Analytical Functions/\n
+/Trigonometric Interpolation of Empirical and Analytical Functions/,
 J. Math. Phys., 1938, Vol. 17, pp. 123-199\n
 [/javascript:toggleBibtex('LanczosTau') \[BibTeX\]] [https://doi.org/10.1002/sapm1938171123 \[DOI\]]
 ~~~
@@ -3372,7 +3372,7 @@ style="z-index: 10000">
 ~~~
 
 E. Anderson, Z. Bai, C. Bischof, S. Blackford, J. Demmel, J. Dongarra, J. Du Croz, A. Greenbaum, S. Hammarling, A. McKenney and D. Sorensen,
-/LAPACK Users' Guide/\n
+/LAPACK Users' Guide/,
 Society for Industrial and Applied Mathematics, 1999\n
 [/javascript:toggleBibtex('lapack') \[BibTeX\]]
 ~~~
@@ -3399,7 +3399,7 @@ style="z-index: 10000">
 ~~~
 
 R. G. Larson, E. S. G. Shaqfeh and S. J. Muller,
-/A purely elastic instability in Taylor–Couette flow/\n
+/A purely elastic instability in Taylor–Couette flow/,
 Cambridge University PressJ. Fluid Mech., 1990, Vol. 218, pp. 573-600\n
 [/javascript:toggleBibtex('larson1990purely') \[BibTeX\]]
 ~~~
@@ -3429,7 +3429,7 @@ style="z-index: 10000">
 ~~~
 
 R. G. Larson,
-/Instabilities in viscoelastic flows/\n
+/Instabilities in viscoelastic flows/,
 SpringerRheol. Acta, 1992, Vol. 31, pp. 213-263\n
 [/javascript:toggleBibtex('larson1992instabilities') \[BibTeX\]]
 ~~~
@@ -3459,7 +3459,7 @@ style="z-index: 10000">
 ~~~
 
 R. G. Larson,
-/The structure and rheology of complex fluids/\n
+/The structure and rheology of complex fluids/,
 Oxford University Press, 1998\n
 [/javascript:toggleBibtex('larson1999structure') \[BibTeX\]]
 ~~~
@@ -3486,7 +3486,7 @@ style="z-index: 10000">
 ~~~
 
 R. G. Larson,
-/Fluid dynamics: Turbulence without inertia/\n
+/Fluid dynamics: Turbulence without inertia/,
 Nature Publishing GroupNature, 2000, Vol. 405, pp. 27-28\n
 [/javascript:toggleBibtex('larson2000fluid') \[BibTeX\]]
 ~~~
@@ -3516,7 +3516,7 @@ style="z-index: 10000">
 ~~~
 
 R. G. Larson and P. S. Desai,
-/Modeling the rheology of polymer melts and solutions/\n
+/Modeling the rheology of polymer melts and solutions/,
 Annual ReviewsAnnu. Rev. Fluid Mech., 2015, Vol. 47, pp. 47-65\n
 [/javascript:toggleBibtex('larson2015modeling') \[BibTeX\]]
 ~~~
@@ -3546,7 +3546,7 @@ style="z-index: 10000">
 ~~~
 
 S. J. Lee and T. A. Zaki,
-/Simulations of natural transition in viscoelastic channel flow/\n
+/Simulations of natural transition in viscoelastic channel flow/,
 Cambridge University PressJ. Fluid Mech., 2017, Vol. 820, pp. 232-262\n
 [/javascript:toggleBibtex('lee_zaki_2017') \[BibTeX\]] [https://doi.org/10.1017/jfm.2017.198 \[DOI\]]
 ~~~
@@ -3577,7 +3577,7 @@ style="z-index: 10000">
 ~~~
 
 K.-C. Lee and B. A. Finlayson,
-/Stability of plane Poiseuille and Couette flow of a Maxwell fluid/\n
+/Stability of plane Poiseuille and Couette flow of a Maxwell fluid/,
 J. Non-Newtonian Fluid Mech., 1986, Vol. 21, pp. 65-78\n
 [/javascript:toggleBibtex('LeeFinlayson1986') \[BibTeX\]] [https://doi.org/10.1016/0377-0257(86)80063-5 \[DOI\]]
 ~~~
@@ -3607,7 +3607,7 @@ style="z-index: 10000">
 ~~~
 
 J.-Y. Lee and L. Greengard,
-/A fast adaptive numerical method for stiff two-point boundary value problems/\n
+/A fast adaptive numerical method for stiff two-point boundary value problems/,
 SIAMSIAM J. Sci.Comput., 1997, Vol. 18, pp. 403-429\n
 [/javascript:toggleBibtex('leeGreSIAM1997') \[BibTeX\]]
 ~~~
@@ -3637,7 +3637,7 @@ style="z-index: 10000">
 ~~~
 
 G. Lemoult, K. Gumowski, J.-L. Aider and J. E. Wesfreid,
-/Turbulent spots in channel flow: An experimental study/\n
+/Turbulent spots in channel flow: An experimental study/,
 Eur. Phys. J. E, 2014, Vol. 37, pp. 25\n
 [/javascript:toggleBibtex('Lemoult2014') \[BibTeX\]] [https://doi.org/10.1140/epje/i2014-14025-2 \[DOI\]]
 ~~~
@@ -3667,7 +3667,7 @@ style="z-index: 10000">
 ~~~
 
 S. Lim and K. H. Ahn,
-/Rheological properties of oil paints and their flow instabilities in blade coating/\n
+/Rheological properties of oil paints and their flow instabilities in blade coating/,
 SpringerRheol. Acta, 2013, Vol. 52, pp. 643-659\n
 [/javascript:toggleBibtex('lim2013rheological') \[BibTeX\]]
 ~~~
@@ -3697,7 +3697,7 @@ style="z-index: 10000">
 ~~~
 
 X. Liu,
-/Extension of Kleiser and Schumann's influence-matrix method for generalized velocity boundary conditions/\n
+/Extension of Kleiser and Schumann's influence-matrix method for generalized velocity boundary conditions/,
 J. Comput. Phys., 2011, Vol. 230, pp. 7911-7916\n
 [/javascript:toggleBibtex('LIU20117911') \[BibTeX\]] [https://doi.org/10.1016/j.jcp.2011.07.016 \[DOI\]]
 ~~~
@@ -3728,7 +3728,7 @@ style="z-index: 10000">
 ~~~
 
 T.-T. Lu and S.-H. Shiou,
-/Inverses of 2× 2 block matrices/\n
+/Inverses of 2× 2 block matrices/,
 ElsevierComputers & Mathematics with Applications, 2002, Vol. 43, pp. 119-129\n
 [/javascript:toggleBibtex('lu2002inverses') \[BibTeX\]]
 ~~~
@@ -3758,7 +3758,7 @@ style="z-index: 10000">
 ~~~
 
 C. W. Macosko and R. G. Larson,
-/Rheology: Principles, measurements, and applications/\n
+/Rheology: Principles, measurements, and applications/,
 Wiley-VCH, 1994\n
 [/javascript:toggleBibtex('macosko1994rheology') \[BibTeX\]]
 ~~~
@@ -3785,7 +3785,7 @@ style="z-index: 10000">
 ~~~
 
 M. R. Malik,
-/Numerical methods for hypersonic boundary layer stability/\n
+/Numerical methods for hypersonic boundary layer stability/,
 J. Comput. Phys., 1990, Vol. 86, pp. 376-413\n
 [/javascript:toggleBibtex('MalikJCP1990') \[BibTeX\]] [https://doi.org/10.1016/0021-9991(90)90106-B \[DOI\]]
 ~~~
@@ -3815,7 +3815,7 @@ style="z-index: 10000">
 ~~~
 
 M. Grilli, A. V\'azquez-Quesada and M. Ellero,
-/Transition to Turbulence and Mixing in a Viscoelastic Fluid Flowing Inside a Channel with a Periodic Array of Cylindrical Obstacles/\n
+/Transition to Turbulence and Mixing in a Viscoelastic Fluid Flowing Inside a Channel with a Periodic Array of Cylindrical Obstacles/,
 American Physical SocietyPhys. Rev. Lett., 2013, Vol. 110, pp. 174501\n
 [/javascript:toggleBibtex('Marco2013') \[BibTeX\]] [https://doi.org/10.1103/PhysRevLett.110.174501 \[DOI\]]
 ~~~
@@ -3847,7 +3847,7 @@ style="z-index: 10000">
 ~~~
 
 G. B. McFadden, B. T. Murray and R. F. Boisvert,
-/Elimination of spurious eigenvalues in the Chebyshev tau spectral method/\n
+/Elimination of spurious eigenvalues in the Chebyshev tau spectral method/,
 J. Comput. Phys., 1990, Vol. 91, pp. 228-239\n
 [/javascript:toggleBibtex('MCFADDEN1990228') \[BibTeX\]] [https://doi.org/10.1016/0021-9991(90)90012-P \[DOI\]]
 ~~~
@@ -3877,7 +3877,7 @@ style="z-index: 10000">
 ~~~
 
 G. H. McKinley, R. C. Armstrong and R. A. Brown,
-/The wake instability in viscoelastic flow past confined circular cylinders/\n
+/The wake instability in viscoelastic flow past confined circular cylinders/,
 Philos. Trans. R. Soc. A, 1993, Vol. 344, pp. 265-304\n
 [/javascript:toggleBibtex('McKinley1993') \[BibTeX\]] [https://doi.org/10.1098/rsta.1993.0091 \[DOI\]]
 ~~~
@@ -3908,7 +3908,7 @@ style="z-index: 10000">
 ~~~
 
 A. Meseguer and L. N. Trefethen,
-/Linearized pipe flow to Reynolds number 10⁷/\n
+/Linearized pipe flow to Reynolds number 10⁷/,
 J. Comput. Phys., 2003, Vol. 186, pp. 178-197\n
 [/javascript:toggleBibtex('meseguerRe1072003') \[BibTeX\]] [https://doi.org/10.1016/S0021-9991(03)00029-9 \[DOI\]]
 ~~~
@@ -3938,7 +3938,7 @@ style="z-index: 10000">
 ~~~
 
 B. Meulenbroek, C. Storm, A. N. Morozov and W. van Saarloos,
-/Weakly nonlinear subcritical instability of visco-elastic Poiseuille flow/\n
+/Weakly nonlinear subcritical instability of visco-elastic Poiseuille flow/,
 ElsevierJ. Non-Newtonian Fluid Mech., 2004, Vol. 116, pp. 235-268\n
 [/javascript:toggleBibtex('meulenbroek2004weakly') \[BibTeX\]]
 ~~~
@@ -3968,7 +3968,7 @@ style="z-index: 10000">
 ~~~
 
 P. Moin and J. Kim,
-/Tackling turbulence with supercomputers/\n
+/Tackling turbulence with supercomputers/,
 New York: Munn and Co.Sci. Am., 1997, Vol. 276, pp. 46-52\n
 [/javascript:toggleBibtex('moin1997tackling') \[BibTeX\]]
 ~~~
@@ -3998,7 +3998,7 @@ style="z-index: 10000">
 ~~~
 
 P. Moin and K. Mahesh,
-/Direct numerical simulation: A tool in turbulence research/\n
+/Direct numerical simulation: A tool in turbulence research/,
 Annual Reviews 4139 El Camino Way, PO Box 10139, Palo Alto, CA 94303-0139, USAAnnu. Rev. Fluid Mech., 1998, Vol. 30, pp. 539-578\n
 [/javascript:toggleBibtex('moin1998direct') \[BibTeX\]]
 ~~~
@@ -4028,7 +4028,7 @@ style="z-index: 10000">
 ~~~
 
 C. B. Moler and G. W. Stewart,
-/An Algorithm for Generalized Matrix Eigenvalue Problems/\n
+/An Algorithm for Generalized Matrix Eigenvalue Problems/,
 SIAM J. Numer. Anal., 1973, Vol. 10, pp. 241-256\n
 [/javascript:toggleBibtex('MolSteSIAM1973') \[BibTeX\]] [https://doi.org/10.1137/0710024 \[DOI\]]
 ~~~
@@ -4058,7 +4058,7 @@ style="z-index: 10000">
 ~~~
 
 C. Monat, P. Domachuk and B. J. Eggleton,
-/Integrated optofluidics: A new river of light/\n
+/Integrated optofluidics: A new river of light/,
 Nature Publishing GroupNat. Photon., 2007, Vol. 1, pp. 106-114\n
 [/javascript:toggleBibtex('monat2007integrated') \[BibTeX\]]
 ~~~
@@ -4088,7 +4088,7 @@ style="z-index: 10000">
 ~~~
 
 A. N. Morozov and W. van Saarloos,
-/An introductory essay on subcritical instabilities and the transition to turbulence in visco-elastic parallel shear flows/\n
+/An introductory essay on subcritical instabilities and the transition to turbulence in visco-elastic parallel shear flows/,
 Phys. Rep., 2007, Vol. 447, pp. 112-143\n
 [/javascript:toggleBibtex('MOROZOV2007112') \[BibTeX\]] [https://doi.org/10.1016/j.physrep.2007.03.004 \[DOI\]]
 ~~~
@@ -4118,7 +4118,7 @@ style="z-index: 10000">
 ~~~
 
 A. N. Morozov and W. van Saarloos,
-/Subcritical Instabilities in Plane Poiseuille Flow of an Oldroyd-B Fluid/\n
+/Subcritical Instabilities in Plane Poiseuille Flow of an Oldroyd-B Fluid/,
 J. Stat. Phys., 2019, Vol. 175, pp. 554-577\n
 [/javascript:toggleBibtex('Morozov2019') \[BibTeX\]] [https://doi.org/10.1007/s10955-019-02268-6 \[DOI\]]
 ~~~
@@ -4148,7 +4148,7 @@ style="z-index: 10000">
 ~~~
 
 A. N. Morozov and W. van Saarloos,
-/Subcritical Finite-Amplitude Solutions for Plane \textscCouette Flow of Viscoelastic Fluids/\n
+/Subcritical Finite-Amplitude Solutions for Plane \textscCouette Flow of Viscoelastic Fluids/,
 American Physical SocietyPhys. Rev. Lett., 2005, Vol. 95, pp. 024501\n
 [/javascript:toggleBibtex('MorozovSubcritWeakly') \[BibTeX\]] [https://doi.org/10.1103/PhysRevLett.95.024501 \[DOI\]]
 ~~~
@@ -4179,7 +4179,7 @@ style="z-index: 10000">
 ~~~
 
 R. D. Moser, J. Kim and N. N. Mansour,
-/Direct numerical simulation of turbulent channel flow up to Reτ=590/\n
+/Direct numerical simulation of turbulent channel flow up to Reτ=590/,
 Phys. Fluids, 1999, Vol. 11, pp. 943-945\n
 [/javascript:toggleBibtex('Moser_Kim_Mansour_POF1999') \[BibTeX\]] [https://doi.org/10.1063/1.869966 \[DOI\]]
 ~~~
@@ -4209,7 +4209,7 @@ style="z-index: 10000">
 ~~~
 
 M. Nishioka, Y. Ichikawa and others,
-/An experimental investigation of the stability of plane \textscPoiseuille flow/\n
+/An experimental investigation of the stability of plane \textscPoiseuille flow/,
 Cambridge University PressJ. Fluid Mech., 1975, Vol. 72, pp. 731-751\n
 [/javascript:toggleBibtex('nishioka1975experimental') \[BibTeX\]]
 ~~~
@@ -4239,7 +4239,7 @@ style="z-index: 10000">
 ~~~
 
 K. P. Nolan, A. Agarwal, S. Lei and R. Shields,
-/Viscoelastic flow in an obstructed microchannel at high \textscWeissenberg number/\n
+/Viscoelastic flow in an obstructed microchannel at high \textscWeissenberg number/,
 SpringerMicrofluid. Nanofluidics, 2016, Vol. 20, pp. 1-12\n
 [/javascript:toggleBibtex('nolan2016viscoelastic') \[BibTeX\]]
 ~~~
@@ -4269,7 +4269,7 @@ style="z-index: 10000">
 ~~~
 
 W. H. Press, S. A. Teukolsky, W. T. Vetterling and B. P. Flannery,
-/Numerical recipes 3rd Edition: The art of scientific computing/\n
+/Numerical recipes 3rd Edition: The art of scientific computing/,
 Cambridge University Press, 2007\n
 [/javascript:toggleBibtex('NumRecipes') \[BibTeX\]]
 ~~~
@@ -4296,7 +4296,7 @@ style="z-index: 10000">
 ~~~
 
 P. J. Olver,
-/Applications of Lie groups to differential equations/\n
+/Applications of Lie groups to differential equations/,
 Springer Science and Business Media, 2012\n
 [/javascript:toggleBibtex('olver2012applications') \[BibTeX\]]
 ~~~
@@ -4323,7 +4323,7 @@ style="z-index: 10000">
 ~~~
 
 S. Olver and A. Townsend,
-/A Fast and Well-Conditioned Spectral Method/\n
+/A Fast and Well-Conditioned Spectral Method/,
 SIAM Rev., 2013, Vol. 55, pp. 462-489\n
 [/javascript:toggleBibtex('OlvTowSIAM2013') \[BibTeX\]] [https://doi.org/10.1137/120865458 \[DOI\]]
 ~~~
@@ -4353,7 +4353,7 @@ style="z-index: 10000">
 ~~~
 
 S. A. Orszag and M. Israeli,
-/Numerical Simulation of Viscous Incompressible Flows/\n
+/Numerical Simulation of Viscous Incompressible Flows/,
 Annu. Rev. Fluid Mech., 1974, Vol. 6, pp. 281-318\n
 [/javascript:toggleBibtex('OrsIsrARFM1974') \[BibTeX\]] [https://doi.org/10.1146/annurev.fl.06.010174.001433 \[DOI\]]
 ~~~
@@ -4383,7 +4383,7 @@ style="z-index: 10000">
 ~~~
 
 D. Gottlieb and S. A. Orszag,
-/Models of Incompressible Fluid Dynamics/\n
+/Models of Incompressible Fluid Dynamics/,
 Society for Industrial and Applied MathematicsIn Numerical analysis of spectral methods, 1977, pp. 143-148\n
 [/javascript:toggleBibtex('OrszagBook') \[BibTeX\]] [https://doi.org/10.1137/1.9781611970425.ch13 \[DOI\]]
 ~~~
@@ -4414,7 +4414,7 @@ style="z-index: 10000">
 ~~~
 
 O. Reynolds,
-/An Experimental Investigation of the Circumstances Which Determine Whether the Motion of Water Shall Be Direct or Sinuous, and of the Law of Resistance in Parallel Channels/\n
+/An Experimental Investigation of the Circumstances Which Determine Whether the Motion of Water Shall Be Direct or Sinuous, and of the Law of Resistance in Parallel Channels/,
 The Royal SocietyPhil. Trans. Roy. Soc. London, 1883, Vol. 174, pp. 935-982\n
 [/javascript:toggleBibtex('OsborneReynolds') \[BibTeX\]]
 ~~~
@@ -4444,7 +4444,7 @@ style="z-index: 10000">
 ~~~
 
 A. Packard, K. Zhou, P. Pandey and G. Becker,
-/A collection of robust control problems leading to LMIs/\n
+/A collection of robust control problems leading to LMIs/,
 In Decision and Control, 1991., Proceedings of the 30th IEEE Conference on, 1991, pp. 1245-1250\n
 [/javascript:toggleBibtex('packard1991collection') \[BibTeX\]]
 ~~~
@@ -4472,7 +4472,7 @@ style="z-index: 10000">
 ~~~
 
 A. Packard and J. Doyle,
-/The complex structured singular value/\n
+/The complex structured singular value/,
 ElsevierAutomatica, 1993, Vol. 29, pp. 71-109\n
 [/javascript:toggleBibtex('packard1993complex') \[BibTeX\]]
 ~~~
@@ -4502,7 +4502,7 @@ style="z-index: 10000">
 ~~~
 
 J. Page and T. A. Zaki,
-/Streak evolution in viscoelastic Couette flow/\n
+/Streak evolution in viscoelastic Couette flow/,
 Cambridge University PressJ. Fluid Mech., 2014, Vol. 742, pp. 520-551\n
 [/javascript:toggleBibtex('pagzakJFM2014') \[BibTeX\]] [https://doi.org/10.1017/jfm.2013.686 \[DOI\]]
 ~~~
@@ -4533,7 +4533,7 @@ style="z-index: 10000">
 ~~~
 
 J. Page and T. A. Zaki,
-/The dynamics of spanwise vorticity perturbations in homogeneous viscoelastic shear flow/\n
+/The dynamics of spanwise vorticity perturbations in homogeneous viscoelastic shear flow/,
 Cambridge University PressJ. Fluid Mech., 2015, Vol. 777, pp. 327-363\n
 [/javascript:toggleBibtex('pagzakJFM2015') \[BibTeX\]] [https://doi.org/10.1017/jfm.2015.368 \[DOI\]]
 ~~~
@@ -4564,7 +4564,7 @@ style="z-index: 10000">
 ~~~
 
 J. Page and T. A. Zaki,
-/Viscoelastic shear flow over a wavy surface/\n
+/Viscoelastic shear flow over a wavy surface/,
 Cambridge University PressJ. Fluid Mech., 2016, Vol. 801, pp. 392-429\n
 [/javascript:toggleBibtex('pagzakJFM2016') \[BibTeX\]] [https://doi.org/10.1017/jfm.2016.455 \[DOI\]]
 ~~~
@@ -4595,7 +4595,7 @@ style="z-index: 10000">
 ~~~
 
 P. Pakdel and G. H. McKinley,
-/Elastic instability and curved streamlines/\n
+/Elastic instability and curved streamlines/,
 APSPhys. Rev. Lett., 1996, Vol. 77, pp. 2459-2462\n
 [/javascript:toggleBibtex('pakdel1996elastic') \[BibTeX\]]
 ~~~
@@ -4625,7 +4625,7 @@ style="z-index: 10000">
 ~~~
 
 L. Pan, A. N. Morozov, C. Wagner and P. E. Arratia,
-/Nonlinear elastic instability in channel flows at low \textscReynolds numbers/\n
+/Nonlinear elastic instability in channel flows at low \textscReynolds numbers/,
 APSPhys. Rev. Lett., 2013, Vol. 110, pp. 174502\n
 [/javascript:toggleBibtex('pan2013nonlinear') \[BibTeX\]]
 ~~~
@@ -4655,7 +4655,7 @@ style="z-index: 10000">
 ~~~
 
 R. L. Panton,
-/Incompressible flow/\n
+/Incompressible flow/,
 John Wiley and Sons, 2006\n
 [/javascript:toggleBibtex('panton2006incompressible') \[BibTeX\]]
 ~~~
@@ -4682,7 +4682,7 @@ style="z-index: 10000">
 ~~~
 
 R. Peyret,
-/Spectral methods for incompressible viscous flow/\n
+/Spectral methods for incompressible viscous flow/,
 Springer Science and Business Media, 2013\n
 [/javascript:toggleBibtex('peyret2013spectral') \[BibTeX\]]
 ~~~
@@ -4709,7 +4709,7 @@ style="z-index: 10000">
 ~~~
 
 T. N. Phillips and I. M. Soliman,
-/Influence matrix technique for the numerical spectral simulation of viscous incompressible flows/\n
+/Influence matrix technique for the numerical spectral simulation of viscous incompressible flows/,
 Wiley Online LibraryNumer. Meth. Partial Diff. Equations, 1991, Vol. 7, pp. 9-24\n
 [/javascript:toggleBibtex('phillips1991influence') \[BibTeX\]]
 ~~~
@@ -4739,7 +4739,7 @@ style="z-index: 10000">
 ~~~
 
 T. Burghelea, E. Segre, I. Bar-Joseph, A. Groisman and V. Steinberg,
-/Chaotic flow and efficient mixing in a microchannel with a polymer solution/\n
+/Chaotic flow and efficient mixing in a microchannel with a polymer solution/,
 American Physical SocietyPhys. Rev. E, 2004, Vol. 69, pp. 066305\n
 [/javascript:toggleBibtex('PhysRevE.69.066305') \[BibTeX\]] [https://doi.org/10.1103/PhysRevE.69.066305 \[DOI\]]
 ~~~
@@ -4770,7 +4770,7 @@ style="z-index: 10000">
 ~~~
 
 S. Berti, A. Bistagnino, G. Boffetta, A. Celani and S. Musacchio,
-/Two-dimensional elastic turbulence/\n
+/Two-dimensional elastic turbulence/,
 American Physical SocietyPhys. Rev. Lett., 2008, Vol. 77, pp. 055306\n
 [/javascript:toggleBibtex('PhysRevE.77.055306') \[BibTeX\]] [https://doi.org/10.1103/PhysRevE.77.055306 \[DOI\]]
 ~~~
@@ -4801,7 +4801,7 @@ style="z-index: 10000">
 ~~~
 
 A. Gupta, P. Perlekar and R. Pandit,
-/Two-dimensional homogeneous isotropic fluid turbulence with polymer additives/\n
+/Two-dimensional homogeneous isotropic fluid turbulence with polymer additives/,
 American Physical SocietyPhys. Rev. E, 2015, Vol. 91, pp. 033013\n
 [/javascript:toggleBibtex('PhysRevE.91.033013') \[BibTeX\]] [https://doi.org/10.1103/PhysRevE.91.033013 \[DOI\]]
 ~~~
@@ -4832,7 +4832,7 @@ style="z-index: 10000">
 ~~~
 
 M. Grilli, A. V\'azquez-Quesada and M. Ellero,
-/Transition to Turbulence and Mixing in a Viscoelastic Fluid Flowing Inside a Channel with a Periodic Array of Cylindrical Obstacles/\n
+/Transition to Turbulence and Mixing in a Viscoelastic Fluid Flowing Inside a Channel with a Periodic Array of Cylindrical Obstacles/,
 American Physical SocietyPhys. Rev. Lett., 2013, Vol. 110, pp. 174501\n
 [/javascript:toggleBibtex('PhysRevLett.110.174501') \[BibTeX\]] [https://doi.org/10.1103/PhysRevLett.110.174501 \[DOI\]]
 ~~~
@@ -4863,7 +4863,7 @@ style="z-index: 10000">
 ~~~
 
 M. Chertkov,
-/Polymer Stretching by Turbulence/\n
+/Polymer Stretching by Turbulence/,
 American Physical SocietyPhys. Rev. Lett., 2000, Vol. 84, pp. 4761-4764\n
 [/javascript:toggleBibtex('PhysRevLett.84.4761') \[BibTeX\]] [https://doi.org/10.1103/PhysRevLett.84.4761 \[DOI\]]
 ~~~
@@ -4894,7 +4894,7 @@ style="z-index: 10000">
 ~~~
 
 Y. Pinchover and J. Rubinstein,
-/An introduction to partial differential equations/\n
+/An introduction to partial differential equations/,
 Cambridge University Press, 2005\n
 [/javascript:toggleBibtex('pinchover2005introduction') \[BibTeX\]]
 ~~~
@@ -4921,7 +4921,7 @@ style="z-index: 10000">
 ~~~
 
 P. M. Gresho and R. L. Sani,
-/On pressure boundary conditions for the incompressible Navier-Stokes equations/\n
+/On pressure boundary conditions for the incompressible Navier-Stokes equations/,
 Int. J. Numer. Meth. Fluids, 1987, Vol. 7, pp. 1111-1145\n
 [/javascript:toggleBibtex('pressBCincom') \[BibTeX\]] [https://doi.org/10.1002/fld.1650071008 \[DOI\]]
 ~~~
@@ -4951,7 +4951,7 @@ style="z-index: 10000">
 ~~~
 
 D. Psaltis, S. R. Quake and C. Yang,
-/Developing optofluidic technology through the fusion of microfluidics and optics/\n
+/Developing optofluidic technology through the fusion of microfluidics and optics/,
 Nature Publishing GroupNature, 2006, Vol. 442, pp. 381-386\n
 [/javascript:toggleBibtex('psaltis2006developing') \[BibTeX\]]
 ~~~
@@ -4981,7 +4981,7 @@ style="z-index: 10000">
 ~~~
 
 B. Qin and P. E. Arratia,
-/Characterizing elastic turbulence in channel flows at low \textscReynolds number/\n
+/Characterizing elastic turbulence in channel flows at low \textscReynolds number/,
 American Physical SocietyPhys. Rev. Fluids, 2017, Vol. 2, pp. 083302\n
 [/javascript:toggleBibtex('qin2016elastic') \[BibTeX\]] [https://doi.org/10.1103/PhysRevFluids.2.083302 \[DOI\]]
 ~~~
@@ -5012,7 +5012,7 @@ style="z-index: 10000">
 ~~~
 
 B. Qin, P. F. Salipante, S. D. Hudson and P. E. Arratia,
-/Flow Resistance and Structures in Viscoelastic Channel Flows at Low Re/\n
+/Flow Resistance and Structures in Viscoelastic Channel Flows at Low Re/,
 American Physical SocietyPhys. Rev. Lett., 2019, Vol. 123, pp. 194501\n
 [/javascript:toggleBibtex('qin2019elastic') \[BibTeX\]] [https://doi.org/10.1103/PhysRevLett.123.194501 \[DOI\]]
 ~~~
@@ -5044,7 +5044,7 @@ style="z-index: 10000">
 ~~~
 
 L. Quartapelle and M. Napolitano,
-/Integral conditions for the pressure in the computation of incompressible viscous flows/\n
+/Integral conditions for the pressure in the computation of incompressible viscous flows/,
 ElsevierJ. Comp. Phys., 1986, Vol. 62, pp. 340-348\n
 [/javascript:toggleBibtex('quartapelle1986integral') \[BibTeX\]]
 ~~~
@@ -5074,7 +5074,7 @@ style="z-index: 10000">
 ~~~
 
 S. Filip, A. Javeed and L. N. Trefethen,
-/Smooth Random Functions, Random ODEs, and Gaussian Processes/\n
+/Smooth Random Functions, Random ODEs, and Gaussian Processes/,
 SIAM Rev., 2019, Vol. 61, pp. 185-205\n
 [/javascript:toggleBibtex('randnfun') \[BibTeX\]] [https://doi.org/10.1137/17M1161853 \[DOI\]]
 ~~~
@@ -5105,7 +5105,7 @@ style="z-index: 10000">
 ~~~
 
 M. Renardy and Y. Renardy,
-/Linear stability of plane Couette flow of an upper convected Maxwell fluid/\n
+/Linear stability of plane Couette flow of an upper convected Maxwell fluid/,
 ElsevierJ. Non-Newtonian Fluid Mech., 1986, Vol. 22, pp. 23-33\n
 [/javascript:toggleBibtex('renardy1986linear') \[BibTeX\]]
 ~~~
@@ -5135,7 +5135,7 @@ style="z-index: 10000">
 ~~~
 
 M. Renardy,
-/Location of the continuous spectrum in complex flows of the UCM fluid/\n
+/Location of the continuous spectrum in complex flows of the UCM fluid/,
 ElsevierJ. Non-Newtonian Fluid Mech., 2000, Vol. 94, pp. 75-85\n
 [/javascript:toggleBibtex('renardy2000location') \[BibTeX\]]
 ~~~
@@ -5165,7 +5165,7 @@ style="z-index: 10000">
 ~~~
 
 M. Renardy and R. C. Rogers,
-/An introduction to partial differential equations/\n
+/An introduction to partial differential equations/,
 Springer Science and Business Media, 2006\n
 [/javascript:toggleBibtex('renardy2006introduction') \[BibTeX\]]
 ~~~
@@ -5192,7 +5192,7 @@ style="z-index: 10000">
 ~~~
 
 C. Rivet, H. Lee, A. Hirsch, S. Hamilton and H. Lu,
-/Microfluidics for medical diagnostics and biosensors/\n
+/Microfluidics for medical diagnostics and biosensors/,
 Chem. Eng. Sci., 2011, Vol. 66, pp. 1490-1507\n
 [/javascript:toggleBibtex('Rivet20111490') \[BibTeX\]] [https://doi.org/10.1016/j.ces.2010.08.015 \[DOI\]]
 ~~~
@@ -5222,7 +5222,7 @@ style="z-index: 10000">
 ~~~
 
 B. L. Rozhdestvensky and I. N. Simakin,
-/Secondary flows in a plane channel: Their relationship and comparison with turbulent flows/\n
+/Secondary flows in a plane channel: Their relationship and comparison with turbulent flows/,
 Cambridge University PressJ. Fluid Mech., 1984, Vol. 147, pp. 261-289\n
 [/javascript:toggleBibtex('rozhdestvensky_simakin_1984') \[BibTeX\]] [https://doi.org/10.1017/S0022112084002081 \[DOI\]]
 ~~~
@@ -5253,7 +5253,7 @@ style="z-index: 10000">
 ~~~
 
 P. G. Saffman,
-/VORTICES, STABILITY, AND TURBULENCE/\n
+/VORTICES, STABILITY, AND TURBULENCE/,
 Wiley Online LibraryAnn. N. Y. Acad. Sci., 1983, Vol. 404, pp. 12-24\n
 [/javascript:toggleBibtex('SaffmanVortices') \[BibTeX\]] [https://doi.org/10.1111/j.1749-6632.1983.tb19411.x \[DOI\]]
 ~~~
@@ -5284,7 +5284,7 @@ style="z-index: 10000">
 ~~~
 
 P. J. Schmid and D. S. Henningson,
-/Optimal energy density growth in Hagen–Poiseuille flow/\n
+/Optimal energy density growth in Hagen–Poiseuille flow/,
 Cambridge University PressJ. Fluid Mech., 1994, Vol. 277, pp. 197-225\n
 [/javascript:toggleBibtex('schmid_henningson_1994') \[BibTeX\]] [https://doi.org/10.1017/S0022112094002739 \[DOI\]]
 ~~~
@@ -5315,7 +5315,7 @@ style="z-index: 10000">
 ~~~
 
 P. J. Schmid and D. S. Henningson,
-/Stability and transition in shear flows/\n
+/Stability and transition in shear flows/,
 Springer Science and Business Media, 2012\n
 [/javascript:toggleBibtex('schmid2012stability') \[BibTeX\]]
 ~~~
@@ -5342,7 +5342,7 @@ style="z-index: 10000">
 ~~~
 
 P. J. Schmid,
-/Nonmodal Stability Theory/\n
+/Nonmodal Stability Theory/,
 Annu. Rev. Fluid Mech., 2007, pp. 129-162\n
 [/javascript:toggleBibtex('SchmidARFM2007') \[BibTeX\]] [https://doi.org/10.1146/annurev.fluid.38.050304.092139 \[DOI\]]
 ~~~
@@ -5371,7 +5371,7 @@ style="z-index: 10000">
 ~~~
 
 A. Shekar, R. M. McMullen, S.-N. Wang, B. J. McKeon and M. D. Graham,
-/Critical-Layer Structures and Mechanisms in Elastoinertial Turbulence/\n
+/Critical-Layer Structures and Mechanisms in Elastoinertial Turbulence/,
 American Physical SocietyPhys. Rev. Lett., 2019, Vol. 122, pp. 124503\n
 [/javascript:toggleBibtex('shekar2019') \[BibTeX\]] [https://doi.org/10.1103/PhysRevLett.122.124503 \[DOI\]]
 ~~~
@@ -5403,7 +5403,7 @@ style="z-index: 10000">
 ~~~
 
 A. Shekar, R. M. McMullen, B. J. McKeon and M. D. Graham,
-/Self-sustained elastoinertial Tollmien-Schlichting waves/\n
+/Self-sustained elastoinertial Tollmien-Schlichting waves/,
 J. Fluid Mech., 2020, Vol. 897, pp. A3\n
 [/javascript:toggleBibtex('shekar2020') \[BibTeX\]]
 ~~~
@@ -5432,7 +5432,7 @@ style="z-index: 10000">
 ~~~
 
 B. Thomases and M. Shelley,
-/Emergence of singular structures in Oldroyd-B fluids/\n
+/Emergence of singular structures in Oldroyd-B fluids/,
 Phys. Fluids, 2007, Vol. 19, pp. 103103\n
 [/javascript:toggleBibtex('Shelly2007') \[BibTeX\]] [https://doi.org/10.1063/1.2783426 \[DOI\]]
 ~~~
@@ -5463,7 +5463,7 @@ style="z-index: 10000">
 ~~~
 
 J. Shen, T. Tang and L.-L. Wang,
-/Spectral methods: Algorithms, analysis and applications/\n
+/Spectral methods: Algorithms, analysis and applications/,
 Springer Science and Business Media, 2011\n
 [/javascript:toggleBibtex('shen2011spectral') \[BibTeX\]]
 ~~~
@@ -5490,7 +5490,7 @@ style="z-index: 10000">
 ~~~
 
 S. Skogestad and I. Postlethwaite,
-/Multivariable feedback control: Analysis and design/\n
+/Multivariable feedback control: Analysis and design/,
 Wiley, 2007\n
 [/javascript:toggleBibtex('skogestad2007multivariable') \[BibTeX\]]
 ~~~
@@ -5517,7 +5517,7 @@ style="z-index: 10000">
 ~~~
 
 G. L. G. Sleijpen and H. A. Van der Vorst,
-/A Jacobi–Davidson iteration method for linear eigenvalue problems/\n
+/A Jacobi–Davidson iteration method for linear eigenvalue problems/,
 SIAMSIAM Rev., 2000, Vol. 42, pp. 267-293\n
 [/javascript:toggleBibtex('sleijpen2000jacobi') \[BibTeX\]]
 ~~~
@@ -5547,7 +5547,7 @@ style="z-index: 10000">
 ~~~
 
 M. F. M. Speetjens and H. J. H. Clercx,
-/A spectral solver for the Navier-Stokes equations in the velocity-vorticity formulation/\n
+/A spectral solver for the Navier-Stokes equations in the velocity-vorticity formulation/,
 Taylor & FrancisInt. J. Comput. Fluid Dyn., 2005, Vol. 19, pp. 191-209\n
 [/javascript:toggleBibtex('SpeetjensIJCFD2005') \[BibTeX\]] [https://doi.org/10.1080/10618560412331283808 \[DOI\]]
 ~~~
@@ -5579,7 +5579,7 @@ style="z-index: 10000">
 ~~~
 
 K. Spielberg and H. Timan,
-/On three and two-dimensional disturbances of pipe flow/\n
+/On three and two-dimensional disturbances of pipe flow/,
 J. Appl. Mech., 1960, Vol. 27, pp. 381-389\n
 [/javascript:toggleBibtex('SpielbergTimanJAM1960') \[BibTeX\]] [https://doi.org/10.1115/1.3644012 \[DOI\]]
 ~~~
@@ -5609,7 +5609,7 @@ style="z-index: 10000">
 ~~~
 
 S. S. Srinivas and V. Kumaran,
-/Effect of viscoelasticity on the soft-wall transition and turbulence in a microchannel/\n
+/Effect of viscoelasticity on the soft-wall transition and turbulence in a microchannel/,
 Cambridge University PressJ. Fluid Mech., 2017, Vol. 812, pp. 1076-1118\n
 [/javascript:toggleBibtex('srinivas_kumaran_2017') \[BibTeX\]] [https://doi.org/10.1017/jfm.2016.839 \[DOI\]]
 ~~~
@@ -5640,7 +5640,7 @@ style="z-index: 10000">
 ~~~
 
 Y. Y. Su and B. Khomami,
-/Numerical solution of eigenvalue problems using spectral techniques/\n
+/Numerical solution of eigenvalue problems using spectral techniques/,
 ElsevierJ. Comp. Phys., 1992, Vol. 100, pp. 297-305\n
 [/javascript:toggleBibtex('su1992numerical') \[BibTeX\]]
 ~~~
@@ -5670,7 +5670,7 @@ style="z-index: 10000">
 ~~~
 
 K. S. Miller,
-/On the Inverse of the Sum of Matrices/\n
+/On the Inverse of the Sum of Matrices/,
 Mathematical Association of AmericaMath. Magazine, 1981, Vol. 54, pp. 67-72\n
 [/javascript:toggleBibtex('sumOfMatrices') \[BibTeX\]]
 ~~~
@@ -5701,7 +5701,7 @@ style="z-index: 10000">
 ~~~
 
 C. D. Dimitropoulos, R. Sureshkumar, A. N. Beris and R. A. Handler,
-/Budgets of Reynolds stress, kinetic energy and streamwise enstrophy in viscoelastic turbulent channel flow/\n
+/Budgets of Reynolds stress, kinetic energy and streamwise enstrophy in viscoelastic turbulent channel flow/,
 Phys. Fluids, 2001, Vol. 13, pp. 1016-1027\n
 [/javascript:toggleBibtex('SurBerPOF2001') \[BibTeX\]] [https://doi.org/10.1063/1.1345882 \[DOI\]]
 ~~~
@@ -5731,7 +5731,7 @@ style="z-index: 10000">
 ~~~
 
 R. Sureshkumar and A. N. Beris,
-/Linear stability analysis of viscoelastic Poiseuille flow using an Arnoldi-based orthogonalization algorithm/\n
+/Linear stability analysis of viscoelastic Poiseuille flow using an Arnoldi-based orthogonalization algorithm/,
 ElsevierJ. Non-Newtonian Fluid Mech., 1995, Vol. 56, pp. 151-182\n
 [/javascript:toggleBibtex('sureshkumar1995linear') \[BibTeX\]]
 ~~~
@@ -5761,7 +5761,7 @@ style="z-index: 10000">
 ~~~
 
 R. Sureshkumar, A. N. Beris and R. A. Handler,
-/Direct numerical simulation of the turbulent channel flow of a polymer solution/\n
+/Direct numerical simulation of the turbulent channel flow of a polymer solution/,
 AIP PublishingPhys. Fluids., 1997, Vol. 9, pp. 743-755\n
 [/javascript:toggleBibtex('sureshkumar1997direct') \[BibTeX\]]
 ~~~
@@ -5791,7 +5791,7 @@ style="z-index: 10000">
 ~~~
 
 V. E. Terrapon, Y. Dubief and J. Soria,
-/On the role of pressure in elasto-inertial turbulence/\n
+/On the role of pressure in elasto-inertial turbulence/,
 Taylor & FrancisJ. Turb., 2015, Vol. 16, pp. 26-43\n
 [/javascript:toggleBibtex('terrapon2015role') \[BibTeX\]]
 ~~~
@@ -5821,7 +5821,7 @@ style="z-index: 10000">
 ~~~
 
 R. J. Hansen, R. C. Little and P. G. Forame,
-/EXPERIMENTAL AND THEORETICAL STUDIES OF EARLY TURBULENCE/\n
+/EXPERIMENTAL AND THEORETICAL STUDIES OF EARLY TURBULENCE/,
 J. Chem. Eng. Japan, 1973, Vol. 6, pp. 310-314\n
 [/javascript:toggleBibtex('TheoryEarlyTurb') \[BibTeX\]] [https://doi.org/10.1252/jcej.6.310 \[DOI\]]
 ~~~
@@ -5851,7 +5851,7 @@ style="z-index: 10000">
 ~~~
 
 G. Tlapa and B. Bernstein,
-/Stability of a Relaxation-Type Viscoelastic Fluid with Slight Elasticity/\n
+/Stability of a Relaxation-Type Viscoelastic Fluid with Slight Elasticity/,
 AIPPhys. Fluids, 1970, Vol. 13, pp. 565-568\n
 [/javascript:toggleBibtex('tlapa1970stability') \[BibTeX\]]
 ~~~
@@ -5881,7 +5881,7 @@ style="z-index: 10000">
 ~~~
 
 B. A. Toms,
-/Some observations on the flow of linear polymer solutions through straight tubes at large Reynolds numbers/\n
+/Some observations on the flow of linear polymer solutions through straight tubes at large Reynolds numbers/,
 Proc. of In. Cong. On Rheology, 1948, 1948, Vol. 135\n
 [/javascript:toggleBibtex('toms1948some') \[BibTeX\]]
 ~~~
@@ -5909,7 +5909,7 @@ style="z-index: 10000">
 ~~~
 
 B. A. Toms,
-/On the early experiments on drag reduction by polymers/\n
+/On the early experiments on drag reduction by polymers/,
 Phys. Fluids, 1977, Vol. 20, pp. S3-S5\n
 [/javascript:toggleBibtex('Toms2003') \[BibTeX\]] [https://doi.org/10.1063/1.861757 \[DOI\]]
 ~~~
@@ -5939,7 +5939,7 @@ style="z-index: 10000">
 ~~~
 
 L. N. Trefethen,
-/Spectra and pseudospectra/\n
+/Spectra and pseudospectra/,
 Springer Berlin HeidelbergIn The Graduate Student's Guide to Numerical Analysis '98: Lecture Notes from the VIII EPSRC Summer School in Numerical Analysis, 1999, pp. 217-250\n
 [/javascript:toggleBibtex('Trefethen1999') \[BibTeX\]] [https://doi.org/10.1007/978-3-662-03972-4_6 \[DOI\]]
 ~~~
@@ -5969,7 +5969,7 @@ style="z-index: 10000">
 ~~~
 
 A. E. Trefethen, L. N. Trefethen and P. J. Schmid,
-/Spectra and pseudospectra for pipe Poiseuille flow/\n
+/Spectra and pseudospectra for pipe Poiseuille flow/,
 Comp. Meth. App. Mech. Eng., 1999, Vol. 175, pp. 413-420\n
 [/javascript:toggleBibtex('TREFETHEN1999413') \[BibTeX\]] [https://doi.org/10.1016/S0045-7825(98)00364-8 \[DOI\]]
 ~~~
@@ -5999,7 +5999,7 @@ style="z-index: 10000">
 ~~~
 
 L. N. Trefethen, A. E. Trefethen, S. C. Reddy and T. A. Driscoll,
-/Hydrodynamic Stability Without Eigenvalues/\n
+/Hydrodynamic Stability Without Eigenvalues/,
 American Association for the Advancement of ScienceScience, 1993, Vol. 261, pp. 578-584\n
 [/javascript:toggleBibtex('TrefethenS1993') \[BibTeX\]] [https://doi.org/10.1126/science.261.5121.578 \[DOI\]]
 ~~~
@@ -6030,7 +6030,7 @@ style="z-index: 10000">
 ~~~
 
 L. N. Trefethen,
-/Spectral methods in MATLAB/\n
+/Spectral methods in MATLAB/,
 Society for Industrial and Applied Mathematics, 2000\n
 [/javascript:toggleBibtex('TreSIAM2000') \[BibTeX\]]
 ~~~
@@ -6057,7 +6057,7 @@ style="z-index: 10000">
 ~~~
 
 L. S. Tuckerman,
-/Divergence-free velocity fields in nonperiodic geometries/\n
+/Divergence-free velocity fields in nonperiodic geometries/,
 ElsevierJ. Comput. Phys., 1989, Vol. 80, pp. 403-441\n
 [/javascript:toggleBibtex('tuckerman1989divergence') \[BibTeX\]]
 ~~~
@@ -6087,7 +6087,7 @@ style="z-index: 10000">
 ~~~
 
 M. Tucsnak and G. Weiss,
-/Observation and control for operator semigroups/\n
+/Observation and control for operator semigroups/,
 Springer Science and Business Media, 2009\n
 [/javascript:toggleBibtex('tucsnak2009observation') \[BibTeX\]]
 ~~~
@@ -6114,7 +6114,7 @@ style="z-index: 10000">
 ~~~
 
 A. Varshney and V. Steinberg,
-/Drag enhancement and drag reduction in viscoelastic flow/\n
+/Drag enhancement and drag reduction in viscoelastic flow/,
 APSPhys. Rev. Fluids, 2018, Vol. 3, pp. 103302\n
 [/javascript:toggleBibtex('varshney2018drag') \[BibTeX\]] [https://doi.org/10.1103/PhysRevFluids.3.103302 \[DOI\]]
 ~~~
@@ -6145,7 +6145,7 @@ style="z-index: 10000">
 ~~~
 
 H. K. Versteeg and W. Malalasekera,
-/Computational fluid dynamics/\n
+/Computational fluid dynamics/,
 The finite volume method, 1995\n
 [/javascript:toggleBibtex('versteeg1995computational') \[BibTeX\]]
 ~~~
@@ -6172,7 +6172,7 @@ style="z-index: 10000">
 ~~~
 
 D. Viswanath,
-/Spectral integration of linear boundary value problems/\n
+/Spectral integration of linear boundary value problems/,
 ElsevierJ. Comp. App. Math., 2015, Vol. 290, pp. 159-173\n
 [/javascript:toggleBibtex('visJCAM2015') \[BibTeX\]]
 ~~~
@@ -6202,7 +6202,7 @@ style="z-index: 10000">
 ~~~
 
 Q. Wang, X. Zhang, Y. Zhang and Q. Yi,
-/AUGEM: Automatically generate high performance dense linear algebra kernels on x86 CPUs/\n
+/AUGEM: Automatically generate high performance dense linear algebra kernels on x86 CPUs/,
 In 2013 International Conference for High Performance Computing, Networking, Storage and Analysis (SC'13), 2013, pp. 1-12\n
 [/javascript:toggleBibtex('wang2013augem') \[BibTeX\]]
 ~~~
@@ -6230,7 +6230,7 @@ style="z-index: 10000">
 ~~~
 
 M. Wehner, R. L. Truby, D. J. Fitzgerald, B. Mosadegh, G. M. Whitesides, J. A. Lewis and R. J. Wood,
-/An integrated design and fabrication strategy for entirely soft, autonomous robots/\n
+/An integrated design and fabrication strategy for entirely soft, autonomous robots/,
 Nature ResearchNature, 2016, Vol. 536, pp. 451-455\n
 [/javascript:toggleBibtex('wehner2016integrated') \[BibTeX\]]
 ~~~
@@ -6260,7 +6260,7 @@ style="z-index: 10000">
 ~~~
 
 J. A. Weideman and S. C. Reddy,
-/A MATLAB differentiation matrix suite/\n
+/A MATLAB differentiation matrix suite/,
 ACMACM TOMS, 2000, Vol. 26, pp. 465-519\n
 [/javascript:toggleBibtex('weideman2000matlab') \[BibTeX\]]
 ~~~
@@ -6290,7 +6290,7 @@ style="z-index: 10000">
 ~~~
 
 J. Werne,
-/Incompressibility and no-slip boundaries in the Chebyshev-tau approximation: Correction to Kleiser and Schumann's influence-matrix solution/\n
+/Incompressibility and no-slip boundaries in the Chebyshev-tau approximation: Correction to Kleiser and Schumann's influence-matrix solution/,
 Academic PressJ. Comput. Phys., 1995, pp. 260-265\n
 [/javascript:toggleBibtex('werne1995incompressibility') \[BibTeX\]]
 ~~~
@@ -6319,7 +6319,7 @@ style="z-index: 10000">
 ~~~
 
 C. M. White and M. G. Mungal,
-/Mechanics and prediction of turbulent drag reduction with polymer additives/\n
+/Mechanics and prediction of turbulent drag reduction with polymer additives/,
 Annual ReviewsAnnu. Rev. Fluid Mech., 2008, Vol. 40, pp. 235-256\n
 [/javascript:toggleBibtex('white2008mechanics') \[BibTeX\]]
 ~~~
@@ -6349,7 +6349,7 @@ style="z-index: 10000">
 ~~~
 
 H. J. Wilson, M. Renardy and Y. Renardy,
-/Structure of the spectrum in zero \textscReynolds number shear flow of the \textscUCM and \textscOldroyd-\textscB liquids/\n
+/Structure of the spectrum in zero \textscReynolds number shear flow of the \textscUCM and \textscOldroyd-\textscB liquids/,
 ElsevierJ. Non-Newtonian Fluid Mech., 1999, Vol. 80, pp. 251-268\n
 [/javascript:toggleBibtex('wilson1999structure') \[BibTeX\]]
 ~~~
@@ -6379,7 +6379,7 @@ style="z-index: 10000">
 ~~~
 
 I. J. Wygnanski and F. H. Champagne,
-/On transition in a pipe. Part 1. The origin of puffs and slugs and the flow in a turbulent slug/\n
+/On transition in a pipe. Part 1. The origin of puffs and slugs and the flow in a turbulent slug/,
 Cambridge University PressJ. Fluid Mech., 1973, Vol. 59, pp. 281-335\n
 [/javascript:toggleBibtex('wygnanski_champagne_1973') \[BibTeX\]] [https://doi.org/10.1017/S0022112073001576 \[DOI\]]
 ~~~
@@ -6410,7 +6410,7 @@ style="z-index: 10000">
 ~~~
 
 M. Zhang, I. Lashgari, T. A. Zaki and L. Brandt,
-/Linear stability analysis of channel flow of viscoelastic Oldroyd-B and FENE-P fluids/\n
+/Linear stability analysis of channel flow of viscoelastic Oldroyd-B and FENE-P fluids/,
 Cambridge University PressJ. Fluid Mech., 2013, Vol. 737, pp. 249-279\n
 [/javascript:toggleBibtex('zakiJFM2013') \[BibTeX\]] [https://doi.org/10.1017/jfm.2013.572 \[DOI\]]
 ~~~
@@ -6441,7 +6441,7 @@ style="z-index: 10000">
 ~~~
 
 T. A. Zang and S. E. Krist,
-/Numerical experiments on stability and transition in plane channel flow/\n
+/Numerical experiments on stability and transition in plane channel flow/,
 SpringerTheor. Comput. Fluid Dyn., 1989, Vol. 1, pp. 41-64\n
 [/javascript:toggleBibtex('zang1989numerical') \[BibTeX\]]
 ~~~
@@ -6471,7 +6471,7 @@ style="z-index: 10000">
 ~~~
 
 T. A. Zang,
-/On the rotation and skew-symmetric forms for incompressible flow simulations/\n
+/On the rotation and skew-symmetric forms for incompressible flow simulations/,
 App. Numer. Math., 1991, Vol. 7, pp. 27-40\n
 [/javascript:toggleBibtex('ZANG199127') \[BibTeX\]] [https://doi.org/10.1016/0168-9274(91)90102-6 \[DOI\]]
 ~~~
@@ -6501,7 +6501,7 @@ style="z-index: 10000">
 ~~~
 
 K. Zhou, J. C. Doyle and K. Glover,
-/Robust and optimal control/\n
+/Robust and optimal control/,
 Prentice Hall, 1996\n
 [/javascript:toggleBibtex('zhou1996robust') \[BibTeX\]]
 ~~~
@@ -6528,7 +6528,7 @@ style="z-index: 10000">
 ~~~
 
 B. Ziaie, A. Baldi, M. Lei, Y. Gu and R. A. Siegel,
-/Hard and soft micromachining for BioMEMS: Review of techniques and examples of applications in microfluidics and drug delivery/\n
+/Hard and soft micromachining for BioMEMS: Review of techniques and examples of applications in microfluidics and drug delivery/,
 Adv. Drug Deliv. Rev., 2004, Vol. 56, pp. 145-172\n
 [/javascript:toggleBibtex('Ziaie2004145') \[BibTeX\]] [https://doi.org/10.1016/j.addr.2003.09.001 \[DOI\]]
 ~~~

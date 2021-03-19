@@ -8,9 +8,9 @@ style="z-index: 10000">
 ~~~
 
 J. Annoni, P. Seiler and M. R. Jovanovi\'c,
-/Sparsity-promoting dynamic mode decomposition for systems with inputs/\n
+/Sparsity-promoting dynamic mode decomposition for systems with inputs/,
 In Proceedings of the 55th IEEE Conference on Decision and Control, 2016, pp. 6506-6511\n
-[/javascript:toggleBibtex('annseijovCDC16') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/annseijovCDC16.pdf \[PDF\]]
+[/javascript:toggleBibtex('annseijovCDC16') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/annseijovCDC16.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -23,7 +23,7 @@ In Proceedings of the 55th IEEE Conference on Decision and Control, 2016, pp. 65
   year = {2016},
   pages = {6506-6511},
   note = {(Invited paper)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/annseijovCDC16.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/annseijovCDC16.pdf}
 }
 </pre></div>
 </div>
@@ -38,9 +38,9 @@ style="z-index: 10000">
 ~~~
 
 A. Dwivedi,
-/Global input-output analysis of flow instabilities in high-speed compressible flows/\n
+/Global input-output analysis of flow instabilities in high-speed compressible flows/,
 University of Minnesota, 2020\n
-[/javascript:toggleBibtex('anubhav-phd20') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/theses/AnubhavDwivedi-PhD.pdf \[PDF\]]
+[/javascript:toggleBibtex('anubhav-phd20') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/theses/AnubhavDwivedi-PhD.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -51,7 +51,7 @@ University of Minnesota, 2020\n
   title = {Global input-output analysis of flow instabilities in high-speed compressible flows},
   school = {University of Minnesota},
   year = {2020},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/theses/AnubhavDwivedi-PhD.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/theses/AnubhavDwivedi-PhD.pdf}
 }
 </pre></div>
 </div>
@@ -66,9 +66,9 @@ style="z-index: 10000">
 ~~~
 
 A. Zare,
-/Low-complexity stochastic modeling of wall-bounded shear flows/\n
+/Low-complexity stochastic modeling of wall-bounded shear flows/,
 University of Minnesota, 2016\n
-[/javascript:toggleBibtex('armin-phd16') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/theses/ArminZare-PhD.pdf \[PDF\]]
+[/javascript:toggleBibtex('armin-phd16') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/theses/ArminZare-PhD.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -79,7 +79,7 @@ University of Minnesota, 2016\n
   title = {Low-complexity stochastic modeling of wall-bounded shear flows},
   school = {University of Minnesota},
   year = {2016},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/theses/ArminZare-PhD.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/theses/ArminZare-PhD.pdf}
 }
 </pre></div>
 </div>
@@ -94,7 +94,7 @@ style="z-index: 10000">
 ~~~
 
 B. Bamieh, M. R. Jovanovi\'c, P. Mitra and S. Patterson,
-/Effect of topological dimension on rigidity of vehicle formations: fundamental limitations of local feedback/\n
+/Effect of topological dimension on rigidity of vehicle formations: fundamental limitations of local feedback/,
 In Proceedings of the 47th IEEE Conference on Decision and Control, 2008, pp. 369-374\n
 [/javascript:toggleBibtex('bamjovmitCDC08') \[BibTeX\]]
 ~~~
@@ -122,9 +122,9 @@ style="z-index: 10000">
 ~~~
 
 B. Bamieh, M. R. Jovanovi\'c, P. Mitra and S. Patterson,
-/Coherence in large-scale networks: dimension dependent limitations of local feedback/\n
+/Coherence in large-scale networks: dimension dependent limitations of local feedback/,
 IEEE Trans. Automat. Control, September, 2012, Vol. 57 (9), pp. 2235-2249\n
-[/javascript:toggleBibtex('bamjovmitpat12') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/bamjovmitpatTAC12.pdf \[PDF\]]
+[/javascript:toggleBibtex('bamjovmitpat12') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/bamjovmitpatTAC12.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -139,7 +139,7 @@ IEEE Trans. Automat. Control, September, 2012, Vol. 57 (9), pp. 2235-2249\n
   number = {9},
   pages = {2235-2249},
   note = {<b>(2013 George S.\ Axelby Outstanding Paper Award)</b>},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/bamjovmitpatTAC12.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/bamjovmitpatTAC12.pdf}
 }
 </pre></div>
 </div>
@@ -154,9 +154,9 @@ style="z-index: 10000">
 ~~~
 
 B. K. Lieu,
-/Dynamics and control of Newtonian and viscoelastic fluids/\n
+/Dynamics and control of Newtonian and viscoelastic fluids/,
 University of Minnesota, 2014\n
-[/javascript:toggleBibtex('binh-phd14') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/theses/BinhLieu-PhD.pdf \[PDF\]]
+[/javascript:toggleBibtex('binh-phd14') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/theses/BinhLieu-PhD.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -167,7 +167,7 @@ University of Minnesota, 2014\n
   title = {Dynamics and control of Newtonian and viscoelastic fluids},
   school = {University of Minnesota},
   year = {2014},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/theses/BinhLieu-PhD.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/theses/BinhLieu-PhD.pdf}
 }
 </pre></div>
 </div>
@@ -182,7 +182,7 @@ style="z-index: 10000">
 ~~~
 
 N. A. Cebasek and M. R. Jovanovi\'c,
-/PWM control of hydraulic cylinder and axial piston hydraulic motor/\n
+/PWM control of hydraulic cylinder and axial piston hydraulic motor/,
 In Proceedings of the 5th Triennial International Symposium on Fluid Control, Measurement and Visualization, September, 1997, Vol. 1, pp. 361-366\n
 [/javascript:toggleBibtex('cebjov97') \[BibTeX\]]
 ~~~
@@ -211,7 +211,7 @@ style="z-index: 10000">
 ~~~
 
 Y. Chen, M. R. Jovanovi\'c and T. T. Georgiou,
-/State covariances and the matrix completion problem/\n
+/State covariances and the matrix completion problem/,
 In Proceedings of the 52nd IEEE Conference on Decision and Control, 2013, pp. 1702-1707\n
 [/javascript:toggleBibtex('chejovgeoCDC13') \[BibTeX\]]
 ~~~
@@ -239,9 +239,9 @@ style="z-index: 10000">
 ~~~
 
 M. Colombino, N. K. Dhingra, M. R. Jovanovi\'c, A. Rantzer and R. S. Smith,
-/On the optimal control problem for a class of monotone bilinear systems/\n
+/On the optimal control problem for a class of monotone bilinear systems/,
 In Proceedings of the 22nd International Symposium on Mathematical Theory of Network and Systems, 2016, pp. 411-413\n
-[/javascript:toggleBibtex('coldhijovransmiMTNS16') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/coldhijovransmiMTNS16.pdf \[PDF\]]
+[/javascript:toggleBibtex('coldhijovransmiMTNS16') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/coldhijovransmiMTNS16.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -254,7 +254,7 @@ In Proceedings of the 22nd International Symposium on Mathematical Theory of Net
   year = {2016},
   pages = {411-413},
   note = {(Invited paper)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/coldhijovransmiMTNS16.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/coldhijovransmiMTNS16.pdf}
 }
 </pre></div>
 </div>
@@ -269,9 +269,9 @@ style="z-index: 10000">
 ~~~
 
 M. Colombino, N. Dhingra, M. R. Jovanovi\'c and R. S. Smith,
-/Convex reformulation of a robust optimal control problem for a class of positive systems/\n
+/Convex reformulation of a robust optimal control problem for a class of positive systems/,
 In Proceedings of the 55th IEEE Conference on Decision and Control, 2016, pp. 5263-5268\n
-[/javascript:toggleBibtex('coldhijovsmiCDC16') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/coldhijovsmiCDC16.pdf \[PDF\]]
+[/javascript:toggleBibtex('coldhijovsmiCDC16') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/coldhijovsmiCDC16.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -284,7 +284,7 @@ In Proceedings of the 55th IEEE Conference on Decision and Control, 2016, pp. 52
   year = {2016},
   pages = {5263-5268},
   note = {(Invited paper)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/coldhijovsmiCDC16.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/coldhijovsmiCDC16.pdf}
 }
 </pre></div>
 </div>
@@ -299,9 +299,9 @@ style="z-index: 10000">
 ~~~
 
 J. Cortes, M. Egerstedt and M. R. Jovanovi\'c,
-/The inaugural CDC soccer cup/\n
+/The inaugural CDC soccer cup/,
 IEEE Control Syst. Mag., June, 2019, Vol. 39 (3), pp. 17-39\n
-[/javascript:toggleBibtex('coregejovCSM19') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/coregejovCSM19.pdf \[PDF\]]
+[/javascript:toggleBibtex('coregejovCSM19') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/coregejovCSM19.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -315,7 +315,7 @@ IEEE Control Syst. Mag., June, 2019, Vol. 39 (3), pp. 17-39\n
   volume = {39},
   number = {3},
   pages = {17-39},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/coregejovCSM19.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/coregejovCSM19.pdf}
 }
 </pre></div>
 </div>
@@ -330,7 +330,7 @@ style="z-index: 10000">
 ~~~
 
 D. Debeljkovi\'c and M. R. Jovanovi\'c,
-/Time continuous control design for linear singular systems on finite time interval/\n
+/Time continuous control design for linear singular systems on finite time interval/,
 In Proceedings of the 40th ETRAN Conference, June, 1996, Vol. 1, pp. 454-457\n
 [/javascript:toggleBibtex('debjov96') \[BibTeX\]]
 ~~~
@@ -359,7 +359,7 @@ style="z-index: 10000">
 ~~~
 
 D. Debeljkovi\'c and M. R. Jovanovi\'c,
-/Non-Lyapunov stability consideration of linear descriptor systems operating under perturbing forces/\n
+/Non-Lyapunov stability consideration of linear descriptor systems operating under perturbing forces/,
 Advances in Modeling and Analysis, 1997, Vol. 49 (1-2), pp. 1-8\n
 [/javascript:toggleBibtex('debjov97') \[BibTeX\]]
 ~~~
@@ -389,9 +389,9 @@ style="z-index: 10000">
 ~~~
 
 D. Deka, A. Zare, A. Lokhov, M. R. Jovanovi\'c and M. Chertkov,
-/State and noise covariance estimation in power grids using limited nodal PMUs/\n
+/State and noise covariance estimation in power grids using limited nodal PMUs/,
 In Proceedings of the 5th IEEE Global Conference on Signal and Information Processing, 2017\n
-[/javascript:toggleBibtex('dekzarlokjovcheGSIP17') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/dekzarlokjovcheGSIP17.pdf \[PDF\]]
+[/javascript:toggleBibtex('dekzarlokjovcheGSIP17') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/dekzarlokjovcheGSIP17.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -402,7 +402,7 @@ In Proceedings of the 5th IEEE Global Conference on Signal and Information Proce
   title = {State and noise covariance estimation in power grids using limited nodal PMUs},
   booktitle = {Proceedings of the 5th IEEE Global Conference on Signal and Information Processing},
   year = {2017},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/dekzarlokjovcheGSIP17.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/dekzarlokjovcheGSIP17.pdf}
 }
 </pre></div>
 </div>
@@ -417,9 +417,9 @@ style="z-index: 10000">
 ~~~
 
 N. K. Dhingra, M. Colombino and M. R. Jovanovi\'c,
-/Leader selection in directed networks/\n
+/Leader selection in directed networks/,
 In Proceedings of the 55th IEEE Conference on Decision and Control, 2016, pp. 2715-2720\n
-[/javascript:toggleBibtex('dhicoljovCDC16') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/dhicoljovCDC16.pdf \[PDF\]]
+[/javascript:toggleBibtex('dhicoljovCDC16') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/dhicoljovCDC16.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -432,7 +432,7 @@ In Proceedings of the 55th IEEE Conference on Decision and Control, 2016, pp. 27
   year = {2016},
   pages = {2715-2720},
   note = {(Invited paper)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/dhicoljovCDC16.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/dhicoljovCDC16.pdf}
 }
 </pre></div>
 </div>
@@ -447,9 +447,9 @@ style="z-index: 10000">
 ~~~
 
 N. K. Dhingra, M. Colombino and M. R. Jovanovi\'c,
-/On the convexity of a class of structured optimal control problems for positive systems/\n
+/On the convexity of a class of structured optimal control problems for positive systems/,
 In Proceedings of the 2016 European Control Conference, 2016, pp. 825-830\n
-[/javascript:toggleBibtex('dhicoljovECC16') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/dhicoljovECC16.pdf \[PDF\]]
+[/javascript:toggleBibtex('dhicoljovECC16') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/dhicoljovECC16.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -461,7 +461,7 @@ In Proceedings of the 2016 European Control Conference, 2016, pp. 825-830\n
   booktitle = {Proceedings of the 2016 European Control Conference},
   year = {2016},
   pages = {825-830},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/dhicoljovECC16.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/dhicoljovECC16.pdf}
 }
 </pre></div>
 </div>
@@ -476,9 +476,9 @@ style="z-index: 10000">
 ~~~
 
 N. K. Dhingra, M. Colombino, M. R. Jovanovi\'c, A. Rantzer and R. S. Smith,
-/On the optimal control problem for a class of monotone bilinear systems/\n
+/On the optimal control problem for a class of monotone bilinear systems/,
 Syst. Control Lett., 2016\n
-[/javascript:toggleBibtex('dhicoljovransmiSCL16') \[BibTeX\]] [https://arxiv.org/abs/1611.09984 \[PDF\]]
+[/javascript:toggleBibtex('dhicoljovransmiSCL16') \[BibTeX\]] [/arxiv.org/abs/1611.09984 \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -490,7 +490,7 @@ Syst. Control Lett., 2016\n
   journal = {Syst. Control Lett.},
   year = {2016},
   note = {submitted; also arXiv:1611.09984},
-  pdf = {https://arxiv.org/abs/1611.09984}
+  pdf = {/arxiv.org/abs/1611.09984}
 }
 </pre></div>
 </div>
@@ -505,9 +505,9 @@ style="z-index: 10000">
 ~~~
 
 N. K. Dhingra, M. Colombino and M. R. Jovanovi\'c,
-/Structured decentralized control of positive systems with applications to combination drug therapy and leader selection in directed networks/\n
+/Structured decentralized control of positive systems with applications to combination drug therapy and leader selection in directed networks/,
 IEEE Trans. Control Netw. Syst., March, 2019, Vol. 6 (1), pp. 352-362\n
-[/javascript:toggleBibtex('dhicoljovTCNS19') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/dhicoljovTCNS19.pdf \[PDF\]]
+[/javascript:toggleBibtex('dhicoljovTCNS19') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/dhicoljovTCNS19.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -521,7 +521,7 @@ IEEE Trans. Control Netw. Syst., March, 2019, Vol. 6 (1), pp. 352-362\n
   volume = {6},
   number = {1},
   pages = {352-362},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/dhicoljovTCNS19.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/dhicoljovTCNS19.pdf}
 }
 </pre></div>
 </div>
@@ -536,9 +536,9 @@ style="z-index: 10000">
 ~~~
 
 N. K. Dhingra and M. R. Jovanovi\'c,
-/Convex synthesis of symmetric modifications to linear systems/\n
+/Convex synthesis of symmetric modifications to linear systems/,
 In Proceedings of the 2015 American Control Conference, 2015, pp. 3583-3588\n
-[/javascript:toggleBibtex('dhijovACC15') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/dhijovACC15.pdf \[PDF\]]
+[/javascript:toggleBibtex('dhijovACC15') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/dhijovACC15.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -550,7 +550,7 @@ In Proceedings of the 2015 American Control Conference, 2015, pp. 3583-3588\n
   booktitle = {Proceedings of the 2015 American Control Conference},
   year = {2015},
   pages = {3583-3588},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/dhijovACC15.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/dhijovACC15.pdf}
 }
 </pre></div>
 </div>
@@ -565,9 +565,9 @@ style="z-index: 10000">
 ~~~
 
 N. K. Dhingra and M. R. Jovanovi\'c,
-/A method of multipliers algorithm for sparsity-promoting optimal control/\n
+/A method of multipliers algorithm for sparsity-promoting optimal control/,
 In Proceedings of the 2016 American Control Conference, 2016, pp. 1942-1947\n
-[/javascript:toggleBibtex('dhijovACC16') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/dhijovACC16.pdf \[PDF\]]
+[/javascript:toggleBibtex('dhijovACC16') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/dhijovACC16.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -580,7 +580,7 @@ In Proceedings of the 2016 American Control Conference, 2016, pp. 1942-1947\n
   year = {2016},
   pages = {1942-1947},
   note = {(Invited paper)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/dhijovACC16.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/dhijovACC16.pdf}
 }
 </pre></div>
 </div>
@@ -595,7 +595,7 @@ style="z-index: 10000">
 ~~~
 
 N. K. Dhingra, M. R. Jovanovi\'c and Z. Q. Luo,
-/Optimal sensor and actuator selection for large-scale dynamical systems/\n
+/Optimal sensor and actuator selection for large-scale dynamical systems/,
 In Proceedings of the 2015 Asilomar Conference on Signals, Systems, and Computers, 2015\n
 [/javascript:toggleBibtex('dhijovluoASI15') \[BibTeX\]]
 ~~~
@@ -623,9 +623,9 @@ style="z-index: 10000">
 ~~~
 
 N. K. Dhingra, M. R. Jovanovi\'c and Z. Q. Luo,
-/An ADMM algorithm for optimal sensor and actuator selection/\n
+/An ADMM algorithm for optimal sensor and actuator selection/,
 In Proceedings of the 53rd IEEE Conference on Decision and Control, 2014, pp. 4039-4044\n
-[/javascript:toggleBibtex('dhijovluoCDC14') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/dhijovluoCDC14.pdf \[PDF\]]
+[/javascript:toggleBibtex('dhijovluoCDC14') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/dhijovluoCDC14.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -637,7 +637,7 @@ In Proceedings of the 53rd IEEE Conference on Decision and Control, 2014, pp. 40
   booktitle = {Proceedings of the 53rd IEEE Conference on Decision and Control},
   year = {2014},
   pages = {4039-4044},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/dhijovluoCDC14.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/dhijovluoCDC14.pdf}
 }
 </pre></div>
 </div>
@@ -652,9 +652,9 @@ style="z-index: 10000">
 ~~~
 
 N. K. Dhingra, S. Z. Khong and M. R. Jovanovi\'c,
-/A second order primal-dual algorithm for non-smooth convex composite optimization/\n
+/A second order primal-dual algorithm for non-smooth convex composite optimization/,
 In Proceedings of the 56th IEEE Conference on Decision and Control, 2017, pp. 2868-2873\n
-[/javascript:toggleBibtex('dhikhojovCDC17') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/dhikhojovCDC17.pdf \[PDF\]]
+[/javascript:toggleBibtex('dhikhojovCDC17') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/dhikhojovCDC17.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -666,7 +666,7 @@ In Proceedings of the 56th IEEE Conference on Decision and Control, 2017, pp. 28
   booktitle = {Proceedings of the 56th IEEE Conference on Decision and Control},
   year = {2017},
   pages = {2868-2873},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/dhikhojovCDC17.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/dhikhojovCDC17.pdf}
 }
 </pre></div>
 </div>
@@ -681,9 +681,9 @@ style="z-index: 10000">
 ~~~
 
 N. K. Dhingra, S. Z. Khong and M. R. Jovanovi\'c,
-/A second order primal-dual method for nonsmooth convex composite optimization/\n
+/A second order primal-dual method for nonsmooth convex composite optimization/,
 IEEE Trans. Automat. Control, 2017\n
-[/javascript:toggleBibtex('dhikhojovTAC17') \[BibTeX\]] [https://arxiv.org/abs/1709.01610 \[PDF\]]
+[/javascript:toggleBibtex('dhikhojovTAC17') \[BibTeX\]] [/arxiv.org/abs/1709.01610 \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -695,7 +695,7 @@ IEEE Trans. Automat. Control, 2017\n
   journal = {IEEE Trans. Automat. Control},
   year = {2017},
   note = {conditionally accepted; also arXiv:1709.01610},
-  pdf = {https://arxiv.org/abs/1709.01610}
+  pdf = {/arxiv.org/abs/1709.01610}
 }
 </pre></div>
 </div>
@@ -710,9 +710,9 @@ style="z-index: 10000">
 ~~~
 
 N. K. Dhingra, S. Z. Khong and M. R. Jovanovi\'c,
-/The proximal augmented Lagrangian method for nonsmooth composite optimization/\n
+/The proximal augmented Lagrangian method for nonsmooth composite optimization/,
 IEEE Trans. Automat. Control, July, 2019, Vol. 64 (7), pp. 2861-2868\n
-[/javascript:toggleBibtex('dhikhojovTAC19') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/dhikhojovTAC19.pdf \[PDF\]]
+[/javascript:toggleBibtex('dhikhojovTAC19') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/dhikhojovTAC19.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -726,7 +726,7 @@ IEEE Trans. Automat. Control, July, 2019, Vol. 64 (7), pp. 2861-2868\n
   volume = {64},
   number = {7},
   pages = {2861-2868},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/dhikhojovTAC19.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/dhikhojovTAC19.pdf}
 }
 </pre></div>
 </div>
@@ -741,9 +741,9 @@ style="z-index: 10000">
 ~~~
 
 N. K. Dhingra, F. Lin, M. Fardad and M. R. Jovanovi\'c,
-/On identifying sparse representations of consensus networks/\n
+/On identifying sparse representations of consensus networks/,
 In Preprints of the 3rd IFAC Workshop on Distributed Estimation and Control in Networked Systems, 2012, pp. 305-310\n
-[/javascript:toggleBibtex('dhilinfarjovIFAC12') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/conference/2012/DhingraLinFardadJovanovicIFAC2012.pdf \[PDF\]]
+[/javascript:toggleBibtex('dhilinfarjovIFAC12') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/conference/2012/DhingraLinFardadJovanovicIFAC2012.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -755,7 +755,7 @@ In Preprints of the 3rd IFAC Workshop on Distributed Estimation and Control in N
   booktitle = {Preprints of the 3rd IFAC Workshop on Distributed Estimation and Control in Networked Systems},
   year = {2012},
   pages = {305-310},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/conference/2012/DhingraLinFardadJovanovicIFAC2012.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/conference/2012/DhingraLinFardadJovanovicIFAC2012.pdf}
 }
 </pre></div>
 </div>
@@ -770,7 +770,7 @@ style="z-index: 10000">
 ~~~
 
 N. K. Dhingra, X. Wu and M. R. Jovanovi\'c,
-/Sparsity-promoting optimal control of systems with invariances and symmetries/\n
+/Sparsity-promoting optimal control of systems with invariances and symmetries/,
 In Proceedings of the 10th IFAC Symposium on Nonlinear Control Systems, 2016, pp. 648-653\n
 [/javascript:toggleBibtex('dhiwujovNOL16') \[BibTeX\]]
 ~~~
@@ -798,9 +798,9 @@ style="z-index: 10000">
 ~~~
 
 D. Ding, B. Hu, N. K. Dhingra and M. R. Jovanovi\'c,
-/An exponentially convergent primal-dual algorithm for nonsmooth composite minimization/\n
+/An exponentially convergent primal-dual algorithm for nonsmooth composite minimization/,
 In Proceedings of the 57th IEEE Conference on Decision and Control, 2018, pp. 4927-4932\n
-[/javascript:toggleBibtex('dinhudhijovCDC18') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/dinhudhijovCDC18.pdf \[PDF\]]
+[/javascript:toggleBibtex('dinhudhijovCDC18') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/dinhudhijovCDC18.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -812,7 +812,7 @@ In Proceedings of the 57th IEEE Conference on Decision and Control, 2018, pp. 49
   booktitle = {Proceedings of the 57th IEEE Conference on Decision and Control},
   year = {2018},
   pages = {4927-4932},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/dinhudhijovCDC18.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/dinhudhijovCDC18.pdf}
 }
 </pre></div>
 </div>
@@ -827,9 +827,9 @@ style="z-index: 10000">
 ~~~
 
 D. Ding and M. R. Jovanovi\'c,
-/A primal-dual Laplacian gradient flow dynamics for distributed resource allocation problems/\n
+/A primal-dual Laplacian gradient flow dynamics for distributed resource allocation problems/,
 In Proceedings of the 2018 American Control Conference, 2018, pp. 5316-5320\n
-[/javascript:toggleBibtex('dinjovACC18') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/dinjovACC18.pdf \[PDF\]]
+[/javascript:toggleBibtex('dinjovACC18') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/dinjovACC18.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -841,7 +841,7 @@ In Proceedings of the 2018 American Control Conference, 2018, pp. 5316-5320\n
   booktitle = {Proceedings of the 2018 American Control Conference},
   year = {2018},
   pages = {5316-5320},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/dinjovACC18.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/dinjovACC18.pdf}
 }
 </pre></div>
 </div>
@@ -856,9 +856,9 @@ style="z-index: 10000">
 ~~~
 
 D. Ding and M. R. Jovanovi\'c,
-/Global exponential stability of primal-dual gradient flow dynamics based on the proximal augmented Lagrangian/\n
+/Global exponential stability of primal-dual gradient flow dynamics based on the proximal augmented Lagrangian/,
 In Proceedings of the 2019 American Control Conference, 2019, pp. 3414-3419\n
-[/javascript:toggleBibtex('dinjovACC19') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/dinjovACC19.pdf \[PDF\]]
+[/javascript:toggleBibtex('dinjovACC19') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/dinjovACC19.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -870,7 +870,7 @@ In Proceedings of the 2019 American Control Conference, 2019, pp. 3414-3419\n
   booktitle = {Proceedings of the 2019 American Control Conference},
   year = {2019},
   pages = {3414-3419},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/dinjovACC19.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/dinjovACC19.pdf}
 }
 </pre></div>
 </div>
@@ -885,9 +885,9 @@ style="z-index: 10000">
 ~~~
 
 D. Ding and M. R. Jovanovi\'c,
-/Global exponential stability of primal-dual gradient flow dynamics based on the proximal augmented Lagrangian: A Lyapunov-based approach/\n
+/Global exponential stability of primal-dual gradient flow dynamics based on the proximal augmented Lagrangian: A Lyapunov-based approach/,
 In Proceedings of the 59th IEEE Conference on Decision and Control, 2020, pp. 4836-4841\n
-[/javascript:toggleBibtex('dinjovCDC20') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/dinjovCDC20.pdf \[PDF\]]
+[/javascript:toggleBibtex('dinjovCDC20') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/dinjovCDC20.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -899,7 +899,7 @@ In Proceedings of the 59th IEEE Conference on Decision and Control, 2020, pp. 48
   booktitle = {Proceedings of the 59th IEEE Conference on Decision and Control},
   year = {2020},
   pages = {4836-4841},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/dinjovCDC20.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/dinjovCDC20.pdf}
 }
 </pre></div>
 </div>
@@ -914,9 +914,9 @@ style="z-index: 10000">
 ~~~
 
 D. Ding and M. R. Jovanovi\'c,
-/Global exponential stability of primal-dual gradient flow dynamics based on the proximal augmented Lagrangian: A Lyapunov-based approach/\n
+/Global exponential stability of primal-dual gradient flow dynamics based on the proximal augmented Lagrangian: A Lyapunov-based approach/,
 IEEE Control Syst. Lett., 2019\n
-[/javascript:toggleBibtex('dinjovLCSS19') \[BibTeX\]] [https://arxiv.org/abs/1910.00783 \[PDF\]]
+[/javascript:toggleBibtex('dinjovLCSS19') \[BibTeX\]] [/arxiv.org/abs/1910.00783 \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -928,7 +928,7 @@ IEEE Control Syst. Lett., 2019\n
   journal = {IEEE Control Syst. Lett.},
   year = {2019},
   note = {submitted; also arXiv:1910.00783},
-  pdf = {https://arxiv.org/abs/1910.00783}
+  pdf = {/arxiv.org/abs/1910.00783}
 }
 </pre></div>
 </div>
@@ -943,9 +943,9 @@ style="z-index: 10000">
 ~~~
 
 D. Ding, X. Wei and M. R. Jovanovi\'c,
-/Distributed robust statistical learning: Byzantine mirror descent/\n
+/Distributed robust statistical learning: Byzantine mirror descent/,
 In Proceedings of the 58th IEEE Conference on Decision and Control, 2019, pp. 1822-1827\n
-[/javascript:toggleBibtex('dinweijovCDC19') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/dinweijovCDC19.pdf \[PDF\]]
+[/javascript:toggleBibtex('dinweijovCDC19') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/dinweijovCDC19.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -957,7 +957,7 @@ In Proceedings of the 58th IEEE Conference on Decision and Control, 2019, pp. 18
   booktitle = {Proceedings of the 58th IEEE Conference on Decision and Control},
   year = {2019},
   pages = {1822-1827},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/dinweijovCDC19.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/dinweijovCDC19.pdf}
 }
 </pre></div>
 </div>
@@ -972,7 +972,7 @@ style="z-index: 10000">
 ~~~
 
 D. Ding, X. Wei, Z. Yang, Z. Wang and M. R. Jovanovi\'c,
-/Provably efficient safe exploration via primal-dual policy optimization/\n
+/Provably efficient safe exploration via primal-dual policy optimization/,
 In 24th International Conference on Artificial Intelligence and Statistics, 2021\n
 [/javascript:toggleBibtex('dinweiyanwanjovAISTATS21') \[BibTeX\]]
 ~~~
@@ -1000,7 +1000,7 @@ style="z-index: 10000">
 ~~~
 
 D. Ding, X. Wei, Z. Yang, Z. Wang and M. R. Jovanovi\'c,
-/Provably efficient safe exploration via primal-dual policy optimization/\n
+/Provably efficient safe exploration via primal-dual policy optimization/,
 In 37th International Conference on Machine Learning, 2020\n
 [/javascript:toggleBibtex('dinweiyanwanjovICML20') \[BibTeX\]]
 ~~~
@@ -1027,9 +1027,9 @@ style="z-index: 10000">
 ~~~
 
 D. Ding, X. Wei, Z. Yang, Z. Wang and M. R. Jovanovi\'c,
-/Fast multi-agent temporal-difference learning via homotopy stochastic primal-dual method/\n
+/Fast multi-agent temporal-difference learning via homotopy stochastic primal-dual method/,
 In Optimization Foundations for Reinforcement Learning Workshop, 33rd Conference on Neural Information Processing Systems, 2019\n
-[/javascript:toggleBibtex('dinweiyanwanjovNIPS19') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/dinweiyanwanjovNIPS19.pdf \[PDF\]]
+[/javascript:toggleBibtex('dinweiyanwanjovNIPS19') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/dinweiyanwanjovNIPS19.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -1040,7 +1040,7 @@ In Optimization Foundations for Reinforcement Learning Workshop, 33rd Conference
   title = {Fast multi-agent temporal-difference learning via homotopy stochastic primal-dual method},
   booktitle = {Optimization Foundations for Reinforcement Learning Workshop, 33rd Conference on Neural Information Processing Systems},
   year = {2019},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/dinweiyanwanjovNIPS19.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/dinweiyanwanjovNIPS19.pdf}
 }
 </pre></div>
 </div>
@@ -1055,9 +1055,9 @@ style="z-index: 10000">
 ~~~
 
 D. Ding, X. Wei, Z. Yang, Z. Wang and M. R. Jovanovi\'c,
-/Fast multi-agent temporal-difference learning via homotopy stochastic primal-dual optimization/\n
+/Fast multi-agent temporal-difference learning via homotopy stochastic primal-dual optimization/,
 IEEE Trans. Automat. Control, 2020\n
-[/javascript:toggleBibtex('dinweiyanwanjovTAC20') \[BibTeX\]] [https://arxiv.org/abs/1908.02805 \[PDF\]]
+[/javascript:toggleBibtex('dinweiyanwanjovTAC20') \[BibTeX\]] [/arxiv.org/abs/1908.02805 \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -1069,7 +1069,7 @@ IEEE Trans. Automat. Control, 2020\n
   journal = {IEEE Trans. Automat. Control},
   year = {2020},
   note = {submitted; also arXiv:1908.02805},
-  pdf = {https://arxiv.org/abs/1908.02805}
+  pdf = {/arxiv.org/abs/1908.02805}
 }
 </pre></div>
 </div>
@@ -1084,7 +1084,7 @@ style="z-index: 10000">
 ~~~
 
 D. Ding, X. Wei, H. Yu and M. R. Jovanovi\'c,
-/Byzantine-resilient distributed learning under constraints/\n
+/Byzantine-resilient distributed learning under constraints/,
 In Proceedings of the 2021 American Control Conference, 2021\n
 [/javascript:toggleBibtex('dinweiyujovACC21') \[BibTeX\]]
 ~~~
@@ -1112,7 +1112,7 @@ style="z-index: 10000">
 ~~~
 
 D. Ding, J. Yuan and M. R. Jovanovi\'c,
-/Discounted online Newton method for time-varying time series prediction/\n
+/Discounted online Newton method for time-varying time series prediction/,
 In Proceedings of the 2021 American Control Conference, 2021\n
 [/javascript:toggleBibtex('dinyuajovACC21') \[BibTeX\]]
 ~~~
@@ -1140,9 +1140,9 @@ style="z-index: 10000">
 ~~~
 
 D. Ding, K. Zhang, T. Ba\c{s}ar and M. R. Jovanovi\'c,
-/Natural policy gradient primal-dual method for constrained Markov decision processes/\n
+/Natural policy gradient primal-dual method for constrained Markov decision processes/,
 In Proceedings of the 34th Conference on Neural Information Processing Systems, 2020, Vol. 33\n
-[/javascript:toggleBibtex('dinzhabasjovNIPS20') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/dinzhabasjovNIPS20.pdf \[PDF\]]
+[/javascript:toggleBibtex('dinzhabasjovNIPS20') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/dinzhabasjovNIPS20.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -1154,7 +1154,7 @@ In Proceedings of the 34th Conference on Neural Information Processing Systems, 
   booktitle = {Proceedings of the 34th Conference on Neural Information Processing Systems},
   year = {2020},
   volume = {33},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/dinzhabasjovNIPS20.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/dinzhabasjovNIPS20.pdf}
 }
 </pre></div>
 </div>
@@ -1169,9 +1169,9 @@ style="z-index: 10000">
 ~~~
 
 F. D\"orfler, M. R. Jovanovi\'c, M. Chertkov and F. Bullo,
-/Sparse and optimal wide-area damping control in power networks/\n
+/Sparse and optimal wide-area damping control in power networks/,
 In Proceedings of the 2013 American Control Conference, 2013, pp. 4295-4300\n
-[/javascript:toggleBibtex('dorjovchebulACC13') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/dorjovchebulACC13.pdf \[PDF\]]
+[/javascript:toggleBibtex('dorjovchebulACC13') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/dorjovchebulACC13.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -1183,7 +1183,7 @@ In Proceedings of the 2013 American Control Conference, 2013, pp. 4295-4300\n
   booktitle = {Proceedings of the 2013 American Control Conference},
   year = {2013},
   pages = {4295-4300},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/dorjovchebulACC13.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/dorjovchebulACC13.pdf}
 }
 </pre></div>
 </div>
@@ -1198,9 +1198,9 @@ style="z-index: 10000">
 ~~~
 
 F. D\"orfler, M. R. Jovanovi\'c, M. Chertkov and F. Bullo,
-/Sparsity-promoting optimal wide-area control of power networks/\n
+/Sparsity-promoting optimal wide-area control of power networks/,
 IEEE Trans. Power Syst., September, 2014, Vol. 29 (5), pp. 2281-2291\n
-[/javascript:toggleBibtex('dorjovchebulTPS14') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/dorjovchebulTPS14.pdf \[PDF\]]
+[/javascript:toggleBibtex('dorjovchebulTPS14') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/dorjovchebulTPS14.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -1214,7 +1214,7 @@ IEEE Trans. Power Syst., September, 2014, Vol. 29 (5), pp. 2281-2291\n
   volume = {29},
   number = {5},
   pages = {2281-2291},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/dorjovchebulTPS14.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/dorjovchebulTPS14.pdf}
 }
 </pre></div>
 </div>
@@ -1229,9 +1229,9 @@ style="z-index: 10000">
 ~~~
 
 A. Dwivedi, G. V. Candler and M. R. Jovanovi\'c,
-/A frequency domain analysis of compressible linearized Navier-Stokes equations in a hypersonic compression ramp flow/\n
+/A frequency domain analysis of compressible linearized Navier-Stokes equations in a hypersonic compression ramp flow/,
 In Proceedings of the 2020 American Control Conference, 2020, pp. 4325-4330\n
-[/javascript:toggleBibtex('dwicanjovACC20') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/dwicanjovACC20.pdf \[PDF\]]
+[/javascript:toggleBibtex('dwicanjovACC20') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/dwicanjovACC20.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -1243,7 +1243,7 @@ In Proceedings of the 2020 American Control Conference, 2020, pp. 4325-4330\n
   booktitle = {Proceedings of the 2020 American Control Conference},
   year = {2020},
   pages = {4325-4330},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/dwicanjovACC20.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/dwicanjovACC20.pdf}
 }
 </pre></div>
 </div>
@@ -1258,9 +1258,9 @@ style="z-index: 10000">
 ~~~
 
 A. Dwivedi, N. Hildebrand, J. W. Nichols, G. V. Candler and M. R. Jovanovi\'c,
-/Transient growth analysis of oblique shock wave/boundary-layer interactions at Mach 5.92/\n
+/Transient growth analysis of oblique shock wave/boundary-layer interactions at Mach 5.92/,
 Phys. Rev. Fluids, June, 2020, Vol. 5 (6), pp. 063904 (20 pages)\n
-[/javascript:toggleBibtex('dwihilniccanjovPRF20') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/dwihilniccanjovPRF20.pdf \[PDF\]]
+[/javascript:toggleBibtex('dwihilniccanjovPRF20') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/dwihilniccanjovPRF20.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -1274,7 +1274,7 @@ Phys. Rev. Fluids, June, 2020, Vol. 5 (6), pp. 063904 (20 pages)\n
   volume = {5},
   number = {6},
   pages = {063904 (20 pages)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/dwihilniccanjovPRF20.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/dwihilniccanjovPRF20.pdf}
 }
 </pre></div>
 </div>
@@ -1289,9 +1289,9 @@ style="z-index: 10000">
 ~~~
 
 A. Dwivedi, J. W. Nichols, M. R. Jovanovi\'c and G. V. Candler,
-/Optimal spatial growth of streaks in oblique shock/boundary layer interaction/\n
+/Optimal spatial growth of streaks in oblique shock/boundary layer interaction/,
 In Proceedings of the 47th AIAA Fluid Dynamics Conference, 2017, pp. 4163 (17 pages)\n
-[/javascript:toggleBibtex('dwinicjovcanAIAA17') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/dwinicjovcanAIAA17.pdf \[PDF\]]
+[/javascript:toggleBibtex('dwinicjovcanAIAA17') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/dwinicjovcanAIAA17.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -1303,7 +1303,7 @@ In Proceedings of the 47th AIAA Fluid Dynamics Conference, 2017, pp. 4163 (17 pa
   booktitle = {Proceedings of the 47th AIAA Fluid Dynamics Conference},
   year = {2017},
   pages = {4163 (17 pages)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/dwinicjovcanAIAA17.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/dwinicjovcanAIAA17.pdf}
 }
 </pre></div>
 </div>
@@ -1318,9 +1318,9 @@ style="z-index: 10000">
 ~~~
 
 A. Dwivedi, G. S. Sidharth, G. V. Candler, J. W. Nichols and M. R. Jovanovi\'c,
-/Input-output analysis of shock boundary layer interaction/\n
+/Input-output analysis of shock boundary layer interaction/,
 In Proceedings of the 48th AIAA Fluid Dynamics Conference, 2018, pp. 3220 (17 pages)\n
-[/javascript:toggleBibtex('dwisidcannicjovAIAA18') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/dwisidcannicjovAIAA18.pdf \[PDF\]]
+[/javascript:toggleBibtex('dwisidcannicjovAIAA18') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/dwisidcannicjovAIAA18.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -1332,7 +1332,7 @@ In Proceedings of the 48th AIAA Fluid Dynamics Conference, 2018, pp. 3220 (17 pa
   booktitle = {Proceedings of the 48th AIAA Fluid Dynamics Conference},
   year = {2018},
   pages = {3220 (17 pages)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/dwisidcannicjovAIAA18.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/dwisidcannicjovAIAA18.pdf}
 }
 </pre></div>
 </div>
@@ -1347,9 +1347,9 @@ style="z-index: 10000">
 ~~~
 
 A. Dwivedi, G. S. Sidharth, J. W. Nichols, G. V. Candler and M. R. Jovanovi\'c,
-/Reattachment vortices in hypersonic compression ramp flow: an input-output analysis/\n
+/Reattachment vortices in hypersonic compression ramp flow: an input-output analysis/,
 J. Fluid Mech., December, 2019, Vol. 880, pp. 113-135\n
-[/javascript:toggleBibtex('dwisidniccanjovJFM19') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/dwisidniccanjovJFM19.pdf \[PDF\]]
+[/javascript:toggleBibtex('dwisidniccanjovJFM19') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/dwisidniccanjovJFM19.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -1362,7 +1362,7 @@ J. Fluid Mech., December, 2019, Vol. 880, pp. 113-135\n
   year = {2019},
   volume = {880},
   pages = {113-135},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/dwisidniccanjovJFM19.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/dwisidniccanjovJFM19.pdf}
 }
 </pre></div>
 </div>
@@ -1377,7 +1377,7 @@ style="z-index: 10000">
 ~~~
 
 B. F. Farrell, D. F. Gayme, P. J. Ioannou, B. K. Lieu and M. R. Jovanovi\'c,
-/Dynamics of the roll and streak structure in transition and turbulence/\n
+/Dynamics of the roll and streak structure in transition and turbulence/,
 In Proceedings of the 2012 Summer Program, 2012, pp. 43-54\n
 [/javascript:toggleBibtex('fargayioaliejovCTR12') \[BibTeX\]]
 ~~~
@@ -1405,7 +1405,7 @@ style="z-index: 10000">
 ~~~
 
 M. Fardad and M. R. Jovanovi\'c,
-/On the design of optimal structured and sparse feedback gains using semidefinite programming/\n
+/On the design of optimal structured and sparse feedback gains using semidefinite programming/,
 In Proceedings of the 2014 American Control Conference, 2014, pp. 2438-2443\n
 [/javascript:toggleBibtex('farjovACC14') \[BibTeX\]]
 ~~~
@@ -1433,9 +1433,9 @@ style="z-index: 10000">
 ~~~
 
 M. Fardad and M. R. Jovanovi\'c,
-/Design of optimal controllers for spatially invariant systems with finite communication speed/\n
+/Design of optimal controllers for spatially invariant systems with finite communication speed/,
 Automatica, May, 2011, Vol. 47 (5), pp. 880-889\n
-[/javascript:toggleBibtex('farjovAUT11') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/farjovAUT11.pdf \[PDF\]]
+[/javascript:toggleBibtex('farjovAUT11') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/farjovAUT11.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -1449,7 +1449,7 @@ Automatica, May, 2011, Vol. 47 (5), pp. 880-889\n
   volume = {47},
   number = {5},
   pages = {880-889},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/farjovAUT11.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/farjovAUT11.pdf}
 }
 </pre></div>
 </div>
@@ -1464,9 +1464,9 @@ style="z-index: 10000">
 ~~~
 
 M. Fardad, M. R. Jovanovi\'c and B. Bamieh,
-/Frequency analysis and norms of distributed spatially periodic systems/\n
+/Frequency analysis and norms of distributed spatially periodic systems/,
 IEEE Trans. Automat. Control, November, 2008, Vol. 53 (10), pp. 2266-2279\n
-[/javascript:toggleBibtex('farjovbam08') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/tac08periodic.pdf \[PDF\]]
+[/javascript:toggleBibtex('farjovbam08') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/tac08periodic.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -1480,7 +1480,7 @@ IEEE Trans. Automat. Control, November, 2008, Vol. 53 (10), pp. 2266-2279\n
   volume = {53},
   number = {10},
   pages = {2266-2279},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/tac08periodic.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/tac08periodic.pdf}
 }
 </pre></div>
 </div>
@@ -1495,9 +1495,9 @@ style="z-index: 10000">
 ~~~
 
 M. Fardad and M. R. Jovanovi\'c,
-/On the state-space design of optimal controllers for distributed systems with finite communication speed/\n
+/On the state-space design of optimal controllers for distributed systems with finite communication speed/,
 In Proceedings of the 47th IEEE Conference on Decision and Control, 2008, pp. 5488-5493\n
-[/javascript:toggleBibtex('farjovCDC08') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/farjovCDC08.pdf \[PDF\]]
+[/javascript:toggleBibtex('farjovCDC08') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/farjovCDC08.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -1509,7 +1509,7 @@ In Proceedings of the 47th IEEE Conference on Decision and Control, 2008, pp. 54
   booktitle = {Proceedings of the 47th IEEE Conference on Decision and Control},
   year = {2008},
   pages = {5488-5493},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/farjovCDC08.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/farjovCDC08.pdf}
 }
 </pre></div>
 </div>
@@ -1524,7 +1524,7 @@ style="z-index: 10000">
 ~~~
 
 M. Fardad, M. R. Jovanovi\'c and M. V. Salapaka,
-/Damping mechanisms in dynamic mode atomic force microscopy applications/\n
+/Damping mechanisms in dynamic mode atomic force microscopy applications/,
 In Proceedings of the 2009 American Control Conference, 2009, pp. 2272-2277\n
 [/javascript:toggleBibtex('farjovsalACC09') \[BibTeX\]]
 ~~~
@@ -1552,9 +1552,9 @@ style="z-index: 10000">
 ~~~
 
 M. Fardad, F. Lin and M. R. Jovanovi\'c,
-/Sparsity-promoting optimal control for a class of distributed systems/\n
+/Sparsity-promoting optimal control for a class of distributed systems/,
 In Proceedings of the 2011 American Control Conference, 2011, pp. 2050-2055\n
-[/javascript:toggleBibtex('farlinjovACC11') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/farlinjovACC11.pdf \[PDF\]]
+[/javascript:toggleBibtex('farlinjovACC11') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/farlinjovACC11.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -1566,7 +1566,7 @@ In Proceedings of the 2011 American Control Conference, 2011, pp. 2050-2055\n
   booktitle = {Proceedings of the 2011 American Control Conference},
   year = {2011},
   pages = {2050-2055},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/farlinjovACC11.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/farlinjovACC11.pdf}
 }
 </pre></div>
 </div>
@@ -1581,7 +1581,7 @@ style="z-index: 10000">
 ~~~
 
 M. Fardad, F. Lin and M. R. Jovanovi\'c,
-/On the optimal synchronization of oscillator networks via sparse interconnection graphs/\n
+/On the optimal synchronization of oscillator networks via sparse interconnection graphs/,
 In Proceedings of the 2012 American Control Conference, 2012, pp. 4777-4782\n
 [/javascript:toggleBibtex('farlinjovACC12') \[BibTeX\]]
 ~~~
@@ -1609,7 +1609,7 @@ style="z-index: 10000">
 ~~~
 
 M. Fardad, F. Lin and M. R. Jovanovi\'c,
-/On optimal link creation for facilitation of consensus in social networks/\n
+/On optimal link creation for facilitation of consensus in social networks/,
 In Proceedings of the 2014 American Control Conference, 2014, pp. 3802-3807\n
 [/javascript:toggleBibtex('farlinjovACC14') \[BibTeX\]]
 ~~~
@@ -1637,7 +1637,7 @@ style="z-index: 10000">
 ~~~
 
 M. Fardad, F. Lin and M. R. Jovanovi\'c,
-/On the optimal design of structured feedback gains for interconnected systems/\n
+/On the optimal design of structured feedback gains for interconnected systems/,
 In Proceedings of the 48th IEEE Conference on Decision and Control, 2009, pp. 978-983\n
 [/javascript:toggleBibtex('farlinjovCDC09') \[BibTeX\]]
 ~~~
@@ -1665,7 +1665,7 @@ style="z-index: 10000">
 ~~~
 
 M. Fardad, F. Lin and M. R. Jovanovi\'c,
-/On the dual decomposition of linear quadratic optimal control problems for vehicular formations/\n
+/On the dual decomposition of linear quadratic optimal control problems for vehicular formations/,
 In Proceedings of the 49th IEEE Conference on Decision and Control, 2010, pp. 6287-6292\n
 [/javascript:toggleBibtex('farlinjovCDC10') \[BibTeX\]]
 ~~~
@@ -1693,9 +1693,9 @@ style="z-index: 10000">
 ~~~
 
 M. Fardad, F. Lin and M. R. Jovanovi\'c,
-/Algorithms for leader selection in large dynamical networks: noise-free leaders/\n
+/Algorithms for leader selection in large dynamical networks: noise-free leaders/,
 In Proceedings of the 50th IEEE Conference on Decision and Control and European Control Conference, 2011, pp. 7188-7193\n
-[/javascript:toggleBibtex('farlinjovCDC11') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/farlinjovCDC11.pdf \[PDF\]]
+[/javascript:toggleBibtex('farlinjovCDC11') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/farlinjovCDC11.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -1707,7 +1707,7 @@ In Proceedings of the 50th IEEE Conference on Decision and Control and European 
   booktitle = {Proceedings of the 50th IEEE Conference on Decision and Control and European Control Conference},
   year = {2011},
   pages = {7188-7193},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/farlinjovCDC11.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/farlinjovCDC11.pdf}
 }
 </pre></div>
 </div>
@@ -1722,9 +1722,9 @@ style="z-index: 10000">
 ~~~
 
 M. Fardad, F. Lin and M. R. Jovanovi\'c,
-/Design of optimal sparse interconnection graphs for synchronization of oscillator networks/\n
+/Design of optimal sparse interconnection graphs for synchronization of oscillator networks/,
 IEEE Trans. Automat. Control, September, 2014, Vol. 59 (9), pp. 2457-2462\n
-[/javascript:toggleBibtex('farlinjovTAC14sync') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/farlinjovTAC14sync.pdf \[PDF\]]
+[/javascript:toggleBibtex('farlinjovTAC14sync') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/farlinjovTAC14sync.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -1738,7 +1738,7 @@ IEEE Trans. Automat. Control, September, 2014, Vol. 59 (9), pp. 2457-2462\n
   volume = {59},
   number = {9},
   pages = {2457-2462},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/farlinjovTAC14sync.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/farlinjovTAC14sync.pdf}
 }
 </pre></div>
 </div>
@@ -1753,7 +1753,7 @@ style="z-index: 10000">
 ~~~
 
 M. Fardad, F. Lin, X. Zhang and M. R. Jovanovi\'c,
-/On new characterizations of social influence in social networks/\n
+/On new characterizations of social influence in social networks/,
 In Proceedings of the 2013 American Control Conference, 2013, pp. 4784-4789\n
 [/javascript:toggleBibtex('farlinzhajovACC13') \[BibTeX\]]
 ~~~
@@ -1781,9 +1781,9 @@ style="z-index: 10000">
 ~~~
 
 M. Fardad, X. Zhang, F. Lin and M. R. Jovanovi\'c,
-/On the optimal dissemination of information in social networks/\n
+/On the optimal dissemination of information in social networks/,
 In Proceedings of the 51th IEEE Conference on Decision and Control, 2012, pp. 2539-2544\n
-[/javascript:toggleBibtex('farzhalinjovCDC12') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/conference/2012/FardadZhangLinJovanovicCDC2012.pdf \[PDF\]]
+[/javascript:toggleBibtex('farzhalinjovCDC12') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/conference/2012/FardadZhangLinJovanovicCDC2012.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -1795,7 +1795,7 @@ In Proceedings of the 51th IEEE Conference on Decision and Control, 2012, pp. 25
   booktitle = {Proceedings of the 51th IEEE Conference on Decision and Control},
   year = {2012},
   pages = {2539-2544},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/conference/2012/FardadZhangLinJovanovicCDC2012.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/conference/2012/FardadZhangLinJovanovicCDC2012.pdf}
 }
 </pre></div>
 </div>
@@ -1810,9 +1810,9 @@ style="z-index: 10000">
 ~~~
 
 M. Fardad, X. Zhang, F. Lin and M. R. Jovanovi\'c,
-/On the properties of optimal weak links in consensus networks/\n
+/On the properties of optimal weak links in consensus networks/,
 In Proceedings of the 53rd IEEE Conference on Decision and Control, 2014, pp. 2124-2129\n
-[/javascript:toggleBibtex('farzhalinjovCDC14') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/farzhalinjovCDC14.pdf \[PDF\]]
+[/javascript:toggleBibtex('farzhalinjovCDC14') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/farzhalinjovCDC14.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -1824,7 +1824,7 @@ In Proceedings of the 53rd IEEE Conference on Decision and Control, 2014, pp. 21
   booktitle = {Proceedings of the 53rd IEEE Conference on Decision and Control},
   year = {2014},
   pages = {2124-2129},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/farzhalinjovCDC14.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/farzhalinjovCDC14.pdf}
 }
 </pre></div>
 </div>
@@ -1839,9 +1839,9 @@ style="z-index: 10000">
 ~~~
 
 F. Lin,
-/Structure identification and optimal design of large-scale networks of dynamical systems/\n
+/Structure identification and optimal design of large-scale networks of dynamical systems/,
 University of Minnesota, 2012\n
-[/javascript:toggleBibtex('fu-phd12') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/theses/FuLin-PhD.pdf \[PDF\]]
+[/javascript:toggleBibtex('fu-phd12') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/theses/FuLin-PhD.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -1852,7 +1852,7 @@ University of Minnesota, 2012\n
   title = {Structure identification and optimal design of large-scale networks of dynamical systems},
   school = {University of Minnesota},
   year = {2012},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/theses/FuLin-PhD.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/theses/FuLin-PhD.pdf}
 }
 </pre></div>
 </div>
@@ -1867,9 +1867,9 @@ style="z-index: 10000">
 ~~~
 
 G. Hariharan,
-/Transition to elastic turbulence in channel flows/\n
+/Transition to elastic turbulence in channel flows/,
 University of Minnesota, 2020\n
-[/javascript:toggleBibtex('gokul-phd20') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/theses/GokulHariharan-PhD.pdf \[PDF\]]
+[/javascript:toggleBibtex('gokul-phd20') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/theses/GokulHariharan-PhD.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -1880,7 +1880,7 @@ University of Minnesota, 2020\n
   title = {Transition to elastic turbulence in channel flows},
   school = {University of Minnesota},
   year = {2020},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/theses/GokulHariharan-PhD.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/theses/GokulHariharan-PhD.pdf}
 }
 </pre></div>
 </div>
@@ -1895,9 +1895,9 @@ style="z-index: 10000">
 ~~~
 
 C. Grussler, A. Zare, M. R. Jovanovi\'c and A. Rantzer,
-/The use of the r* heuristic in covariance completion problems/\n
+/The use of the r* heuristic in covariance completion problems/,
 In Proceedings of the 55th IEEE Conference on Decision and Control, 2016, pp. 1978-1983\n
-[/javascript:toggleBibtex('gruzarjovranCDC16') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/gruzarjovranCDC16.pdf \[PDF\]]
+[/javascript:toggleBibtex('gruzarjovranCDC16') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/gruzarjovranCDC16.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -1909,7 +1909,7 @@ In Proceedings of the 55th IEEE Conference on Decision and Control, 2016, pp. 19
   booktitle = {Proceedings of the 55th IEEE Conference on Decision and Control},
   year = {2016},
   pages = {1978-1983},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/gruzarjovranCDC16.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/gruzarjovranCDC16.pdf}
 }
 </pre></div>
 </div>
@@ -1924,9 +1924,9 @@ style="z-index: 10000">
 ~~~
 
 M. Chertkov, M. R. Jovanovi\'c, B. Lesieutre, S. Low, P. van Hentenryck and L. Wehenkel,
-/Guest Editorial Special Issue on Analysis, Control, and Optimization of Energy Networks/\n
+/Guest Editorial Special Issue on Analysis, Control, and Optimization of Energy Networks/,
 IEEE Trans. Control Netw. Syst., September, 2019, Vol. 6 (3), pp. 922-924\n
-[/javascript:toggleBibtex('guestTCNS19') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/guestTCNS19.pdf \[PDF\]]
+[/javascript:toggleBibtex('guestTCNS19') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/guestTCNS19.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -1940,7 +1940,7 @@ IEEE Trans. Control Netw. Syst., September, 2019, Vol. 6 (3), pp. 922-924\n
   volume = {6},
   number = {3},
   pages = {922-924},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/guestTCNS19.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/guestTCNS19.pdf}
 }
 </pre></div>
 </div>
@@ -1955,9 +1955,9 @@ style="z-index: 10000">
 ~~~
 
 G. Hariharan, M. R. Jovanovi\'c and S. Kumar,
-/Spatio-temporal impulse responses in channel flow of viscoelastic fluids/\n
+/Spatio-temporal impulse responses in channel flow of viscoelastic fluids/,
 In Proceedings of the 2018 American Control Conference, 2018, pp. 2857-2862\n
-[/javascript:toggleBibtex('harjovkumACC18') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/harjovkumACC18.pdf \[PDF\]]
+[/javascript:toggleBibtex('harjovkumACC18') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/harjovkumACC18.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -1969,7 +1969,7 @@ In Proceedings of the 2018 American Control Conference, 2018, pp. 2857-2862\n
   booktitle = {Proceedings of the 2018 American Control Conference},
   year = {2018},
   pages = {2857-2862},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/harjovkumACC18.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/harjovkumACC18.pdf}
 }
 </pre></div>
 </div>
@@ -1984,9 +1984,9 @@ style="z-index: 10000">
 ~~~
 
 G. Hariharan, M. R. Jovanovi\'c and S. Kumar,
-/Amplification of localized body forces in channel flows of viscoelastic fluids/\n
+/Amplification of localized body forces in channel flows of viscoelastic fluids/,
 J. Non-Newtonian Fluid Mech., October, 2018, Vol. 260, pp. 40-53\n
-[/javascript:toggleBibtex('harjovkumJNNFM18') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/harjovkumJNNFM18.pdf \[PDF\]]
+[/javascript:toggleBibtex('harjovkumJNNFM18') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/harjovkumJNNFM18.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -1999,7 +1999,7 @@ J. Non-Newtonian Fluid Mech., October, 2018, Vol. 260, pp. 40-53\n
   year = {2018},
   volume = {260},
   pages = {40-53},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/harjovkumJNNFM18.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/harjovkumJNNFM18.pdf}
 }
 </pre></div>
 </div>
@@ -2014,9 +2014,9 @@ style="z-index: 10000">
 ~~~
 
 G. Hariharan, M. R. Jovanovi\'c and S. Kumar,
-/Localized stress amplification in inertialess channel flows of viscoelastic fluids/\n
+/Localized stress amplification in inertialess channel flows of viscoelastic fluids/,
 J. Non-Newtonian Fluid Mech., 2021\n
-[/javascript:toggleBibtex('harjovkumJNNFM21') \[BibTeX\]] [https://doi.org/10.1016/j.jnnfm.2021.104514 \[DOI\]] [https://viterbi-web.usc.edu/~mihailo/papers/harjovkumJNNFM21.pdf \[PDF\]]
+[/javascript:toggleBibtex('harjovkumJNNFM21') \[BibTeX\]] [https://doi.org/10.1016/j.jnnfm.2021.104514 \[DOI\]] [/viterbi-web.usc.edu/~mihailo/papers/harjovkumJNNFM21.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2029,7 +2029,7 @@ J. Non-Newtonian Fluid Mech., 2021\n
   year = {2021},
   note = {doi:10.1016/j.jnnfm.2021.104514},
   doi = {https://doi.org/10.1016/j.jnnfm.2021.104514},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/harjovkumJNNFM21.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/harjovkumJNNFM21.pdf}
 }
 </pre></div>
 </div>
@@ -2044,9 +2044,9 @@ style="z-index: 10000">
 ~~~
 
 G. Hariharan, S. Kumar and M. R. Jovanovi\'c,
-/Well-conditioned ultraspherical and spectral integration methods for resolvent analysis of channel flows of Newtonian and viscoelastic fluids/\n
+/Well-conditioned ultraspherical and spectral integration methods for resolvent analysis of channel flows of Newtonian and viscoelastic fluids/,
 J. Comput. Phys., 2021\n
-[/javascript:toggleBibtex('harkumjovJCP21') \[BibTeX\]] [https://doi.org/10.1016/j.jcp.2021.110241 \[DOI\]] [https://arxiv.org/abs/2005.04493 \[PDF\]]
+[/javascript:toggleBibtex('harkumjovJCP21') \[BibTeX\]] [https://doi.org/10.1016/j.jcp.2021.110241 \[DOI\]] [/arxiv.org/abs/2005.04493 \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2059,7 +2059,7 @@ J. Comput. Phys., 2021\n
   year = {2021},
   note = {doi:10.1016/j.jcp.2021.110241; also arXiv:2005.04493},
   doi = {https://doi.org/10.1016/j.jcp.2021.110241},
-  pdf = {https://arxiv.org/abs/2005.04493}
+  pdf = {/arxiv.org/abs/2005.04493}
 }
 </pre></div>
 </div>
@@ -2074,9 +2074,9 @@ style="z-index: 10000">
 ~~~
 
 N. Hildebrand, A. Dwivedi, J. W. Nichols, G. V. Candler and M. R. Jovanovi\'c,
-/Sensitivity analysis for the control of oblique shock wave/laminar boundary layer interactions at Mach 5.92/\n
+/Sensitivity analysis for the control of oblique shock wave/laminar boundary layer interactions at Mach 5.92/,
 In Proceedings of the 47th AIAA Fluid Dynamics Conference, 2017, pp. 4312 (14 pages)\n
-[/javascript:toggleBibtex('hildwiniccanjovAIAA17') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/hildwiniccanjovAIAA17.pdf \[PDF\]]
+[/javascript:toggleBibtex('hildwiniccanjovAIAA17') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/hildwiniccanjovAIAA17.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2088,7 +2088,7 @@ In Proceedings of the 47th AIAA Fluid Dynamics Conference, 2017, pp. 4312 (14 pa
   booktitle = {Proceedings of the 47th AIAA Fluid Dynamics Conference},
   year = {2017},
   pages = {4312 (14 pages)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/hildwiniccanjovAIAA17.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/hildwiniccanjovAIAA17.pdf}
 }
 </pre></div>
 </div>
@@ -2103,9 +2103,9 @@ style="z-index: 10000">
 ~~~
 
 N. Hildebrand, A. Dwivedi, J. W. Nichols, M. R. Jovanovi\'c and G. V. Candler,
-/Simulation and stability analysis of oblique shock wave/boundary layer interactions at Mach 5.92/\n
+/Simulation and stability analysis of oblique shock wave/boundary layer interactions at Mach 5.92/,
 Phys. Rev. Fluids, January, 2018, Vol. 3 (1), pp. 013906 (23 pages)\n
-[/javascript:toggleBibtex('hildwinicjovcanPRF18') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/hildwinicjovcanPRF18.pdf \[PDF\]]
+[/javascript:toggleBibtex('hildwinicjovcanPRF18') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/hildwinicjovcanPRF18.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2119,7 +2119,7 @@ Phys. Rev. Fluids, January, 2018, Vol. 3 (1), pp. 013906 (23 pages)\n
   volume = {3},
   number = {1},
   pages = {013906 (23 pages)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/hildwinicjovcanPRF18.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/hildwinicjovcanPRF18.pdf}
 }
 </pre></div>
 </div>
@@ -2134,7 +2134,7 @@ style="z-index: 10000">
 ~~~
 
 N. Hildebrand, A. Dwivedi, G. S. Sidharth, J. W. Nichols, M. R. Jovanovi\'c and G. V. Candler,
-/Instabilities in laminar shock boundary layer interactions/\n
+/Instabilities in laminar shock boundary layer interactions/,
 In Proceedings of the 2019 IUTAM Symposium on Laminar-Turbulent Transition, 2019\n
 [/javascript:toggleBibtex('hildwisidnicjovcanIUTAM19') \[BibTeX\]]
 ~~~
@@ -2162,9 +2162,9 @@ style="z-index: 10000">
 ~~~
 
 N. Hildebrand, J. W. Nichols, G. V. Candler and M. R. Jovanovi\'c,
-/Transient growth in oblique shock wave/laminar boundary layer interactions at Mach 5.92/\n
+/Transient growth in oblique shock wave/laminar boundary layer interactions at Mach 5.92/,
 In Proceedings of the 48th AIAA Fluid Dynamics Conference, 2018, pp. 3221 (17 pages)\n
-[/javascript:toggleBibtex('hilniccanjovAIAA18') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/hilniccanjovAIAA18.pdf \[PDF\]]
+[/javascript:toggleBibtex('hilniccanjovAIAA18') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/hilniccanjovAIAA18.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2176,7 +2176,7 @@ In Proceedings of the 48th AIAA Fluid Dynamics Conference, 2018, pp. 3221 (17 pa
   booktitle = {Proceedings of the 48th AIAA Fluid Dynamics Conference},
   year = {2018},
   pages = {3221 (17 pages)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/hilniccanjovAIAA18.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/hilniccanjovAIAA18.pdf}
 }
 </pre></div>
 </div>
@@ -2191,7 +2191,7 @@ style="z-index: 10000">
 ~~~
 
 N. Hoda, M. R. Jovanovi\'c and S. Kumar,
-/Input-output analysis of the 2D/3C model in channel flows of viscoelastic fluids/\n
+/Input-output analysis of the 2D/3C model in channel flows of viscoelastic fluids/,
 In Proceedings of the 47th IEEE Conference on Decision and Control, 2008, pp. 841-846\n
 [/javascript:toggleBibtex('hodjovkumCDC08') \[BibTeX\]]
 ~~~
@@ -2220,9 +2220,9 @@ style="z-index: 10000">
 ~~~
 
 N. Hoda, M. R. Jovanovi\'c and S. Kumar,
-/Energy amplification in channel flows of viscoelastic fluids/\n
+/Energy amplification in channel flows of viscoelastic fluids/,
 J. Fluid Mech., April, 2008, Vol. 601, pp. 407-424\n
-[/javascript:toggleBibtex('hodjovkumJFM08') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/jfm08.pdf \[PDF\]]
+[/javascript:toggleBibtex('hodjovkumJFM08') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/jfm08.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2235,7 +2235,7 @@ J. Fluid Mech., April, 2008, Vol. 601, pp. 407-424\n
   year = {2008},
   volume = {601},
   pages = {407-424},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/jfm08.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/jfm08.pdf}
 }
 </pre></div>
 </div>
@@ -2250,9 +2250,9 @@ style="z-index: 10000">
 ~~~
 
 N. Hoda, M. R. Jovanovi\'c and S. Kumar,
-/Frequency responses of streamwise-constant perturbations in channel flows of Oldroyd-B fluids/\n
+/Frequency responses of streamwise-constant perturbations in channel flows of Oldroyd-B fluids/,
 J. Fluid Mech., April, 2009, Vol. 625, pp. 411-434\n
-[/javascript:toggleBibtex('hodjovkumJFM09') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/jfm09.pdf \[PDF\]]
+[/javascript:toggleBibtex('hodjovkumJFM09') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/jfm09.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2265,7 +2265,7 @@ J. Fluid Mech., April, 2009, Vol. 625, pp. 411-434\n
   year = {2009},
   volume = {625},
   pages = {411-434},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/jfm09.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/jfm09.pdf}
 }
 </pre></div>
 </div>
@@ -2280,9 +2280,9 @@ style="z-index: 10000">
 ~~~
 
 J. Jeun, J. W. Nichols and M. R. Jovanovi\'c,
-/Input-output analysis of heated axisymmetric turbulent jets/\n
+/Input-output analysis of heated axisymmetric turbulent jets/,
 In Proceedings of the 22nd AIAA/CEAS Aeroacoustics Conference, 2016, pp. 2934 (13 pages)\n
-[/javascript:toggleBibtex('jeunicjovAIAA16') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/jeunicjovAIAA16.pdf \[PDF\]]
+[/javascript:toggleBibtex('jeunicjovAIAA16') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/jeunicjovAIAA16.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2294,7 +2294,7 @@ In Proceedings of the 22nd AIAA/CEAS Aeroacoustics Conference, 2016, pp. 2934 (1
   booktitle = {Proceedings of the 22nd AIAA/CEAS Aeroacoustics Conference},
   year = {2016},
   pages = {2934 (13 pages)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/jeunicjovAIAA16.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/jeunicjovAIAA16.pdf}
 }
 </pre></div>
 </div>
@@ -2309,9 +2309,9 @@ style="z-index: 10000">
 ~~~
 
 J. Jeun, J. W. Nichols and M. R. Jovanovi\'c,
-/Input-output analysis of high-speed axisymmetric isothermal jet noise/\n
+/Input-output analysis of high-speed axisymmetric isothermal jet noise/,
 Phys. Fluids, April, 2016, Vol. 28 (4), pp. 047101 (20 pages)\n
-[/javascript:toggleBibtex('jeunicjovPOF16') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/jeunicjovPOF16.pdf \[PDF\]]
+[/javascript:toggleBibtex('jeunicjovPOF16') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/jeunicjovPOF16.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2326,7 +2326,7 @@ Phys. Fluids, April, 2016, Vol. 28 (4), pp. 047101 (20 pages)\n
   number = {4},
   pages = {047101 (20 pages)},
   note = {<b>(Editor's Pick)</b>},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/jeunicjovPOF16.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/jeunicjovPOF16.pdf}
 }
 </pre></div>
 </div>
@@ -2341,7 +2341,7 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c,
-/The jth order practical tracking/\n
+/The jth order practical tracking/,
 In Proceedings of the 6th International Conference on Systems, Automatic Control and Measurements, 1998\n
 [/javascript:toggleBibtex('jov98') \[BibTeX\]]
 ~~~
@@ -2368,9 +2368,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c,
-/Nonlinear control of an electrohydraulic velocity servosystem/\n
+/Nonlinear control of an electrohydraulic velocity servosystem/,
 In Proceedings of the 2002 American Control Conference, 2002, pp. 588-593\n
-[/javascript:toggleBibtex('jovACC02') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/acc02.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovACC02') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/acc02.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2382,7 +2382,7 @@ In Proceedings of the 2002 American Control Conference, 2002, pp. 588-593\n
   booktitle = {Proceedings of the 2002 American Control Conference},
   year = {2002},
   pages = {588-593},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/acc02.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/acc02.pdf}
 }
 </pre></div>
 </div>
@@ -2397,9 +2397,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c,
-/On the optimality of localized distributed controllers/\n
+/On the optimality of localized distributed controllers/,
 In Proceedings of the 2005 American Control Conference, 2005, pp. 4583-4588\n
-[/javascript:toggleBibtex('jovACC05') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/acc05io.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovACC05') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/acc05io.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2412,7 +2412,7 @@ In Proceedings of the 2005 American Control Conference, 2005, pp. 4583-4588\n
   year = {2005},
   pages = {4583-4588},
   note = {(Invited paper)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/acc05io.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/acc05io.pdf}
 }
 </pre></div>
 </div>
@@ -2427,7 +2427,7 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c,
-/H_2 norm of linear time-periodic systems: a perturbation analysis/\n
+/H_2 norm of linear time-periodic systems: a perturbation analysis/,
 In Proceedings of the 2006 American Control Conference, 2006, pp. 1452-1457\n
 [/javascript:toggleBibtex('jovACC06h2pert') \[BibTeX\]]
 ~~~
@@ -2455,7 +2455,7 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c,
-/Turbulence suppression in channel flows by small amplitude transverse wall oscillations/\n
+/Turbulence suppression in channel flows by small amplitude transverse wall oscillations/,
 In Proceedings of the 2006 American Control Conference, 2006, pp. 1161-1166\n
 [/javascript:toggleBibtex('jovACC06two') \[BibTeX\]]
 ~~~
@@ -2484,7 +2484,7 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c, M. Arcak and E. D. Sontag,
-/Remarks on the stability of spatially distributed systems with a cyclic interconnection structure/\n
+/Remarks on the stability of spatially distributed systems with a cyclic interconnection structure/,
 In Proceedings of the 2007 American Control Conference, 2007, pp. 2696-2701\n
 [/javascript:toggleBibtex('jovarcsonACC07') \[BibTeX\]]
 ~~~
@@ -2512,9 +2512,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c, M. Arcak and E. D. Sontag,
-/A passivity-based approach to stability of spatially distributed systems with a cyclic interconnection structure/\n
+/A passivity-based approach to stability of spatially distributed systems with a cyclic interconnection structure/,
 IEEE Trans. Automat. Control: Special Issue on Systems Biology, January, 2008, Vol. 53, pp. 75-86\n
-[/javascript:toggleBibtex('jovarcsonTAC08') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/tac08secant.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovarcsonTAC08') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/tac08secant.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2527,7 +2527,7 @@ IEEE Trans. Automat. Control: Special Issue on Systems Biology, January, 2008, V
   year = {2008},
   volume = {53},
   pages = {75-86},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/tac08secant.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/tac08secant.pdf}
 }
 </pre></div>
 </div>
@@ -2542,9 +2542,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c,
-/From bypass transition to flow control and data-driven turbulence modeling: An input-output viewpoint/\n
+/From bypass transition to flow control and data-driven turbulence modeling: An input-output viewpoint/,
 Annu. Rev. Fluid Mech., January, 2021, Vol. 53 (1), pp. 311-345\n
-[/javascript:toggleBibtex('jovARFM21') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/jovARFM21.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovARFM21') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/jovARFM21.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2558,7 +2558,7 @@ Annu. Rev. Fluid Mech., January, 2021, Vol. 53 (1), pp. 311-345\n
   volume = {53},
   number = {1},
   pages = {311-345},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/jovARFM21.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/jovARFM21.pdf}
 }
 </pre></div>
 </div>
@@ -2573,9 +2573,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c and B. Bamieh,
-/The spatio-temporal impulse response of the linearized Navier-Stokes equations/\n
+/The spatio-temporal impulse response of the linearized Navier-Stokes equations/,
 In Proceedings of the 2001 American Control Conference, 2001, pp. 1948-1953\n
-[/javascript:toggleBibtex('jovbamACC01') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/acc01.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovbamACC01') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/acc01.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2587,7 +2587,7 @@ In Proceedings of the 2001 American Control Conference, 2001, pp. 1948-1953\n
   booktitle = {Proceedings of the 2001 American Control Conference},
   year = {2001},
   pages = {1948-1953},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/acc01.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/acc01.pdf}
 }
 </pre></div>
 </div>
@@ -2602,9 +2602,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c and B. Bamieh,
-/Frequency domain analysis of the linearized Navier-Stokes equations/\n
+/Frequency domain analysis of the linearized Navier-Stokes equations/,
 In Proceedings of the 2003 American Control Conference, 2003, pp. 3190-3195\n
-[/javascript:toggleBibtex('jovbamACC03fr-lnse') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/acc03fr-lnse.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovbamACC03fr-lnse') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/acc03fr-lnse.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2616,7 +2616,7 @@ In Proceedings of the 2003 American Control Conference, 2003, pp. 3190-3195\n
   booktitle = {Proceedings of the 2003 American Control Conference},
   year = {2003},
   pages = {3190-3195},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/acc03fr-lnse.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/acc03fr-lnse.pdf}
 }
 </pre></div>
 </div>
@@ -2631,9 +2631,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c and B. Bamieh,
-/Lyapunov-based state-feedback distributed control of systems on lattices/\n
+/Lyapunov-based state-feedback distributed control of systems on lattices/,
 In Proceedings of the 2003 American Control Conference, 2003, pp. 101-106\n
-[/javascript:toggleBibtex('jovbamACC03lattice') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/acc03lattice-state.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovbamACC03lattice') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/acc03lattice-state.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2645,7 +2645,7 @@ In Proceedings of the 2003 American Control Conference, 2003, pp. 101-106\n
   booktitle = {Proceedings of the 2003 American Control Conference},
   year = {2003},
   pages = {101-106},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/acc03lattice-state.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/acc03lattice-state.pdf}
 }
 </pre></div>
 </div>
@@ -2660,9 +2660,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c and B. Bamieh,
-/Unstable modes versus non-normal modes in supercritical channel flows/\n
+/Unstable modes versus non-normal modes in supercritical channel flows/,
 In Proceedings of the 2004 American Control Conference, 2004, pp. 2245-2250\n
-[/javascript:toggleBibtex('jovbamACC04') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/acc04fh.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovbamACC04') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/acc04fh.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2674,7 +2674,7 @@ In Proceedings of the 2004 American Control Conference, 2004, pp. 2245-2250\n
   booktitle = {Proceedings of the 2004 American Control Conference},
   year = {2004},
   pages = {2245-2250},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/acc04fh.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/acc04fh.pdf}
 }
 </pre></div>
 </div>
@@ -2689,9 +2689,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c and B. Bamieh,
-/Modelling flow statistics using the linearized Navier-Stokes equations/\n
+/Modelling flow statistics using the linearized Navier-Stokes equations/,
 In Proceedings of the 40th IEEE Conference on Decision and Control, 2001, pp. 4944-4949\n
-[/javascript:toggleBibtex('jovbamCDC01') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/cdc01.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovbamCDC01') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/cdc01.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2703,7 +2703,7 @@ In Proceedings of the 40th IEEE Conference on Decision and Control, 2001, pp. 49
   booktitle = {Proceedings of the 40th IEEE Conference on Decision and Control},
   year = {2001},
   pages = {4944-4949},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/cdc01.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/cdc01.pdf}
 }
 </pre></div>
 </div>
@@ -2718,9 +2718,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c and B. Bamieh,
-/Exact computation of frequency responses for a class of infinite dimensional systems/\n
+/Exact computation of frequency responses for a class of infinite dimensional systems/,
 In Proceedings of the 42nd IEEE Conference on Decision and Control, 2003, pp. 1339-1344\n
-[/javascript:toggleBibtex('jovbamCDC03fr-exact') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/cdc03fr-exact.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovbamCDC03fr-exact') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/cdc03fr-exact.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2732,7 +2732,7 @@ In Proceedings of the 42nd IEEE Conference on Decision and Control, 2003, pp. 13
   booktitle = {Proceedings of the 42nd IEEE Conference on Decision and Control},
   year = {2003},
   pages = {1339-1344},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/cdc03fr-exact.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/cdc03fr-exact.pdf}
 }
 </pre></div>
 </div>
@@ -2747,9 +2747,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c and B. Bamieh,
-/Lyapunov-based output-feedback distributed control of systems on lattices/\n
+/Lyapunov-based output-feedback distributed control of systems on lattices/,
 In Proceedings of the 42nd IEEE Conference on Decision and Control, 2003, pp. 1333-1338\n
-[/javascript:toggleBibtex('jovbamCDC03lattice') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/cdc03lattice-out.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovbamCDC03lattice') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/cdc03lattice-out.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2761,7 +2761,7 @@ In Proceedings of the 42nd IEEE Conference on Decision and Control, 2003, pp. 13
   booktitle = {Proceedings of the 42nd IEEE Conference on Decision and Control},
   year = {2003},
   pages = {1333-1338},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/cdc03lattice-out.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/cdc03lattice-out.pdf}
 }
 </pre></div>
 </div>
@@ -2776,9 +2776,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c and B. Bamieh,
-/Architecture induced by distributed backstepping design/\n
+/Architecture induced by distributed backstepping design/,
 In Proceedings of the 43rd IEEE Conference on Decision and Control, 2004, pp. 3774-3779\n
-[/javascript:toggleBibtex('jovbamCDC04arc') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/cdc04arc.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovbamCDC04arc') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/cdc04arc.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2790,7 +2790,7 @@ In Proceedings of the 43rd IEEE Conference on Decision and Control, 2004, pp. 37
   booktitle = {Proceedings of the 43rd IEEE Conference on Decision and Control},
   year = {2004},
   pages = {3774-3779},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/cdc04arc.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/cdc04arc.pdf}
 }
 </pre></div>
 </div>
@@ -2805,9 +2805,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c and B. Bamieh,
-/On the ill-posedness of certain vehicular platoon control problems/\n
+/On the ill-posedness of certain vehicular platoon control problems/,
 In Proceedings of the 43rd IEEE Conference on Decision and Control, 2004, pp. 3780-3785\n
-[/javascript:toggleBibtex('jovbamCDC04platoons') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/cdc04platoons.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovbamCDC04platoons') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/cdc04platoons.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2819,7 +2819,7 @@ In Proceedings of the 43rd IEEE Conference on Decision and Control, 2004, pp. 37
   booktitle = {Proceedings of the 43rd IEEE Conference on Decision and Control},
   year = {2004},
   pages = {3780-3785},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/cdc04platoons.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/cdc04platoons.pdf}
 }
 </pre></div>
 </div>
@@ -2834,9 +2834,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c, B. Bamieh and M. Grebeck,
-/Parametric resonance in spatially distributed systems/\n
+/Parametric resonance in spatially distributed systems/,
 In Proceedings of the 2003 American Control Conference, 2003, pp. 119-124\n
-[/javascript:toggleBibtex('jovbamgreACC03') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/acc03periodic.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovbamgreACC03') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/acc03periodic.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2848,7 +2848,7 @@ In Proceedings of the 2003 American Control Conference, 2003, pp. 119-124\n
   booktitle = {Proceedings of the 2003 American Control Conference},
   year = {2003},
   pages = {119-124},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/acc03periodic.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/acc03periodic.pdf}
 }
 </pre></div>
 </div>
@@ -2863,9 +2863,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c and B. Bamieh,
-/Componentwise energy amplification in channel flows/\n
+/Componentwise energy amplification in channel flows/,
 J. Fluid Mech., July, 2005, Vol. 534, pp. 145-183\n
-[/javascript:toggleBibtex('jovbamJFM05') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/jfm05.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovbamJFM05') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/jfm05.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2878,7 +2878,7 @@ J. Fluid Mech., July, 2005, Vol. 534, pp. 145-183\n
   year = {2005},
   volume = {534},
   pages = {145-183},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/jfm05.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/jfm05.pdf}
 }
 </pre></div>
 </div>
@@ -2893,9 +2893,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c and B. Bamieh,
-/A formula for frequency responses of distributed systems with one spatial variable/\n
+/A formula for frequency responses of distributed systems with one spatial variable/,
 Syst. Control Lett., January, 2006, Vol. 55 (1), pp. 27-37\n
-[/javascript:toggleBibtex('jovbamSCL06') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/scl06.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovbamSCL06') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/scl06.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2909,7 +2909,7 @@ Syst. Control Lett., January, 2006, Vol. 55 (1), pp. 27-37\n
   volume = {55},
   number = {1},
   pages = {27-37},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/scl06.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/scl06.pdf}
 }
 </pre></div>
 </div>
@@ -2924,9 +2924,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c and B. Bamieh,
-/Lyapunov-based distributed control of systems on lattices/\n
+/Lyapunov-based distributed control of systems on lattices/,
 IEEE Trans. Automat. Control, April, 2005, Vol. 50 (4), pp. 422-433\n
-[/javascript:toggleBibtex('jovbamTAC05lattice') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/tac05lattice.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovbamTAC05lattice') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/tac05lattice.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2940,7 +2940,7 @@ IEEE Trans. Automat. Control, April, 2005, Vol. 50 (4), pp. 422-433\n
   volume = {50},
   number = {4},
   pages = {422-433},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/tac05lattice.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/tac05lattice.pdf}
 }
 </pre></div>
 </div>
@@ -2955,9 +2955,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c and B. Bamieh,
-/On the ill-posedness of certain vehicular platoon control problems/\n
+/On the ill-posedness of certain vehicular platoon control problems/,
 IEEE Trans. Automat. Control, September, 2005, Vol. 50 (9), pp. 1307-1321\n
-[/javascript:toggleBibtex('jovbamTAC05platoons') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/tac05platoons.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovbamTAC05platoons') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/tac05platoons.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -2971,7 +2971,7 @@ IEEE Trans. Automat. Control, September, 2005, Vol. 50 (9), pp. 1307-1321\n
   volume = {50},
   number = {9},
   pages = {1307-1321},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/tac05platoons.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/tac05platoons.pdf}
 }
 </pre></div>
 </div>
@@ -2986,9 +2986,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c and B. Bamieh,
-/Architecture induced by distributed backstepping design/\n
+/Architecture induced by distributed backstepping design/,
 IEEE Trans. Automat. Control, January, 2007, Vol. 52 (1), pp. 108-113\n
-[/javascript:toggleBibtex('jovbamTAC07arc') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/tac07arc.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovbamTAC07arc') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/tac07arc.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -3002,7 +3002,7 @@ IEEE Trans. Automat. Control, January, 2007, Vol. 52 (1), pp. 108-113\n
   volume = {52},
   number = {1},
   pages = {108-113},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/tac07arc.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/tac07arc.pdf}
 }
 </pre></div>
 </div>
@@ -3017,7 +3017,7 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c and D. Debeljkovi\'c,
-/Stability of linear singular systems on finite time interval under perturbing forces/\n
+/Stability of linear singular systems on finite time interval under perturbing forces/,
 In Proceedings of the 40th ETRAN Conference, June, 1996, Vol. 1, pp. 451-453\n
 [/javascript:toggleBibtex('jovdeb96') \[BibTeX\]]
 ~~~
@@ -3046,9 +3046,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c and N. K. Dhingra,
-/Controller architectures: tradeoffs between performance and structure/\n
+/Controller architectures: tradeoffs between performance and structure/,
 Eur. J. Control, July, 2016, Vol. 30, pp. 76-91\n
-[/javascript:toggleBibtex('jovdhiEJC16') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/jovdhiEJC16.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovdhiEJC16') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/jovdhiEJC16.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -3061,7 +3061,7 @@ Eur. J. Control, July, 2016, Vol. 30, pp. 76-91\n
   year = {2016},
   volume = {30},
   pages = {76-91},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/jovdhiEJC16.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/jovdhiEJC16.pdf}
 }
 </pre></div>
 </div>
@@ -3076,9 +3076,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c,
-/Vehicular Chains/\n
+/Vehicular Chains/,
 Springer-Verlag LondonIn Encyclopedia of Systems and Control, 2014, pp. 1-10\n
-[/javascript:toggleBibtex('jovEC14') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/jovESC14.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovEC14') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/jovESC14.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -3092,7 +3092,7 @@ Springer-Verlag LondonIn Encyclopedia of Systems and Control, 2014, pp. 1-10\n
   year = {2014},
   pages = {1-10},
   note = {doi:10.1007/978-1-4471-5102-9221-1},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/jovESC14.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/jovESC14.pdf}
 }
 </pre></div>
 </div>
@@ -3107,9 +3107,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c and M. Fardad,
-/H_2 norm of linear time-periodic systems: a perturbation analysis/\n
+/H_2 norm of linear time-periodic systems: a perturbation analysis/,
 Automatica, August, 2008, Vol. 44 (8), pp. 2090-2098\n
-[/javascript:toggleBibtex('jovfarAUT08') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/aut08h2pert.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovfarAUT08') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/aut08h2pert.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -3123,7 +3123,7 @@ Automatica, August, 2008, Vol. 44 (8), pp. 2090-2098\n
   volume = {44},
   number = {8},
   pages = {2090-2098},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/aut08h2pert.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/aut08h2pert.pdf}
 }
 </pre></div>
 </div>
@@ -3138,9 +3138,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c, J. M. Fowler, B. Bamieh and R. D'Andrea,
-/On the peaking phenomenon in the control of vehicular platoons/\n
+/On the peaking phenomenon in the control of vehicular platoons/,
 Syst. Control Lett., July, 2008, Vol. 57 (7), pp. 528-537\n
-[/javascript:toggleBibtex('jovfowbamdan08') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/scl08peaking.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovfowbamdan08') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/scl08peaking.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -3154,7 +3154,7 @@ Syst. Control Lett., July, 2008, Vol. 57 (7), pp. 528-537\n
   volume = {57},
   number = {7},
   pages = {528-537},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/scl08peaking.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/scl08peaking.pdf}
 }
 </pre></div>
 </div>
@@ -3169,9 +3169,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c, J. M. Fowler, B. Bamieh and R. D'Andrea,
-/On avoiding saturation in the control of vehicular platoons/\n
+/On avoiding saturation in the control of vehicular platoons/,
 In Proceedings of the 2004 American Control Conference, 2004, pp. 2257-2262\n
-[/javascript:toggleBibtex('jovfowbamdanACC04') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/acc04peaking.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovfowbamdanACC04') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/acc04peaking.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -3183,7 +3183,7 @@ In Proceedings of the 2004 American Control Conference, 2004, pp. 2257-2262\n
   booktitle = {Proceedings of the 2004 American Control Conference},
   year = {2004},
   pages = {2257-2262},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/acc04peaking.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/acc04peaking.pdf}
 }
 </pre></div>
 </div>
@@ -3198,9 +3198,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c,
-/On the optimality of localized distributed controllers/\n
+/On the optimality of localized distributed controllers/,
 Int. J. Systems, Control and Communications, 2010, Vol. 2 (1/2/3), pp. 82-99\n
-[/javascript:toggleBibtex('jovIO10') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/jovIO10.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovIO10') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/jovIO10.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -3215,7 +3215,7 @@ Int. J. Systems, Control and Communications, 2010, Vol. 2 (1/2/3), pp. 82-99\n
   number = {1/2/3},
   pages = {82-99},
   note = {Special issue on Information Processing and Decision Making in Distributed Control Systems},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/jovIO10.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/jovIO10.pdf}
 }
 </pre></div>
 </div>
@@ -3230,7 +3230,7 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c and S. Kumar,
-/Variance amplification in channel flows of strongly elastic polymer solutions/\n
+/Variance amplification in channel flows of strongly elastic polymer solutions/,
 In Proceedings of the 2009 American Control Conference, 2009, pp. 842-847\n
 [/javascript:toggleBibtex('jovkumACC09') \[BibTeX\]]
 ~~~
@@ -3259,7 +3259,7 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c and S. Kumar,
-/Transient response of velocity fluctuations in inertialess channel flows of viscoelastic fluids/\n
+/Transient response of velocity fluctuations in inertialess channel flows of viscoelastic fluids/,
 In Proceedings of the 2010 American Control Conference, 2010, pp. 5682-5687\n
 [/javascript:toggleBibtex('jovkumACC10') \[BibTeX\]]
 ~~~
@@ -3288,9 +3288,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c and S. Kumar,
-/Nonmodal amplification of stochastic disturbances in strongly elastic channel flows/\n
+/Nonmodal amplification of stochastic disturbances in strongly elastic channel flows/,
 J. Non-Newtonian Fluid Mech., August, 2011, Vol. 166 (14-15), pp. 755-778\n
-[/javascript:toggleBibtex('jovkumJNNFM11') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/jovkumJNNFM11.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovkumJNNFM11') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/jovkumJNNFM11.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -3304,7 +3304,7 @@ J. Non-Newtonian Fluid Mech., August, 2011, Vol. 166 (14-15), pp. 755-778\n
   volume = {166},
   number = {14-15},
   pages = {755-778},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/jovkumJNNFM11.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/jovkumJNNFM11.pdf}
 }
 </pre></div>
 </div>
@@ -3319,9 +3319,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c and S. Kumar,
-/Transient growth without inertia/\n
+/Transient growth without inertia/,
 Phys. Fluids, February, 2010, Vol. 22 (2), pp. 023101 (19 pages)\n
-[/javascript:toggleBibtex('jovkumPOF10') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/jovkumPOF10.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovkumPOF10') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/jovkumPOF10.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -3335,7 +3335,7 @@ Phys. Fluids, February, 2010, Vol. 22 (2), pp. 023101 (19 pages)\n
   volume = {22},
   number = {2},
   pages = {023101 (19 pages)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/jovkumPOF10.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/jovkumPOF10.pdf}
 }
 </pre></div>
 </div>
@@ -3350,9 +3350,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c and F. Lin,
-/Sparse quadratic regulator/\n
+/Sparse quadratic regulator/,
 In Proceedings of the 12th European Control Conference, 2013, pp. 1047-1052\n
-[/javascript:toggleBibtex('jovlinECC13') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/jovlinECC13.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovlinECC13') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/jovlinECC13.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -3364,7 +3364,7 @@ In Proceedings of the 12th European Control Conference, 2013, pp. 1047-1052\n
   booktitle = {Proceedings of the 12th European Control Conference},
   year = {2013},
   pages = {1047-1052},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/jovlinECC13.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/jovlinECC13.pdf}
 }
 </pre></div>
 </div>
@@ -3379,7 +3379,7 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c, R. Moarref and D. You,
-/Turbulence suppression in channel flows by means of a streamwise traveling wave/\n
+/Turbulence suppression in channel flows by means of a streamwise traveling wave/,
 In Proceedings of the 2006 Summer Program, 2006, pp. 481-494\n
 [/javascript:toggleBibtex('jovmoayouCTR06') \[BibTeX\]]
 ~~~
@@ -3407,9 +3407,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c,
-/Turbulence suppression in channel flows by small amplitude transverse wall oscillations/\n
+/Turbulence suppression in channel flows by small amplitude transverse wall oscillations/,
 Phys. Fluids, January, 2008, Vol. 20 (1), pp. 014101 (11 pages)\n
-[/javascript:toggleBibtex('jovPOF08') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/pof08.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovPOF08') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/pof08.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -3423,7 +3423,7 @@ Phys. Fluids, January, 2008, Vol. 20 (1), pp. 014101 (11 pages)\n
   volume = {20},
   number = {1},
   pages = {014101 (11 pages)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/pof08.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/pof08.pdf}
 }
 </pre></div>
 </div>
@@ -3438,7 +3438,7 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c, P. J. Schmid and J. W. Nichols,
-/Low-rank and sparse dynamic mode decomposition/\n
+/Low-rank and sparse dynamic mode decomposition/,
 In Center for Turbulence Research Annual Research Briefs, 2012, pp. 139-152\n
 [/javascript:toggleBibtex('jovschnicCTR12') \[BibTeX\]]
 ~~~
@@ -3466,9 +3466,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c, P. J. Schmid and J. W. Nichols,
-/Sparsity-promoting dynamic mode decomposition/\n
+/Sparsity-promoting dynamic mode decomposition/,
 Phys. Fluids, February, 2014, Vol. 26 (2), pp. 024103 (22 pages)\n
-[/javascript:toggleBibtex('jovschnicPOF14') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/jovschnicPOF14.pdf \[PDF\]]
+[/javascript:toggleBibtex('jovschnicPOF14') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/jovschnicPOF14.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -3483,7 +3483,7 @@ Phys. Fluids, February, 2014, Vol. 26 (2), pp. 024103 (22 pages)\n
   number = {2},
   pages = {024103 (22 pages)},
   note = {<b>(Editor's Pick)</b>},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/jovschnicPOF14.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/jovschnicPOF14.pdf}
 }
 </pre></div>
 </div>
@@ -3498,7 +3498,7 @@ style="z-index: 10000">
 ~~~
 
 D. V. Lazi\'c, M. R. Jovanovi\'c and M. R. Ristanovi\'c,
-/Practical tracking of a hydraulic cylinder and an axial piston hydraulic motor/\n
+/Practical tracking of a hydraulic cylinder and an axial piston hydraulic motor/,
 In Proceedings of Bath Workshop on Power Transmission and Motion Control, 1998, pp. 331-346\n
 [/javascript:toggleBibtex('lazjovris98') \[BibTeX\]]
 ~~~
@@ -3526,7 +3526,7 @@ style="z-index: 10000">
 ~~~
 
 B. K. Lieu and M. R. Jovanovi\'c,
-/Slow-fast decomposition of an inertialess flow of viscoelastic fluids/\n
+/Slow-fast decomposition of an inertialess flow of viscoelastic fluids/,
 In Proceedings of the 2012 American Control Conference, 2012, pp. 4369-4374\n
 [/javascript:toggleBibtex('liejovACC12') \[BibTeX\]]
 ~~~
@@ -3554,7 +3554,7 @@ style="z-index: 10000">
 ~~~
 
 B. K. Lieu and M. R. Jovanovi\'c,
-/Model-based analysis of polymer drag reduction in a turbulent channel flow/\n
+/Model-based analysis of polymer drag reduction in a turbulent channel flow/,
 In Proceedings of the 2013 American Control Conference, 2013, pp. 485-490\n
 [/javascript:toggleBibtex('liejovACC13') \[BibTeX\]]
 ~~~
@@ -3583,7 +3583,7 @@ style="z-index: 10000">
 ~~~
 
 B. K. Lieu and M. R. Jovanovi\'c,
-/Computation of the frequency responses for distributed systems with one spatial variable/\n
+/Computation of the frequency responses for distributed systems with one spatial variable/,
 In Proceedings of the 50th IEEE Conference on Decision and Control and European Control Conference, 2011, pp. 6956-6961\n
 [/javascript:toggleBibtex('liejovCDC11') \[BibTeX\]]
 ~~~
@@ -3611,7 +3611,7 @@ style="z-index: 10000">
 ~~~
 
 B. K. Lieu and M. R. Jovanovi\'c,
-/Analysis of drag reduction by polymers in a turbulent channel flow/\n
+/Analysis of drag reduction by polymers in a turbulent channel flow/,
 In Proceedings of the 2012 Summer Program, 2012, pp. 65-74\n
 [/javascript:toggleBibtex('liejovCTR12') \[BibTeX\]]
 ~~~
@@ -3639,9 +3639,9 @@ style="z-index: 10000">
 ~~~
 
 B. K. Lieu and M. R. Jovanovi\'c,
-/Computation of frequency responses for linear time-invariant PDEs on a compact interval/\n
+/Computation of frequency responses for linear time-invariant PDEs on a compact interval/,
 J. Comput. Phys., October, 2013, Vol. 250, pp. 246-269\n
-[/javascript:toggleBibtex('liejovJCP13') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/liejovJCP13.pdf \[PDF\]]
+[/javascript:toggleBibtex('liejovJCP13') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/liejovJCP13.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -3654,7 +3654,7 @@ J. Comput. Phys., October, 2013, Vol. 250, pp. 246-269\n
   year = {2013},
   volume = {250},
   pages = {246-269},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/liejovJCP13.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/liejovJCP13.pdf}
 }
 </pre></div>
 </div>
@@ -3669,7 +3669,7 @@ style="z-index: 10000">
 ~~~
 
 B. K. Lieu, M. R. Jovanovic and S. Kumar,
-/Worst-case amplification of disturbances in inertialess flows of viscoelastic fluids/\n
+/Worst-case amplification of disturbances in inertialess flows of viscoelastic fluids/,
 In Preprints of the 18th IFAC World Congress, 2011, pp. 14458-14463\n
 [/javascript:toggleBibtex('liejovkumIFAC11') \[BibTeX\]]
 ~~~
@@ -3697,9 +3697,9 @@ style="z-index: 10000">
 ~~~
 
 B. K. Lieu, M. R. Jovanovi\'c and S. Kumar,
-/Worst-case amplification of disturbances in inertialess Couette flow of viscoelastic fluids/\n
+/Worst-case amplification of disturbances in inertialess Couette flow of viscoelastic fluids/,
 J. Fluid Mech., May, 2013, Vol. 723, pp. 232-263\n
-[/javascript:toggleBibtex('liejovkumJFM13') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/liejovkumJFM13.pdf \[PDF\]]
+[/javascript:toggleBibtex('liejovkumJFM13') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/liejovkumJFM13.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -3712,7 +3712,7 @@ J. Fluid Mech., May, 2013, Vol. 723, pp. 232-263\n
   year = {2013},
   volume = {723},
   pages = {232-263},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/liejovkumJFM13.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/liejovkumJFM13.pdf}
 }
 </pre></div>
 </div>
@@ -3727,7 +3727,7 @@ style="z-index: 10000">
 ~~~
 
 B. K. Lieu, R. Moarref and M. R. Jovanovi\'c,
-/Preventing transition to turbulence using streamwise traveling waves: direct numerical simulations/\n
+/Preventing transition to turbulence using streamwise traveling waves: direct numerical simulations/,
 In Proceedings of the 2010 American Control Conference, 2010, pp. 3335-3340\n
 [/javascript:toggleBibtex('liemoajovACC10') \[BibTeX\]]
 ~~~
@@ -3755,9 +3755,9 @@ style="z-index: 10000">
 ~~~
 
 B. K. Lieu, R. Moarref and M. R. Jovanovi\'c,
-/Controlling the onset of turbulence by streamwise traveling waves. Part 2: Direct numerical simulations/\n
+/Controlling the onset of turbulence by streamwise traveling waves. Part 2: Direct numerical simulations/,
 J. Fluid Mech., November, 2010, Vol. 663, pp. 100-119\n
-[/javascript:toggleBibtex('liemoajovJFM10') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/liemoajovJFM10.pdf \[PDF\]]
+[/javascript:toggleBibtex('liemoajovJFM10') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/liemoajovJFM10.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -3770,7 +3770,7 @@ J. Fluid Mech., November, 2010, Vol. 663, pp. 100-119\n
   year = {2010},
   volume = {663},
   pages = {100-119},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/liemoajovJFM10.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/liemoajovJFM10.pdf}
 }
 </pre></div>
 </div>
@@ -3785,7 +3785,7 @@ style="z-index: 10000">
 ~~~
 
 F. Lin, M. Fardad and M. R. Jovanovi\'c,
-/On the optimal localized feedback design for vehicular platoons/\n
+/On the optimal localized feedback design for vehicular platoons/,
 In Proceedings of the 2010 American Control Conference, 2010, pp. 4622-4627\n
 [/javascript:toggleBibtex('linfarjovACC10') \[BibTeX\]]
 ~~~
@@ -3813,7 +3813,7 @@ style="z-index: 10000">
 ~~~
 
 F. Lin, M. Fardad and M. R. Jovanovi\'c,
-/Sparse feedback synthesis via the alternating direction method of multipliers/\n
+/Sparse feedback synthesis via the alternating direction method of multipliers/,
 In Proceedings of the 2012 American Control Conference, 2012, pp. 4765-4770\n
 [/javascript:toggleBibtex('linfarjovACC12') \[BibTeX\]]
 ~~~
@@ -3841,7 +3841,7 @@ style="z-index: 10000">
 ~~~
 
 F. Lin, M. Fardad and M. R. Jovanovi\'c,
-/Synthesis of H_2 optimal static structured controllers: primal and dual formulations/\n
+/Synthesis of H_2 optimal static structured controllers: primal and dual formulations/,
 In Proceedings of the 47th Annual Allerton Conference on Communication, Control, and Computing, 2009, pp. 340-346\n
 [/javascript:toggleBibtex('linfarjovALL09') \[BibTeX\]]
 ~~~
@@ -3870,7 +3870,7 @@ style="z-index: 10000">
 ~~~
 
 F. Lin, M. Fardad and M. R. Jovanovi\'c,
-/Identification of sparse communication graphs in consensus networks/\n
+/Identification of sparse communication graphs in consensus networks/,
 In Proceedings of the 50th Annual Allerton Conference on Communication, Control, and Computing, 2012, pp. 85-89\n
 [/javascript:toggleBibtex('linfarjovALL12') \[BibTeX\]]
 ~~~
@@ -3899,7 +3899,7 @@ style="z-index: 10000">
 ~~~
 
 F. Lin, M. Fardad and M. R. Jovanovi\'c,
-/On the optimal localized feedback design for multi-vehicle systems/\n
+/On the optimal localized feedback design for multi-vehicle systems/,
 In Proceedings of the 49th IEEE Conference on Decision and Control, 2010, pp. 5744-5749\n
 [/javascript:toggleBibtex('linfarjovCDC10') \[BibTeX\]]
 ~~~
@@ -3927,9 +3927,9 @@ style="z-index: 10000">
 ~~~
 
 F. Lin, M. Fardad and M. R. Jovanovi\'c,
-/Algorithms for leader selection in large dynamical networks: noise-corrupted leaders/\n
+/Algorithms for leader selection in large dynamical networks: noise-corrupted leaders/,
 In Proceedings of the 50th IEEE Conference on Decision and Control and European Control Conference, 2011, pp. 2932-2937\n
-[/javascript:toggleBibtex('linfarjovCDC11') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/linfarjovCDC11.pdf \[PDF\]]
+[/javascript:toggleBibtex('linfarjovCDC11') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/linfarjovCDC11.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -3941,7 +3941,7 @@ In Proceedings of the 50th IEEE Conference on Decision and Control and European 
   booktitle = {Proceedings of the 50th IEEE Conference on Decision and Control and European Control Conference},
   year = {2011},
   pages = {2932-2937},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/linfarjovCDC11.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/linfarjovCDC11.pdf}
 }
 </pre></div>
 </div>
@@ -3956,9 +3956,9 @@ style="z-index: 10000">
 ~~~
 
 F. Lin, M. Fardad and M. R. Jovanovi\'c,
-/Performance of leader-follower networks in directed trees and lattices/\n
+/Performance of leader-follower networks in directed trees and lattices/,
 In Proceedings of the 51th IEEE Conference on Decision and Control, 2012, pp. 734-739\n
-[/javascript:toggleBibtex('linfarjovCDC12') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/conference/2012/LinFardadJovanovicCDC2012.pdf \[PDF\]]
+[/javascript:toggleBibtex('linfarjovCDC12') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/conference/2012/LinFardadJovanovicCDC2012.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -3970,7 +3970,7 @@ In Proceedings of the 51th IEEE Conference on Decision and Control, 2012, pp. 73
   booktitle = {Proceedings of the 51th IEEE Conference on Decision and Control},
   year = {2012},
   pages = {734-739},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/conference/2012/LinFardadJovanovicCDC2012.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/conference/2012/LinFardadJovanovicCDC2012.pdf}
 }
 </pre></div>
 </div>
@@ -3985,9 +3985,9 @@ style="z-index: 10000">
 ~~~
 
 F. Lin, M. Fardad and M. R. Jovanovi\'c,
-/Augmented Lagrangian approach to design of structured optimal state feedback gains/\n
+/Augmented Lagrangian approach to design of structured optimal state feedback gains/,
 IEEE Trans. Automat. Control, December, 2011, Vol. 56 (12), pp. 2923-2929\n
-[/javascript:toggleBibtex('linfarjovTAC11al') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/linfarjovTAC11auglag.pdf \[PDF\]]
+[/javascript:toggleBibtex('linfarjovTAC11al') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/linfarjovTAC11auglag.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -4001,7 +4001,7 @@ IEEE Trans. Automat. Control, December, 2011, Vol. 56 (12), pp. 2923-2929\n
   volume = {56},
   number = {12},
   pages = {2923-2929},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/linfarjovTAC11auglag.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/linfarjovTAC11auglag.pdf}
 }
 </pre></div>
 </div>
@@ -4016,9 +4016,9 @@ style="z-index: 10000">
 ~~~
 
 F. Lin, M. Fardad and M. R. Jovanovi\'c,
-/Optimal control of vehicular formations with nearest neighbor interactions/\n
+/Optimal control of vehicular formations with nearest neighbor interactions/,
 IEEE Trans. Automat. Control, September, 2012, Vol. 57 (9), pp. 2203-2218\n
-[/javascript:toggleBibtex('linfarjovTAC12platoons') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/linfarjovTAC12platoons.pdf \[PDF\]]
+[/javascript:toggleBibtex('linfarjovTAC12platoons') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/linfarjovTAC12platoons.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -4032,7 +4032,7 @@ IEEE Trans. Automat. Control, September, 2012, Vol. 57 (9), pp. 2203-2218\n
   volume = {57},
   number = {9},
   pages = {2203-2218},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/linfarjovTAC12platoons.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/linfarjovTAC12platoons.pdf}
 }
 </pre></div>
 </div>
@@ -4047,9 +4047,9 @@ style="z-index: 10000">
 ~~~
 
 F. Lin, M. Fardad and M. R. Jovanovi\'c,
-/Design of optimal sparse feedback gains via the alternating direction method of multipliers/\n
+/Design of optimal sparse feedback gains via the alternating direction method of multipliers/,
 IEEE Trans. Automat. Control, September, 2013, Vol. 58 (9), pp. 2426-2431\n
-[/javascript:toggleBibtex('linfarjovTAC13admm') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/linfarjovTAC13admm.pdf \[PDF\]]
+[/javascript:toggleBibtex('linfarjovTAC13admm') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/linfarjovTAC13admm.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -4063,7 +4063,7 @@ IEEE Trans. Automat. Control, September, 2013, Vol. 58 (9), pp. 2426-2431\n
   volume = {58},
   number = {9},
   pages = {2426-2431},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/linfarjovTAC13admm.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/linfarjovTAC13admm.pdf}
 }
 </pre></div>
 </div>
@@ -4078,9 +4078,9 @@ style="z-index: 10000">
 ~~~
 
 F. Lin, M. Fardad and M. R. Jovanovi\'c,
-/Algorithms for leader selection in stochastically forced consensus networks/\n
+/Algorithms for leader selection in stochastically forced consensus networks/,
 IEEE Trans. Automat. Control, July, 2014, Vol. 59 (7), pp. 1789-1802\n
-[/javascript:toggleBibtex('linfarjovTAC14leaderselection') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/linfarjovTAC14LeaderSelection.pdf \[PDF\]]
+[/javascript:toggleBibtex('linfarjovTAC14leaderselection') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/linfarjovTAC14LeaderSelection.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -4094,7 +4094,7 @@ IEEE Trans. Automat. Control, July, 2014, Vol. 59 (7), pp. 1789-1802\n
   volume = {59},
   number = {7},
   pages = {1789-1802},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/linfarjovTAC14LeaderSelection.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/linfarjovTAC14LeaderSelection.pdf}
 }
 </pre></div>
 </div>
@@ -4109,7 +4109,7 @@ style="z-index: 10000">
 ~~~
 
 F. Lin and M. R. Jovanovi\'c,
-/On the least-squares approximation of structured covariances/\n
+/On the least-squares approximation of structured covariances/,
 In Proceedings of the 2007 American Control Conference, 2007, pp. 2648-2653\n
 [/javascript:toggleBibtex('linjovACC07') \[BibTeX\]]
 ~~~
@@ -4137,7 +4137,7 @@ style="z-index: 10000">
 ~~~
 
 F. Lin and M. R. Jovanovi\'c,
-/Energy amplification in a parallel Blasius boundary layer flow subject to free-stream turbulence/\n
+/Energy amplification in a parallel Blasius boundary layer flow subject to free-stream turbulence/,
 In Proceedings of the 2008 American Control Conference, 2008, pp. 3070-3075\n
 [/javascript:toggleBibtex('linjovACC08') \[BibTeX\]]
 ~~~
@@ -4165,7 +4165,7 @@ style="z-index: 10000">
 ~~~
 
 F. Lin, M. R. Jovanovi\'c and T. T. Georgiou,
-/An ADMM algorithm for matrix completion of partially known state covariances/\n
+/An ADMM algorithm for matrix completion of partially known state covariances/,
 In Proceedings of the 52nd IEEE Conference on Decision and Control, 2013, pp. 1684-1689\n
 [/javascript:toggleBibtex('linjovgeoCDC13') \[BibTeX\]]
 ~~~
@@ -4193,9 +4193,9 @@ style="z-index: 10000">
 ~~~
 
 F. Lin and M. R. Jovanovi\'c,
-/Least-squares approximation of structured covariances/\n
+/Least-squares approximation of structured covariances/,
 IEEE Trans. Automat. Control, July, 2009, Vol. 54 (7), pp. 1643-1648\n
-[/javascript:toggleBibtex('linjovTAC09') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/linjovTAC09.pdf \[PDF\]]
+[/javascript:toggleBibtex('linjovTAC09') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/linjovTAC09.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -4209,7 +4209,7 @@ IEEE Trans. Automat. Control, July, 2009, Vol. 54 (7), pp. 1643-1648\n
   volume = {54},
   number = {7},
   pages = {1643-1648},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/linjovTAC09.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/linjovTAC09.pdf}
 }
 </pre></div>
 </div>
@@ -4224,9 +4224,9 @@ style="z-index: 10000">
 ~~~
 
 M. R. Jovanovi\'c,
-/Modeling, analysis, and control of spatially distributed systems/\n
+/Modeling, analysis, and control of spatially distributed systems/,
 University of California, Santa Barbara, 2004\n
-[/javascript:toggleBibtex('mj-phd04') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/theses/mj-thesis.pdf \[PDF\]]
+[/javascript:toggleBibtex('mj-phd04') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/theses/mj-thesis.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -4237,7 +4237,7 @@ University of California, Santa Barbara, 2004\n
   title = {Modeling, analysis, and control of spatially distributed systems},
   school = {University of California, Santa Barbara},
   year = {2004},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/theses/mj-thesis.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/theses/mj-thesis.pdf}
 }
 </pre></div>
 </div>
@@ -4252,7 +4252,7 @@ style="z-index: 10000">
 ~~~
 
 R. Moarref, M. Fardad and M. R. Jovanovi\'c,
-/Perturbation analysis of eigenvalues of a class of self-adjoint operators/\n
+/Perturbation analysis of eigenvalues of a class of self-adjoint operators/,
 In Proceedings of the 2008 American Control Conference, 2008, pp. 955-960\n
 [/javascript:toggleBibtex('moafarjovACC08') \[BibTeX\]]
 ~~~
@@ -4281,7 +4281,7 @@ style="z-index: 10000">
 ~~~
 
 R. Moarref and M. R. Jovanovi\'c,
-/On using the streamwise traveling waves for variance suppression in channel flows/\n
+/On using the streamwise traveling waves for variance suppression in channel flows/,
 In Proceedings of the 2007 American Control Conference, 2007, pp. 2060-2065\n
 [/javascript:toggleBibtex('moajovACC07') \[BibTeX\]]
 ~~~
@@ -4310,7 +4310,7 @@ style="z-index: 10000">
 ~~~
 
 R. Moarref and M. R. Jovanovi\'c,
-/Remarks on computing the H_2 norm of incompressible fluids using descriptor state-space formulation/\n
+/Remarks on computing the H_2 norm of incompressible fluids using descriptor state-space formulation/,
 In Proceedings of the 2008 American Control Conference, 2008, pp. 3064-3069\n
 [/javascript:toggleBibtex('moajovACC08') \[BibTeX\]]
 ~~~
@@ -4338,7 +4338,7 @@ style="z-index: 10000">
 ~~~
 
 R. Moarref and M. R. Jovanovi\'c,
-/Preventing transition to turbulence using streamwise traveling waves: theoretical analysis/\n
+/Preventing transition to turbulence using streamwise traveling waves: theoretical analysis/,
 In Proceedings of the 2010 American Control Conference, 2010, pp. 3329-3334\n
 [/javascript:toggleBibtex('moajovACC10') \[BibTeX\]]
 ~~~
@@ -4366,7 +4366,7 @@ style="z-index: 10000">
 ~~~
 
 R. Moarref and M. R. Jovanovi\'c,
-/Turbulent drag reduction by transverse wall oscillations/\n
+/Turbulent drag reduction by transverse wall oscillations/,
 In Proceedings of the 2012 American Control Conference, 2012, pp. 3359-3364\n
 [/javascript:toggleBibtex('moajovACC12') \[BibTeX\]]
 ~~~
@@ -4394,7 +4394,7 @@ style="z-index: 10000">
 ~~~
 
 R. Moarref and M. R. Jovanovi\'c,
-/Transition control using an array of streamwise vortices/\n
+/Transition control using an array of streamwise vortices/,
 In Proceedings of the 45th IEEE Conference on Decision and Control, 2006, pp. 107-112\n
 [/javascript:toggleBibtex('moajovCDC06') \[BibTeX\]]
 ~~~
@@ -4423,9 +4423,9 @@ style="z-index: 10000">
 ~~~
 
 R. Moarref and M. R. Jovanovi\'c,
-/Controlling the onset of turbulence by streamwise traveling waves. Part 1: Receptivity analysis/\n
+/Controlling the onset of turbulence by streamwise traveling waves. Part 1: Receptivity analysis/,
 J. Fluid Mech., November, 2010, Vol. 663, pp. 70-99\n
-[/javascript:toggleBibtex('moajovJFM10') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/moajovJFM10.pdf \[PDF\]]
+[/javascript:toggleBibtex('moajovJFM10') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/moajovJFM10.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -4438,7 +4438,7 @@ J. Fluid Mech., November, 2010, Vol. 663, pp. 70-99\n
   year = {2010},
   volume = {663},
   pages = {70-99},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/moajovJFM10.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/moajovJFM10.pdf}
 }
 </pre></div>
 </div>
@@ -4453,9 +4453,9 @@ style="z-index: 10000">
 ~~~
 
 R. Moarref and M. R. Jovanovi\'c,
-/Model-based design of transverse wall oscillations for turbulent drag reduction/\n
+/Model-based design of transverse wall oscillations for turbulent drag reduction/,
 J. Fluid Mech., September, 2012, Vol. 707, pp. 205-240\n
-[/javascript:toggleBibtex('moajovJFM12') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/moajovJFM12.pdf \[PDF\]]
+[/javascript:toggleBibtex('moajovJFM12') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/moajovJFM12.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -4468,7 +4468,7 @@ J. Fluid Mech., September, 2012, Vol. 707, pp. 205-240\n
   year = {2012},
   volume = {707},
   pages = {205-240},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/moajovJFM12.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/moajovJFM12.pdf}
 }
 </pre></div>
 </div>
@@ -4483,9 +4483,9 @@ style="z-index: 10000">
 ~~~
 
 R. Moarref, M. R. Jovanovi\'c, J. A. Tropp, A. S. Sharma and B. J. McKeon,
-/A low-order decomposition of turbulent channel flow via resolvent analysis and convex optimization/\n
+/A low-order decomposition of turbulent channel flow via resolvent analysis and convex optimization/,
 Phys. Fluids, May, 2014, Vol. 26 (5), pp. 051701 (7 pages)\n
-[/javascript:toggleBibtex('moajovtroshamckPOF14') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/moajovtroshamckPOF14.pdf \[PDF\]]
+[/javascript:toggleBibtex('moajovtroshamckPOF14') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/moajovtroshamckPOF14.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -4499,7 +4499,7 @@ Phys. Fluids, May, 2014, Vol. 26 (5), pp. 051701 (7 pages)\n
   volume = {26},
   number = {5},
   pages = {051701 (7 pages)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/moajovtroshamckPOF14.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/moajovtroshamckPOF14.pdf}
 }
 </pre></div>
 </div>
@@ -4514,7 +4514,7 @@ style="z-index: 10000">
 ~~~
 
 R. Moarref, B. K. Lieu and M. R. Jovanovi\'c,
-/Spatially-localized optimal control of transition to turbulence/\n
+/Spatially-localized optimal control of transition to turbulence/,
 In Proceedings of the 2011 American Control Conference, 2011, pp. 3577-3582\n
 [/javascript:toggleBibtex('moaliejovACC11') \[BibTeX\]]
 ~~~
@@ -4542,7 +4542,7 @@ style="z-index: 10000">
 ~~~
 
 R. Moarref, B. K. Lieu and M. R. Jovanovi\'c,
-/Optimal localized control of transitional channel flow/\n
+/Optimal localized control of transitional channel flow/,
 In Proceedings of the 2010 Summer Program, 2010, pp. 107-118\n
 [/javascript:toggleBibtex('moaliejovCTR10') \[BibTeX\]]
 ~~~
@@ -4570,9 +4570,9 @@ style="z-index: 10000">
 ~~~
 
 S. Hassan-Moghaddam, N. K. Dhingra and M. R. Jovanovi\'c,
-/Topology identification of undirected consensus networks via sparse inverse covariance estimation/\n
+/Topology identification of undirected consensus networks via sparse inverse covariance estimation/,
 In Proceedings of the 55th IEEE Conference on Decision and Control, 2016, pp. 4624-4629\n
-[/javascript:toggleBibtex('mogdhijovCDC16') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/mogdhijovCDC16.pdf \[PDF\]]
+[/javascript:toggleBibtex('mogdhijovCDC16') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/mogdhijovCDC16.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -4584,7 +4584,7 @@ In Proceedings of the 55th IEEE Conference on Decision and Control, 2016, pp. 46
   booktitle = {Proceedings of the 55th IEEE Conference on Decision and Control},
   year = {2016},
   pages = {4624-4629},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/mogdhijovCDC16.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/mogdhijovCDC16.pdf}
 }
 </pre></div>
 </div>
@@ -4599,9 +4599,9 @@ style="z-index: 10000">
 ~~~
 
 S. Hassan-Moghaddam and M. R. Jovanovi\'c,
-/An interior point method for growing connected resistive networks/\n
+/An interior point method for growing connected resistive networks/,
 In Proceedings of the 2015 American Control Conference, 2015, pp. 1223-1228\n
-[/javascript:toggleBibtex('mogjovACC15') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/mogjovACC15.pdf \[PDF\]]
+[/javascript:toggleBibtex('mogjovACC15') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/mogjovACC15.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -4613,7 +4613,7 @@ In Proceedings of the 2015 American Control Conference, 2015, pp. 1223-1228\n
   booktitle = {Proceedings of the 2015 American Control Conference},
   year = {2015},
   pages = {1223-1228},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/mogjovACC15.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/mogjovACC15.pdf}
 }
 </pre></div>
 </div>
@@ -4628,9 +4628,9 @@ style="z-index: 10000">
 ~~~
 
 S. Hassan-Moghaddam and M. R. Jovanovi\'c,
-/Distributed proximal augmented Lagrangian method for nonsmooth composite optimization/\n
+/Distributed proximal augmented Lagrangian method for nonsmooth composite optimization/,
 In Proceedings of the 2018 American Control Conference, 2018, pp. 2047-2052\n
-[/javascript:toggleBibtex('mogjovACC18') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/mogjovACC18.pdf \[PDF\]]
+[/javascript:toggleBibtex('mogjovACC18') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/mogjovACC18.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -4642,7 +4642,7 @@ In Proceedings of the 2018 American Control Conference, 2018, pp. 2047-2052\n
   booktitle = {Proceedings of the 2018 American Control Conference},
   year = {2018},
   pages = {2047-2052},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/mogjovACC18.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/mogjovACC18.pdf}
 }
 </pre></div>
 </div>
@@ -4657,9 +4657,9 @@ style="z-index: 10000">
 ~~~
 
 S. Hassan-Moghaddam and M. R. Jovanovi\'c,
-/Proximal gradient flow and Douglas-Rachford splitting dynamics: global exponential stability via integral quadratic constraints/\n
+/Proximal gradient flow and Douglas-Rachford splitting dynamics: global exponential stability via integral quadratic constraints/,
 Automatica, January, 2021, Vol. 123, pp. 109311 (7 pages)\n
-[/javascript:toggleBibtex('mogjovAUT21') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/mogjovAUT21.pdf \[PDF\]]
+[/javascript:toggleBibtex('mogjovAUT21') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/mogjovAUT21.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -4672,7 +4672,7 @@ Automatica, January, 2021, Vol. 123, pp. 109311 (7 pages)\n
   year = {2021},
   volume = {123},
   pages = {109311 (7 pages)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/mogjovAUT21.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/mogjovAUT21.pdf}
 }
 </pre></div>
 </div>
@@ -4687,9 +4687,9 @@ style="z-index: 10000">
 ~~~
 
 S. Hassan-Moghaddam and M. R. Jovanovi\'c,
-/Distributed design of optimal structured feedback gains/\n
+/Distributed design of optimal structured feedback gains/,
 In Proceedings of the 56th IEEE Conference on Decision and Control, 2017, pp. 6586-6591\n
-[/javascript:toggleBibtex('mogjovCDC17') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/mogjovCDC17.pdf \[PDF\]]
+[/javascript:toggleBibtex('mogjovCDC17') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/mogjovCDC17.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -4701,7 +4701,7 @@ In Proceedings of the 56th IEEE Conference on Decision and Control, 2017, pp. 65
   booktitle = {Proceedings of the 56th IEEE Conference on Decision and Control},
   year = {2017},
   pages = {6586-6591},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/mogjovCDC17.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/mogjovCDC17.pdf}
 }
 </pre></div>
 </div>
@@ -4716,9 +4716,9 @@ style="z-index: 10000">
 ~~~
 
 S. Hassan-Moghaddam and M. R. Jovanovi\'c,
-/On the exponential convergence rate of proximal gradient flow algorithms/\n
+/On the exponential convergence rate of proximal gradient flow algorithms/,
 In Proceedings of the 57th IEEE Conference on Decision and Control, 2018, pp. 4246-4251\n
-[/javascript:toggleBibtex('mogjovCDC18a') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/mogjovCDC18a.pdf \[PDF\]]
+[/javascript:toggleBibtex('mogjovCDC18a') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/mogjovCDC18a.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -4731,7 +4731,7 @@ In Proceedings of the 57th IEEE Conference on Decision and Control, 2018, pp. 42
   year = {2018},
   pages = {4246-4251},
   note = {(Invited paper)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/mogjovCDC18a.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/mogjovCDC18a.pdf}
 }
 </pre></div>
 </div>
@@ -4746,9 +4746,9 @@ style="z-index: 10000">
 ~~~
 
 S. Hassan-Moghaddam and M. R. Jovanovi\'c,
-/Topology identification via growing a Chow-Liu tree network/\n
+/Topology identification via growing a Chow-Liu tree network/,
 In Proceedings of the 57th IEEE Conference on Decision and Control, 2018, pp. 5421-5426\n
-[/javascript:toggleBibtex('mogjovCDC18b') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/mogjovCDC18b.pdf \[PDF\]]
+[/javascript:toggleBibtex('mogjovCDC18b') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/mogjovCDC18b.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -4760,7 +4760,7 @@ In Proceedings of the 57th IEEE Conference on Decision and Control, 2018, pp. 54
   booktitle = {Proceedings of the 57th IEEE Conference on Decision and Control},
   year = {2018},
   pages = {5421-5426},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/mogjovCDC18b.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/mogjovCDC18b.pdf}
 }
 </pre></div>
 </div>
@@ -4775,9 +4775,9 @@ style="z-index: 10000">
 ~~~
 
 S. Hassan-Moghaddam and M. R. Jovanovi\'c,
-/Global exponential stability of the Douglas-Rachford splitting dynamics/\n
+/Global exponential stability of the Douglas-Rachford splitting dynamics/,
 In Preprints of the 21th IFAC World Congress, 2020\n
-[/javascript:toggleBibtex('mogjovIFAC20') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/mogjovIFAC20.pdf \[PDF\]]
+[/javascript:toggleBibtex('mogjovIFAC20') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/mogjovIFAC20.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -4788,7 +4788,7 @@ In Preprints of the 21th IFAC World Congress, 2020\n
   title = {Global exponential stability of the Douglas-Rachford splitting dynamics},
   booktitle = {Preprints of the 21th IFAC World Congress},
   year = {2020},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/mogjovIFAC20.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/mogjovIFAC20.pdf}
 }
 </pre></div>
 </div>
@@ -4803,9 +4803,9 @@ style="z-index: 10000">
 ~~~
 
 S. Hassan-Moghaddam, M. R. Jovanovi\'c and S. Meyn,
-/Data-driven proximal algorithms for the design of structured optimal feedback gains/\n
+/Data-driven proximal algorithms for the design of structured optimal feedback gains/,
 In Proceedings of the 2019 American Control Conference, 2019, pp. 5846-5850\n
-[/javascript:toggleBibtex('mogjovmeyACC19') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/mogjovmeyACC19.pdf \[PDF\]]
+[/javascript:toggleBibtex('mogjovmeyACC19') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/mogjovmeyACC19.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -4817,7 +4817,7 @@ In Proceedings of the 2019 American Control Conference, 2019, pp. 5846-5850\n
   booktitle = {Proceedings of the 2019 American Control Conference},
   year = {2019},
   pages = {5846-5850},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/mogjovmeyACC19.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/mogjovmeyACC19.pdf}
 }
 </pre></div>
 </div>
@@ -4832,9 +4832,9 @@ style="z-index: 10000">
 ~~~
 
 S. Hassan-Moghaddam and M. R. Jovanovi\'c,
-/Customized algorithms for growing connected resistive networks/\n
+/Customized algorithms for growing connected resistive networks/,
 In Proceedings of the 10th IFAC Symposium on Nonlinear Control Systems, 2016, pp. 986-991\n
-[/javascript:toggleBibtex('mogjovNOL16') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/mogjovNOL16.pdf \[PDF\]]
+[/javascript:toggleBibtex('mogjovNOL16') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/mogjovNOL16.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -4846,7 +4846,7 @@ In Proceedings of the 10th IFAC Symposium on Nonlinear Control Systems, 2016, pp
   booktitle = {Proceedings of the 10th IFAC Symposium on Nonlinear Control Systems},
   year = {2016},
   pages = {986-991},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/mogjovNOL16.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/mogjovNOL16.pdf}
 }
 </pre></div>
 </div>
@@ -4861,9 +4861,9 @@ style="z-index: 10000">
 ~~~
 
 S. Hassan-Moghaddam and M. R. Jovanovi\'c,
-/Topology design for stochastically-forced consensus networks/\n
+/Topology design for stochastically-forced consensus networks/,
 IEEE Trans. Control Netw. Syst., September, 2018, Vol. 5 (3), pp. 1075-1086\n
-[/javascript:toggleBibtex('mogjovTCNS18') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/mogjovTCNS18.pdf \[PDF\]]
+[/javascript:toggleBibtex('mogjovTCNS18') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/mogjovTCNS18.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -4877,7 +4877,7 @@ IEEE Trans. Control Netw. Syst., September, 2018, Vol. 5 (3), pp. 1075-1086\n
   volume = {5},
   number = {3},
   pages = {1075-1086},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/mogjovTCNS18.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/mogjovTCNS18.pdf}
 }
 </pre></div>
 </div>
@@ -4892,9 +4892,9 @@ style="z-index: 10000">
 ~~~
 
 S. Hassan-Moghaddam, X. Wu and M. R. Jovanovi\'c,
-/Edge addition in directed consensus networks/\n
+/Edge addition in directed consensus networks/,
 In Proceedings of the 2017 American Control Conference, 2017, pp. 5592-5597\n
-[/javascript:toggleBibtex('mogwujovACC17') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/mogwujovACC17.pdf \[PDF\]]
+[/javascript:toggleBibtex('mogwujovACC17') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/mogwujovACC17.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -4906,7 +4906,7 @@ In Proceedings of the 2017 American Control Conference, 2017, pp. 5592-5597\n
   booktitle = {Proceedings of the 2017 American Control Conference},
   year = {2017},
   pages = {5592-5597},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/mogwujovACC17.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/mogwujovACC17.pdf}
 }
 </pre></div>
 </div>
@@ -4921,9 +4921,9 @@ style="z-index: 10000">
 ~~~
 
 H. Mohammadi, M. Razaviyayn and M. R. Jovanovi\'c,
-/On the stability of gradient flow dynamics for a rank-one matrix approximation problem/\n
+/On the stability of gradient flow dynamics for a rank-one matrix approximation problem/,
 In Proceedings of the 2018 American Control Conference, 2018, pp. 4533-4538\n
-[/javascript:toggleBibtex('mohrazjovACC18') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/mohrazjovACC18.pdf \[PDF\]]
+[/javascript:toggleBibtex('mohrazjovACC18') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/mohrazjovACC18.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -4935,7 +4935,7 @@ In Proceedings of the 2018 American Control Conference, 2018, pp. 4533-4538\n
   booktitle = {Proceedings of the 2018 American Control Conference},
   year = {2018},
   pages = {4533-4538},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/mohrazjovACC18.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/mohrazjovACC18.pdf}
 }
 </pre></div>
 </div>
@@ -4950,9 +4950,9 @@ style="z-index: 10000">
 ~~~
 
 H. Mohammadi, M. Razaviyayn and M. R. Jovanovi\'c,
-/Performance of noisy Nesterov's accelerated method for strongly convex optimization problems/\n
+/Performance of noisy Nesterov's accelerated method for strongly convex optimization problems/,
 In Proceedings of the 2019 American Control Conference, 2019, pp. 3426-3431\n
-[/javascript:toggleBibtex('mohrazjovACC19') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/mohrazjovACC19.pdf \[PDF\]]
+[/javascript:toggleBibtex('mohrazjovACC19') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/mohrazjovACC19.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -4964,7 +4964,7 @@ In Proceedings of the 2019 American Control Conference, 2019, pp. 3426-3431\n
   booktitle = {Proceedings of the 2019 American Control Conference},
   year = {2019},
   pages = {3426-3431},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/mohrazjovACC19.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/mohrazjovACC19.pdf}
 }
 </pre></div>
 </div>
@@ -4979,9 +4979,9 @@ style="z-index: 10000">
 ~~~
 
 H. Mohammadi, M. Razaviyayn and M. R. Jovanovi\'c,
-/Variance amplification of accelerated first-order algorithms for strongly convex quadratic optimization problems/\n
+/Variance amplification of accelerated first-order algorithms for strongly convex quadratic optimization problems/,
 In Proceedings of the 57th IEEE Conference on Decision and Control, 2018, pp. 5753-5758\n
-[/javascript:toggleBibtex('mohrazjovCDC18') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/mohrazjovCDC18.pdf \[PDF\]]
+[/javascript:toggleBibtex('mohrazjovCDC18') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/mohrazjovCDC18.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -4993,7 +4993,7 @@ In Proceedings of the 57th IEEE Conference on Decision and Control, 2018, pp. 57
   booktitle = {Proceedings of the 57th IEEE Conference on Decision and Control},
   year = {2018},
   pages = {5753-5758},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/mohrazjovCDC18.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/mohrazjovCDC18.pdf}
 }
 </pre></div>
 </div>
@@ -5008,9 +5008,9 @@ style="z-index: 10000">
 ~~~
 
 H. Mohammadi, M. Razaviyayn and M. R. Jovanovi\'c,
-/Robustness of accelerated first-order algorithms for strongly convex optimization problems/\n
+/Robustness of accelerated first-order algorithms for strongly convex optimization problems/,
 IEEE Trans. Automat. Control, 2020\n
-[/javascript:toggleBibtex('mohrazjovTAC20') \[BibTeX\]] [https://arxiv.org/abs/1905.11011 \[PDF\]]
+[/javascript:toggleBibtex('mohrazjovTAC20') \[BibTeX\]] [/arxiv.org/abs/1905.11011 \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5022,7 +5022,7 @@ IEEE Trans. Automat. Control, 2020\n
   journal = {IEEE Trans. Automat. Control},
   year = {2020},
   note = {doi:10.1109/TAC.2020.3008297; also arXiv:1905.11011},
-  pdf = {https://arxiv.org/abs/1905.11011}
+  pdf = {/arxiv.org/abs/1905.11011}
 }
 </pre></div>
 </div>
@@ -5037,9 +5037,9 @@ style="z-index: 10000">
 ~~~
 
 H. Mohammadi, S. Samuelson and M. R. Jovanovi\'c,
-/Transient growth of accelerated first-order methods for strongly convex optimization problems/\n
+/Transient growth of accelerated first-order methods for strongly convex optimization problems/,
 IEEE Trans. Automat. Control, 2021\n
-[/javascript:toggleBibtex('mohsamjovTAC21') \[BibTeX\]] [https://arxiv.org/abs/2103.08017 \[PDF\]]
+[/javascript:toggleBibtex('mohsamjovTAC21') \[BibTeX\]] [/arxiv.org/abs/2103.08017 \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5051,7 +5051,7 @@ IEEE Trans. Automat. Control, 2021\n
   journal = {IEEE Trans. Automat. Control},
   year = {2021},
   note = {submitted; also arXiv:2103.08017},
-  pdf = {https://arxiv.org/abs/2103.08017}
+  pdf = {/arxiv.org/abs/2103.08017}
 }
 </pre></div>
 </div>
@@ -5066,9 +5066,9 @@ style="z-index: 10000">
 ~~~
 
 H. Mohammadi, M. Soltanolkotabi and M. R. Jovanovi\'c,
-/Random search for learning the linear quadratic regulator/\n
+/Random search for learning the linear quadratic regulator/,
 In Proceedings of the 2020 American Control Conference, 2020, pp. 4798-4803\n
-[/javascript:toggleBibtex('mohsoljovACC20') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/mohsoljovACC20.pdf \[PDF\]]
+[/javascript:toggleBibtex('mohsoljovACC20') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/mohsoljovACC20.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5080,7 +5080,7 @@ In Proceedings of the 2020 American Control Conference, 2020, pp. 4798-4803\n
   booktitle = {Proceedings of the 2020 American Control Conference},
   year = {2020},
   pages = {4798-4803},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/mohsoljovACC20.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/mohsoljovACC20.pdf}
 }
 </pre></div>
 </div>
@@ -5095,9 +5095,9 @@ style="z-index: 10000">
 ~~~
 
 H. Mohammadi, M. Soltanolkotabi and M. R. Jovanovi\'c,
-/Learning the model-free linear quadratic regulator via random search/\n
+/Learning the model-free linear quadratic regulator via random search/,
 In Proceedings of Machine Learning Research, 2nd Annual Conference on Learning for Dynamics and Control, 2020, Vol. 120, pp. 1-9\n
-[/javascript:toggleBibtex('mohsoljovL4DC20') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/mohsoljovL4DC20.pdf \[PDF\]]
+[/javascript:toggleBibtex('mohsoljovL4DC20') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/mohsoljovL4DC20.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5110,7 +5110,7 @@ In Proceedings of Machine Learning Research, 2nd Annual Conference on Learning f
   year = {2020},
   volume = {120},
   pages = {1-9},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/mohsoljovL4DC20.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/mohsoljovL4DC20.pdf}
 }
 </pre></div>
 </div>
@@ -5125,9 +5125,9 @@ style="z-index: 10000">
 ~~~
 
 H. Mohammadi, M. Soltanolkotabi and M. R. Jovanovi\'c,
-/On the linear convergence of random search for discrete-time LQR/\n
+/On the linear convergence of random search for discrete-time LQR/,
 IEEE Control Syst. Lett., July, 2021, Vol. 5 (3), pp. 989-994\n
-[/javascript:toggleBibtex('mohsoljovLCSS21') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/mohsoljovLCSS21.pdf \[PDF\]]
+[/javascript:toggleBibtex('mohsoljovLCSS21') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/mohsoljovLCSS21.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5141,7 +5141,7 @@ IEEE Control Syst. Lett., July, 2021, Vol. 5 (3), pp. 989-994\n
   volume = {5},
   number = {3},
   pages = {989-994},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/mohsoljovLCSS21.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/mohsoljovLCSS21.pdf}
 }
 </pre></div>
 </div>
@@ -5156,9 +5156,9 @@ style="z-index: 10000">
 ~~~
 
 H. Mohammadi, M. Soltanolkotabi and M. R. Jovanovi\'c,
-/Model-free linear quadratic regulator/\n
+/Model-free linear quadratic regulator/,
 Springer International PublishingIn Handbook of Reinforcement Learning and Control, 2021\n
-[/javascript:toggleBibtex('mohsoljovRLC21') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/mohsoljovRLC21.pdf \[PDF\]]
+[/javascript:toggleBibtex('mohsoljovRLC21') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/mohsoljovRLC21.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5171,7 +5171,7 @@ Springer International PublishingIn Handbook of Reinforcement Learning and Contr
   publisher = {Springer International Publishing},
   year = {2021},
   note = {doi:10.1007/978-3-030-60990-0},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/mohsoljovRLC21.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/mohsoljovRLC21.pdf}
 }
 </pre></div>
 </div>
@@ -5186,9 +5186,9 @@ style="z-index: 10000">
 ~~~
 
 H. Mohammadi, A. Zare, M. Soltanolkotabi and M. R. Jovanovi\'c,
-/Global exponential convergence of gradient methods over the nonconvex landscape of the linear quadratic regulator/\n
+/Global exponential convergence of gradient methods over the nonconvex landscape of the linear quadratic regulator/,
 In Proceedings of the 58th IEEE Conference on Decision and Control, 2019, pp. 7474-7479\n
-[/javascript:toggleBibtex('mohzarsoljovCDC19') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/mohzarsoljovCDC19.pdf \[PDF\]]
+[/javascript:toggleBibtex('mohzarsoljovCDC19') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/mohzarsoljovCDC19.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5200,7 +5200,7 @@ In Proceedings of the 58th IEEE Conference on Decision and Control, 2019, pp. 74
   booktitle = {Proceedings of the 58th IEEE Conference on Decision and Control},
   year = {2019},
   pages = {7474-7479},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/mohzarsoljovCDC19.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/mohzarsoljovCDC19.pdf}
 }
 </pre></div>
 </div>
@@ -5215,9 +5215,9 @@ style="z-index: 10000">
 ~~~
 
 H. Mohammadi, A. Zare, M. Soltanolkotabi and M. R. Jovanovi\'c,
-/Convergence and sample complexity of gradient methods for the model-free linear quadratic regulator problem/\n
+/Convergence and sample complexity of gradient methods for the model-free linear quadratic regulator problem/,
 IEEE Trans. Automat. Control, 2019\n
-[/javascript:toggleBibtex('mohzarsoljovTAC19') \[BibTeX\]] [https://arxiv.org/abs/1912.11899 \[PDF\]]
+[/javascript:toggleBibtex('mohzarsoljovTAC19') \[BibTeX\]] [/arxiv.org/abs/1912.11899 \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5229,7 +5229,7 @@ IEEE Trans. Automat. Control, 2019\n
   journal = {IEEE Trans. Automat. Control},
   year = {2019},
   note = {conditionally accepted; also arXiv:1912.11899},
-  pdf = {https://arxiv.org/abs/1912.11899}
+  pdf = {/arxiv.org/abs/1912.11899}
 }
 </pre></div>
 </div>
@@ -5244,9 +5244,9 @@ style="z-index: 10000">
 ~~~
 
 N. K. Dhingra,
-/Optimization and control of large-scale networked systems/\n
+/Optimization and control of large-scale networked systems/,
 University of Minnesota, 2017\n
-[/javascript:toggleBibtex('neil-phd17') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/theses/NeilDhingra-PhD.pdf \[PDF\]]
+[/javascript:toggleBibtex('neil-phd17') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/theses/NeilDhingra-PhD.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5257,7 +5257,7 @@ University of Minnesota, 2017\n
   title = {Optimization and control of large-scale networked systems},
   school = {University of Minnesota},
   year = {2017},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/theses/NeilDhingra-PhD.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/theses/NeilDhingra-PhD.pdf}
 }
 </pre></div>
 </div>
@@ -5272,9 +5272,9 @@ style="z-index: 10000">
 ~~~
 
 J. W. Nichols and M. R. Jovanovi\'c,
-/Input-output analysis of high-speed jet noise/\n
+/Input-output analysis of high-speed jet noise/,
 In Proceedings of the 2014 Summer Program, 2014, pp. 251-260\n
-[/javascript:toggleBibtex('nicjovCTR14') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/nicjovCTR14.pdf \[PDF\]]
+[/javascript:toggleBibtex('nicjovCTR14') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/nicjovCTR14.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5286,7 +5286,7 @@ In Proceedings of the 2014 Summer Program, 2014, pp. 251-260\n
   booktitle = {Proceedings of the 2014 Summer Program},
   year = {2014},
   pages = {251-260},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/nicjovCTR14.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/nicjovCTR14.pdf}
 }
 </pre></div>
 </div>
@@ -5301,7 +5301,7 @@ style="z-index: 10000">
 ~~~
 
 S. Patterson, B. Bamieh, A. E. Abbadi and M. R. Jovanovi\'c,
-/On the feasibility of large-scale automated highways/\n
+/On the feasibility of large-scale automated highways/,
 In First International Workshop on Computational Transportation Science, 2008\n
 [/javascript:toggleBibtex('patbamabbjov08') \[BibTeX\]]
 ~~~
@@ -5329,9 +5329,9 @@ style="z-index: 10000">
 ~~~
 
 V. Purba, X. Wu, M. Sinha, S. V. Dhople and M. R. Jovanovi\'c,
-/Design of optimal coupling gains for synchronization of nonlinear oscillators/\n
+/Design of optimal coupling gains for synchronization of nonlinear oscillators/,
 In Proceedings of the 54th IEEE Conference on Decision and Control, 2015, pp. 1310-1315\n
-[/javascript:toggleBibtex('purwusindhojovCDC15') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/purwusindhojovCDC15.pdf \[PDF\]]
+[/javascript:toggleBibtex('purwusindhojovCDC15') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/purwusindhojovCDC15.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5343,7 +5343,7 @@ In Proceedings of the 54th IEEE Conference on Decision and Control, 2015, pp. 13
   booktitle = {Proceedings of the 54th IEEE Conference on Decision and Control},
   year = {2015},
   pages = {1310-1315},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/purwusindhojovCDC15.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/purwusindhojovCDC15.pdf}
 }
 </pre></div>
 </div>
@@ -5358,9 +5358,9 @@ style="z-index: 10000">
 ~~~
 
 W. Ran, A. Zare, M. J. P. Hack and M. R. Jovanovi\'c,
-/Low-complexity stochastic modeling of spatially-evolving flows/\n
+/Low-complexity stochastic modeling of spatially-evolving flows/,
 In Proceedings of the 2017 American Control Conference, 2017, pp. 3815-3820\n
-[/javascript:toggleBibtex('ranzarhacjovACC17') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovACC17.pdf \[PDF\]]
+[/javascript:toggleBibtex('ranzarhacjovACC17') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovACC17.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5372,7 +5372,7 @@ In Proceedings of the 2017 American Control Conference, 2017, pp. 3815-3820\n
   booktitle = {Proceedings of the 2017 American Control Conference},
   year = {2017},
   pages = {3815-3820},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovACC17.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovACC17.pdf}
 }
 </pre></div>
 </div>
@@ -5387,9 +5387,9 @@ style="z-index: 10000">
 ~~~
 
 W. Ran, A. Zare, M. J. P. Hack and M. R. Jovanovi\'c,
-/Low-complexity modeling of mode interactions in boundary layer flows/\n
+/Low-complexity modeling of mode interactions in boundary layer flows/,
 In Proceedings of the 2018 American Control Conference, 2018, pp. 134-139\n
-[/javascript:toggleBibtex('ranzarhacjovACC18') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovACC18.pdf \[PDF\]]
+[/javascript:toggleBibtex('ranzarhacjovACC18') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovACC18.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5402,7 +5402,7 @@ In Proceedings of the 2018 American Control Conference, 2018, pp. 134-139\n
   year = {2018},
   pages = {134-139},
   note = {(Invited paper)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovACC18.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovACC18.pdf}
 }
 </pre></div>
 </div>
@@ -5417,9 +5417,9 @@ style="z-index: 10000">
 ~~~
 
 W. Ran, A. Zare, M. J. P. Hack and M. R. Jovanovi\'c,
-/Relating global and local stochastic receptivity analysis of boundary layer flows/\n
+/Relating global and local stochastic receptivity analysis of boundary layer flows/,
 In Proceedings of the 2019 American Control Conference, 2019, pp. 3212-3217\n
-[/javascript:toggleBibtex('ranzarhacjovACC19') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovACC19.pdf \[PDF\]]
+[/javascript:toggleBibtex('ranzarhacjovACC19') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovACC19.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5432,7 +5432,7 @@ In Proceedings of the 2019 American Control Conference, 2019, pp. 3212-3217\n
   year = {2019},
   pages = {3212-3217},
   note = {(Invited paper)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovACC19.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovACC19.pdf}
 }
 </pre></div>
 </div>
@@ -5447,9 +5447,9 @@ style="z-index: 10000">
 ~~~
 
 W. Ran, A. Zare, M. J. P. Hack and M. R. Jovanovi\'c,
-/Boundary layer receptivity analysis via the algebraic Lyapunov equation/\n
+/Boundary layer receptivity analysis via the algebraic Lyapunov equation/,
 In Proceedings of the 2020 AIAA SciTech Forum and Exposition, 2020, pp. 0109 (15 pages)\n
-[/javascript:toggleBibtex('ranzarhacjovAIAA20') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovAIAA20.pdf \[PDF\]]
+[/javascript:toggleBibtex('ranzarhacjovAIAA20') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovAIAA20.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5461,7 +5461,7 @@ In Proceedings of the 2020 AIAA SciTech Forum and Exposition, 2020, pp. 0109 (15
   booktitle = {Proceedings of the 2020 AIAA SciTech Forum and Exposition},
   year = {2020},
   pages = {0109 (15 pages)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovAIAA20.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovAIAA20.pdf}
 }
 </pre></div>
 </div>
@@ -5476,9 +5476,9 @@ style="z-index: 10000">
 ~~~
 
 W. Ran, A. Zare, M. J. P. Hack and M. R. Jovanovi\'c,
-/Low-complexity stochastic modeling of spatially-evolving flows/\n
+/Low-complexity stochastic modeling of spatially-evolving flows/,
 In Proceedings of the 2016 Summer Program, 2016, pp. 285-294\n
-[/javascript:toggleBibtex('ranzarhacjovCTR16') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovCTR16.pdf \[PDF\]]
+[/javascript:toggleBibtex('ranzarhacjovCTR16') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovCTR16.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5490,7 +5490,7 @@ In Proceedings of the 2016 Summer Program, 2016, pp. 285-294\n
   booktitle = {Proceedings of the 2016 Summer Program},
   year = {2016},
   pages = {285-294},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovCTR16.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovCTR16.pdf}
 }
 </pre></div>
 </div>
@@ -5505,9 +5505,9 @@ style="z-index: 10000">
 ~~~
 
 W. Ran, A. Zare, M. J. P. Hack and M. R. Jovanovi\'c,
-/Modeling mode interactions in boundary layer flows via Parabolized Floquet Equations/\n
+/Modeling mode interactions in boundary layer flows via Parabolized Floquet Equations/,
 Phys. Rev. Fluids, February, 2019, Vol. 4 (2), pp. 023901 (22 pages)\n
-[/javascript:toggleBibtex('ranzarhacjovPRF19a') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovPRF19.pdf \[PDF\]]
+[/javascript:toggleBibtex('ranzarhacjovPRF19a') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovPRF19.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5521,7 +5521,7 @@ Phys. Rev. Fluids, February, 2019, Vol. 4 (2), pp. 023901 (22 pages)\n
   volume = {4},
   number = {2},
   pages = {023901 (22 pages)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovPRF19.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovPRF19.pdf}
 }
 </pre></div>
 </div>
@@ -5536,9 +5536,9 @@ style="z-index: 10000">
 ~~~
 
 W. Ran, A. Zare, M. J. P. Hack and M. R. Jovanovi\'c,
-/Stochastic receptivity analysis of boundary layer flow/\n
+/Stochastic receptivity analysis of boundary layer flow/,
 Phys. Rev. Fluids, September, 2019, Vol. 4 (9), pp. 093901 (28 pages)\n
-[/javascript:toggleBibtex('ranzarhacjovPRF19b') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovPRF19b.pdf \[PDF\]]
+[/javascript:toggleBibtex('ranzarhacjovPRF19b') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovPRF19b.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5552,7 +5552,7 @@ Phys. Rev. Fluids, September, 2019, Vol. 4 (9), pp. 093901 (28 pages)\n
   volume = {4},
   number = {9},
   pages = {093901 (28 pages)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovPRF19b.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/ranzarhacjovPRF19b.pdf}
 }
 </pre></div>
 </div>
@@ -5567,9 +5567,9 @@ style="z-index: 10000">
 ~~~
 
 W. Ran, A. Zare and M. R. Jovanovi\'c,
-/Drag reduction in turbulent channel flow over spatially periodic surfaces/\n
+/Drag reduction in turbulent channel flow over spatially periodic surfaces/,
 In Proceedings of the 58th IEEE Conference on Decision and Control, 2019, pp. 5918-5923\n
-[/javascript:toggleBibtex('ranzarjovCDC19') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/ranzarjovCDC19.pdf \[PDF\]]
+[/javascript:toggleBibtex('ranzarjovCDC19') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/ranzarjovCDC19.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5581,7 +5581,7 @@ In Proceedings of the 58th IEEE Conference on Decision and Control, 2019, pp. 59
   booktitle = {Proceedings of the 58th IEEE Conference on Decision and Control},
   year = {2019},
   pages = {5918-5923},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/ranzarjovCDC19.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/ranzarjovCDC19.pdf}
 }
 </pre></div>
 </div>
@@ -5596,9 +5596,9 @@ style="z-index: 10000">
 ~~~
 
 W. Ran, A. Zare and M. R. Jovanovi\'c,
-/Model-based design of riblets for turbulent drag reduction/\n
+/Model-based design of riblets for turbulent drag reduction/,
 J. Fluid Mech., January, 2021, Vol. 906, pp. A7 (38 pages)\n
-[/javascript:toggleBibtex('ranzarjovJFM21') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/ranzarjovJFM21.pdf \[PDF\]]
+[/javascript:toggleBibtex('ranzarjovJFM21') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/ranzarjovJFM21.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5611,7 +5611,7 @@ J. Fluid Mech., January, 2021, Vol. 906, pp. A7 (38 pages)\n
   year = {2021},
   volume = {906},
   pages = {A7 (38 pages)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/ranzarjovJFM21.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/ranzarjovJFM21.pdf}
 }
 </pre></div>
 </div>
@@ -5626,7 +5626,7 @@ style="z-index: 10000">
 ~~~
 
 W. Ran, A. Zare and M. R. Jovanovi\'c,
-/Frequency-response analysis of riblets for turbulent drag reduction/\n
+/Frequency-response analysis of riblets for turbulent drag reduction/,
 In Proceedings of the 24th International Symposium on Mathematical Theory of Network and Systems, 2020\n
 [/javascript:toggleBibtex('ranzarjovMTNS20') \[BibTeX\]]
 ~~~
@@ -5653,9 +5653,9 @@ style="z-index: 10000">
 ~~~
 
 W. Ran, A. Zare, J. W. Nichols and M. R. Jovanovi\'c,
-/The effect of sponge layers on global stability analysis of Blasius boundary layer flow/\n
+/The effect of sponge layers on global stability analysis of Blasius boundary layer flow/,
 In Proceedings of the 47th AIAA Fluid Dynamics Conference, 2017, pp. 3456 (12 pages)\n
-[/javascript:toggleBibtex('ranzarnicjovAIAA17') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/ranzarnicjovAIAA17.pdf \[PDF\]]
+[/javascript:toggleBibtex('ranzarnicjovAIAA17') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/ranzarnicjovAIAA17.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5667,7 +5667,7 @@ In Proceedings of the 47th AIAA Fluid Dynamics Conference, 2017, pp. 3456 (12 pa
   booktitle = {Proceedings of the 47th AIAA Fluid Dynamics Conference},
   year = {2017},
   pages = {3456 (12 pages)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/ranzarnicjovAIAA17.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/ranzarnicjovAIAA17.pdf}
 }
 </pre></div>
 </div>
@@ -5682,9 +5682,9 @@ style="z-index: 10000">
 ~~~
 
 R. Moarref,
-/Model-based control of transitional and turbulent wall-bounded shear flows/\n
+/Model-based control of transitional and turbulent wall-bounded shear flows/,
 University of Minnesota, 2012\n
-[/javascript:toggleBibtex('rashad-phd12') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/theses/RashadMoarref-PhD.pdf \[PDF\]]
+[/javascript:toggleBibtex('rashad-phd12') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/theses/RashadMoarref-PhD.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5695,7 +5695,7 @@ University of Minnesota, 2012\n
   title = {Model-based control of transitional and turbulent wall-bounded shear flows},
   school = {University of Minnesota},
   year = {2012},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/theses/RashadMoarref-PhD.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/theses/RashadMoarref-PhD.pdf}
 }
 </pre></div>
 </div>
@@ -5710,7 +5710,7 @@ style="z-index: 10000">
 ~~~
 
 Z. B. Ribar, M. R. Jovanovi\'c and R. Z. Jovanovi\'c,
-/Application of practical straight-line tracking in the process industry/\n
+/Application of practical straight-line tracking in the process industry/,
 In Proceedings of the 41th ETRAN Conference, June, 1997, Vol. 1, pp. 444-447\n
 [/javascript:toggleBibtex('ribjovjov97') \[BibTeX\]]
 ~~~
@@ -5739,7 +5739,7 @@ style="z-index: 10000">
 ~~~
 
 Z. B. Ribar, D. V. Lazi\'c and M. R. Jovanovi\'c,
-/Application of practical exponential tracking in fluid transportation industry/\n
+/Application of practical exponential tracking in fluid transportation industry/,
 In Proceedings of the 14th International Conference on Material Handling and Warehousing, December, 1996, pp. 5.65-5.70\n
 [/javascript:toggleBibtex('riblazjov96') \[BibTeX\]]
 ~~~
@@ -5767,9 +5767,9 @@ style="z-index: 10000">
 ~~~
 
 S. Samuelson, H. Mohammadi and M. R. Jovanovi\'c,
-/Transient growth of accelerated first-order methods/\n
+/Transient growth of accelerated first-order methods/,
 In Proceedings of the 2020 American Control Conference, 2020, pp. 2858-2863\n
-[/javascript:toggleBibtex('sammohjovACC20') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/sammohjovACC20.pdf \[PDF\]]
+[/javascript:toggleBibtex('sammohjovACC20') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/sammohjovACC20.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5781,7 +5781,7 @@ In Proceedings of the 2020 American Control Conference, 2020, pp. 2858-2863\n
   booktitle = {Proceedings of the 2020 American Control Conference},
   year = {2020},
   pages = {2858-2863},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/sammohjovACC20.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/sammohjovACC20.pdf}
 }
 </pre></div>
 </div>
@@ -5796,9 +5796,9 @@ style="z-index: 10000">
 ~~~
 
 S. Samuelson, H. Mohammadi and M. R. Jovanovi\'c,
-/On the transient growth of Nesterov's accelerated method for strongly convex optimization problems/\n
+/On the transient growth of Nesterov's accelerated method for strongly convex optimization problems/,
 In Proceedings of the 59th IEEE Conference on Decision and Control, 2020, pp. 5911-5916\n
-[/javascript:toggleBibtex('sammohjovCDC20') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/sammohjovCDC20.pdf \[PDF\]]
+[/javascript:toggleBibtex('sammohjovCDC20') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/sammohjovCDC20.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5811,7 +5811,7 @@ In Proceedings of the 59th IEEE Conference on Decision and Control, 2020, pp. 59
   year = {2020},
   pages = {5911-5916},
   note = {(Invited paper)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/sammohjovCDC20.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/sammohjovCDC20.pdf}
 }
 </pre></div>
 </div>
@@ -5826,7 +5826,7 @@ style="z-index: 10000">
 ~~~
 
 T. Sayadi, J. W. Nichols, P. J. Schmid and M. R. Jovanovi\'c,
-/Dynamic mode decomposition of H-type transition to turbulence/\n
+/Dynamic mode decomposition of H-type transition to turbulence/,
 In Proceedings of the 2012 Summer Program, 2012, pp. 5-14\n
 [/javascript:toggleBibtex('saynicschjovCTR12') \[BibTeX\]]
 ~~~
@@ -5854,9 +5854,9 @@ style="z-index: 10000">
 ~~~
 
 S. Hassan-Moghaddam,
-/Analysis, design, and optimization of large-scale networks of dynamical systems/\n
+/Analysis, design, and optimization of large-scale networks of dynamical systems/,
 University of Southern California, 2019\n
-[/javascript:toggleBibtex('sepideh-phd19') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/theses/SepidehHassanMoghaddam-PhD.pdf \[PDF\]]
+[/javascript:toggleBibtex('sepideh-phd19') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/theses/SepidehHassanMoghaddam-PhD.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5867,7 +5867,7 @@ University of Southern California, 2019\n
   title = {Analysis, design, and optimization of large-scale networks of dynamical systems},
   school = {University of Southern California},
   year = {2019},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/theses/SepidehHassanMoghaddam-PhD.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/theses/SepidehHassanMoghaddam-PhD.pdf}
 }
 </pre></div>
 </div>
@@ -5882,7 +5882,7 @@ style="z-index: 10000">
 ~~~
 
 S. Y. Shafi, M. Arcak and M. R. Jovanovi\'c,
-/Synchronization of limit cycle oscillations in diffusively-coupled systems/\n
+/Synchronization of limit cycle oscillations in diffusively-coupled systems/,
 In Proceedings of the 2013 American Control Conference, 2013, pp. 4874-4879\n
 [/javascript:toggleBibtex('shaarcjovACC13') \[BibTeX\]]
 ~~~
@@ -5910,9 +5910,9 @@ style="z-index: 10000">
 ~~~
 
 S. Y. Shafi, M. Arcak, M. R. Jovanovi\'c and A. Packard,
-/Synchronization of diffusively-coupled limit cycle oscillators/\n
+/Synchronization of diffusively-coupled limit cycle oscillators/,
 Automatica, December, 2013, Vol. 49 (12), pp. 3613-3622\n
-[/javascript:toggleBibtex('shaarcjovpacAUT13') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/shaarcjovpacAUT13.pdf \[PDF\]]
+[/javascript:toggleBibtex('shaarcjovpacAUT13') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/shaarcjovpacAUT13.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5926,7 +5926,7 @@ Automatica, December, 2013, Vol. 49 (12), pp. 3613-3622\n
   volume = {49},
   number = {12},
   pages = {3613-3622},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/shaarcjovpacAUT13.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/shaarcjovpacAUT13.pdf}
 }
 </pre></div>
 </div>
@@ -5941,9 +5941,9 @@ style="z-index: 10000">
 ~~~
 
 P. Sfhrestha, A. Dwivedi, N. Hildebrand, J. W. Nichols, M. R. Jovanovi\'c and G. V. Candler,
-/Interaction of an oblique shock with a transitional Mach 5.65 boundary layer/\n
+/Interaction of an oblique shock with a transitional Mach 5.65 boundary layer/,
 In Proceedings of the 46th AIAA Fluid Dynamics Conference, 2016, pp. 3647 (14 pages)\n
-[/javascript:toggleBibtex('shrdwihilnicjovcanAIAA16') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/shrdwihilnicjovcanAIAA16.pdf \[PDF\]]
+[/javascript:toggleBibtex('shrdwihilnicjovcanAIAA16') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/shrdwihilnicjovcanAIAA16.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5955,7 +5955,7 @@ In Proceedings of the 46th AIAA Fluid Dynamics Conference, 2016, pp. 3647 (14 pa
   booktitle = {Proceedings of the 46th AIAA Fluid Dynamics Conference},
   year = {2016},
   pages = {3647 (14 pages)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/shrdwihilnicjovcanAIAA16.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/shrdwihilnicjovcanAIAA16.pdf}
 }
 </pre></div>
 </div>
@@ -5970,9 +5970,9 @@ style="z-index: 10000">
 ~~~
 
 P. Shrestha, J. W. Nichols, M. R. Jovanovi\'c and G. V. Candler,
-/Study of trip-induced hypersonic boundary layer transition/\n
+/Study of trip-induced hypersonic boundary layer transition/,
 In Proceedings of the 47th AIAA Fluid Dynamics Conference, 2017, pp. 4513 (21 pages)\n
-[/javascript:toggleBibtex('shrnicjovcanAIAA17') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/shrnicjovcanAIAA17.pdf \[PDF\]]
+[/javascript:toggleBibtex('shrnicjovcanAIAA17') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/shrnicjovcanAIAA17.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -5984,7 +5984,7 @@ In Proceedings of the 47th AIAA Fluid Dynamics Conference, 2017, pp. 4513 (21 pa
   booktitle = {Proceedings of the 47th AIAA Fluid Dynamics Conference},
   year = {2017},
   pages = {4513 (21 pages)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/shrnicjovcanAIAA17.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/shrnicjovcanAIAA17.pdf}
 }
 </pre></div>
 </div>
@@ -5999,9 +5999,9 @@ style="z-index: 10000">
 ~~~
 
 V. L. Thomas, B. K. Lieu, M. R. Jovanovi\'c, B. F. Farrell, P. J. Ioannou and D. F. Gayme,
-/Self-sustaining turbulence in a restricted nonlinear model of plane Couette flow/\n
+/Self-sustaining turbulence in a restricted nonlinear model of plane Couette flow/,
 Phys. Fluids, October, 2014, Vol. 26 (10), pp. 105112 (17 pages)\n
-[/javascript:toggleBibtex('tholiejovfarioagayPOF14') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/tholiejovfarioagayPOF14.pdf \[PDF\]]
+[/javascript:toggleBibtex('tholiejovfarioagayPOF14') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/tholiejovfarioagayPOF14.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -6015,7 +6015,7 @@ Phys. Fluids, October, 2014, Vol. 26 (10), pp. 105112 (17 pages)\n
   volume = {26},
   number = {10},
   pages = {105112 (17 pages)},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/tholiejovfarioagayPOF14.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/tholiejovfarioagayPOF14.pdf}
 }
 </pre></div>
 </div>
@@ -6030,9 +6030,9 @@ style="z-index: 10000">
 ~~~
 
 W. Ran,
-/Modeling and analysis of parallel and spatially-evolving wall-bounded shear flows/\n
+/Modeling and analysis of parallel and spatially-evolving wall-bounded shear flows/,
 University of Southern California, 2020\n
-[/javascript:toggleBibtex('wei-phd20') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/theses/WeiRan-PhD.pdf \[PDF\]]
+[/javascript:toggleBibtex('wei-phd20') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/theses/WeiRan-PhD.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -6043,7 +6043,7 @@ University of Southern California, 2020\n
   title = {Modeling and analysis of parallel and spatially-evolving wall-bounded shear flows},
   school = {University of Southern California},
   year = {2020},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/theses/WeiRan-PhD.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/theses/WeiRan-PhD.pdf}
 }
 </pre></div>
 </div>
@@ -6058,9 +6058,9 @@ style="z-index: 10000">
 ~~~
 
 X. Wu, F. D\"orfler and M. R. Jovanovi\'c,
-/Topology identification and design of distributed integral action in power networks/\n
+/Topology identification and design of distributed integral action in power networks/,
 In Proceedings of the 2016 American Control Conference, 2016, pp. 5921-5926\n
-[/javascript:toggleBibtex('wudorjovACC16') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/wudorjovACC16.pdf \[PDF\]]
+[/javascript:toggleBibtex('wudorjovACC16') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/wudorjovACC16.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -6072,7 +6072,7 @@ In Proceedings of the 2016 American Control Conference, 2016, pp. 5921-5926\n
   booktitle = {Proceedings of the 2016 American Control Conference},
   year = {2016},
   pages = {5921-5926},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/wudorjovACC16.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/wudorjovACC16.pdf}
 }
 </pre></div>
 </div>
@@ -6087,9 +6087,9 @@ style="z-index: 10000">
 ~~~
 
 X. Wu, F. D\"orfler and M. R. Jovanovi\'c,
-/Decentralized optimal control of inter-area oscillations in bulk power systems/\n
+/Decentralized optimal control of inter-area oscillations in bulk power systems/,
 In Proceedings of the 54th IEEE Conference on Decision and Control, 2015, pp. 5532-5537\n
-[/javascript:toggleBibtex('wudorjovCDC15') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/wudorjovCDC15.pdf \[PDF\]]
+[/javascript:toggleBibtex('wudorjovCDC15') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/wudorjovCDC15.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -6101,7 +6101,7 @@ In Proceedings of the 54th IEEE Conference on Decision and Control, 2015, pp. 55
   booktitle = {Proceedings of the 54th IEEE Conference on Decision and Control},
   year = {2015},
   pages = {5532-5537},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/wudorjovCDC15.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/wudorjovCDC15.pdf}
 }
 </pre></div>
 </div>
@@ -6116,7 +6116,7 @@ style="z-index: 10000">
 ~~~
 
 X. Wu, F. D\"orfler and M. R. Jovanovi\'c,
-/Analysis and design trade-offs for power network inter-area oscillations/\n
+/Analysis and design trade-offs for power network inter-area oscillations/,
 In Proceedings of the 21st International Symposium on Mathematical Theory of Network and Systems, 2014, pp. 657-663\n
 [/javascript:toggleBibtex('wudorjovMTNS14') \[BibTeX\]]
 ~~~
@@ -6145,9 +6145,9 @@ style="z-index: 10000">
 ~~~
 
 X. Wu, F. D\"orfler and M. R. Jovanovi\'c,
-/Input-output analysis and decentralized optimal control of inter-area oscillations in power systems/\n
+/Input-output analysis and decentralized optimal control of inter-area oscillations in power systems/,
 IEEE Trans. Power Syst., May, 2016, Vol. 31 (3), pp. 2434-2444\n
-[/javascript:toggleBibtex('wudorjovTPS16') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/wudorjovTPS16.pdf \[PDF\]]
+[/javascript:toggleBibtex('wudorjovTPS16') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/wudorjovTPS16.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -6161,7 +6161,7 @@ IEEE Trans. Power Syst., May, 2016, Vol. 31 (3), pp. 2434-2444\n
   volume = {31},
   number = {3},
   pages = {2434-2444},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/wudorjovTPS16.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/wudorjovTPS16.pdf}
 }
 </pre></div>
 </div>
@@ -6176,7 +6176,7 @@ style="z-index: 10000">
 ~~~
 
 X. Wu and M. R. Jovanovi\'c,
-/Sparsity-promoting optimal control of consensus and synchronization networks/\n
+/Sparsity-promoting optimal control of consensus and synchronization networks/,
 In Proceedings of the 2014 American Control Conference, 2014, pp. 2948-2953\n
 [/javascript:toggleBibtex('wujovACC14') \[BibTeX\]]
 ~~~
@@ -6204,9 +6204,9 @@ style="z-index: 10000">
 ~~~
 
 X. Wu and M. R. Jovanovi\'c,
-/Sparsity-promoting optimal control of systems with symmetries, consensus and synchronization networks/\n
+/Sparsity-promoting optimal control of systems with symmetries, consensus and synchronization networks/,
 Syst. Control Lett., May, 2017, Vol. 103, pp. 1-8\n
-[/javascript:toggleBibtex('wujovSCL17') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/wujovSCL17.pdf \[PDF\]]
+[/javascript:toggleBibtex('wujovSCL17') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/wujovSCL17.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -6219,7 +6219,7 @@ Syst. Control Lett., May, 2017, Vol. 103, pp. 1-8\n
   year = {2017},
   volume = {103},
   pages = {1-8},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/wujovSCL17.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/wujovSCL17.pdf}
 }
 </pre></div>
 </div>
@@ -6234,9 +6234,9 @@ style="z-index: 10000">
 ~~~
 
 X. Wu,
-/Sparsity-promoting optimal control of power networks/\n
+/Sparsity-promoting optimal control of power networks/,
 University of Minnesota, 2016\n
-[/javascript:toggleBibtex('xiaofan-phd16') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/theses/XiaofanWu-PhD.pdf \[PDF\]]
+[/javascript:toggleBibtex('xiaofan-phd16') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/theses/XiaofanWu-PhD.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -6247,7 +6247,7 @@ University of Minnesota, 2016\n
   title = {Sparsity-promoting optimal control of power networks},
   school = {University of Minnesota},
   year = {2016},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/theses/XiaofanWu-PhD.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/theses/XiaofanWu-PhD.pdf}
 }
 </pre></div>
 </div>
@@ -6262,9 +6262,9 @@ style="z-index: 10000">
 ~~~
 
 A. Zare, Y. Chen, M. R. Jovanovi\'c and T. T. Georgiou,
-/An alternating minimization algorithm for structured covariance completion problems/\n
+/An alternating minimization algorithm for structured covariance completion problems/,
 In Proceedings of the 22nd International Symposium on Mathematical Theory of Network and Systems, 2016, pp. 117-119\n
-[/javascript:toggleBibtex('zarchejovgeoMTNS16') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/zarchejovgeoMTNS16.pdf \[PDF\]]
+[/javascript:toggleBibtex('zarchejovgeoMTNS16') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/zarchejovgeoMTNS16.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -6276,7 +6276,7 @@ In Proceedings of the 22nd International Symposium on Mathematical Theory of Net
   booktitle = {Proceedings of the 22nd International Symposium on Mathematical Theory of Network and Systems},
   year = {2016},
   pages = {117-119},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/zarchejovgeoMTNS16.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/zarchejovgeoMTNS16.pdf}
 }
 </pre></div>
 </div>
@@ -6291,9 +6291,9 @@ style="z-index: 10000">
 ~~~
 
 A. Zare, Y. Chen, M. R. Jovanovi\'c and T. T. Georgiou,
-/Low-complexity modeling of partially available second-order statistics: theory and an efficient matrix completion algorithm/\n
+/Low-complexity modeling of partially available second-order statistics: theory and an efficient matrix completion algorithm/,
 IEEE Trans. Automat. Control, March, 2017, Vol. 62 (3), pp. 1368-1383\n
-[/javascript:toggleBibtex('zarchejovgeoTAC17') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/zarchejovgeoTAC17.pdf \[PDF\]]
+[/javascript:toggleBibtex('zarchejovgeoTAC17') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/zarchejovgeoTAC17.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -6307,7 +6307,7 @@ IEEE Trans. Automat. Control, March, 2017, Vol. 62 (3), pp. 1368-1383\n
   volume = {62},
   number = {3},
   pages = {1368-1383},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/zarchejovgeoTAC17.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/zarchejovgeoTAC17.pdf}
 }
 </pre></div>
 </div>
@@ -6322,9 +6322,9 @@ style="z-index: 10000">
 ~~~
 
 A. Zare, N. K. Dhingra, M. R. Jovanovi\'c and T. T. Georgiou,
-/Structured covariance completion via proximal algorithms/\n
+/Structured covariance completion via proximal algorithms/,
 In Proceedings of the 56th IEEE Conference on Decision and Control, 2017, pp. 3775-3780\n
-[/javascript:toggleBibtex('zardhijovgeoCDC17') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/zardhijovgeoCDC17.pdf \[PDF\]]
+[/javascript:toggleBibtex('zardhijovgeoCDC17') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/zardhijovgeoCDC17.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -6336,7 +6336,7 @@ In Proceedings of the 56th IEEE Conference on Decision and Control, 2017, pp. 37
   booktitle = {Proceedings of the 56th IEEE Conference on Decision and Control},
   year = {2017},
   pages = {3775-3780},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/zardhijovgeoCDC17.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/zardhijovgeoCDC17.pdf}
 }
 </pre></div>
 </div>
@@ -6351,9 +6351,9 @@ style="z-index: 10000">
 ~~~
 
 A. Zare, T. T. Georgiou and M. R. Jovanovi\'c,
-/Stochastic dynamical modeling of turbulent flows/\n
+/Stochastic dynamical modeling of turbulent flows/,
 Annu. Rev. Control Robot. Auton. Syst., May, 2020, Vol. 3, pp. 195-219\n
-[/javascript:toggleBibtex('zargeojovARC20') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/zargeojovARC20.pdf \[PDF\]]
+[/javascript:toggleBibtex('zargeojovARC20') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/zargeojovARC20.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -6366,7 +6366,7 @@ Annu. Rev. Control Robot. Auton. Syst., May, 2020, Vol. 3, pp. 195-219\n
   year = {2020},
   volume = {3},
   pages = {195-219},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/zargeojovARC20.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/zargeojovARC20.pdf}
 }
 </pre></div>
 </div>
@@ -6381,9 +6381,9 @@ style="z-index: 10000">
 ~~~
 
 A. Zare and M. R. Jovanovi\'c,
-/Optimal sensor selection via proximal optimization algorithms/\n
+/Optimal sensor selection via proximal optimization algorithms/,
 In Proceedings of the 57th IEEE Conference on Decision and Control, 2018, pp. 6514-6519\n
-[/javascript:toggleBibtex('zarjovCDC18') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/zarjovCDC18.pdf \[PDF\]]
+[/javascript:toggleBibtex('zarjovCDC18') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/zarjovCDC18.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -6395,7 +6395,7 @@ In Proceedings of the 57th IEEE Conference on Decision and Control, 2018, pp. 65
   booktitle = {Proceedings of the 57th IEEE Conference on Decision and Control},
   year = {2018},
   pages = {6514-6519},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/zarjovCDC18.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/zarjovCDC18.pdf}
 }
 </pre></div>
 </div>
@@ -6410,7 +6410,7 @@ style="z-index: 10000">
 ~~~
 
 A. Zare, M. R. Jovanovi\'c and T. T. Georgiou,
-/Completion of partially known turbulent flow statistics/\n
+/Completion of partially known turbulent flow statistics/,
 In Proceedings of the 2014 American Control Conference, 2014, pp. 1680-1685\n
 [/javascript:toggleBibtex('zarjovgeoACC14') \[BibTeX\]]
 ~~~
@@ -6439,9 +6439,9 @@ style="z-index: 10000">
 ~~~
 
 A. Zare, M. R. Jovanovi\'c and T. T. Georgiou,
-/Alternating direction optimization algorithms for covariance completion problems/\n
+/Alternating direction optimization algorithms for covariance completion problems/,
 In Proceedings of the 2015 American Control Conference, 2015, pp. 515-520\n
-[/javascript:toggleBibtex('zarjovgeoACC15') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/zarjovgeoACC15.pdf \[PDF\]]
+[/javascript:toggleBibtex('zarjovgeoACC15') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/zarjovgeoACC15.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -6453,7 +6453,7 @@ In Proceedings of the 2015 American Control Conference, 2015, pp. 515-520\n
   booktitle = {Proceedings of the 2015 American Control Conference},
   year = {2015},
   pages = {515-520},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/zarjovgeoACC15.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/zarjovgeoACC15.pdf}
 }
 </pre></div>
 </div>
@@ -6468,9 +6468,9 @@ style="z-index: 10000">
 ~~~
 
 A. Zare, M. R. Jovanovi\�c and T. T. Georgiou,
-/Perturbation of system dynamics and the covariance completion problem/\n
+/Perturbation of system dynamics and the covariance completion problem/,
 In Proceedings of the 55th IEEE Conference on Decision and Control, 2016, pp. 7036-7041\n
-[/javascript:toggleBibtex('zarjovgeoCDC16') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/zarjovgeoCDC16.pdf \[PDF\]]
+[/javascript:toggleBibtex('zarjovgeoCDC16') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/zarjovgeoCDC16.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -6482,7 +6482,7 @@ In Proceedings of the 55th IEEE Conference on Decision and Control, 2016, pp. 70
   booktitle = {Proceedings of the 55th IEEE Conference on Decision and Control},
   year = {2016},
   pages = {7036-7041},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/zarjovgeoCDC16.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/zarjovgeoCDC16.pdf}
 }
 </pre></div>
 </div>
@@ -6497,9 +6497,9 @@ style="z-index: 10000">
 ~~~
 
 A. Zare, M. R. Jovanovi\'c and T. T. Georgiou,
-/Completion of partially known turbulent flow statistics via convex optimization/\n
+/Completion of partially known turbulent flow statistics via convex optimization/,
 In Proceedings of the 2014 Summer Program, 2014, pp. 345-354\n
-[/javascript:toggleBibtex('zarjovgeoCTR14') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/zarjovgeoCTR14.pdf \[PDF\]]
+[/javascript:toggleBibtex('zarjovgeoCTR14') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/zarjovgeoCTR14.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -6511,7 +6511,7 @@ In Proceedings of the 2014 Summer Program, 2014, pp. 345-354\n
   booktitle = {Proceedings of the 2014 Summer Program},
   year = {2014},
   pages = {345-354},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/zarjovgeoCTR14.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/zarjovgeoCTR14.pdf}
 }
 </pre></div>
 </div>
@@ -6526,9 +6526,9 @@ style="z-index: 10000">
 ~~~
 
 A. Zare, M. R. Jovanovi\'c and T. T. Georgiou,
-/Colour of turbulence/\n
+/Colour of turbulence/,
 J. Fluid Mech., February, 2017, Vol. 812, pp. 636-680\n
-[/javascript:toggleBibtex('zarjovgeoJFM17') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/zarjovgeoJFM17.pdf \[PDF\]]
+[/javascript:toggleBibtex('zarjovgeoJFM17') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/zarjovgeoJFM17.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -6541,7 +6541,7 @@ J. Fluid Mech., February, 2017, Vol. 812, pp. 636-680\n
   year = {2017},
   volume = {812},
   pages = {636-680},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/zarjovgeoJFM17.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/zarjovgeoJFM17.pdf}
 }
 </pre></div>
 </div>
@@ -6556,7 +6556,7 @@ style="z-index: 10000">
 ~~~
 
 A. Zare, B. K. Lieu and M. R. Jovanovi\'c,
-/Turbulent drag reduction by streamwise traveling waves/\n
+/Turbulent drag reduction by streamwise traveling waves/,
 In Proceedings of the 51th IEEE Conference on Decision and Control, 2012, pp. 3122-3126\n
 [/javascript:toggleBibtex('zarliejovCDC12') \[BibTeX\]]
 ~~~
@@ -6584,9 +6584,9 @@ style="z-index: 10000">
 ~~~
 
 A. Zare, H. Mohammadi, N. K. Dhingra, T. T. Georgiou and M. R. Jovanovi\'c,
-/Proximal algorithms for large-scale statistical modeling and sensor/actuator selection/\n
+/Proximal algorithms for large-scale statistical modeling and sensor/actuator selection/,
 IEEE Trans. Automat. Control, August, 2020, Vol. 65 (8), pp. 3441-3456\n
-[/javascript:toggleBibtex('zarmohdhigeojovTAC20') \[BibTeX\]] [https://viterbi-web.usc.edu/~mihailo/papers/zarmohdhigeojovTAC20.pdf \[PDF\]]
+[/javascript:toggleBibtex('zarmohdhigeojovTAC20') \[BibTeX\]] [/viterbi-web.usc.edu/~mihailo/papers/zarmohdhigeojovTAC20.pdf \[PDF\]]
 ~~~
 {}{raw}
 </p>
@@ -6600,7 +6600,7 @@ IEEE Trans. Automat. Control, August, 2020, Vol. 65 (8), pp. 3441-3456\n
   volume = {65},
   number = {8},
   pages = {3441-3456},
-  pdf = {https://viterbi-web.usc.edu/~mihailo/papers/zarmohdhigeojovTAC20.pdf}
+  pdf = {/viterbi-web.usc.edu/~mihailo/papers/zarmohdhigeojovTAC20.pdf}
 }
 </pre></div>
 </div>
@@ -6615,7 +6615,7 @@ style="z-index: 10000">
 ~~~
 
 D. M. Zoltowski, N. K. Dhingra, F. Lin and M. R. Jovanovi\'c,
-/Sparsity-promoting optimal control of spatially-invariant systems/\n
+/Sparsity-promoting optimal control of spatially-invariant systems/,
 In Proceedings of the 2014 American Control Conference, 2014, pp. 1261-1266\n
 [/javascript:toggleBibtex('zoldhilinjovACC14') \[BibTeX\]]
 ~~~

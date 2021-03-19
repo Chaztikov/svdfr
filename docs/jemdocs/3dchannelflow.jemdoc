@@ -244,8 +244,8 @@ The full solution involves singular value calculations over linearly sampled fre
 {}{raw}
 <figure>
   <img src="pics/schmidSols.svg" alt="3dflow" style="width:50%">
-  <p>Fig.2 Principal singular values as a function of temporal frequency</br> generated using <a href="../schmidSols.m">svdfr/schmidSols.m</a>. A reference for this
-  is Figure 4.10</br> in <a href="javascript:cite('schmid2012stability')">Stability and transition in shear flows</a></p>
+  <p>Fig. \(2\) Principal singular values as a function of temporal frequency generated using <a href="../schmidSols.m">svdfr/schmidSols.m</a>. A reference for this
+  is Figure 4.10 in <a href="javascript:cite('schmid2012stability')">Stability and transition in shear flows</a></p>
 </figure>
 ~~~
 
@@ -429,8 +429,8 @@ hold off
 {}{raw}
 <figure>
   <img src="pics/Code4_2.jpg" alt="3dflow" style="width:50%">
-  <p>Fig.3 Isosurfaces of the optimal flow structure for </br> the frequency
-  responses of Poiseuille flow with</br> \(Re = 2000\), \(k_x = k_z = 1\), and \(\omega = 0\).</br> This plot is generated using <a href="../channelFlow3D.m">svdfr/channelFlow3D.m</a></p>
+  <p>Fig. \(3\) Isosurfaces of the optimal flow structure for the frequency
+  responses of Poiseuille flow with \(Re = 2000\), \(k_x = k_z = 1\), and \(\omega = 0\).</br> This plot is generated using <a href="../channelFlow3D.m">svdfr/channelFlow3D.m</a></p>
 </figure>
 ~~~
 
@@ -469,6 +469,6 @@ print('-painters','-djpeg','docs/pics/Code4_3');
 {}{raw}
 <figure>
   <img src="pics/Code4_3.jpg" alt="3dflow" style="width:50%">
-  <p>Fig.4 Isosurfaces of the spanwise body force that result </br>in the optimal flow structure in Fig. 3 for the frequency </br>responses of Poiseuille flow with</br> \(Re = 2000\), \(k_x = k_z = 1\), and \(\omega = 0\). </br> This plot is generated using <a href="../channelFlow3D.m">svdfr/channelFlow3D.m</a></p>
+  <p>Fig. \(4\) Isosurfaces of the spanwise body force that result in the optimal flow structure in Fig. \(3\) for the frequency responses of Poiseuille flow with \(Re = 2000\), \(k_x = k_z = 1\), and \(\omega = 0\). </br> This plot is generated using <a href="../channelFlow3D.m">svdfr/channelFlow3D.m</a></p>
 </figure>
 ~~~

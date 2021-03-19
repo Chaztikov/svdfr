@@ -6,7 +6,7 @@
 
 = Download
 
-You can download +svdfr+ from [https://github.com/gokulhari/svdfr Github] or as a zip-file from [/svdfr.zip here]. It is distributed under the terms of the [http://www.gnu.org/licenses/gpl-3.0.html GNU General Public License 3.0].
+You can download +svdfr+ from [https://github.com/gokulhari/svdfr Github] or as a zip-file [/svdfr.zip here]. This software is distributed under the terms of the [http://www.gnu.org/licenses/gpl-3.0.html GNU General Public License 3.0].
 
 === Main functions:
 
@@ -25,7 +25,7 @@ You can download +svdfr+ from [https://github.com/gokulhari/svdfr Github] or as 
 [../channelFlow2D3C.m +channelFlow2D3C.m+] | --- | Streamwise-constant linearized Navier-Stokes equations ||
 [../channelFlow3D.m +channelFlow3D.m+] | --- | 3D linearized Navier-Stokes equations ||
 [../schmidSols.m +schmidSols.m+] | --- | Reproducing Figure 4.10 in [/javascript:cite('schmid2012stability') Stability and transition in shear flows]  ||
-[../visco2D.m +visco2D.m+] | --- | 2D Couette flow of an Oldroyd-B fluid ||
+[../visco2D.m +visco2D.m+] | --- | 2D Couette flow of a viscoelastic fluid ||
 [../EulerBernoulli.m +EulerBernoulli.m+] | --- | Euler-Bernoulli beam with boundary actuation ||
 [../HinfChannel.m +HinfChannel.m+] | --- | Computes the $H_\infty$ norm for channel flow of a Newtonian fluid ||
 | | ||
@@ -39,7 +39,7 @@ You can download +svdfr+ from [https://github.com/gokulhari/svdfr Github] or as 
 ~~~
 
 ~~~
-This work utilizes the latest release of [https://www.chebfun.org Chebfun], V5.7.0, released in June 2017. Please notify [gokul@umn.edu Gokul Hariharan] if you face problems using +svdfr+ with a future release of Chebfun.
+This work utilizes [https://www.chebfun.org Chebfun] V5.7.0, released in June 2017. Please notify [gokul@umn.edu Gokul Hariharan] if you face problems using +svdfr+ with a future release of Chebfun.
 ~~~
 
 === Citation
@@ -61,6 +61,6 @@ journal = {J. Comput. Phys.},
 title = {Computation of frequency responses for linear time-invariant {PDEs} on a compact interval},
 volume = {250},
 pages = {246-269},
-year = {2013
+year = {2013}
 }
 ~~~

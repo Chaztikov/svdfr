@@ -5,10 +5,10 @@
 
 Please provide us with your feedback if you have used +svdfr+. You can contact [gokul@umn.edu Gokul Hariharan] or [mihailo@usc.edu Mihailo Jovanovic] with your comments and suggestions.
 
-If you identify bugs in +svdfr+, please file a bug report [https://github.com/gokulhari/svdfr/issues here] and we will get back to you. If possible, please include the following information:
+If you identify bugs in +svdfr+, please file a [https://github.com/gokulhari/svdfr/issues bug report ] and we will get back to you. If possible, please include the following information:
     . Error messages produced by Matlab
     . Information about Chebfun and Matlab versions
     . Platform (Linux\/Windows\/Mac)
     . Matlab code (.m file) that we can use to reproduce the problem
 
-If you have suggestion for improving +svdfr+, please let us know [https://github.com/gokulhari/svdfr/issues here]. Your help is greatly appreciated.
+If you have suggestion for improving +svdfr+, please [https://github.com/gokulhari/svdfr/issues let us know]. Your help is greatly appreciated.

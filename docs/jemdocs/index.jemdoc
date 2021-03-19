@@ -30,11 +30,11 @@
 	
 	*Original version*
 	\n
-	+[http://people.ece.umn.edu/users/mihailo/software/chebfun-svd/index.html available here but no longer maintained]+	
+	+[http://people.ece.umn.edu/users/mihailo/software/chebfun-svd/index.html available here]+ (no longer maintained)	
 ~~~
 
 	\n
-The original version of +svdfr+ was developed by {{<a href="https://www.linkedin.com/in/binh-lieu-70920211" target="_blank">Binh Lieu</a>}} in his [/javascript:cite('binh-phd14') PhD thesis]. In recent years, {{<a href="http://www.chebfun.org/" target="_blank">Chebfun</a>}} has significantly evolved and the original version is no longer maintained. The current version, developed by {{<a href="https://gokulhari.github.io/webpage/" target="_blank">Gokul Hariharan</a>}} in his [/javascript:cite('gokul-phd20') PhD thesis], utilizes {{<a href="http://www.chebfun.org/" target="_blank">Chebfun</a>}}'s built-in well-conditioned [/javascript:cite('OlvTowSIAM2013') ultraspherical scheme] in conjunction with a feedback interconnection of the frequency response operator with its adjoint (see our [/javascript:cite('harkumjovJCP21') 2021 JCP paper]) to compute singular values of the frequency response operator. This version has been updated to comply with the most recent release of {{<a href="http://www.chebfun.org/" target="_blank">Chebfun</a>}} (v5.7.0) and is designed to work directly with the {{<a href="http://www.chebfun.org/" target="_blank">Chebfun</a>}}'s syntax. 
+The original version of +svdfr+ was developed by {{<a href="https://www.linkedin.com/in/binh-lieu-70920211" target="_blank">Binh Lieu</a>}} in his [/javascript:cite('binh-phd14') PhD thesis]. In recent years, {{<a href="http://www.chebfun.org/" target="_blank">Chebfun</a>}} has significantly evolved and the original version is no longer maintained. The current version, developed by {{<a href="https://gokulhari.github.io/webpage/" target="_blank">Gokul Hariharan</a>}} in his [/javascript:cite('gokul-phd20') PhD thesis], utilizes {{<a href="http://www.chebfun.org/" target="_blank">Chebfun</a>}}'s built-in well-conditioned [/javascript:cite('OlvTowSIAM2013') ultraspherical scheme] in conjunction with a feedback interconnection of the frequency response operator with its adjoint (see our [/javascript:cite('harkumjovJCP21') 2021 JCP paper]) to compute singular values of the frequency response operator. This version has been updated to comply with the most recent release of {{<a href="http://www.chebfun.org/" target="_blank">Chebfun</a>}} (V5.7.0) and is designed to work directly with the {{<a href="http://www.chebfun.org/" target="_blank">Chebfun</a>}}'s syntax. 
 	\n
 	\n
 In addition to the Matlab function 
@@ -49,9 +49,9 @@ which takes the system's coefficients and boundary condition matrices as inputs 
 	+hinfNorm.m+	 
 	\n
 	\n
-to compute the $H_\infty$ norm (i.e., the largest energy amplification across temporal frequencies) of a stable linear system that is described by the underlying partial differential equation (PDE). 
+to compute the $H_\infty$ norm (i.e., the largest energy amplification across temporal frequencies) of a stable linear system which is described by the underlying partial differential equation (PDE). 
 
-== Purpose
+= Purpose
  
 The frequency response analysis represents an effective means for quantifying the system's performance in the presence of a stimulus, and it characterizes the steady-state response of a stable linear time-invariant system to persistent harmonic forcing. The principal singular value of the frequency response operator quantifies the largest amplification from the input forcing to the desired output at each frequency. Furthermore, the associated left and right principal singular functions identify the spatial distributions of the output (that exhibits this largest amplification) and the input (that has the strongest influence on the system's dynamics), respectively.
 

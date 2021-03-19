@@ -5,10 +5,9 @@
 #include{mj-complete-bib_3.jeminc}
 = Reaction-diffusion equation
 
-Consider the frequency responses of the reaction-diffusion equation with
-homogeneous Neumann boundary conditions, with a
-spatially distributed, temporally harmonic body force, $d(y,t) = d(y)\,\mathrm{e}^{\mathrm i\,\omega\,t}$,
-
+Consider the frequency responses of the reaction-diffusion equation subject to a
+spatially distributed, temporally harmonic input, 
+$d(y,t) = d(y)\,\mathrm{e}^{\mathrm i \omega t}$,
 \(
 \begin{align}
 \phi_{t}(y,t) \;&=\;  \phi_{yy}(y,t)  \,-\, \epsilon^2\,\phi (y,t) \, + \, d(y,t),\label{eq:0}  \\
@@ -21,7 +20,7 @@ with homogeneous Neumann boundary conditions,
 [\partial_y \phi (\cdot, t)](\pm 1) \;& =\; 0, \label{eq:0bc}
 \end{align}
 \)
-where $t$ is time, $y \in \left[ -1, 1 \right]$ is a spatial variable, and $ \epsilon \in \mathbb{R}$. 
+where $t$ is time, $y \in \left[ -1, 1 \right]$ is a spatial variable, and $ \epsilon$ is a real parameter. 
 
 
 The temporal Fourier transform can be used to represent the frequency response operator associated with Eqs.~$\eqref{eq:0}$-$\eqref{eq:0bc}$ as a TPBVP,
@@ -36,7 +35,7 @@ The temporal Fourier transform can be used to represent the frequency response o
     [\mathcal{L}_a \, \phi(\cdot)](a)  \;&=\; [\mathcal{L}_b \, \phi(\cdot)](b) \;=\;  0,\notag
   \end{align}  
 \)
-where,
+where
 \(
 	\mathcal A (\omega)
 	\;=\;  
@@ -54,9 +53,9 @@ where,
 	\; = \; 
 	\mathrm D,
 \)
-where $\mathrm D = \mathrm d /\mathrm dy$.
+and $\mathrm D = \mathrm d /\mathrm dy$.
 
-We specify the operators $\mathcal A (\omega)$, $\mathcal B(\omega) $, and $\mathcal C(\omega) $ in Eq.~$\eqref{eq:mot1c}$, in Matlab using the Chebfun syntax as follows.
+We specify the operators $\mathcal A (\omega)$, $\mathcal B(\omega) $, and $\mathcal C(\omega) $ in Eq.~$\eqref{eq:mot1c}$, using the Chebfun's syntax in Matlab as follows.
 ~~~
 {Operators in TPBVP}{matlab}
 A = chebop([-1,1]);      % Operator A
@@ -68,7 +67,7 @@ B.op = @(x,d) d;
 C.op = @(x,phi) phi;
 ~~~
 
-Boundary conditions Eq.~$\eqref{eq:0bc}$ need to be specified on $\mathcal{A}$ using the Chebfun syntax,
+Boundary conditions, given by Eq.~$\eqref{eq:0bc}$, can be specified using 
 
 ~~~
 {Boundary conditions}{matlab}
@@ -76,13 +75,13 @@ A.lbc = @(u) diff(u);
 A.rbc = @(u) diff(u);
 ~~~
 
-To calculate the first 20 largest singular values, call +SVDFR+ with arguments as the operators, $\mathcal A(\omega)$, $\mathcal B(\omega)$, $\mathcal{C} (\omega)$, and optionally the number of singular values (by default, 6 largest singular values are calculated). Check out +help svdfr+ in the Matlab terminal for more options.  
+To calculate 20 largest singular values, we call +svdfr+ with arguments $\mathcal A$, $\mathcal B$, $\mathcal{C}$. If the number of singular values is not specified, by default, 6 largest singular values are calculated. We encourage you to type +help svdfr+ in Matlab for additional options.  
 ~~~
 {Compute singular values}{matlab}
 svals = svdfr(A,B,C,20)
 ~~~
 
-The results for this case, when $\epsilon = 0.0001$ are shown here. The analytical solution to singular values is given by,
+Figure 1 confirms the agreement of computations conducted in +svdfr+ with analytical solution,
 
 \(
   \sigma_n = \left\{
@@ -91,17 +90,12 @@ The results for this case, when $\epsilon = 0.0001$ are shown here. The analytic
   1/ \left( \epsilon^2 + (n+0.5)^2\,\pi^2 \right)  \\
   \end{array}\right.
   \)
-
-As seen in Figure 1, these match with values computed using +SVDFR+.
+for $\epsilon = 10^{-4}$.  
 
 ~~~
 {}{raw}
 <figure>
   <img src="pics/rnd.svg" alt="3dflow" style="width:60%">
-  <figcaption>Fig.\(1\) Singular values of the frequency response operator of the </br>
-reaction-diffusion equation Eq. \eqref{eq:0}, with \(\epsilon = 0.0001\). 
-The largest singular</br> value is not plotted here
- as its analytical value is </br>
-very large (\(\sim 10^8\)) compared to other singular values.</br> This plot is generated using <a href="../reactionDiffusion.m">svdfr/reactionDiffusion.m</a></figcaption>
+  <figcaption>Fig.\(1\) Singular values of the frequency response operator for reaction-diffusion equation \eqref{eq:0} with homogeneous Neumann boundary conditions and  \(\epsilon = 0.0001\). The largest singular value is not shown because it is significantly larger than the other values (\(\sim 10^8\)). This plot is generated using <a href="../reactionDiffusion.m">svdfr/reactionDiffusion.m</a></figcaption>
 </figure>
 ~~~

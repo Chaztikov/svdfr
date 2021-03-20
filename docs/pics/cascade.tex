@@ -1,0 +1,93 @@
+\begin{figure}
+    \centering
+    \begin{tabular}{c}
+    %_______________________________________________________________
+    %
+    %     Tikz_common_styles
+    %
+    %     TikZ styles for drawing block diagrams.
+    %
+    %      Roy Smith,  15 July 2014
+    %
+    %_______________________________________________________________
+    \typeout{Reading Tikz styles:  Tikz_common_styles}
+    %
+    %   Block diagram styles
+    % added by MJ
+    \tikzstyle{input} = [coordinate]
+    \tikzstyle{output} = [coordinate]
+    %
+    \tikzstyle{block} = [draw,rectangle,thick,minimum height=2em,minimum width=1.0cm,
+                                    top color=blue!10, bottom color=blue!10]%
+    \tikzstyle{sum} = [draw,circle,inner sep=0mm,minimum size=2mm]%
+    \tikzstyle{connector} = [->,thick]%
+    \tikzstyle{line} = [thick]%
+    \tikzstyle{branch} = [circle,inner sep=0pt,minimum size=1mm,fill=black,draw=black]%
+    \tikzstyle{guide} = []%
+    %
+    %   colours for various blocks
+    \tikzstyle{deltablock} = [block, top color=red!10, bottom color=red!10]%
+    \tikzstyle{controlblock} = [block, top color=green!10, bottom color=green!10]%
+    \tikzstyle{weightblock} = [block, top color=orange!10, bottom color=orange!10]%
+    \tikzstyle{clpblock} = [block, top color=cyan!10, bottom color=cyan!10]%
+    %
+    %  styles for dimming block components.
+    \tikzstyle{block_dim} = [draw,rectangle,thick,minimum height=2em,minimum width=2em,
+                                    color=black!15]%
+    \tikzstyle{sum_dim} = [draw,circle,inner sep=0mm,minimum size=2mm,color=black!15]%
+    \tikzstyle{connector_dim} = [->,thick,color=black!15]%
+    %
+    %    Graph styles
+    \tikzstyle{smalllabel} = [font=\footnotesize]%
+    \tikzstyle{axiswidth}=[semithick]%
+    \tikzstyle{axiscolor}=[color=black!50]%
+    \tikzstyle{help lines} =[color=blue!40,very thin]%
+    \tikzstyle{axes} = [axiswidth,axiscolor,<->,smalllabel]%
+    \tikzstyle{axis} = [axiswidth,axiscolor,->,smalllabel]%
+    \tikzstyle{tickmark} = [thin,smalllabel]%
+    \tikzstyle{plain_axes} = [axiswidth,smalllabel]%
+    \tikzstyle{w_axes} = [axiswidth,->,smalllabel]%
+    \tikzstyle{m_axes} = [axiswidth,smalllabel]%
+    \tikzstyle{dataplot} = [thick]%
+    %
+    %_______________________________________________________________
+    
+    
+    %
+    %   set a filename for externalization
+    % \tikzsetnextfilename{clp_2dof_input_pert_config}
+    %
+    \noindent
+    \begin{tikzpicture}[scale=1, auto, >=stealth']
+    
+        % output node
+        % starting point for zetaend
+        % \node [input, name=zetaend] {};
+        \node[] (zetaend) at (0,0) {};
+             
+       % operator Tstar
+        \node[block, minimum height = 1.cm, top color=blue!20, bottom color=blue!20] (Tstar) at ($(zetaend) + (3.65cm,0)$) 
+        {$\MM{T}^{\dagger}(\omega)$};
+        
+        % operator T
+        \node[block, minimum height = 1.cm, top color=blue!20, bottom color=blue!20] (T) at ($(Tstar) + (3.75cm,0cm)$) 
+        {$\MM{T} (\omega)$};
+    
+        % starting point for d1
+            \node[] (dbegin) at ($(T.east) + (2.cm,0)$) {};
+        
+            % now link the nodes
+        % input d1 to block B1
+            \draw [connector] (dbegin.west) -- node [midway, above] {$\BB d(y)$} (T.east);
+        
+        % input d2 to block B2
+            \draw [connector] (T.west) -- node [midway, above] {$\BB g (y) \, = \; \bxi (y)$} (Tstar.east);
+        
+        % input d3 to block B3
+            \draw [connector] (Tstar.west) -- node [midway, above] {$\bzeta(y) \, = \; \sigma^2 \BB d (y)$} (zetaend);
+        
+    \end{tikzpicture}
+    
+    \end{tabular}
+    \end{figure}
+    

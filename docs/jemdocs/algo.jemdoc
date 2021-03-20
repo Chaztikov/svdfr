@@ -3,8 +3,9 @@
 # jemdoc: addcss{bibover.css}
 #include{masterFile_2.jeminc}
 #include{mj-complete-bib_3.jeminc}
-= Algorithm
+= Algorithm and Implementation
 
+== Algorithm
 Computations with the previous version of [/javascript:cite('liejovJCP13') +SVDFR+]
 were based on computing the eigenvalues of the cascaded system.
 The current version of [index.html +SVDFR+] is based on a feedback interconnected
@@ -59,8 +60,96 @@ The singular values can be recovered as $\lambda  = \pm \sigma$. The function
 \end{array} \right] .
 \)
 
+~~~
+{}{raw}
+<figure>
+  <img src="pics/cascade.svg" alt="3dflow" style="width:60%">
+  <figcaption>Fig.\(1\) Block diagram of a cascade connection of the operators \(\mathcal{T}^{\dagger}(\omega)\) and \(\mathcal T(\omega)\). The composite operator, \(\mathcal{T}^{\dagger}(\omega) \mathcal T(\omega)\), can be used to compute the singular values of the frequency response operator \(\mathcal T(\omega)\).</a></figcaption>
+</figure>
+~~~
 
-= Implementation details
+
+~~~
+{}{raw}
+<figure>
+  <img src="pics/feedback.svg" alt="3dflow" style="width:60%">
+  <figcaption>Fig.\(2\) Through a sequence of transformations, the cascade connection of the operators \(\mathcal{T}^{\dagger}(\omega)\) and \(\mathcal T(\omega)\) shown in~\fref{fig:cascade} is cast as a feedback interconnection of \((1/\sigma) \, \mathcal{T}^{\dagger}(\omega)\) and \((1/\sigma) \, \mathcal T(\omega)\)~<a href="javascript:cite('Boyd1989')">(Theorem 1 from Boyd et al.).</a>.</a></figcaption>
+</figure>
+~~~
+For a system,
+\(
+  \begin{align}
+    \left[\mathcal A(\omega)\,\mbox{$\boldsymbol \phi$}(\cdot)\right] (y) \;&=\; \left[\mathcal B(\omega)\,\boldsymbol d(\cdot)\right](y),\\
+    \mbox{$\boldsymbol\xi$} (y)\;&=\; \left[\mathcal C(\omega)\,\mbox{$\boldsymbol\phi$}(\cdot)\right](y),\\
+    [\mathcal{L}_a \, \mbox{$\boldsymbol\phi$}(\cdot)](a)  \;&=\; [\mathcal{L}_b \, \mbox{$\boldsymbol\phi$}(\cdot)](b) \;=\;  0,\label{eq:mot1c}
+  \end{align}  
+\)
+
+The frequency response operator $\mathcal{T}(\omega) = \mathcal{C}(\omega) \mathcal A ^{-1}(\omega) \mathcal{B}(\omega)$
+in is described by
+\(
+  \begin{equation}\label{eq:regularOp}
+	 \mbox{$\boldsymbol\xi$}(y)
+	 \; = \;
+	 [ \mathcal{T} \boldsymbol{d} (\cdot) ] (y)
+	 ~~ \Leftrightarrow ~~
+	\left\{
+	\begin{aligned}
+      {
+      [ \mathcal{A} \, \mbox{$\boldsymbol\phi$} ( \cdot ) ] (y)
+      }
+      \;&=\;
+      [ \mathcal{B} \,\boldsymbol{d} (\cdot) ] (y),
+      &
+      \\
+  \mbox{$\boldsymbol\xi$}(y)  \;&=\;  [ \mathcal{C}\,\mbox{$\boldsymbol\phi$} (\cdot) ] (y) ,&\\
+[\mathcal{L}_a \, \mbox{$\boldsymbol\phi$}(\cdot)](a)  \;&=\;  [\mathcal{L}_b \, \mbox{$\boldsymbol\phi$}(\cdot)](b)  \; = \;  0, &
+\end{aligned}
+	\right.
+\end{equation}
+\)
+and the adjoint operator $\mathcal{T}^{\dagger}(\omega)=\mathcal{B}^\dagger(\omega)\mathcal{A}^{-\dagger}(\omega)\mathcal{C}^\dagger(\omega)$ is determined by
+\(
+	\begin{equation}
+	\label{eq:adjointOp}
+	\mbox{$\boldsymbol\zeta$}(y)
+	\; = \;
+	[ \mathcal{T}^{\dagger} \boldsymbol{g} ( \cdot ) ] (y)
+	~~ \Leftrightarrow ~~
+	\left\{
+	\begin{aligned}
+     {[ \mathcal{A}^{\dagger} \mbox{$\boldsymbol\psi$} ( \cdot ) ] (y)} \;&=\;  [ \mathcal{C}^\dagger \boldsymbol{g} ( \cdot ) ] (y),&\\
+  \mbox{$\boldsymbol\zeta$}(y)  \;&=\;   [ \mathcal{B}^{\dagger} \mbox{$\boldsymbol\psi$} ( \cdot ) ] (y),&\\
+[\mathcal{L}_a^\dagger \mbox{$\boldsymbol\psi$} (\cdot)](a)  \;&=\;  [\mathcal{L}_b^\dagger \mbox{$\boldsymbol\psi$}(\cdot)](b)  \; = \;  0, &
+\end{aligned} \right.
+\end{equation}
+\)
+
+This system can be equivalently expressed as the generalized eigenvalue problem,
+\(
+\begin{align}\label{eq:matrixEvalProb}
+\left[
+\begin{array}{cc}
+  0 &\mathcal{B}\mathcal{B}^{\dagger} \\
+   \mathcal{C}^{\dagger}\mathcal{C}&0
+\end{array} \right] \left[ \begin{array}{c}
+  \tilde{\boldsymbol \phi} \\
+  \tilde{\boldsymbol \psi}
+\end{array} \right]
+\;=\;
+\gamma \left[\begin{array}{cc}
+  \mathcal{A} & 0\\
+  0 & \mathcal{A}^{\dagger}
+\end{array}\right]
+\left[ \begin{array}{c}
+  \tilde{\boldsymbol \phi} \\
+  \tilde{\boldsymbol \psi}
+\end{array} \right],
+\end{align}
+\)
+where we suppress the dependence on the spatial variable $y$ for brevity. Eigenvalues resulting from this approach determine the singular values in pairs of opposite signs, i.e., $\gamma = \pm \sigma$. 
+where we suppress the dependence on $\omega$ for notational convenience.
+== Implementation details
 
 As discussed in the section on [algo.html algorithm], the eigenvalue problem,
 \(
@@ -83,14 +172,14 @@ As discussed in the section on [algo.html algorithm], the eigenvalue problem,
 \)
 \n
  needs to be solved. This requires several steps:
-  . Need to compute the adjoint operators.
-  . Need to compute the adjoint boundary conditions.
+  . Compute the adjoint operators.
+  . Compute the adjoint boundary conditions.
   . Generate the new operator based on Eq.~$\eqref{eq:1}$
   . Compute the eigenvalues
 
 Each step is addressed in the following manner:
 
-== Adjoint operators
+=== Adjoint operators
 
 Chebfun has a function for the formal adjoint titled of a linear operator
 titled +adjointFormal()+ that can be found in +chebfun/adjoints.m+. Although
@@ -98,7 +187,7 @@ titled +adjointFormal()+ that can be found in +chebfun/adjoints.m+. Although
 implementation was also suitable for non-square operators. Hence we use their
 code as is without any change to compute the formal adjoint.
 
-== Adjoint boundary conditions
+=== Adjoint boundary conditions
 
 The adjoint boundary conditions are determined analytically using a procedure
 similar to what is used by [/javascript:cite('liejovJCP13') Lieu and Jovanovic].
@@ -116,7 +205,7 @@ robust.
 
 Email [harih020@umn.edu Gokul] if you need more details/information on this.
 
-== The interconnected system
+=== The interconnected system
 This section deals with making a system as given in (1) using Chebfun.
 We firstly convert chebops, $A$, $B$ and $C$ into linops using the +linearize()+
 function in Chebfun. We then construct the adjoint operators using +adjointFormal()+, and the
@@ -169,7 +258,7 @@ L.constraint = dummy.constraint;
 
 ~~~
 
-== Computing eigenvalues
+=== Computing eigenvalues
 
 The eigenvalues are computed using linop/eigs.m,
 ~~~

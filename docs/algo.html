@@ -9641,64 +9641,175 @@ In Proceedings of the 2014 American Control Conference, 2014, pp. 1261-1266<br /
 }
 </pre></div>
 </div>
-<h1>Algorithm</h1>
+<h1>Algorithm and Implementation</h1>
+<h2>Algorithm</h2>
+<p>Consider a system,</p>
+<p style="text-align:center">
+\[
+  \begin{align}
+    \left[\mathcal A(\omega)\,\boldsymbol{\phi}(\cdot)\right] (y) \;&amp;=\; \left[\mathcal B(\omega)\,\boldsymbol d(\cdot)\right](y),\label{eq:mot1a}\\
+    \boldsymbol{\xi} (y)\;&amp;=\; \left[\mathcal C(\omega)\,\boldsymbol{\phi}(\cdot)\right](y),\\
+    [\mathcal{L}_a \, \boldsymbol{\phi}(\cdot)](a)  \;&amp;=\; [\mathcal{L}_b \, \boldsymbol{\phi}(\cdot)](b) \;=\;  0,\label{eq:mot1c}
+  \end{align}  
+\]
+</p><p>where \(\omega \in \mathbb{R}\) is the temporal frequency and \(y \in [a, b]\) is the spatial variable. The state, input, and output fields are respectively denoted by \(\boldsymbol \phi\), \(\boldsymbol{d}\), and \(\boldsymbol \xi\); \(\mathcal A\), \(\mathcal{B}\), and \(\mathcal{C}\) are linear differential block matrix operators of appropriate dimensions with potentially non-constant coefficients in \(y\); and \(\mathcal{L}_a\) and \(\mathcal{L}_b\) are linear operators that specify the boundary conditions on \(\boldsymbol \phi\). At any temporal frequency, we assume that the operator \(\mathcal A(\omega)\) in&nbsp;\(\eqref{eq:mot1a}\) is invertible, thereby leading to,</p>
+<p style="text-align:center">
+\[\begin{equation*}
+  \mathcal T(\omega)
+  \; = \;
+  \mathcal{C}(\omega) \mathcal A^{-1}(\omega) \mathcal{B}(\omega).
+\end{equation*}
+\]
+</p><p>The frequency response operator \({\mathcal T}(\omega)\) determines the steady-state response of a stable linear dynamical system to  purely harmonic inputs. Namely, for \(\boldsymbol{d}(y,t) = \hat{\boldsymbol{d}} (y,\omega) \mathrm{e}^{\mathrm{i} \omega t}\), the steady-state response is given by \(\boldsymbol{\xi}(y,t) = \hat{\boldsymbol{\xi}} (y,\omega) \mathrm{e}^{\mathrm{i} \omega t}\) and \({\mathcal T}(\omega)\) maps a spatial input profile \(\hat{\boldsymbol{d}} (y,\omega)\) into the corresponding output \(\hat{\boldsymbol{\xi}} (y,\omega)\),</p>
+<p style="text-align:center">
+\[
+    \hat{\boldsymbol{\xi}} (y,\omega)
+	\; = \;
+	\left[
+	\mathcal T(\omega) \, \hat{\boldsymbol{d}} (\cdot,\omega)
+	\right]
+	(y).
+  \]
+</p><p>The singular value decomposition (SVD) of \(\mathcal T(\omega)\) can be used to determine the input shapes (i.e., the left singular functions \(\hat{\boldsymbol{v}}_i (y,\omega)\)), the resulting responses (i.e., the right singular functions \(\hat{\boldsymbol{u}}_i (y,\omega)\)), and the corresponding gains (i.e., the singular values \(\sigma_i (\omega) \)),</p>
+<p style="text-align:center">
+\[
+	\hat{\boldsymbol{\xi}} (y,\omega)
+	\; = \;
+	\left[
+	\mathcal T(\omega) \, \hat{\boldsymbol{d}} (\cdot,\omega)
+	\right]
+	(y)
+	\; = \;
+	\sum_{i \, = \, 0}^{\infty}
+	\sigma_i (\omega)
+	\hat{\boldsymbol{u}}_i (y,\omega)
+	\langle {\hat{\boldsymbol{v}}_i (\cdot,\omega)}, {\hat{\boldsymbol{d}} (\cdot,\omega)} \rangle,
+	\]
+</p><p>where \(\left\langle \cdot,\cdot \right\rangle\) is the standard \(L_2 [a, b]\) inner product. SVD requires computation of the adjoint \(\mathcal T^{\dagger}(\omega)\) of \(\mathcal T(\omega)\),</p>
+<p style="text-align:center">
+\[
+    \langle \mathcal T^{\dagger} (\omega) \hat{\boldsymbol{\xi}}, \hat{\boldsymbol{d}} \rangle
+	\; = \;
+	\langle \hat{\boldsymbol{\xi}}, \mathcal T (\omega)  \hat{\boldsymbol{d}} \rangle,
+  \]
+</p><p>and the eigenvalue decomposition of the composite operators \(\mathcal T(\omega)\mathcal T^{\dagger}(\omega)\) and \(\mathcal T^{\dagger}(\omega) \mathcal T(\omega)\)&nbsp;cite{liejovJCP13,schmid2012stability},</p>
+<p style="text-align:center">
+\[
+    \begin{array}{rclrcl}
+	\left[
+	\mathcal T(\omega) \mathcal T^{\dagger}(\omega)
+	\hat{\boldsymbol{u}}_i (\cdot,\omega)
+	\right] (y)
+	&amp; \! = \! &amp;
+	\sigma_i^2 (\omega)
+	\hat{\boldsymbol{u}}_i (y,\omega),
+	&nbsp;&nbsp;
+	\left[
+	\mathcal T^{\dagger} (\omega) \mathcal T (\omega)
+	\hat{\boldsymbol{v}}_i (\cdot,\omega)
+	\right] (y)
+	&amp; \! = \! &amp;
+	\sigma_i^2 (\omega)
+	\hat{\boldsymbol{v}}_i (y,\omega).
+  \end{array}
+  \]
+</p><p>Here, \(\mathcal T^{\dagger}(\omega)\) is the continuous adjoint which is not determined by the complex conjugate transpose of an operator-valued matrix \(\mathcal T (\omega)\); its computation typically involves integration by parts and discretization of the resulting equation.</p>
 <p>Computations with the previous version of <a href="javascript:cite('liejovJCP13')"><tt>SVDFR</tt></a>
-were based on computing the eigenvalues of the cascaded system.
-The current version of <a href="index.html" target=&ldquo;blank&rdquo;><tt>SVDFR</tt></a> is based on a feedback interconnected
-system (see the <a href="javascript:cite('harkumjovJCP21')">accompanying paper</a> and Theorem 1 in this <a href="javascript:cite('Boyd1989')">article</a>). </p>
-<p>For a system of the form,</p>
+were based on computing the eigenvalues of the composite system, \(\mathcal T^{\dagger}(\omega)\mathcal T(\omega)\), which can be realized in the manner shown in Fig.&nbsp;1.</p>
+<figure>
+  <img src="pics/cascade.svg" alt="3dflow" style="width:60%">
+  <figcaption>Fig.\(1\) Block diagram of a cascade connection of the operators \(\mathcal{T}^{\dagger}(\omega)\) and \(\mathcal T(\omega)\). The composite operator, \(\mathcal{T}^{\dagger}(\omega) \mathcal T(\omega)\), can be used to compute the singular values of the frequency response operator \(\mathcal T(\omega)\).</a></figcaption>
+</figure>
+<p>The current version of <a href="index.html" target=&ldquo;blank&rdquo;><tt>SVDFR</tt></a> is based on a feedback interconnected
+system (see the <a href="javascript:cite('harkumjovJCP21')">accompanying paper</a> and Theorem 1 in this <a href="javascript:cite('Boyd1989')">article</a>) as shown in Fig. 2. </p>
+<figure>
+  <img src="pics/feedback.svg" alt="3dflow" style="width:60%">
+  <figcaption>Fig.\(2\) Through a sequence of transformations, the cascade connection of the operators \(\mathcal{T}^{\dagger}(\omega)\) and \(\mathcal T(\omega)\) shown in Fig. \(1\) is cast as a feedback interconnection of \((1/\sigma) \, \mathcal{T}^{\dagger}(\omega)\) and \((1/\sigma) \, \mathcal T(\omega)\)~<a href="javascript:cite('Boyd1989')">(Theorem 1 from Boyd et al.).</a>.</a></figcaption>
+</figure>
+<p>The frequency response operator \(\mathcal{T}(\omega) = \mathcal{C}(\omega) \mathcal A ^{-1}(\omega) \mathcal{B}(\omega)\)
+in is described by</p>
 <p style="text-align:center">
 \[
-\begin{array}{ccc}
-\mathcal A \,\phi (y) \!\!&amp;=&amp;\!\! \mathcal B \,d(y),\\
-\xi (y) \!\!&amp;=&amp;\!\! \mathcal C\, \phi(y),
-\end{array}
+  \begin{equation}\label{eq:regularOp}
+	 \boldsymbol{\xi}(y)
+	 \; = \;
+	 [ \mathcal{T} \boldsymbol{d} (\cdot) ] (y)
+	 &nbsp;&nbsp; \Leftrightarrow &nbsp;&nbsp;
+	\left\{
+	\begin{aligned}
+      {
+      [ \mathcal{A} \, \boldsymbol{\phi} ( \cdot ) ] (y)
+      }
+      \;&amp;=\;
+      [ \mathcal{B} \,\boldsymbol{d} (\cdot) ] (y),
+      &amp;
+      \\
+  \boldsymbol{\xi}(y)  \;&amp;=\;  [ \mathcal{C}\,\boldsymbol{\phi} (\cdot) ] (y) ,&amp;\\
+[\mathcal{L}_a \, \boldsymbol{\phi}(\cdot)](a)  \;&amp;=\;  [\mathcal{L}_b \, \boldsymbol{\phi}(\cdot)](b)  \; = \;  0, &amp;
+\end{aligned}
+	\right.
+\end{equation}
 \]
-</p><p>whose adjoint system is given by,</p>
+</p><p>and the adjoint operator \(\mathcal{T}^{\dagger}(\omega)=\mathcal{B}^\dagger(\omega)\mathcal{A}^{-\dagger}(\omega)\mathcal{C}^\dagger(\omega)\) is determined by</p>
 <p style="text-align:center">
 \[
-\begin{array}{ccc}
-\mathcal A^{\,\dagger} \,\psi (y) \!\!&amp;=&amp;\!\! \mathcal C^{\,\dagger} \,g(y),\\
-\zeta (y) \!\!&amp;=&amp;\!\! \mathcal B^{\,\dagger}\, \psi(y),
-\end{array}
+	\begin{equation}
+	\label{eq:adjointOp}
+	\boldsymbol{\zeta}(y)
+	\; = \;
+	[ \mathcal{T}^{\dagger} \boldsymbol{g} ( \cdot ) ] (y)
+	&nbsp;&nbsp; \Leftrightarrow &nbsp;&nbsp;
+	\left\{
+	\begin{aligned}
+     {[ \mathcal{A}^{\dagger} \mbox{\(\boldsymbol\psi\)} ( \cdot ) ] (y)} \;&amp;=\;  [ \mathcal{C}^\dagger \boldsymbol{g} ( \cdot ) ] (y),&amp;\\
+  \boldsymbol{\zeta}(y)  \;&amp;=\;   [ \mathcal{B}^{\dagger} \mbox{\(\boldsymbol\psi\)} ( \cdot ) ] (y),&amp;\\
+[\mathcal{L}_a^\dagger \mbox{\(\boldsymbol\psi\)} (\cdot)](a)  \;&amp;=\;  [\mathcal{L}_b^\dagger \mbox{\(\boldsymbol\psi\)}(\cdot)](b)  \; = \;  0, &amp;
+\end{aligned} \right.
+\end{equation}
 \]
-</p><p>the following eigenvalue problem can be used to compute the singular values:</p>
+</p><p>This system can be equivalently expressed as the generalized eigenvalue problem,</p>
 <p style="text-align:center">
 \[
+\begin{align}\label{eq:matrixEvalProb}
 \left[
 \begin{array}{cc}
-  0 &amp;\mathcal{B}\mathcal{B}^{\,\dagger} \\
-   \mathcal{C}^{\,\dagger}\mathcal{C}&amp;0
+  0 &amp;\mathcal{B}\mathcal{B}^{\dagger} \\
+   \mathcal{C}^{\dagger}\mathcal{C}&amp;0
 \end{array} \right] \left[ \begin{array}{c}
-  \phi(y)\\
-  \psi(y)
-\end{array} \right]   \;=\; \lambda \,\left[\begin{array}{cc}
+  \tilde{\boldsymbol \phi} \\
+  \tilde{\boldsymbol \psi}
+\end{array} \right]
+\;=\;
+\gamma \left[\begin{array}{cc}
   \mathcal{A} &amp; 0\\
-  0 &amp; \mathcal{A}^{\,\dagger}
-\end{array}\right]\left[ \begin{array}{c}
-  \phi(y)\\
-  \psi(y)
-\end{array} \right].
+  0 &amp; \mathcal{A}^{\dagger}
+\end{array}\right]
+\left[ \begin{array}{c}
+  \tilde{\boldsymbol \phi} \\
+  \tilde{\boldsymbol \psi}
+\end{array} \right],
+\end{align}
 \]
-</p><p>The singular values can be recovered as \(\lambda  = \pm \sigma\). The function
-<tt>SVDFR</tt> with the 'inverse&rsquo; flag works with the inverse problem to solve for \(1/\lambda\), i.e.,</p>
+</p><p>where we suppress the dependence on the spatial variable \(y\) for brevity. Eigenvalues resulting from this approach determine the singular values in pairs of opposite signs, i.e., \(\gamma = \pm \sigma\). 
+where we suppress the dependence on \(\omega\) for notational convenience.</p>
+<p>The function <tt>SVDFR</tt> with the 'inverse&rsquo; flag works with the inverse problem to solve for \(1/\gamma\), i.e.,</p>
 <p style="text-align:center">
 \[
   \left[\begin{array}{cc}
   \mathcal{A} &amp; 0\\
   0 &amp; \mathcal{A}^{\,\dagger}
 \end{array}\right]\left[ \begin{array}{c}
-  \phi(y)\\
-  \psi(y)
-\end{array} \right]  \;=\;\frac{1}{\lambda} \left[  \begin{array}{cc}
+  \tilde{\boldsymbol \phi} \\
+  \tilde{\boldsymbol \psi}
+\end{array} \right]  \;=\;\frac{1}{\gamma} \left[  \begin{array}{cc}
   0 &amp;\mathcal{B}\mathcal{B}^{\,\dagger} \\
    \mathcal{C}^{\,\dagger}\mathcal{C}&amp;0
 \end{array} \right] \left[ \begin{array}{c}
-  \phi(y)\\
-  \psi(y)
-\end{array} \right] .
+  \tilde{\boldsymbol \phi} \\
+  \tilde{\boldsymbol \psi}
+\end{array} \right].
 \]
-</p><h1>Implementation details</h1>
+</p><h2>Implementation details</h2>
 <p>As discussed in the section on <a href="algo.html" target=&ldquo;blank&rdquo;>algorithm</a>, the eigenvalue problem,</p>
 <p style="text-align:center">
 \[
@@ -9722,9 +9833,9 @@ system (see the <a href="javascript:cite('harkumjovJCP21')">accompanying paper</
 </p><p><br />
 needs to be solved. This requires several steps:</p>
 <ol>
-<li><p>Need to compute the adjoint operators.</p>
+<li><p>Compute the adjoint operators.</p>
 </li>
-<li><p>Need to compute the adjoint boundary conditions.</p>
+<li><p>Compute the adjoint boundary conditions.</p>
 </li>
 <li><p>Generate the new operator based on Eq.&nbsp;\(\eqref{eq:1}\)</p>
 </li>
@@ -9732,13 +9843,13 @@ needs to be solved. This requires several steps:</p>
 </li>
 </ol>
 <p>Each step is addressed in the following manner:</p>
-<h2>Adjoint operators</h2>
+<h3>Adjoint operators</h3>
 <p>Chebfun has a function for the formal adjoint titled of a linear operator
 titled <tt>adjointFormal()</tt> that can be found in <tt>chebfun/adjoints.m</tt>. Although
 <tt>adjointFormal()</tt> was intended for square linear operators, we found that their
 implementation was also suitable for non-square operators. Hence we use their
 code as is without any change to compute the formal adjoint.</p>
-<h2>Adjoint boundary conditions</h2>
+<h3>Adjoint boundary conditions</h3>
 <p>The adjoint boundary conditions are determined analytically using a procedure
 similar to what is used by <a href="javascript:cite('liejovJCP13')">Lieu and Jovanovic</a>.
 This algorithm is based on the method in <a href="javascript:cite('renardy2006introduction')">Renardy's book</a>.
@@ -9752,7 +9863,7 @@ that it cannot be used for systems like the <a href="3dchannelflow.html" target=
 The implementation in <a href="javascript:cite('liejovJCP13')">Lieu and Jovanovic</a> is more
 robust.</p>
 <p>Email <a href="mailto:harih020@umn.edu" target=&ldquo;blank&rdquo;>Gokul</a> if you need more details/information on this.</p>
-<h2>The interconnected system</h2>
+<h3>The interconnected system</h3>
 <p>This section deals with making a system as given in (1) using Chebfun.
 We firstly convert chebops, \(A\), \(B\) and \(C\) into linops using the <tt>linearize()</tt>
 function in Chebfun. We then construct the adjoint operators using <tt>adjointFormal()</tt>, and the
@@ -9801,7 +9912,7 @@ dummy = linearize(dummy, dummy.init, [], linCheck);
 L.constraint = dummy.constraint;
 
 </pre></div></div>
-<h2>Computing eigenvalues</h2>
+<h3>Computing eigenvalues</h3>
 <p>The eigenvalues are computed using linop/eigs.m,</p>
 <div class="codeblock">
 <div class="blockcontent"><pre>
@@ -9815,7 +9926,7 @@ resolved, or that there is something wrong with our implementation. If you feel 
 is the latter, report it <a href="https://github.com/gokulhari/svdfr3/issues" target=&ldquo;blank&rdquo;>here</a></p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2021-03-18 22:02:12 CDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2021-03-20 21:38:03 CDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
